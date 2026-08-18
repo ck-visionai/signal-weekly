@@ -53,7 +53,7 @@ const valueCards = [
     index: "01",
     title: "Make the first scan count.",
     text: "Build an ATS-ready résumé that tells a recruiter what changed because you were in the room.",
-    image: "/manus-storage/signal-resume-artifact_02fde95d.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/TgevWfEsgboMGMxi.jpg",
     artifact: "resume",
     label: "RÉSUMÉ SIGNAL",
   },
@@ -79,7 +79,7 @@ function SignalMark({ inverse = false }: { inverse?: boolean }) {
   return (
     <img
       className={`signal-mark ${inverse ? "signal-mark--inverse" : ""}`}
-      src="/manus-storage/signal-weekly-glyph_774af2b6.png"
+      src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/SqONCjkhpoZAPMjE.png"
       alt=""
       aria-hidden="true"
     />
@@ -167,7 +167,7 @@ export default function Home() {
 
           <div className="hero-visual" aria-label="A Signal Weekly editorial desk scene">
             <div className="hero-image-frame">
-              <img src="/manus-storage/signal-weekly-hero_0edf6640.jpg" alt="Elegant executive desk with layered papers and cobalt pen" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/rMtHWNmluaMtQIPa.jpg" alt="Elegant executive desk with layered papers and cobalt pen" />
               <div className="hero-image-wash" />
             </div>
             <article className="hero-issue-card">

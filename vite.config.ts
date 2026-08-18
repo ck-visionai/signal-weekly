@@ -203,7 +203,13 @@ function vitePluginStorageProxy(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
+const isGitHubPagesBuild = process.env.GITHUB_PAGES === "true";
+const plugins = [
+  react(),
+  tailwindcss(),
+  jsxLocPlugin(),
+  ...(isGitHubPagesBuild ? [] : [vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()]),
+];
 
 export default defineConfig({
   plugins,
@@ -217,7 +223,7 @@ export default defineConfig({
   envDir: path.resolve(import.meta.dirname),
   root: path.resolve(import.meta.dirname, "client"),
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    outDir: path.resolve(import.meta.dirname, isGitHubPagesBuild ? "dist/pages" : "dist/public"),
     emptyOutDir: true,
   },
   server: {

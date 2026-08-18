@@ -18,3 +18,14 @@
 - [x] Apply the final privacy-policy corrections and remove internal drafting notes.
 - [x] Add a public privacy-policy page, footer link, and signup disclosure.
 - [x] Verify the privacy-policy experience and save the finished version.
+- [x] Clarify the mailing-address requirement and privacy-conscious alternatives for Signal Weekly.
+- [x] Compare domain registrar and hosting options for Signal Weekly and the future ATS product.
+- [x] Recommend the domain and hosting setup that keeps the current launch simple and future ATS development flexible.
+- [x] Define ownable umbrella-brand naming criteria for the consulting, ATS, and newsletter business.
+- [x] Develop story-led name candidates with a higher chance of `.com` availability.
+- [x] Research ancient concepts of signals, signs, guidance, and interpretation for naming inspiration.
+- [x] Develop signal-inspired umbrella-brand names with respectful origin stories.
+- [ ] Obtain the custom-domain DNS records from the published Signal Weekly site settings.
+- [ ] Apply the DNS records for signrl.com and verify the live custom-domain launch.
+- [x] Prepare the Signal Weekly static project for GitHub Pages and signrl.com.
+- [ ] Verify the GitHub Pages deployment build and guide the GitHub/DNS activation steps.

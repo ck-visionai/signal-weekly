@@ -2,11 +2,10 @@
  * Signal Weekly / Executive Signal Desk
  * Contemporary editorial minimalism: warm ivory, graphite, Signal Cobalt, and paper briefing artifacts.
  */
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   ArrowRight,
   ArrowUpRight,
-  Check,
   ChevronLeft,
   ChevronRight,
   FileSearch,
@@ -88,15 +87,26 @@ function SignalMark({ inverse = false }: { inverse?: boolean }) {
 }
 
 export default function Home() {
-  const [email, setEmail] = useState("");
-  const [signedUp, setSignedUp] = useState(false);
   const [activeSlide, setActiveSlide] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
+  const beehiivEmbedRef = useRef<HTMLDivElement>(null);
 
-  const handleSubscribe = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    if (email.trim() && email.includes("@")) setSignedUp(true);
-  };
+  useEffect(() => {
+    const container = beehiivEmbedRef.current;
+    if (!container) return;
+
+    container.replaceChildren();
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = "https://subscribe-forms.beehiiv.com/v3/loader.js";
+    script.dataset.beehiivForm = "d349b356-d05e-4f5d-9e54-24383c078aea";
+    container.appendChild(script);
+
+    return () => {
+      script.remove();
+      container.replaceChildren();
+    };
+  }, []);
 
   const slide = topicSlides[activeSlide];
   const TopicIcon = slide.icon;
@@ -139,28 +149,14 @@ export default function Home() {
               One concise weekly briefing for mid-career and executive professionals navigating their next consequential move.
             </p>
 
-            <form className="signup-form" id="subscribe" onSubmit={handleSubscribe}>
-              {signedUp ? (
-                <div className="signup-success" role="status">
-                  <span><Check size={16} strokeWidth={3} /></span>
-                  <div><strong>You’re on the list.</strong><br />Friday’s briefing will arrive in your inbox.</div>
-                </div>
-              ) : (
-                <>
-                  <label className="sr-only" htmlFor="email">Your work email</label>
-                  <input
-                    id="email"
-                    type="email"
-                    value={email}
-                    onChange={(event) => setEmail(event.target.value)}
-                    placeholder="Your work email"
-                    required
-                  />
-                  <button type="submit">Send me Friday’s briefing <ArrowRight size={17} /></button>
-                </>
-              )}
-            </form>
-            <p className="form-note">Free, once a week. No noise. Unsubscribe whenever you need.</p>
+            <div className="beehiiv-embed" id="subscribe" ref={beehiivEmbedRef} aria-label="Subscribe to Signal Weekly">
+              <noscript>
+                <a className="beehiiv-embed__fallback" href="https://signalweeklyhq.beehiiv.com/subscribe">
+                  Subscribe to Signal Weekly on Beehiiv
+                </a>
+              </noscript>
+            </div>
+            <p className="form-note">Free, once a week. Confirm your email to start. Unsubscribe whenever you need.</p>
 
             <div className="hero-meta">
               <div className="meta-capsule"><Sparkles size={15} /> New issue every Friday</div>

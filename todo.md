@@ -1,2 +1,14 @@
 - [x] Verify the Signal Weekly wordmark and audience-label text refinements in Home.tsx.
 - [ ] Save a checkpoint containing the verified refinements.
+- [x] Compare free email newsletter services suitable for Signal Weekly.
+- [ ] Provide a beginner-friendly integration recommendation and setup sequence.
+- [x] Compare professional email-address options for the Signal Weekly sender account.
+- [ ] Recommend a simple no-cost or low-cost setup for the initial newsletter launch.
+- [x] Create a square Signal Weekly publication logo for Beehiiv.
+- [x] Create a wide Signal Weekly publication thumbnail for Beehiiv.
+- [x] Prepare the double-confirmation and welcome-email copy for new Signal Weekly subscribers.
+- [x] Configure and test the Beehiiv subscriber onboarding flow.
+- [x] Obtain the required Beehiiv embedded-form script from the published form.
+- [x] Connect the Signal Weekly website email form to the verified Beehiiv signup flow.
+- [ ] Complete an end-to-end Beehiiv signup test and save the updated website version.
+- [ ] Verify and share an accessible preview route for the landing-page signup test.

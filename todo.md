@@ -12,3 +12,9 @@
 - [x] Connect the Signal Weekly website email form to the verified Beehiiv signup flow.
 - [ ] Complete an end-to-end Beehiiv signup test and save the updated website version.
 - [ ] Verify and share an accessible preview route for the landing-page signup test.
+- [ ] Clarify the recommended custom-domain configuration for Signal Weekly.
+- [ ] Prepare a privacy-policy draft and identify the details needed before publishing it.
+- [x] Review the user-updated privacy-policy draft for remaining placeholders and consistency.
+- [x] Apply the final privacy-policy corrections and remove internal drafting notes.
+- [x] Add a public privacy-policy page, footer link, and signup disclosure.
+- [x] Verify the privacy-policy experience and save the finished version.

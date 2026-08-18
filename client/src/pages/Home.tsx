@@ -156,7 +156,7 @@ export default function Home() {
                 </a>
               </noscript>
             </div>
-            <p className="form-note">Free, once a week. Confirm your email to start. Unsubscribe whenever you need.</p>
+            <p className="form-note">Free, once a week. Confirm your email to start. Unsubscribe whenever you need. By subscribing, you agree to our <a href="/privacy">Privacy Policy</a>.</p>
 
             <div className="hero-meta">
               <div className="meta-capsule"><Sparkles size={15} /> New issue every Friday</div>
@@ -212,7 +212,7 @@ export default function Home() {
                   </div>
                 )}
                 <div className="value-card-body">
-                  <div className="card-meta"><span>{card.label}</span><span>{card.index}</span></div>
+                  <div className="card-meta"><span><i className="card-signal" />{card.label}</span><span>{card.index}</span></div>
                   <h3>{card.title}</h3>
                   <p>{card.text}</p>
                   <a href="#subscribe">Explore the signal <ArrowRight size={15} /></a>
@@ -313,6 +313,7 @@ export default function Home() {
         <div className="footer-links">
           <div><p>EXPLORE</p><a href="#sample">Sample issues</a><a href="#inside">What you’ll get</a><a href="#subscribe">Subscribe</a></div>
           <div><p>ELSEWHERE</p><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn <Linkedin size={13} /></a><a href="mailto:hello@signalweekly.co">Contact <ArrowUpRight size={13} /></a></div>
+          <div><p>LEGAL</p><a href="/privacy">Privacy Policy <ArrowUpRight size={13} /></a></div>
         </div>
         <div className="footer-bottom"><span>© 2026 SIGNAL WEEKLY</span><span>Made for career momentum</span><a href="#top">Back to top <ArrowUpRight size={13} /></a></div>
       </footer>

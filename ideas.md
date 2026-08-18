@@ -75,3 +75,6 @@ The newsletter is positioned as a weekly, practical briefing for mid-career and 
 - The final subscription moment uses an asymmetric navy briefing artifact on a warm paper field rather than a centered cobalt-gradient banner.
 - Signal Cobalt is reserved for primary calls to action, issue markers, fine signal rules, and selected editorial emphasis.
 - Secondary value-panel visuals favor paper, metadata, and document artifacts over generic symbolic business photography.
+- The wordmark uses high-weight Manrope with a cobalt terminal point; the three-bar glyph remains its distinctive companion mark.
+- Cobalt fine rules act as a repeating editorial index across labels, card markers, dividers, and primary actions.
+- Each major spread includes a briefing-object cue such as coded metadata, an issue index, document layering, or a signal rule.

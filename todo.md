@@ -1,0 +1,2 @@
+- [x] Verify the Signal Weekly wordmark and audience-label text refinements in Home.tsx.
+- [ ] Save a checkpoint containing the verified refinements.

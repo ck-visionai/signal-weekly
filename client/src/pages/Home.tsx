@@ -106,7 +106,7 @@ export default function Home() {
       <header className="topbar">
         <a className="brand" href="#top" aria-label="Signal Weekly home">
           <SignalMark />
-          <span>Signal Weekly<span className="brand-dot">.</span></span>
+          <span>Signal Weekly</span>
         </a>
 
         <nav className={`nav-links ${menuOpen ? "nav-links--open" : ""}`} aria-label="Primary navigation">
@@ -165,7 +165,7 @@ export default function Home() {
             <div className="hero-meta">
               <div className="meta-capsule"><Sparkles size={15} /> New issue every Friday</div>
               <div className="meta-divider" />
-              <span>For leaders in motion</span>
+              <span>For professionals and leaders in motion</span>
             </div>
           </div>
 
@@ -311,7 +311,7 @@ export default function Home() {
 
       <footer className="footer" id="archive">
         <div className="footer-main">
-          <a className="brand brand--footer" href="#top"><SignalMark inverse /><span>Signal Weekly<span className="brand-dot">.</span></span></a>
+          <a className="brand brand--footer" href="#top"><SignalMark inverse /><span>Signal Weekly</span></a>
           <p>Useful intelligence for your next consequential career decision.</p>
         </div>
         <div className="footer-links">

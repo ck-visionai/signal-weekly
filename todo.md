@@ -121,3 +121,4 @@
 - [x] Review the proposed navy-to-ice palette for Career Signal and recommend a cohesive landing-page and future-website colour-role system before implementation.
 - [x] Replace the current refined-teal public colour system with the approved Career Signal navy-to-ice palette across brand marks, surfaces, controls and interactive states.
 - [ ] Recolour the supplied Career Signal logo’s central blue line to official Midnight Authority navy (#03045E) and replace the temporary website mark with the matching final icon.
+- [x] Create a simple, forward-use Beehiiv guide explaining how to schedule and safely automate Career Signal’s weekly subscriber emails without sending content automatically during setup.

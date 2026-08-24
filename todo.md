@@ -52,3 +52,5 @@
 - [ ] Retrieve the Signal Weekly Manus task share link for support’s project-binding investigation.
 - [ ] Retry project connection and the full-stack Editor upgrade after completing the Manus support cache and login reset steps.
 - [ ] Validate the support-repaired project GitHub access with a checkpoint, then resume the no-code editor upgrade.
+- [ ] Create a complete SEO launch, ownership backup, and zero-downtime future working-portal transfer playbook.
+- [ ] Implement canonical URL, SEO metadata, robots, sitemap, structured data, social previews and a clean source backup for the live site.

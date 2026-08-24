@@ -313,7 +313,7 @@ export default function Home() {
         </div>
         <div className="footer-links">
           <div><p>EXPLORE</p><a href="#sample">Sample issues</a><a href="#inside">What you’ll get</a><a href="#subscribe">Subscribe</a></div>
-          <div><p>ELSEWHERE</p><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn <Linkedin size={13} /></a><a href="mailto:hello@signalweekly.co">Contact <ArrowUpRight size={13} /></a></div>
+          <div><p>ELSEWHERE</p><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn <Linkedin size={13} /></a><a href="mailto:signalweeklyhq@gmail.com">Contact <ArrowUpRight size={13} /></a></div>
           <div><p>LEGAL</p><a href="/privacy">Privacy Policy <ArrowUpRight size={13} /></a></div>
         </div>
         <div className="footer-bottom"><span>© 2026 SIGNAL WEEKLY</span><span>Made for career momentum</span><a href="#top">Back to top <ArrowUpRight size={13} /></a></div>

@@ -118,5 +118,5 @@
 - [ ] Publish the reviewed Beehiiv Welcome Email draft after the owner approves its final copy and branded Sample Library destination.
 - [x] Replace the public-facing Career Signal Weekly name with Career Signal while retaining the Signrl endorsement, domain and existing sender address.
 - [x] Change the hero sentence from “one concise Friday brief” to “one weekly Friday brief” and verify the published landing-page copy.
-- [ ] Review the proposed navy-to-ice palette for Career Signal and recommend a cohesive landing-page and future-website colour-role system before implementation.
-- [ ] Replace the current refined-teal public colour system with the approved Career Signal navy-to-ice palette across brand marks, surfaces, controls and interactive states.
+- [x] Review the proposed navy-to-ice palette for Career Signal and recommend a cohesive landing-page and future-website colour-role system before implementation.
+- [x] Replace the current refined-teal public colour system with the approved Career Signal navy-to-ice palette across brand marks, surfaces, controls and interactive states.

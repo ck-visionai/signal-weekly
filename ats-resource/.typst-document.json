@@ -1,0 +1,10 @@
+{
+  "entry": "main.typ",
+  "metadata": {
+    "author": "Signal Weekly",
+    "subtitle": "A 15-minute pre-submission checklist for mid-career and executive professionals",
+    "title": "The Executive ATS Résumé Audit"
+  },
+  "mode": "report",
+  "theme": "report-theme.typ"
+}

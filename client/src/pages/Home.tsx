@@ -176,11 +176,17 @@ export default function Home() {
               <h2>What an ATS actually sees before a human ever does.</h2>
               <div className="issue-card-footer"><span>Open the briefing</span><MoveUpRight size={16} /></div>
             </article>
-            <aside className="lead-magnet-card">
+            <a
+              className="lead-magnet-card"
+              href="https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/RHWORFZPTcCpUqFY.pdf"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Download the Executive ATS Résumé Audit PDF"
+            >
               <span className="lead-magnet-icon"><FileSearch size={16} /></span>
-              <div><strong>Bonus field guide</strong><span>The Executive Résumé Audit</span></div>
+              <div><strong>Free download</strong><span>The Executive ATS Résumé Audit</span></div>
               <ArrowUpRight size={16} />
-            </aside>
+            </a>
           </div>
         </section>
 
@@ -312,7 +318,7 @@ export default function Home() {
           <p className="footer-management">Signal Weekly is a Signrl publication, managed by Signrl.</p>
         </div>
         <div className="footer-links">
-          <div><p>EXPLORE</p><a href="#sample">Sample issues</a><a href="#inside">What you’ll get</a><a href="#subscribe">Subscribe</a></div>
+          <div><p>EXPLORE</p><a href="#sample">Sample issues</a><a href="#inside">What you’ll get</a><a href="https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/RHWORFZPTcCpUqFY.pdf" target="_blank" rel="noreferrer">ATS résumé audit <ArrowUpRight size={13} /></a><a href="#subscribe">Subscribe</a></div>
           <div><p>ELSEWHERE</p><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn <Linkedin size={13} /></a><a href="mailto:signalweeklyhq@gmail.com">Contact <ArrowUpRight size={13} /></a></div>
           <div><p>LEGAL</p><a href="/privacy">Privacy Policy <ArrowUpRight size={13} /></a></div>
         </div>

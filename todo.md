@@ -54,3 +54,10 @@
 - [ ] Validate the support-repaired project GitHub access with a checkpoint, then resume the no-code editor upgrade.
 - [ ] Create a complete SEO launch, ownership backup, and zero-downtime future working-portal transfer playbook.
 - [ ] Implement canonical URL, SEO metadata, robots, sitemap, structured data, social previews and a clean source backup for the live site.
+- [ ] Verify signrl.com in Google Search Console and submit the sitemap.
+- [ ] Test the Beehiiv confirmation and welcome-email subscriber journey with a fresh address.
+- [ ] Create and publish the first truthful ATS résumé resource for Signal Weekly.
+- [ ] Align the GitHub Pages custom domain and sitemap canonical address before Search Console submission.
+- [ ] Continue Beehiiv launch configuration and prepare the first ATS resource while Search Console verification propagates.
+- [ ] Replace the mismatched Google Search Console TXT token and complete domain verification before sitemap submission.
+- [ ] Review Beehiiv confirmation and welcome automations, then create and promote the first truthful ATS resource.

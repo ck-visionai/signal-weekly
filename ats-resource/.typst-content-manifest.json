@@ -1,0 +1,11 @@
+{
+  "task_kind": "new-document",
+  "output": "pdf",
+  "signals": ["career-guide", "executive-audience", "checklist"],
+  "hard_constraints": ["professional downloadable PDF", "plain-English guidance", "no guarantees of interview outcomes", "references included"],
+  "content_features": {
+    "code_blocks": 0,
+    "defined_terms": 4,
+    "portrait_images": 0
+  }
+}

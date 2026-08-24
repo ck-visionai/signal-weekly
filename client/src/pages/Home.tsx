@@ -268,11 +268,16 @@ export default function Home() {
 
         <section className="closing-section" aria-labelledby="closing-title">
           <div className="closing-layout">
-            <div className="closing-artifact" aria-hidden="true">
-              <div className="closing-artifact-top"><span>{content.closing.artifactName}</span><span>{content.closing.artifactSchedule}</span></div>
-              <div className="closing-artifact-rule" />
-              <p>{content.closing.artifactTitle.split(" ").map((word, index) => <span key={`${word}-${index}`}>{word}{index < content.closing.artifactTitle.split(" ").length - 1 ? <br /> : null}</span>)}</p>
-              <div className="closing-artifact-bottom"><span>{content.closing.artifactAudience}</span><SignalMark inverse /></div>
+            <div className="closing-brief-panel" aria-hidden="true">
+              <div className="closing-brief-top"><span>YOUR FRIDAY CAREER BRIEF</span><SignalMark inverse /></div>
+              <div className="closing-brief-rule" />
+              <div className="closing-signals">
+                <div><span>01</span><strong>Positioning</strong><small>Make the fit clear.</small></div>
+                <div><span>02</span><strong>Interview</strong><small>Make judgement visible.</small></div>
+                <div><span>03</span><strong>Offer</strong><small>Protect the value.</small></div>
+              </div>
+              <p>ONE USEFUL MOVE<br />EACH FRIDAY.</p>
+              <div className="closing-brief-bottom"><span>CAREER SIGNAL</span><span>WEEKLY BRIEF</span></div>
             </div>
             <div className="closing-copy">
               <div className="eyebrow"><span className="eyebrow-line" />{content.closing.eyebrow}</div>
@@ -292,7 +297,7 @@ export default function Home() {
           <p className="footer-management">{content.identity.managementLine}</p>
         </div>
         <div className="footer-links">
-          <div><p>{content.footer.exploreLabel}</p><a href="/resources">{content.navigation.resourcesLabel} <ArrowRight size={13} /></a><a href="#sample">{content.footer.sampleLinkLabel} <ArrowDown size={13} /></a><a href="#inside">{content.footer.insideLinkLabel} <ArrowDown size={13} /></a><a href={content.links.atsUrl} target="_blank" rel="noreferrer">{content.footer.atsLinkLabel} <ArrowUpRight size={13} /></a>{content.links.liveTrainingUrl ? <a href={content.links.liveTrainingUrl} target="_blank" rel="noreferrer">{content.footer.liveTrainingLabel} <ArrowUpRight size={13} /></a> : null}<a href="#subscribe" onClick={scrollToSignup}>{content.navigation.subscribeLabel} <ArrowDown size={13} /></a></div>
+          <div><p>{content.footer.exploreLabel}</p><a href="/resources">{content.navigation.resourcesLabel} <ArrowRight size={13} /></a><a href={content.links.atsUrl} target="_blank" rel="noreferrer">{content.footer.atsLinkLabel} <ArrowUpRight size={13} /></a>{content.links.liveTrainingUrl ? <a href={content.links.liveTrainingUrl} target="_blank" rel="noreferrer">{content.footer.liveTrainingLabel} <ArrowUpRight size={13} /></a> : null}<a href="#subscribe" onClick={scrollToSignup}>{content.navigation.subscribeLabel} <ArrowDown size={13} /></a></div>
           <div><p>{content.footer.elsewhereLabel}</p><a href={content.links.linkedinUrl} target="_blank" rel="noreferrer">{content.footer.linkedinLinkLabel} <Linkedin size={13} /></a><a href={`mailto:${content.identity.contactEmail}`}>{content.footer.contactLinkLabel} <ArrowUpRight size={13} /></a></div>
           <div><p>{content.footer.legalLabel}</p><a href="/privacy">{content.footer.privacyLinkLabel} <ArrowRight size={13} /></a></div>
         </div>

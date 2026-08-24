@@ -143,3 +143,6 @@
 - [x] Apply the approved three-card messaging system: résumé “Prove the fit before the first screen,” interview “Make your judgement easy to trust,” and offer “Protect the value in the offer,” with contextual education links and a single primary free-page conversion CTA.
 - [x] Continue refining the Career Signal landing page before Beehiiv publication, beginning with a focused audit of remaining conversion-copy and interaction consistency issues.
 - [x] Reconfirm the public deployment and visible cache state for the distinct Offer Strategy visual, footer signup scroll behaviour and footer navigation-arrow system.
+- [x] Reduce repeated “Evidence Before Adjectives” treatments across the hero, closing invitation and Sample Library while retaining it as the signature complete free working page.
+- [x] Replace the closing section’s repeated Evidence Before Adjectives cover with the approved three-signal Friday-brief panel: Positioning, Interview, Offer, and “One useful move each Friday.”
+- [x] Remove the Sample issues and What you’ll get links from the Career Signal footer Explore navigation.

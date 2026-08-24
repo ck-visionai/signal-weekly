@@ -90,3 +90,14 @@ GitHub Pages workflow `32758107908` completed successfully for checkpoint `fcab2
 | Closing resource hierarchy | **Pass in local visual validation.** The closing section uses the distinct Positioning / Interview / Offer Friday Career Brief panel rather than a third Evidence Before Adjectives cover. |
 | Footer Explore navigation | **Pass in local visual validation and regression coverage.** The section retains Resources, ATS résumé audit and Get my free page, with Sample issues and What you’ll get removed. |
 | Public deployment | **Pass.** The cache-busted public URL returned the Career Signal page title and SEO description after the successful GitHub Pages deployment. Browser visual capture was unavailable in this verification attempt because the sandbox browser navigated to a blank page after load. |
+
+## 25 August 2026 — Hero-only signature title release
+
+GitHub Pages workflow `32758814849` completed successfully for checkpoint `ea3d665e`.
+
+| Check | Result |
+|---|---|
+| Hero reward | **Pass.** The hero retains the named `Evidence Before Adjectives` working-page reward. |
+| Sample Library | **Pass.** Sample Briefing 01 now appears as `The Career Evidence Working Page`, with its existing complete-working-page description and download action retained. |
+| Closing invitation | **Pass.** The page continues to use the distinct Positioning / Interview / Offer Friday Career Brief panel. |
+| Footer Explore list | **Pass.** The published footer presents Resources, ATS résumé audit and Get my free page only. |

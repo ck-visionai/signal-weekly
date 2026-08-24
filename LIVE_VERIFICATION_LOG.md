@@ -80,3 +80,13 @@ GitHub Pages workflow `32756370567` completed successfully for checkpoint `af82e
 | Offer Strategy card | **Pass.** The public HTML references the distinct `/manus-storage/career-signal-offer-strategy-card_4e86ef07.jpg` asset rather than the Interview Practice paper-stack treatment. |
 | Footer signup navigation | **Pass.** The public footer action resolves to `#subscribe`; the live page exposes the Beehiiv email input and `Get my free page` submit button after its normal asynchronous load. |
 | Footer cue system | **Pass.** The current public source retains the differentiated link destinations: internal Resources/Privacy pages, in-page anchors, and the external ATS PDF. |
+
+## 25 August 2026 — Friday-brief closing panel and footer simplification
+
+GitHub Pages workflow `32758107908` completed successfully for checkpoint `fcab2f0d`.
+
+| Check | Result |
+|---|---|
+| Closing resource hierarchy | **Pass in local visual validation.** The closing section uses the distinct Positioning / Interview / Offer Friday Career Brief panel rather than a third Evidence Before Adjectives cover. |
+| Footer Explore navigation | **Pass in local visual validation and regression coverage.** The section retains Resources, ATS résumé audit and Get my free page, with Sample issues and What you’ll get removed. |
+| Public deployment | **Pass.** The cache-busted public URL returned the Career Signal page title and SEO description after the successful GitHub Pages deployment. Browser visual capture was unavailable in this verification attempt because the sandbox browser navigated to a blank page after load. |

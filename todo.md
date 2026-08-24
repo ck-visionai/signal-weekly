@@ -74,3 +74,4 @@
 - [x] Create a simple owner-editor handover guide covering sign-in, content edits, document uploads, redirects and safe publishing checks.
 - [ ] Align www.signrl.com with the editor-backed managed application before relying on editor saves for public content updates.
 - [ ] Migrate www.signrl.com from GitHub Pages to the editor-backed managed Signal Weekly application while retaining GitHub Pages as a recoverable backup.
+- [x] Add a one-click editor download that exports the current managed website content, resources and redirect links as a readable backup file.

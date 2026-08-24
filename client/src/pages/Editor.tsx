@@ -12,7 +12,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { startLogin } from "@/const";
 import { trpc } from "@/lib/trpc";
 import { type SiteContent } from "@shared/siteContent";
-import { BookOpenText, ExternalLink, FileUp, Link2, Loader2, Monitor, PanelTop, Save, Sparkles, UploadCloud } from "lucide-react";
+import { contentBackupFilename, createContentBackup } from "@shared/contentBackup";
+import { BookOpenText, Download, ExternalLink, FileUp, Link2, Loader2, Monitor, PanelTop, Save, Sparkles, UploadCloud } from "lucide-react";
 import { ChangeEvent, useEffect, useMemo, useState } from "react";
 import { toast } from "sonner";
 import { useLocation } from "wouter";
@@ -106,6 +107,20 @@ export default function Editor() {
     reader.readAsDataURL(file);
   };
 
+  const downloadBackup = () => {
+    if (!content) return;
+    const blob = new Blob([createContentBackup(content)], { type: "text/markdown;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = contentBackupFilename();
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+    toast.success("Content backup downloaded. Store it somewhere private.");
+  };
+
   if (loading) return <div className="editor-loading"><Loader2 className="animate-spin" /> Loading your editor…</div>;
   if (!user) {
     return <main className="editor-gate"><div><span className="editor-kicker">SIGNAL WEEKLY / OWNER ACCESS</span><h1>Your content desk is protected.</h1><p>Sign in with the owner account to edit the landing page, downloads and public links.</p><Button onClick={() => startLogin()}><Sparkles size={16} /> Sign in to the editor</Button><a href="/">Return to the public site <ExternalLink size={14} /></a></div></main>;
@@ -116,7 +131,7 @@ export default function Editor() {
   return (
     <DashboardLayout menuItems={editorNav} title="Signal Weekly Editor">
       <div className="editor-shell">
-        <header className="editor-page-header"><div><span className="editor-kicker">OWNER WORKSPACE</span><h1>{heading[0]}</h1><p>{heading[1]}</p></div><div className="editor-header-actions"><a href="/" target="_blank" rel="noreferrer">View live site <ExternalLink size={14} /></a><Button onClick={save} disabled={saveContent.isPending}><Save size={16} /> {saveContent.isPending ? "Saving…" : "Save changes"}</Button></div></header>
+        <header className="editor-page-header"><div><span className="editor-kicker">OWNER WORKSPACE</span><h1>{heading[0]}</h1><p>{heading[1]}</p></div><div className="editor-header-actions"><a href="/" target="_blank" rel="noreferrer">View live site <ExternalLink size={14} /></a><Button variant="outline" onClick={downloadBackup}><Download size={16} /> Download backup</Button><Button onClick={save} disabled={saveContent.isPending}><Save size={16} /> {saveContent.isPending ? "Saving…" : "Save changes"}</Button></div></header>
 
         {view === "landing" ? <>
           <EditorCard title="Brand & contact" intro="The identity that appears in the header and footer.">
@@ -212,6 +227,9 @@ export default function Editor() {
             <div className="editor-upload"><FileUp size={24} /><div><Label htmlFor="editor-upload">Choose a PDF, JPG, PNG or WebP</Label><p>Maximum file size: 10 MB. The upload is only available to the owner account.</p></div><Input id="editor-upload" type="file" accept="application/pdf,image/jpeg,image/png,image/webp" onChange={upload} disabled={uploadAsset.isPending} /></div>
             {uploadAsset.isPending ? <p className="editor-upload-state"><Loader2 className="animate-spin" size={15} /> Uploading securely…</p> : null}
             {lastUploadUrl ? <div className="editor-upload-result"><UploadCloud size={17} /><div><strong>Last upload URL</strong><code>{lastUploadUrl}</code></div></div> : null}
+          </EditorCard>
+          <EditorCard title="Download a content backup" intro="Save a readable copy of every editor-managed text field, public resource and redirect link before important changes.">
+            <div className="editor-backup-action"><p>The backup does not contain Beehiiv subscribers, passwords or domain-account details. Keep the downloaded file in a private location such as Google Drive.</p><Button variant="outline" onClick={downloadBackup}><Download size={16} /> Download content backup</Button></div>
           </EditorCard>
         </> : null}
 

@@ -51,3 +51,13 @@ The GitHub Pages deployment for checkpoint `7e2338de` completed successfully thr
 | Homepage guidance cards | **Pass.** The three cards rendered distinct messages—résumé fit, interview judgement and offer value—with contextual links to the Sample Library instead of repeated free-page conversion labels. |
 | Resources and Privacy headers | **Pass.** Both deployed pages used the same approved Career Signal icon and retained readable navy-to-ice presentation. |
 | Beehiiv form and Welcome Email | **Unchanged and unpublished.** No owner-controlled Beehiiv draft was published, sent or altered in this release. |
+
+## 25 August 2026 — Footer-refinement release, interim check
+
+The GitHub Pages deployment for checkpoint `83be9e1a` completed successfully through workflow run `32754317116`.
+
+| Check | Result |
+|---|---|
+| Offer Strategy visual | **Pass.** The public homepage served the distinct whole-role negotiation image rather than the repeated interview paper-stack artwork. |
+| Signup target | **Pass.** The public `#subscribe` destination contained the Beehiiv email input and `Get my free page` submission button. |
+| Footer “Start with the free working page” click | **Pass.** A live click from the deployed footer moved the page to the embedded Beehiiv form in the hero instead of leaving the visitor at the footer or returning them to the header. |

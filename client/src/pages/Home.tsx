@@ -4,7 +4,9 @@
  */
 import { type MouseEvent, useEffect, useRef, useState } from "react";
 import {
+  ArrowDown,
   ArrowRight,
+  ArrowUp,
   ArrowUpRight,
   ChevronLeft,
   ChevronRight,
@@ -22,6 +24,7 @@ import { defaultSiteContent } from "@shared/siteContent";
 import { sampleIssues } from "@shared/sampleIssues";
 
 const CAREER_SIGNAL_LOGO = "/manus-storage/career-signal-logo-midnight-navy-final_97c9f1d6.png";
+const OFFER_STRATEGY_IMAGE = "/manus-storage/career-signal-offer-strategy-card_4e86ef07.jpg";
 
 function SignalMark({ inverse = false }: { inverse?: boolean }) {
   return (
@@ -41,7 +44,7 @@ export default function Home() {
   const topicSlides = content.practice.slides.map((slide, index) => ({ ...slide, number: String(index + 1).padStart(2, "0"), icon: topicIcons[index] }));
   const valueCards = content.pillars.map((pillar, index) => ({
     ...pillar,
-    image: pillar.imageUrl || null,
+    image: pillar.imageUrl || (index === 2 ? OFFER_STRATEGY_IMAGE : null),
     artifact: ["resume", "interview", "offer"][index],
     ctaLabel: pillar.ctaLabel || ["Explore the résumé briefing", "Explore interview practice", "Explore offer strategy"][index],
     ctaUrl: pillar.ctaUrl || "/resources#sample-issues",
@@ -70,8 +73,11 @@ export default function Home() {
   const scrollToSignup = (event: MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();
     setMenuOpen(false);
-    beehiivEmbedRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
-    window.history.replaceState(null, "", "#subscribe");
+    window.requestAnimationFrame(() => {
+      const signupTarget = document.getElementById("subscribe") ?? beehiivEmbedRef.current;
+      signupTarget?.scrollIntoView({ behavior: "smooth", block: "center" });
+      window.history.replaceState(null, "", "#subscribe");
+    });
   };
 
   return (
@@ -286,11 +292,11 @@ export default function Home() {
           <p className="footer-management">{content.identity.managementLine}</p>
         </div>
         <div className="footer-links">
-          <div><p>{content.footer.exploreLabel}</p><a href="/resources">{content.navigation.resourcesLabel} <ArrowUpRight size={13} /></a><a href="#sample">{content.footer.sampleLinkLabel}</a><a href="#inside">{content.footer.insideLinkLabel}</a><a href={content.links.atsUrl} target="_blank" rel="noreferrer">{content.footer.atsLinkLabel} <ArrowUpRight size={13} /></a>{content.links.liveTrainingUrl ? <a href={content.links.liveTrainingUrl} target="_blank" rel="noreferrer">{content.footer.liveTrainingLabel} <ArrowUpRight size={13} /></a> : null}<a href="#subscribe" onClick={scrollToSignup}>{content.navigation.subscribeLabel}</a></div>
+          <div><p>{content.footer.exploreLabel}</p><a href="/resources">{content.navigation.resourcesLabel} <ArrowUpRight size={13} /></a><a href="#sample">{content.footer.sampleLinkLabel} <ArrowDown size={13} /></a><a href="#inside">{content.footer.insideLinkLabel} <ArrowDown size={13} /></a><a href={content.links.atsUrl} target="_blank" rel="noreferrer">{content.footer.atsLinkLabel} <ArrowUpRight size={13} /></a>{content.links.liveTrainingUrl ? <a href={content.links.liveTrainingUrl} target="_blank" rel="noreferrer">{content.footer.liveTrainingLabel} <ArrowUpRight size={13} /></a> : null}<a href="#subscribe" onClick={scrollToSignup}>{content.navigation.subscribeLabel} <ArrowDown size={13} /></a></div>
           <div><p>{content.footer.elsewhereLabel}</p><a href={content.links.linkedinUrl} target="_blank" rel="noreferrer">{content.footer.linkedinLinkLabel} <Linkedin size={13} /></a><a href={`mailto:${content.identity.contactEmail}`}>{content.footer.contactLinkLabel} <ArrowUpRight size={13} /></a></div>
           <div><p>{content.footer.legalLabel}</p><a href="/privacy">{content.footer.privacyLinkLabel} <ArrowUpRight size={13} /></a></div>
         </div>
-        <div className="footer-bottom"><span>{content.identity.copyrightLabel}</span><span>{content.identity.footerMeta}</span><a href="#top">{content.footer.backToTopLabel} <ArrowUpRight size={13} /></a></div>
+        <div className="footer-bottom"><span>{content.identity.copyrightLabel}</span><span>{content.identity.footerMeta}</span><a href="#top">{content.footer.backToTopLabel} <ArrowUp size={13} /></a></div>
       </footer>
     </div>
   );

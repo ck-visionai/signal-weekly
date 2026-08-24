@@ -84,4 +84,12 @@
 .carousel-controls button:hover { background: var(--midnight-authority); border-color: var(--midnight-authority); }
 .resource-library-download:focus-visible, .sample-library-actions a:focus-visible, .sample-library-card a:focus-visible { outline-color: rgba(3, 4, 94, 0.36); }
 
-@media (max-width: 760px) { .brand-name { font-size: 14px; }.brand-lockup small { font-size: 6px; } }
+@media (max-width: 760px) {
+  .brand-name { font-size: 14px; }
+  .brand-lockup small { font-size: 6px; }
+
+  /* Keep the Sample Library statement editorial on mobile, but remove the loose vertical gaps around it. */
+  .sample-header { margin-bottom: 24px; }
+  .sample-header h2 { margin-top: 12px; line-height: 0.92; }
+  .sample-header .text-link { margin-top: 14px; }
+}

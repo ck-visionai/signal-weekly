@@ -124,7 +124,11 @@
 - [x] Create a simple, forward-use Beehiiv guide explaining how to schedule and safely automate Career Signal’s weekly subscriber emails without sending content automatically during setup.
 - [x] Convert the Career Signal Beehiiv weekly-email playbook into a downloadable PDF.
 - [x] Remove the floating “Free download — The Executive ATS Résumé Audit” resource card from the Career Signal homepage hero while retaining the primary signup experience and Resources access.
-- [ ] Review and recommend a more compact mobile spacing treatment for the Sample Library headline and call to action without changing it until owner approval.
+- [x] Review and recommend a more compact mobile spacing treatment for the Sample Library headline and call to action without changing it until owner approval.
+- [x] Apply the approved compact mobile-only spacing treatment to the Sample Library heading and library link while retaining its current copy and headline scale.
+- [x] Replace the Offer Strategy card’s paper-stack visual with a visually distinct whole-role negotiation image while retaining the existing Interview Practice card artwork.
+- [x] Repair the footer “Start with the free working page” link so it scrolls to the embedded signup form instead of returning to the homepage header.
+- [x] Align footer-link visual cues so internal navigation and external/download actions use arrows consistently and understandably.
 - [ ] Define the original Career Signal ATS platform first-release scope, data safeguards, phased delivery plan and realistic build timeline before implementation.
 - [ ] Produce a detailed feature list and implementation architecture for the 3–4-week Career Signal ATS private beta.
 - [ ] Connect and review the user’s existing VS Code ATS project so reusable code can inform the Career Signal private-beta build rather than duplicating work.

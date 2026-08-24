@@ -80,7 +80,7 @@
 - [x] Add a public Sample Issues library page or section where visitors can browse and open all twelve sample PDFs.
 - [x] Fix the Resources value-card headings so “Evidence-led” and “Built to use” do not wrap across visually awkward lines.
 - [x] Prepare a prioritized subscriber-growth strategy and lead-magnet plan for Signal Weekly’s first acquisition cycle.
-- [ ] Standardize all public subscriber CTA labels to one owner-approved phrase while retaining the concrete free-working-page promise and transparent Sample Briefing labels.
+- [x] Standardize all public subscriber CTA labels to one owner-approved phrase while retaining the concrete free-working-page promise and transparent Sample Briefing labels.
 - [ ] Update the Beehiiv embedded-form button and supporting form copy so the live form matches the free-working-page signup promise.
 - [x] Replace the oversized Beehiiv button label with a concise single-line call to action in the saved Beehiiv draft.
 - [x] Repair all “Get the free working page” calls to action so they reliably scroll to the embedded signup form rather than stalling on the current section.
@@ -141,3 +141,4 @@
 - [x] Verify the latest Shortlitz code upload and provide current GitHub Copilot cloud-agent setup, eligibility and cost-control guidance before the owner enables a plan.
 - [x] Recommend differentiated messaging for the three Career Signal homepage guidance cards so Evidence Before Adjectives remains a signature resource rather than an overused phrase.
 - [x] Apply the approved three-card messaging system: résumé “Prove the fit before the first screen,” interview “Make your judgement easy to trust,” and offer “Protect the value in the offer,” with contextual education links and a single primary free-page conversion CTA.
+- [x] Continue refining the Career Signal landing page before Beehiiv publication, beginning with a focused audit of remaining conversion-copy and interaction consistency issues.

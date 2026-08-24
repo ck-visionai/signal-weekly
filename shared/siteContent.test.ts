@@ -21,8 +21,9 @@ describe("Signal Weekly editor content schema", () => {
   });
 
   it("keeps a concrete working-page offer and transparent sample labels in the published defaults", () => {
-    expect(defaultSiteContent.hero.signupOfferLabel).toContain("COMPLETE FREE WORKING PAGE");
-    expect(defaultSiteContent.navigation.subscribeLabel).toContain("free working page");
+    expect(defaultSiteContent.hero.signupOfferLabel).toBe("GET MY FREE PAGE");
+    expect(defaultSiteContent.navigation.subscribeLabel).toBe("Get my free page");
+    expect(defaultSiteContent.hero.intro).toContain("complete free working page");
     expect(defaultSiteContent.hero.issueNumber).toContain("SAMPLE BRIEFING");
     expect(defaultSiteContent.archive.eyebrow).toBe("FROM THE SAMPLE LIBRARY");
     expect(defaultSiteContent.closing.heading).toBe("Start here.");

@@ -249,7 +249,7 @@ export const defaultSiteContent: SiteContent = {
     eyebrow: "YOUR FRIDAY CAREER BRIEF",
     heading: "Start here.",
     emphasis: "Build from there.",
-    description: "Begin with the complete free working page today. Then receive a concise Friday brief for the career decision in front of you.",
+    description: "Begin with the complete free working page today. Then receive one weekly Friday brief for the career decision in front of you.",
     ctaLabel: "Get my free page",
     artifactName: "SAMPLE LIBRARY",
     artifactSchedule: "START HERE",

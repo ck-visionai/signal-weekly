@@ -24,6 +24,7 @@ describe("Signal Weekly editor content schema", () => {
     expect(defaultSiteContent.hero.signupOfferLabel).toBe("GET MY FREE PAGE");
     expect(defaultSiteContent.navigation.subscribeLabel).toBe("Get my free page");
     expect(defaultSiteContent.hero.intro).toContain("complete free working page");
+    expect(defaultSiteContent.closing.description).toContain("one weekly Friday brief");
     expect(defaultSiteContent.hero.issueNumber).toContain("SAMPLE BRIEFING");
     expect(defaultSiteContent.archive.eyebrow).toBe("FROM THE SAMPLE LIBRARY");
     expect(defaultSiteContent.closing.heading).toBe("Start here.");

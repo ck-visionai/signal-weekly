@@ -17,69 +17,14 @@ import {
   Target,
   X,
 } from "lucide-react";
+import { trpc } from "@/lib/trpc";
+import { defaultSiteContent } from "@shared/siteContent";
 
-const topicSlides = [
-  {
-    number: "01",
-    eyebrow: "THE POSITIONING PROBLEM",
-    title: "Your résumé is not a biography. It is a business case.",
-    description:
-      "Turn a nonlinear career into a clear executive narrative that a recruiter can understand in a first scan.",
-    note: "The issue: translating scope into a signal.",
-    icon: FileSearch,
-  },
-  {
-    number: "02",
-    eyebrow: "THE CONVERSATION PROBLEM",
-    title: "Difficult questions are often invitations to lead.",
-    description:
-      "Prepare the executive-level answers that communicate judgment, self-awareness, and operating range under pressure.",
-    note: "The issue: making a credible pivot in the room.",
-    icon: MessageSquareText,
-  },
-  {
-    number: "03",
-    eyebrow: "THE DECISION PROBLEM",
-    title: "Compensation is one part of a larger mandate.",
-    description:
-      "Negotiate salary, equity, scope, and the conditions that make the next role genuinely worth accepting.",
-    note: "The issue: asking with precision, not apology.",
-    icon: Target,
-  },
-];
-
-const valueCards = [
-  {
-    index: "01",
-    title: "Make the first scan count.",
-    text: "Build an ATS-ready résumé that tells a recruiter what changed because you were in the room.",
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/TgevWfEsgboMGMxi.jpg",
-    artifact: "resume",
-    label: "RÉSUMÉ SIGNAL",
-  },
-  {
-    index: "02",
-    title: "Answer like a leader.",
-    text: "Translate your experience into decisive stories for questions that are built to test your judgment.",
-    image: null,
-    artifact: "interview",
-    label: "INTERVIEW PRACTICE",
-  },
-  {
-    index: "03",
-    title: "Negotiate the whole role.",
-    text: "Frame a confident conversation about pay, benefits, scope, and the platform you need to do your best work.",
-    image: null,
-    artifact: "offer",
-    label: "OFFER STRATEGY",
-  },
-];
-
-function SignalMark({ inverse = false }: { inverse?: boolean }) {
+function SignalMark({ inverse = false, src }: { inverse?: boolean; src?: string }) {
   return (
     <img
       className={`signal-mark ${inverse ? "signal-mark--inverse" : ""}`}
-      src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/SqONCjkhpoZAPMjE.png"
+      src={src ?? "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/SqONCjkhpoZAPMjE.png"}
       alt=""
       aria-hidden="true"
     />
@@ -87,9 +32,14 @@ function SignalMark({ inverse = false }: { inverse?: boolean }) {
 }
 
 export default function Home() {
+  const contentQuery = trpc.content.public.useQuery(undefined, { retry: false, refetchOnWindowFocus: false });
+  const content = contentQuery.data ?? defaultSiteContent;
   const [activeSlide, setActiveSlide] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
   const beehiivEmbedRef = useRef<HTMLDivElement>(null);
+  const topicIcons = [FileSearch, MessageSquareText, Target];
+  const topicSlides = content.practice.slides.map((slide, index) => ({ ...slide, number: String(index + 1).padStart(2, "0"), icon: topicIcons[index] }));
+  const valueCards = content.pillars.map((pillar, index) => ({ ...pillar, image: pillar.imageUrl || null, artifact: ["resume", "interview", "offer"][index] }));
 
   useEffect(() => {
     const container = beehiivEmbedRef.current;
@@ -115,18 +65,18 @@ export default function Home() {
     <div className="site-shell">
       <header className="topbar">
         <a className="brand" href="#top" aria-label="Signal Weekly home">
-          <SignalMark />
-          <span className="brand-lockup"><strong className="brand-name">Signal Weekly</strong><small>A Signrl publication</small></span>
+          <SignalMark src={content.identity.logoUrl} />
+          <span className="brand-lockup"><strong className="brand-name">{content.identity.brandName}</strong><small>{content.identity.endorsement}</small></span>
         </a>
 
         <nav className={`nav-links ${menuOpen ? "nav-links--open" : ""}`} aria-label="Primary navigation">
-          <a href="#inside" onClick={() => setMenuOpen(false)}>Inside the brief</a>
-          <a href="#sample" onClick={() => setMenuOpen(false)}>Sample issue</a>
-          <a href="/resources" onClick={() => setMenuOpen(false)}>Resources</a>
+          <a href="#inside" onClick={() => setMenuOpen(false)}>{content.navigation.insideLabel}</a>
+          <a href="#sample" onClick={() => setMenuOpen(false)}>{content.navigation.sampleLabel}</a>
+          <a href="/resources" onClick={() => setMenuOpen(false)}>{content.navigation.resourcesLabel}</a>
         </nav>
 
         <a className="topbar-cta" href="#subscribe">
-          Get the briefing <ArrowUpRight size={15} strokeWidth={2.25} />
+          {content.navigation.subscribeLabel} <ArrowUpRight size={15} strokeWidth={2.25} />
         </a>
         <button
           className="menu-button"
@@ -143,48 +93,48 @@ export default function Home() {
           <div className="hero-glow hero-glow--blue" />
           <div className="hero-glow hero-glow--peach" />
           <div className="hero-copy">
-            <div className="eyebrow"><span className="eyebrow-line" />WEEKLY CAREER INTELLIGENCE</div>
-            <h1 id="hero-title">A sharper search starts with a better <em>signal.</em></h1>
+            <div className="eyebrow"><span className="eyebrow-line" />{content.hero.eyebrow}</div>
+            <h1 id="hero-title">{content.hero.headline} <em>{content.hero.emphasis}</em></h1>
             <p className="hero-intro">
-              One concise weekly briefing for mid-career and executive professionals navigating their next consequential move.
+              {content.hero.intro}
             </p>
 
             <div className="beehiiv-embed" id="subscribe" ref={beehiivEmbedRef} aria-label="Subscribe to Signal Weekly">
               <noscript>
                 <a className="beehiiv-embed__fallback" href="https://signalweeklyhq.beehiiv.com/subscribe">
-                  Subscribe to Signal Weekly on Beehiiv
+                  {content.navigation.fallbackSubscribeLabel}
                 </a>
               </noscript>
             </div>
-            <p className="form-note">Free, once a week. Confirm your email to start. Unsubscribe whenever you need. By subscribing, you agree to our <a href="/privacy">Privacy Policy</a>.</p>
+            <p className="form-note">{content.hero.formNote} <a href="/privacy">{content.hero.formPrivacyLinkLabel}</a></p>
 
             <div className="hero-meta">
-              <div className="meta-capsule"><Sparkles size={15} /> New issue every Friday</div>
+              <div className="meta-capsule"><Sparkles size={15} /> {content.hero.frequency}</div>
               <div className="meta-divider" />
-              <span>For professionals and leaders in motion</span>
+              <span>{content.hero.audience}</span>
             </div>
           </div>
 
-          <div className="hero-visual" aria-label="A Signal Weekly editorial desk scene">
+          <div className="hero-visual" aria-label={content.hero.imageAlt}>
             <div className="hero-image-frame">
-              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/rMtHWNmluaMtQIPa.jpg" alt="Elegant executive desk with layered papers and cobalt pen" />
+              <img src={content.hero.imageUrl} alt={content.hero.imageAlt} />
               <div className="hero-image-wash" />
             </div>
             <article className="hero-issue-card">
-              <div className="issue-card-topline"><span>ISSUE 014</span><span>06 MIN READ</span></div>
-              <p className="issue-card-kicker">THIS WEEK’S SIGNAL</p>
-              <h2>What an ATS actually sees before a human ever does.</h2>
-              <div className="issue-card-footer"><span>Open the briefing</span><MoveUpRight size={16} /></div>
+              <div className="issue-card-topline"><span>{content.hero.issueNumber}</span><span>{content.hero.issueReadTime}</span></div>
+              <p className="issue-card-kicker">{content.hero.issueKicker}</p>
+              <h2>{content.hero.issueTitle}</h2>
+              <div className="issue-card-footer"><span>{content.hero.issueOpenLabel}</span><MoveUpRight size={16} /></div>
             </article>
             <a
               className="lead-magnet-card"
-              href="https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/RHWORFZPTcCpUqFY.pdf"
+              href={content.hero.leadUrl}
               target="_blank"
               rel="noreferrer"
-              aria-label="Download the Executive ATS Résumé Audit PDF"
+              aria-label={content.hero.leadAriaLabel}
             >
               <span className="lead-magnet-icon"><FileSearch size={16} /></span>
-              <div><strong>Free download</strong><span>The Executive ATS Résumé Audit</span></div>
+              <div><strong>{content.hero.leadButtonLabel}</strong><span>{content.hero.leadTitle}</span></div>
               <ArrowUpRight size={16} />
             </a>
           </div>
@@ -192,17 +142,17 @@ export default function Home() {
 
         <section className="quiet-statement" aria-label="Signal Weekly positioning">
           <div className="quiet-statement-line" />
-          <p>Not another job board. <strong>A point of view on the decisions that change your career.</strong></p>
+          <p>{content.quiet.prefix} <strong>{content.quiet.emphasis}</strong></p>
           <div className="quiet-statement-line" />
         </section>
 
         <section className="value-section" id="inside" aria-labelledby="inside-title">
           <div className="section-heading">
             <div>
-              <div className="eyebrow"><span className="eyebrow-line" />INSIDE THE BRIEFING</div>
-              <h2 id="inside-title">The search is complex.<br /><em>The guidance shouldn’t be.</em></h2>
+              <div className="eyebrow"><span className="eyebrow-line" />{content.inside.eyebrow}</div>
+              <h2 id="inside-title">{content.inside.heading}<br /><em>{content.inside.emphasis}</em></h2>
             </div>
-            <p>Every issue turns a high-stakes career moment into a small set of clear, usable moves.</p>
+            <p>{content.inside.intro}</p>
           </div>
 
           <div className="value-grid">
@@ -221,7 +171,7 @@ export default function Home() {
                   <div className="card-meta"><span><i className="card-signal" />{card.label}</span><span>{card.index}</span></div>
                   <h3>{card.title}</h3>
                   <p>{card.text}</p>
-                  <a href="#subscribe">Explore the signal <ArrowRight size={15} /></a>
+                  <a href="#subscribe">{content.navigation.valueCtaLabel} <ArrowRight size={15} /></a>
                 </div>
               </article>
             ))}
@@ -232,33 +182,33 @@ export default function Home() {
           <div className="sample-backdrop" />
           <div className="sample-header">
             <div>
-              <div className="eyebrow eyebrow--light"><span className="eyebrow-line" />FROM THE ARCHIVE</div>
-              <h2 id="sample-title">A six-minute briefing.<br /><em>Built to stay with you.</em></h2>
+              <div className="eyebrow eyebrow--light"><span className="eyebrow-line" />{content.archive.eyebrow}</div>
+              <h2 id="sample-title">{content.archive.heading}<br /><em>{content.archive.emphasis}</em></h2>
             </div>
-            <a className="text-link text-link--light" href="#archive">Browse sample issues <ArrowUpRight size={16} /></a>
+            <a className="text-link text-link--light" href="#archive">{content.navigation.browseArchiveLabel} <ArrowUpRight size={16} /></a>
           </div>
 
           <div className="sample-layout">
             <article className="main-brief">
-              <div className="main-brief-header"><span>SIGNAL WEEKLY / 012</span><span>READING TIME 06:14</span></div>
+              <div className="main-brief-header"><span>{content.archive.leadNumber}</span><span>{content.archive.readingTime}</span></div>
               <div className="main-brief-copy">
-                <p className="brief-label">THE INTERVIEW EDITION</p>
-                <h3>When “why now?” is really asking whether you can lead change.</h3>
-                <p>Three ways to make a career transition sound intentional, confident, and useful to the organisation across the table.</p>
+                <p className="brief-label">{content.archive.leadLabel}</p>
+                <h3>{content.archive.leadTitle}</h3>
+                <p>{content.archive.leadDescription}</p>
               </div>
-              <div className="brief-annotation"><span>01</span><p>THE REFRAME</p><ArrowUpRight size={18} /></div>
+              <div className="brief-annotation"><span>01</span><p>{content.archive.annotationLabel}</p><ArrowUpRight size={18} /></div>
             </article>
             <div className="brief-side-stack">
               <article className="side-brief side-brief--top">
                 <span className="side-brief-index">02</span>
-                <p>COMPENSATION NOTE</p>
-                <h3>The question to ask before you name a number.</h3>
+                <p>{content.archive.sideBriefs[0].label}</p>
+                <h3>{content.archive.sideBriefs[0].title}</h3>
                 <ArrowUpRight size={18} />
               </article>
               <article className="side-brief side-brief--bottom">
                 <span className="side-brief-index">03</span>
-                <p>RÉSUMÉ NOTE</p>
-                <h3>Where quantified outcomes actually earn their space.</h3>
+                <p>{content.archive.sideBriefs[1].label}</p>
+                <h3>{content.archive.sideBriefs[1].title}</h3>
                 <ArrowUpRight size={18} />
               </article>
             </div>
@@ -267,8 +217,8 @@ export default function Home() {
 
         <section className="practice-section" aria-labelledby="practice-title">
           <div className="practice-label-block">
-            <div className="eyebrow"><span className="eyebrow-line" />THE BRIEFING, IN PRACTICE</div>
-            <p>Thoughtful prompts for the moments that deserve more than a template answer.</p>
+            <div className="eyebrow"><span className="eyebrow-line" />{content.practice.eyebrow}</div>
+            <p>{content.practice.intro}</p>
           </div>
           <div className="topic-carousel">
             <div className="topic-count"><span>0{activeSlide + 1}</span><i /> <span>0{topicSlides.length}</span></div>
@@ -295,17 +245,17 @@ export default function Home() {
         <section className="closing-section" aria-labelledby="closing-title">
           <div className="closing-layout">
             <div className="closing-artifact" aria-hidden="true">
-              <div className="closing-artifact-top"><span>SIGNAL WEEKLY</span><span>FRIDAY / 08:00</span></div>
+              <div className="closing-artifact-top"><span>{content.closing.artifactName}</span><span>{content.closing.artifactSchedule}</span></div>
               <div className="closing-artifact-rule" />
-              <p>CAREER<br />INTELLIGENCE<br /><em>BRIEFING.</em></p>
-              <div className="closing-artifact-bottom"><span>EXECUTIVE EDITION</span><SignalMark /></div>
+              <p>{content.closing.artifactTitle.split(" ").map((word, index) => <span key={`${word}-${index}`}>{word}{index < content.closing.artifactTitle.split(" ").length - 1 ? <br /> : null}</span>)}</p>
+              <div className="closing-artifact-bottom"><span>{content.closing.artifactAudience}</span><SignalMark src={content.identity.logoUrl} /></div>
             </div>
             <div className="closing-copy">
-              <div className="eyebrow"><span className="eyebrow-line" />YOUR FRIDAY DESK NOTE</div>
-              <h2 id="closing-title">Make your next move<br /><em>with more signal.</em></h2>
-              <p>Short, useful intelligence for the career decision in front of you.</p>
-              <a className="closing-button" href="#subscribe">Get Signal Weekly <ArrowRight size={18} /></a>
-              <div className="closing-meta"><span>NO COST</span><i /><span>ONE ISSUE / WEEK</span><i /><span>LEAVE ANYTIME</span></div>
+              <div className="eyebrow"><span className="eyebrow-line" />{content.closing.eyebrow}</div>
+              <h2 id="closing-title">{content.closing.heading}<br /><em>{content.closing.emphasis}</em></h2>
+              <p>{content.closing.description}</p>
+              <a className="closing-button" href="#subscribe">{content.closing.ctaLabel} <ArrowRight size={18} /></a>
+              <div className="closing-meta"><span>{content.closing.metaItems[0]}</span><i /><span>{content.closing.metaItems[1]}</span><i /><span>{content.closing.metaItems[2]}</span></div>
             </div>
           </div>
         </section>
@@ -313,16 +263,16 @@ export default function Home() {
 
       <footer className="footer" id="archive">
         <div className="footer-main">
-          <a className="brand brand--footer" href="#top"><SignalMark inverse /><span className="brand-lockup"><strong className="brand-name">Signal Weekly</strong><small>A Signrl publication</small></span></a>
-          <p>Useful intelligence for your next consequential career decision.</p>
-          <p className="footer-management">Signal Weekly is a Signrl publication, managed by Signrl.</p>
+          <a className="brand brand--footer" href="#top"><SignalMark inverse src={content.identity.logoUrl} /><span className="brand-lockup"><strong className="brand-name">{content.identity.brandName}</strong><small>{content.identity.endorsement}</small></span></a>
+          <p>{content.identity.footerTagline}</p>
+          <p className="footer-management">{content.identity.managementLine}</p>
         </div>
         <div className="footer-links">
-          <div><p>EXPLORE</p><a href="/resources">Resources <ArrowUpRight size={13} /></a><a href="#sample">Sample issues</a><a href="#inside">What you’ll get</a><a href="https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/RHWORFZPTcCpUqFY.pdf" target="_blank" rel="noreferrer">ATS résumé audit <ArrowUpRight size={13} /></a><a href="#subscribe">Subscribe</a></div>
-          <div><p>ELSEWHERE</p><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn <Linkedin size={13} /></a><a href="mailto:signalweeklyhq@gmail.com">Contact <ArrowUpRight size={13} /></a></div>
-          <div><p>LEGAL</p><a href="/privacy">Privacy Policy <ArrowUpRight size={13} /></a></div>
+          <div><p>{content.footer.exploreLabel}</p><a href="/resources">{content.navigation.resourcesLabel} <ArrowUpRight size={13} /></a><a href="#sample">{content.footer.sampleLinkLabel}</a><a href="#inside">{content.footer.insideLinkLabel}</a><a href={content.links.atsUrl} target="_blank" rel="noreferrer">{content.footer.atsLinkLabel} <ArrowUpRight size={13} /></a>{content.links.liveTrainingUrl ? <a href={content.links.liveTrainingUrl} target="_blank" rel="noreferrer">{content.footer.liveTrainingLabel} <ArrowUpRight size={13} /></a> : null}<a href="#subscribe">{content.navigation.subscribeLabel}</a></div>
+          <div><p>{content.footer.elsewhereLabel}</p><a href={content.links.linkedinUrl} target="_blank" rel="noreferrer">{content.footer.linkedinLinkLabel} <Linkedin size={13} /></a><a href={`mailto:${content.identity.contactEmail}`}>{content.footer.contactLinkLabel} <ArrowUpRight size={13} /></a></div>
+          <div><p>{content.footer.legalLabel}</p><a href="/privacy">{content.footer.privacyLinkLabel} <ArrowUpRight size={13} /></a></div>
         </div>
-        <div className="footer-bottom"><span>© 2026 SIGNAL WEEKLY</span><span>Made for career momentum</span><a href="#top">Back to top <ArrowUpRight size={13} /></a></div>
+        <div className="footer-bottom"><span>{content.identity.copyrightLabel}</span><span>{content.identity.footerMeta}</span><a href="#top">{content.footer.backToTopLabel} <ArrowUpRight size={13} /></a></div>
       </footer>
     </div>
   );

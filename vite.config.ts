@@ -222,13 +222,21 @@ export default defineConfig({
   },
   envDir: path.resolve(import.meta.dirname),
   root: path.resolve(import.meta.dirname, "client"),
+  publicDir: path.resolve(import.meta.dirname, "client", "public"),
   build: {
     outDir: path.resolve(import.meta.dirname, isGitHubPagesBuild ? "dist/pages" : "dist/public"),
     emptyOutDir: true,
+    rollupOptions: isGitHubPagesBuild
+      ? {
+          input: {
+            home: path.resolve(import.meta.dirname, "client", "index.html"),
+            resources: path.resolve(import.meta.dirname, "client", "resources", "index.html"),
+            privacy: path.resolve(import.meta.dirname, "client", "privacy", "index.html"),
+          },
+        }
+      : undefined,
   },
   server: {
-    port: 3000,
-    strictPort: false, // Will find next available port if 3000 is busy
     host: true,
     allowedHosts: [
       ".manuspre.computer",

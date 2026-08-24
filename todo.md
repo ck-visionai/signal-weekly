@@ -44,11 +44,11 @@
 - [ ] Retry GitHub project access after the user cleared the reported connector pop-up block.
 - [ ] Uninstall the stale Manus Connector GitHub App installation, reconnect from scratch, and retest checkpoint publishing.
 - [ ] Confirm the clean replacement repository name and target custom-domain URL before rebuilding and migrating the Signal Weekly site.
-- [ ] Define and build a no-code content editor that preserves the current Signal Weekly landing-page design, text, visuals, signup flow, and Privacy Policy.
+- [x] Define and build a no-code content editor that preserves the current Signal Weekly landing-page design, text, visuals, signup flow, and Privacy Policy.
 - [ ] Clarify the hosting, database, and cost implications of the no-code editor before selecting an implementation path.
 - [ ] Design the layman-friendly management features for subscriber collection, downloads, content updates, ATS links, and live-training links.
 - [ ] Clarify the independent-access and editing arrangement for the no-code Signal Weekly editor.
-- [ ] Upgrade and build the secure no-code Signal Weekly Editor with editable content, downloads, ATS links, and live-session links.
+- [x] Upgrade and build the secure no-code Signal Weekly Editor with editable content, downloads, ATS links, and live-session links.
 - [ ] Retrieve the Signal Weekly Manus task share link for support’s project-binding investigation.
 - [ ] Retry project connection and the full-stack Editor upgrade after completing the Manus support cache and login reset steps.
 - [ ] Validate the support-repaired project GitHub access with a checkpoint, then resume the no-code editor upgrade.
@@ -62,3 +62,12 @@
 - [ ] Replace the mismatched Google Search Console TXT token and complete domain verification before sitemap submission.
 - [ ] Review Beehiiv confirmation and welcome automations, then create and promote the first truthful ATS resource.
 - [ ] Add a dedicated Resources page for the Executive ATS Résumé Audit and future downloadable guides.
+- [x] Upgrade the project to support a secure owner-only Signal Weekly content editor for all landing-page sections.
+- [x] Build the layman-friendly editor for newsletter copy, visual links, resource listings, ATS links and live-training links.
+- [x] Create and publish the first interview-preparation guide in the Resources library.
+- [ ] Complete an end-to-end Beehiiv test with a fresh unused email address, including confirmation, redirect and welcome email.
+- [ ] Request indexing of https://www.signrl.com/resources in Google Search Console.
+- [x] Wire the remaining homepage copy, logo, hero image and visual asset URLs into the secure editor-backed content model.
+- [x] Verify every public landing-page section renders from saved editor content rather than hardcoded fallback strings.
+- [x] Repair the GitHub Pages direct-route response for /resources so search crawlers receive HTTP 200 rather than HTTP 404.
+- [ ] Re-run the Google Search Console live test and request indexing for https://www.signrl.com/resources after the direct-route repair is published.

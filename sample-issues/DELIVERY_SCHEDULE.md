@@ -13,7 +13,7 @@ The public site presents a one-page preview for every sample. Sample Briefing 01
 | Timing | Subscriber edition | Suggested subject line | Required delivery status |
 |---|---|---|---|
 | Welcome Email | 01 — Evidence Before Adjectives | Your Signal Weekly starter working page | Complete one-page starter working page; not counted as a weekly reader edition |
-| Week 1 | 02 — The ATS Translation Layer | From the Sample Library: translate experience without keyword stuffing | Expand, verify, and link an 8–12-page reader edition before send |
+| Week 1 | 02 — The ATS Translation Layer | From the Sample Library: translate experience without keyword stuffing | **Expanded and verified:** ten-page reader-edition master retained for owner review; add its Beehiiv delivery link only after final publishing approval |
 | Week 2 | 03 — Your Three-Story Interview Bank | From the Sample Library: the three stories worth preparing | Expand, verify, and link an 8–12-page reader edition before send |
 | Week 3 | 04 — The Question Behind the Question | From the Sample Library: decode the difficult question | Expand, verify, and link an 8–12-page reader edition before send |
 | Week 4 | 05 — Research, Reflect, Rehearse | From the Sample Library: a better interview-prep note | Expand, verify, and link an 8–12-page reader edition before send |

@@ -65,7 +65,7 @@
 - [x] Upgrade the project to support a secure owner-only Signal Weekly content editor for all landing-page sections.
 - [x] Build the layman-friendly editor for newsletter copy, visual links, resource listings, ATS links and live-training links.
 - [x] Create and publish the first interview-preparation guide in the Resources library.
-- [ ] Complete an end-to-end Beehiiv test with a fresh unused email address, including confirmation, redirect and welcome email.
+- [x] Complete an end-to-end Beehiiv test with a fresh unused email address, including confirmation, redirect and welcome email.
 - [x] Request indexing of https://www.signrl.com/resources in Google Search Console.
 - [x] Wire the remaining homepage copy, logo, hero image and visual asset URLs into the secure editor-backed content model.
 - [x] Verify every public landing-page section renders from saved editor content rather than hardcoded fallback strings.
@@ -75,3 +75,4 @@
 - [ ] Align www.signrl.com with the editor-backed managed application before relying on editor saves for public content updates.
 - [ ] Migrate www.signrl.com from GitHub Pages to the editor-backed managed Signal Weekly application while retaining GitHub Pages as a recoverable backup.
 - [x] Add a one-click editor download that exports the current managed website content, resources and redirect links as a readable backup file.
+- [x] Keep www.signrl.com on GitHub Pages and defer the managed custom-domain migration until the owner separately confirms an upgrade decision.

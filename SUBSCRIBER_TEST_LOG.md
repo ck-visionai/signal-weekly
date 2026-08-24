@@ -9,6 +9,6 @@ The site owner completed a live subscription test with a fresh email address tha
 | Signup submitted on `https://www.signrl.com` | Successful |
 | Beehiiv confirmation link received and used | Successful |
 | Post-confirmation redirect to `https://www.signrl.com` | Successful |
-| Welcome email delivery | Pending confirmation; check Inbox and Spam/Junk within 30 minutes |
+| Welcome email delivery | Successful; received after confirmation and redirect |
 
 No email address is recorded in this project log.

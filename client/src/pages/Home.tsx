@@ -122,7 +122,7 @@ export default function Home() {
         <nav className={`nav-links ${menuOpen ? "nav-links--open" : ""}`} aria-label="Primary navigation">
           <a href="#inside" onClick={() => setMenuOpen(false)}>Inside the brief</a>
           <a href="#sample" onClick={() => setMenuOpen(false)}>Sample issue</a>
-          <a href="#archive" onClick={() => setMenuOpen(false)}>Archive</a>
+          <a href="/resources" onClick={() => setMenuOpen(false)}>Resources</a>
         </nav>
 
         <a className="topbar-cta" href="#subscribe">
@@ -318,7 +318,7 @@ export default function Home() {
           <p className="footer-management">Signal Weekly is a Signrl publication, managed by Signrl.</p>
         </div>
         <div className="footer-links">
-          <div><p>EXPLORE</p><a href="#sample">Sample issues</a><a href="#inside">What you’ll get</a><a href="https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/RHWORFZPTcCpUqFY.pdf" target="_blank" rel="noreferrer">ATS résumé audit <ArrowUpRight size={13} /></a><a href="#subscribe">Subscribe</a></div>
+          <div><p>EXPLORE</p><a href="/resources">Resources <ArrowUpRight size={13} /></a><a href="#sample">Sample issues</a><a href="#inside">What you’ll get</a><a href="https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/RHWORFZPTcCpUqFY.pdf" target="_blank" rel="noreferrer">ATS résumé audit <ArrowUpRight size={13} /></a><a href="#subscribe">Subscribe</a></div>
           <div><p>ELSEWHERE</p><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn <Linkedin size={13} /></a><a href="mailto:signalweeklyhq@gmail.com">Contact <ArrowUpRight size={13} /></a></div>
           <div><p>LEGAL</p><a href="/privacy">Privacy Policy <ArrowUpRight size={13} /></a></div>
         </div>

@@ -7,6 +7,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Privacy from "./pages/Privacy";
+import Resources from "./pages/Resources";
 
 /**
  * Signal Weekly / Executive Signal Desk
@@ -39,19 +40,25 @@ function RouteSeo() {
 
   useEffect(() => {
     const isPrivacy = location === "/privacy";
+    const isResources = location === "/resources";
     const title = isPrivacy
       ? "Privacy Policy | Signal Weekly"
-      : "Signal Weekly | Career Intelligence for Leaders";
+      : isResources
+        ? "Resources | Signal Weekly"
+        : "Signal Weekly | Career Intelligence for Leaders";
     const description = isPrivacy
       ? "Read the Signal Weekly Privacy Policy and learn how subscription information is handled."
-      : "Signal Weekly is a free career-intelligence briefing with practical ATS résumé, executive interview and salary-negotiation guidance for mid-career and senior professionals.";
+      : isResources
+        ? "Download practical Signal Weekly guides for ATS résumés, executive interviews and career decisions."
+        : "Signal Weekly is a free career-intelligence briefing with practical ATS résumé, executive interview and salary-negotiation guidance for mid-career and senior professionals.";
+    const path = isPrivacy ? "/privacy" : isResources ? "/resources" : "/";
 
     document.title = title;
-    setCanonical(isPrivacy ? "/privacy" : "/");
+    setCanonical(path);
     setMeta('meta[name="description"]', "name", "description", description);
     setMeta('meta[property="og:title"]', "property", "og:title", title);
     setMeta('meta[property="og:description"]', "property", "og:description", description);
-    setMeta('meta[property="og:url"]', "property", "og:url", `${SITE_URL}${isPrivacy ? "/privacy" : "/"}`);
+    setMeta('meta[property="og:url"]', "property", "og:url", `${SITE_URL}${path}`);
   }, [location]);
 
   return null;
@@ -62,6 +69,7 @@ function Router() {
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/privacy"} component={Privacy} />
+      <Route path={"/resources"} component={Resources} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

@@ -61,3 +61,4 @@
 - [ ] Continue Beehiiv launch configuration and prepare the first ATS resource while Search Console verification propagates.
 - [ ] Replace the mismatched Google Search Console TXT token and complete domain verification before sitemap submission.
 - [ ] Review Beehiiv confirmation and welcome automations, then create and promote the first truthful ATS resource.
+- [ ] Add a dedicated Resources page for the Executive ATS Résumé Audit and future downloadable guides.

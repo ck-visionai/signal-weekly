@@ -61,3 +61,14 @@ The GitHub Pages deployment for checkpoint `83be9e1a` completed successfully thr
 | Offer Strategy visual | **Pass.** The public homepage served the distinct whole-role negotiation image rather than the repeated interview paper-stack artwork. |
 | Signup target | **Pass.** The public `#subscribe` destination contained the Beehiiv email input and `Get my free page` submission button. |
 | Footer “Start with the free working page” click | **Pass.** A live click from the deployed footer moved the page to the embedded Beehiiv form in the hero instead of leaving the visitor at the footer or returning them to the header. |
+
+## 25 August 2026 — Unified signup-language release
+
+GitHub Pages workflow `32756370567` completed successfully for checkpoint `af82e80f`.
+
+| Check | Result |
+|---|---|
+| Primary subscriber action | **Pass.** The public top navigation, hero label, Practice section, closing action and footer now consistently use `Get my free page`. |
+| Offer clarity | **Pass.** The hero and closing copy continue to state that the reward is a complete free working page. |
+| Frequency wording | **Pass.** The hero, form note, trust line and closing section consistently promise one weekly Friday brief. |
+| Beehiiv state | **Unchanged and unpublished.** The deployed website copy was updated without publishing or sending any Beehiiv draft. |

@@ -1,0 +1,23 @@
+export type SampleIssue = {
+  number: string;
+  title: string;
+  subtitle: string;
+  previewUrl: string;
+  completeUrl: string;
+  freeComplete: boolean;
+};
+
+export const sampleIssues: SampleIssue[] = [
+  { number: "01", title: "Evidence Before Adjectives", subtitle: "Turn broad claims into credible evidence.", previewUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/wxjEqMwQCFnnokEB.pdf", completeUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/ZmOykZqdoDULaVlo.pdf", freeComplete: true },
+  { number: "02", title: "The ATS Translation Layer", subtitle: "Use role language without borrowing experience.", previewUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/IgRIpZMcJBjmWwEO.pdf", completeUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/jVmIDTAdfCjBTLgV.pdf", freeComplete: false },
+  { number: "03", title: "Your Three-Story Interview Bank", subtitle: "Prepare flexible, truthful interview evidence.", previewUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/NTIqRRNluVCBbsJf.pdf", completeUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/AvIPzeDgkgHYrmeC.pdf", freeComplete: false },
+  { number: "04", title: "The Question Behind the Question", subtitle: "Find the capability beneath the difficult prompt.", previewUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/UHpnHfRiRwCycmaH.pdf", completeUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/pSemUejhEQVZUUzR.pdf", freeComplete: false },
+  { number: "05", title: "Research, Reflect, Rehearse", subtitle: "Connect preparation to your own relevant proof.", previewUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/oKGbFCKSVpQHPiIB.pdf", completeUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/xiJCcIsEJONrImeB.pdf", freeComplete: false },
+  { number: "06", title: "The Executive Screen", subtitle: "Make the first ten minutes count.", previewUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/mVWqKkqagFRRTmRr.pdf", completeUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/PEyymDvENnGTYJQd.pdf", freeComplete: false },
+  { number: "07", title: "When They Ask About a Failure", subtitle: "Discuss setbacks with ownership and learning.", previewUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/BpPjrRgrSPFNHfCQ.pdf", completeUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/MvDiSAFFWWUsCrpq.pdf", freeComplete: false },
+  { number: "08", title: "Questions That Help You Evaluate the Role", subtitle: "Use questions to understand scope and decision rights.", previewUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/neBQYoXNTzJlrkOd.pdf", completeUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/vXNUlYvbwTNetTsq.pdf", freeComplete: false },
+  { number: "09", title: "The Whole-Role Negotiation Map", subtitle: "Evaluate the offer beyond headline salary.", previewUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/YsQetRkmTULUFuNM.pdf", completeUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/CUtISLkFFqFDwYKP.pdf", freeComplete: false },
+  { number: "10", title: "Ask for Time Before You Answer", subtitle: "Make room for a considered decision.", previewUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/JhgqbijYdLpsadry.pdf", completeUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/ZnBixbylHIUQBNXr.pdf", freeComplete: false },
+  { number: "11", title: "When Salary Cannot Move", subtitle: "Clarify what matters when constraints are real.", previewUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/UseAFBDfgVEUgqId.pdf", completeUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/tBzTEGZvXGmrhpbF.pdf", freeComplete: false },
+  { number: "12", title: "The Career Decision Memo", subtitle: "Make the trade-offs visible before you decide.", previewUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/kNOkeGlGzDNEeXAU.pdf", completeUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/VRkQkIMdZBIHpSOH.pdf", freeComplete: false },
+];

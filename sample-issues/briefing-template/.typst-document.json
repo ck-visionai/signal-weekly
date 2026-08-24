@@ -1,0 +1,10 @@
+{
+  "entry": "main.typ",
+  "metadata": {
+    "author": "Signal Weekly",
+    "subtitle": "Preview edition",
+    "title": "Signal Weekly Sample Briefing"
+  },
+  "mode": "report",
+  "theme": "report-theme.typ"
+}

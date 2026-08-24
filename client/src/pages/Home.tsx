@@ -185,7 +185,7 @@ export default function Home() {
               <div className="eyebrow eyebrow--light"><span className="eyebrow-line" />{content.archive.eyebrow}</div>
               <h2 id="sample-title">{content.archive.heading}<br /><em>{content.archive.emphasis}</em></h2>
             </div>
-            <a className="text-link text-link--light" href="#archive">{content.navigation.browseArchiveLabel} <ArrowUpRight size={16} /></a>
+            <a className="text-link text-link--light" href="/resources#sample-issues">{content.navigation.browseArchiveLabel} <ArrowUpRight size={16} /></a>
           </div>
 
           <div className="sample-layout">

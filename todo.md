@@ -76,3 +76,12 @@
 - [ ] Migrate www.signrl.com from GitHub Pages to the editor-backed managed Signal Weekly application while retaining GitHub Pages as a recoverable backup.
 - [x] Add a one-click editor download that exports the current managed website content, resources and redirect links as a readable backup file.
 - [x] Keep www.signrl.com on GitHub Pages and defer the managed custom-domain migration until the owner separately confirms an upgrade decision.
+- [x] Create twelve clearly labelled Signal Weekly sample briefing PDFs without representing them as previously issued newsletters.
+- [x] Add a public Sample Issues library page or section where visitors can browse and open all twelve sample PDFs.
+- [x] Fix the Resources value-card headings so “Evidence-led” and “Built to use” do not wrap across visually awkward lines.
+- [ ] Prepare a prioritized subscriber-growth strategy and lead-magnet plan for Signal Weekly’s first acquisition cycle.
+- [ ] Publish one complete free sample, preview the remaining eleven samples, and pair full-download access with a verified Beehiiv subscriber-delivery path.
+- [x] Prepare a clearly labelled twelve-week “From the Sample Library” Beehiiv delivery schedule without presenting sample briefings as newly issued newsletters.
+- [x] Expand the eleven subscriber-delivered sample briefings beyond their public previews into fuller multi-page PDF editions.
+- [ ] Update the Beehiiv welcome or first manual follow-up email to deliver the promised first Sample Library edition after a confirmed signup.
+- [ ] Verify the post-signup delivery path for locked complete sample editions before describing it as subscriber access on the public site.

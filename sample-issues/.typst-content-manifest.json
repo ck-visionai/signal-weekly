@@ -1,0 +1,11 @@
+{
+  "task_kind": "new-document",
+  "output": "pdf",
+  "signals": ["editorial career briefing", "twelve short preview documents"],
+  "hard_constraints": ["Clearly label every document as a sample briefing", "Do not imply a historical send date or prior subscriber issue", "Include educational-guidance disclaimer and source links"],
+  "content_features": {
+    "code_blocks": 0,
+    "defined_terms": 3,
+    "portrait_images": 0
+  }
+}

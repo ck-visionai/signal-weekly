@@ -15,3 +15,15 @@ The GitHub Pages deployment for checkpoint `d6048e0e` completed successfully.
 ## Remaining note
 
 The public homepage still uses several CTA phrasings. Standardising the final wording remains an unimplemented creative-direction decision.
+
+## 24 August 2026 — Career Signal Weekly refined-teal release
+
+The GitHub Pages deployment for checkpoint `9c069cfb` completed successfully through workflow run `32726666407`.
+
+| Check | Result |
+|---|---|
+| Canonical homepage | **Pass.** `www.signrl.com` displayed **Career Signal Weekly**, the temporary three-bar teal mark, the teal hero treatment and the existing free-working-page signup path. |
+| Resources page | **Pass.** `/resources` displayed the renamed **Career Signal Weekly Library**, retained the transparent one-free-sample / eleven-preview delivery model, and preserved the existing document links. |
+| Privacy Policy | **Pass.** `/privacy` displayed Career Signal Weekly in its title, lead, policy wording and contact introduction while preserving Shortlizt LLC, the existing contact email and mailing address. |
+| SEO title | **Pass.** The deployed homepage title was `Career Signal Weekly | Career Intelligence for Leaders`. |
+| Beehiiv form and Welcome Email | **Unchanged and unpublished.** The saved drafts were not published or sent as part of this release. |

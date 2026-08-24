@@ -80,6 +80,8 @@
 - [x] Add a public Sample Issues library page or section where visitors can browse and open all twelve sample PDFs.
 - [x] Fix the Resources value-card headings so “Evidence-led” and “Built to use” do not wrap across visually awkward lines.
 - [ ] Prepare a prioritized subscriber-growth strategy and lead-magnet plan for Signal Weekly’s first acquisition cycle.
+- [ ] Map and streamline the visitor-to-subscriber journey from www.signrl.com through confirmation, welcome email and first Sample Briefing access.
+- [x] Remove the misleading immediate “Get the complete edition” actions from Samples 02–12 and clearly label their progressive email-delivery status.
 - [ ] Publish one complete free sample, preview the remaining eleven samples, and pair full-download access with a verified Beehiiv subscriber-delivery path.
 - [x] Prepare a clearly labelled twelve-week “From the Sample Library” Beehiiv delivery schedule without presenting sample briefings as newly issued newsletters.
 - [x] Expand the eleven subscriber-delivered sample briefings beyond their public previews into fuller multi-page PDF editions.

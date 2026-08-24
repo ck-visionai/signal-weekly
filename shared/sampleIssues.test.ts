@@ -12,4 +12,9 @@ describe("sample briefing library", () => {
     expect(sampleIssues.filter((issue) => issue.freeComplete)).toHaveLength(1);
     expect(sampleIssues.find((issue) => issue.freeComplete)?.number).toBe("01");
   });
+
+  it("labels the remaining editions as progressive email deliveries rather than immediate downloads", () => {
+    expect(sampleIssues.find((issue) => issue.number === "02")?.deliveryLabel).toBe("Next full edition arrives by email");
+    expect(sampleIssues.filter((issue) => !issue.freeComplete).every((issue) => issue.deliveryLabel.includes("arrives") && issue.deliveryLabel.includes("email"))).toBe(true);
+  });
 });

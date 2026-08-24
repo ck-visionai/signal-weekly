@@ -85,3 +85,4 @@
 - [x] Expand the eleven subscriber-delivered sample briefings beyond their public previews into fuller multi-page PDF editions.
 - [ ] Update the Beehiiv welcome or first manual follow-up email to deliver the promised first Sample Library edition after a confirmed signup.
 - [ ] Verify the post-signup delivery path for locked complete sample editions before describing it as subscriber access on the public site.
+- [x] Fix direct navigation from the Beehiiv welcome-email Resources link so #sample-issues scrolls to the Sample Briefing Library after the page loads.

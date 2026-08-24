@@ -2,10 +2,12 @@
  * Signal Weekly / Executive Signal Desk Resources
  * Editorial resource-library page: warm paper, graphite document panels and Signal Cobalt actions.
  */
+import { useEffect } from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight, CheckCircle2, Clock3, Download, FileText, Sparkles } from "lucide-react";
 import { trpc } from "@/lib/trpc";
 import { defaultSiteContent } from "@shared/siteContent";
 import { sampleIssues } from "@shared/sampleIssues";
+import { getResourcesAnchorTarget } from "@shared/resourcesNavigation";
 
 function SignalMark({ inverse = false, src }: { inverse?: boolean; src?: string }) {
   return (
@@ -23,6 +25,21 @@ export default function Resources() {
   const content = contentQuery.data ?? defaultSiteContent;
   const resource = content.resources;
   const featured = resource.featured;
+
+  useEffect(() => {
+    const scrollToRequestedSection = () => {
+      const targetId = getResourcesAnchorTarget(window.location.hash);
+      if (!targetId) return;
+
+      window.requestAnimationFrame(() => {
+        document.getElementById(targetId)?.scrollIntoView({ block: "start" });
+      });
+    };
+
+    scrollToRequestedSection();
+    window.addEventListener("hashchange", scrollToRequestedSection);
+    return () => window.removeEventListener("hashchange", scrollToRequestedSection);
+  }, []);
 
   return (
     <div className="resources-page">

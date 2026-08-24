@@ -1,0 +1,143 @@
+{
+  "cover_objective": "Build a compact set of three truthful interview stories—a change story, a problem‑solving story and a learning story—that you can adapt to many common questions without inventing details or overclaiming.",
+  "decision_title": "Edition 03 — Your Three-Story Interview Bank",
+  "decision_intro": "Interviews rarely follow a script, but they often circle the same themes: how you handle change, how you solve problems and how you learn. A three‑story interview bank gives you ready, flexible material that can fit different prompts without sounding rehearsed. It also disciplines you to present evidence, context and outcomes in a way senior interviewers can evaluate quickly.\n\nMid‑career and executive professionals face a particular challenge: your track record is broad. Without selection, you risk offering long, unfocused monologues or thin, generic claims. This edition narrows the aperture. You will design three stories that carry most of your proof. You will also learn to adapt each story for different functions and levels of detail. The goal is not entertainment; it is clarity about how you operate when stakes are real.\n\nYou will draft, test and refine each story until it is short, specific and portable. You will map the roles you played, what changed because you acted, and what you learned that you would use again. Then you will practice translating each story to adjacent questions so you can pivot comfortably in the room.",
+  "orientation": "Your three‑story bank is not a script; it is a source of scenes you can tell in a few tight minutes, either as proof after a claim or as a direct answer to a behavioral question. Each story includes five parts: context, stakes, constraint, action and outcome with reflection. You will keep details honest, avoid vague superlatives and cite concrete evidence you can explain if asked. You will create three primary stories, each of which can answer multiple prompts:\n\n- Change story: You led, shaped or adapted to a shift in direction, scope, team, or market condition.\n- Problem‑solving story: You diagnosed a hard issue, chose a path and executed with trade‑offs in view.\n- Learning story: You discovered you were wrong or unprepared, corrected course and improved future performance.\n\nAs you draft, you will tag each sentence by purpose: scene‑setting, choice, action, evidence, lesson. This tagging helps you compress or expand your answer live without losing the thread. You will also build a small glossary of your own phrases, so your language stays consistent and credible from screening to panel to debrief.",
+  "read_steps": [
+    {
+      "title": "Identify the right scenes",
+      "body": "Choose moments with clear stakes where your actions mattered. Look for scenes with time pressure, resource limits or conflicting goals. Avoid projects where your role is hard to isolate. Prefer episodes where you can explain your decision path and cite evidence another person could recognize, such as a document you authored, a timeline you managed or an implementation you oversaw. Capture only one primary outcome per story so you do not dilute the point."
+    },
+    {
+      "title": "Structure for adaptability",
+      "body": "Build each story with a short context, the specific constraint you faced, two or three decisive actions you took and one outcome with a reflection. Keep the context under three sentences. Name the constraint in plain language. Choose actions that show judgment, not just activity. State the outcome in factual terms using observable changes, not unverified impact claims. Close with what you would repeat or do differently. This structure lets you compress to 60 seconds or expand to three minutes as needed."
+    },
+    {
+      "title": "Extract portable evidence",
+      "body": "List the tangible artifacts and observations that back your story. Examples include a process you designed, a decision log you kept, a role you played in a meeting or a shift in backlog, timeline or quality. You do not need numbers to be credible; you do need specifics. Map each piece of evidence to a possible interviewer concern, such as risk management, stakeholder alignment or speed of learning. This mapping helps you pivot your story toward the question in front of you."
+    },
+    {
+      "title": "Practice clean pivots",
+      "body": "Most questions have siblings. A change story can also answer a prompt about leadership style, influence or resilience. A problem‑solving story can answer a prompt about prioritization or conflict. A learning story can answer a prompt about feedback or humility. Write one bridge sentence for each sibling question. Practice saying the bridge out loud before the story so the interviewer understands why your example is relevant."
+    }
+  ],
+  "extraction": "Start by scanning the past three to five years for episodes with visible turning points. Write a brief inventory without editing: what changed, who was involved, what you owned and what makes the scene meaningful. Then test each scene with two questions: Could I tell this in under three minutes? Could I explain my choices step by step? If the answer to either question is no, set the scene aside or split it into smaller pieces.\n\nFor each candidate scene, write a one‑line headline that names the central tension, such as shifting scope, conflicting priorities, or a quality issue near a deadline. Under the headline, jot the constraint in one sentence. Then list three actions you took that you can defend under follow‑up questioning. Finally, note one outcome you can describe factually and one lesson you carried forward. This extraction step gives you raw material you can shape into your final three stories.\n\nDo not chase perfect chronology. Instead, capture the beats that matter: the moment you noticed the real problem, the decision you made, the trade‑off you accepted and what others could observe changed. Keep the language plain. Avoid adjectives you would struggle to substantiate. If a detail feels fuzzy, flag it for verification or replace it with something you can stand behind.",
+  "inventory_intro": "Before you draft final stories, build a short inventory of episodes that could carry weight in a senior interview. Aim for six to nine candidate scenes, then select the strongest one for each story type. This step prevents you from locking onto a mediocre story just because it is top of mind. It also gives you backup material if an interviewer has already heard one of your examples or if a conflict of interest arises with a reference.",
+  "inventory_steps": [
+    {
+      "title": "Surface candidate scenes",
+      "body": "Review recent roles, transitions and initiatives. For each, ask: Where did I face a real constraint? Where did my judgment change the outcome? Capture quick notes about the setting, your role, the core decision and the visible result. Keep the list messy at first; variety beats polish at this stage."
+    },
+    {
+      "title": "Score for strength and portability",
+      "body": "Rate each scene on two axes from low to high: stakes and portability. Stakes reflect why it mattered. Portability reflects how many different questions it could answer. Prefer scenes with clear stakes and at least moderate portability. If a scene requires ten minutes of background, it is likely too heavy for your bank."
+    },
+    {
+      "title": "Select and narrow scope",
+      "body": "Choose one change, one problem‑solving and one learning scene. Narrow each to a single core decision. Trim side plots that do not support the decision path. If two stories overlap heavily, keep one and retire the other to avoid repetition across interviews."
+    },
+    {
+      "title": "Name the takeaway",
+      "body": "Give each selected story a short title that signals the takeaway, not the task. Examples: Resetting direction under shifting inputs. Stabilizing delivery with a simple rule set. Rebuilding trust after a missed handoff. A clear title helps you remember the point under pressure."
+    }
+  ],
+  "project_prompt": "Draft three core stories you can tell in two to three minutes each. For each, write context, constraint, two to three actions, outcome and reflection. Then produce two alternate openings and two alternate endings that fit sibling questions. Keep all claims specific enough that you could explain how you know them to be true.",
+  "role_phrase": "For this role, here is what I want you to see about how I operate: I clarify stakes early, choose a path with constraints in view and create a line of sight between decisions and outcomes.",
+  "evidence_phrase": "What I can show is a concrete trail of choices, artifacts and observations that another person could verify if needed.",
+  "translation_rule": "One scene, three angles: keep the context and actions constant, but shift the emphasis by changing your opening, the constraint you highlight or the lesson you foreground so the story answers the question that was actually asked.",
+  "rewrite_prompt": "Rewrite each story three times: once to emphasize leadership and influence, once to emphasize analysis and decision quality and once to emphasize learning and adjustment. Change only the opening frame and the closing reflection while keeping the core actions intact.",
+  "fragile": "Fragile stories rely on claims you cannot defend under light questioning. Warning signs include: grand outcomes with no trail, fuzzy timelines, inflated scope, heroic language that sidelines others and leaps from your action to a large impact without visible connection. Fragile stories also overuse vague terms like optimized, transformed or significantly without naming what changed in observable terms. Another red flag is when the only proof is your opinion or a single compliment without context.",
+  "defensible": "Defensible stories stay close to what you owned, what you decided and what others could see changed. They name constraints clearly, such as time, budget, quality bar or stakeholder alignment. They make trade‑offs explicit and explain why a chosen path was reasonable at the time. They cite artifacts such as a plan you authored, a meeting you led, a choice you documented or a before‑and‑after practice. They describe outcomes in terms of behaviors, clarity, sequence or reliability rather than sweeping impact language. They include a short reflection on what you would repeat or change next time.",
+  "credibility_audit": "Before you consider a story final, run this audit:\n\n- Role clarity: Can you state your role in one sentence without exaggeration? Could a teammate confirm it?\n- Constraint accuracy: Are the limits you cite real and specific, not excuses? Can you name who set them or how they arose?\n- Decision trail: Can you recount the key options, the reason you chose the path you did and the trade‑offs you accepted?\n- Evidence sufficiency: Do you have at least two observable pieces of evidence that do not depend on memory alone?\n- Outcome precision: Can you describe what changed in plain terms another person would recognize?\n- Reflection depth: Have you named one concrete lesson that influenced a later action or standard you now use?\n- Brevity check: Can you tell it cleanly in under three minutes without rushing?",
+  "worksheet_prompts": [
+    {
+      "label": "Change story builder",
+      "prompt": "Write a scene where direction, scope, team structure or external conditions shifted. Specify: the moment you recognized the change, the constraint that most shaped your response, two or three actions you took to reset or adapt and one observable outcome. Close with one practice you now use in similar situations. Include names of roles involved, not people, and include any artifacts you created or updated."
+    },
+    {
+      "label": "Problem-solving story builder",
+      "prompt": "Choose a knotty issue you owned. Outline: the core question you needed to answer, the options you considered, the test or principle that helped you choose, the actions you took to execute and one visible result. Add the trade‑off you accepted and why it was reasonable at the time. List any documents, processes or timelines that could corroborate your account."
+    },
+    {
+      "label": "Learning story builder",
+      "prompt": "Pick a time you were wrong, underinformed or surprised. Define: the assumption that failed, the feedback or event that revealed it, what you changed next, and how you incorporated the learning into your habits or standards. Name one later moment where that learning paid off. Keep the tone professional and avoid self‑punishment; focus on course correction and growth."
+    },
+    {
+      "label": "Adaptation map",
+      "prompt": "For each story, write two sibling questions it can answer. Draft a one‑sentence bridge from the question to your story, then write an alternate opening that highlights the most relevant constraint or lesson. Note a different closing reflection that ties directly to the role you are targeting."
+    }
+  ],
+  "worked_examples": [
+    {
+      "before": "I led a major change that improved our results a lot. We had to switch priorities quickly and I made sure everyone got on board. It was hard, but I communicated the vision and people followed. In the end, the project was successful and leadership was pleased.",
+      "after": "Three months into an initiative, upstream inputs shifted and our sequence no longer matched reality. As delivery lead, I owned the rollout plan and saw that if we kept the plan as written we would miss a key dependency. The hard constraint was a fixed launch window set by an external partner. I paused the next sprint, gathered the three teams most affected and reframed the scope to protect the launch window. I published a one‑page decision note with the trade‑offs, moved one feature to a later train and added a daily dependency check. We hit the launch window with a reduced feature set and a clear follow‑on plan. I now use the one‑page decision note as a standard whenever scope shifts under time pressure.",
+      "insight": "The before version offers vague claims and no observable evidence. The after version states the constraint, the role, the decision path, the actions and the outcome in concrete terms without overclaiming impact. It also closes with a transferable practice."
+    },
+    {
+      "before": "There was a complicated problem with a tool and I solved it by working hard and collaborating. It took a while, but I figured it out and shared the solution with the team. People appreciated the effort and we moved forward.",
+      "after": "A reliability issue appeared in a tool the team relied on for daily work. As the person responsible for the workflow, I needed to decide whether to patch, replace or create a manual workaround. The constraint was limited expert availability that week. I listed the three options, tested the manual workaround with two users to confirm viability, and used that test to buy time for a deeper patch. I documented the decision and set a sunset date for the workaround so it would not become permanent. The team maintained continuity during the fix, and I added a rule: any workaround must include a clear exit date and owner.",
+      "insight": "The before version uses effort and collaboration as stand‑ins for judgment. The after version shows how options were weighed under a constraint, how a reversible step created space and how a simple rule prevented a temporary fix from becoming permanent."
+    }
+  ],
+  "transfer_prompt": "Rewrite each story for a different function or industry by changing only the framing and vocabulary. Keep the core decisions and evidence constant. Replace domain‑specific terms with role‑agnostic language and emphasize the constraint and judgment so the story resonates outside your original context.",
+  "review_steps": [
+    {
+      "title": "Tighten language and trim filler",
+      "body": "Cut adjectives that do not add proof. Replace vague verbs with specific actions. Remove side plots. Keep the context under three sentences. Ensure each action verb describes a choice, not just activity."
+    },
+    {
+      "title": "Stress‑test with follow‑ups",
+      "body": "Ask a colleague to interrupt you with realistic probes: What other options did you reject? Who pushed back? How did you know the risk was acceptable? If you cannot answer succinctly, add clarifying detail to your written version and practice delivering it."
+    },
+    {
+      "title": "Align to the target role",
+      "body": "Read the role description and choose two qualities you want the interviewer to see. Adjust your opening and closing lines so the story connects your way of working to those qualities. Do not change the facts; change the emphasis."
+    }
+  ],
+  "rehearsal": "Practice each story aloud until you can deliver the core in about two minutes without notes, then rehearse compressed and expanded versions. Record yourself once. Listen for hedging language, filler and speed. Practice the bridge sentence that connects the interviewer’s question to your story so the pivot feels natural. Rotate which story you open with so you do not default to the same example every time. Rehearse handing off to a follow‑up question by ending with a short reflection rather than a long coda.",
+  "spoken_prompt": "That question touches something I had to work through directly. May I share a brief example that shows how I approached it, the constraint I faced and what changed because of the choices I made?",
+  "action_days": [
+    "Day 1: Build your raw inventory by listing six to nine candidate scenes with one‑line headlines and constraints.",
+    "Day 2: Select one change, one problem‑solving and one learning scene. Write context, constraint, actions, outcome and reflection for each.",
+    "Day 3: Extract evidence for each story. List artifacts, decisions, timelines and observations another person could recognize.",
+    "Day 4: Write two sibling questions for each story and draft bridge sentences, alternate openings and alternate closings.",
+    "Day 5: Run the credibility audit on each story, then rehearse each at one, two and three minutes. Record once and note edits.",
+    "Day 6: Do a live mock with a peer. Ask for specific feedback on clarity of role, decision quality and adaptability to different prompts."
+  ],
+  "commitment": "I will carry three defensible stories into every interview and adapt them honestly to the question in front of me.",
+  "glossary": [
+    {
+      "term": "Story bank",
+      "definition": "A small set of prepared, truthful examples you can adapt to answer multiple interview questions."
+    },
+    {
+      "term": "Anchor question",
+      "definition": "The primary prompt a story answers directly, such as a question about change, problem solving or learning."
+    },
+    {
+      "term": "Pivot",
+      "definition": "A brief bridge that reframes a prepared story so it fits a different but related question."
+    },
+    {
+      "term": "Stakes",
+      "definition": "What could be lost or gained in the scene and why it mattered at the time."
+    },
+    {
+      "term": "Constraint",
+      "definition": "A limit such as time, budget, quality bar or stakeholder alignment that shaped your decision."
+    },
+    {
+      "term": "Reflection",
+      "definition": "A short statement of what you would repeat or adjust next time based on what you learned from the experience."
+    }
+  ],
+  "topic": {
+    "number": "03",
+    "slug": "three-story-interview-bank",
+    "title": "Your Three-Story Interview Bank",
+    "subtitle": "Prepare a compact set of truthful stories that can adapt to more than one question.",
+    "focus": "Build three flexible examples: a change story, a problem-solving story and a learning story.",
+    "source_label": "MIT Career Advising & Professional Development — STAR method",
+    "source_url": "https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/"
+  }
+}

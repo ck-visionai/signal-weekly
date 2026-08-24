@@ -1,0 +1,131 @@
+{
+  "cover_objective": "Equip you to draft a clear, one-page decision memo that surfaces what is known, what is unknown, what matters most, and what you will test next—so you can steer the choice instead of letting momentum do it for you.",
+  "decision_title": "Edition 12 — The Career Decision Memo",
+  "decision_intro": "Most career moves gather speed before you have language for the trade-offs. A recruiter replies, a colleague nudges, a deadline looms, and suddenly the calendar is making decisions you have not examined. This edition slows that process down. You will write a disciplined memo that separates evidence from inference, distinguishes criteria from preferences, and converts uncertainty into targeted questions. The goal is not a perfect answer. The goal is a documented choice you can revisit, explain, and pressure test.\n\nYou will consolidate signals from conversations, job descriptions, your own energy patterns, and constraints that are easy to ignore. You will name the gaps that block conviction and pick one next action with a short feedback loop. The structure is intentionally simple: context, criteria, options, evidence, uncertainty, trade-offs, and a next question. This produces clarity you can share with a mentor, partner, or manager and gives you a way to check your thinking against time and new information.",
+  "orientation": "Treat your memo as a working paper, not a manifesto. It records your current best view and invites disconfirming evidence. Clear boundaries in the document keep persuasion separate from inquiry. That separation prevents over-committing to an option just because you have spent time describing it.\n\nA good memo captures criteria as the scorecard, not the story. The story can be compelling, but the scorecard is how decisions hold up under pressure. Finally, aim for decisions that are reversible in small steps. When a choice is expensive to unwind, your memo should elevate the bar for evidence and the standard for timing.",
+  "read_steps": [
+    {
+      "title": "Name the decision and the decision type",
+      "body": "Write one sentence that states the decision and whether it is a now, soon, or later decision. This anchors urgency and scope. If it is a reversible choice, you can move quickly with lighter evidence. If it is hard to reverse, you slow down and raise your standard of proof."
+    },
+    {
+      "title": "Split facts, interpretations, and assumptions",
+      "body": "List what you know from direct observation, what you believe based on interpretation, and what you are assuming without data. Mark each clearly. This reveals where confidence is earned versus imported and highlights what would change your view."
+    },
+    {
+      "title": "Define criteria and their thresholds",
+      "body": "Turn vague preferences into explicit tests. For each criterion, set the minimum you will accept and the ideal you would like. Thresholds let you compare options without bending the rules each time a new detail appears."
+    }
+  ],
+  "extraction": "Start by dumping raw material without editing: notes from conversations, role descriptions, calendar snapshots, compensation ranges, family constraints, your curiosity level, and your non-starters. Do not organize yet. Once everything is visible, circle statements that are observable and underline items that are feelings or inferences. Move circled items to an evidence list and underlined items to assumptions to be tested. If you are missing counterevidence, add a placeholder to seek it. The aim is to remove hidden commitments that bias your reading of new information.",
+  "inventory_intro": "With raw notes visible, you will build a compact inventory. The inventory is the backbone of the memo: the criteria you will use, the options you are considering, and the present-state facts that should influence timing. Keep it short and unambiguous.",
+  "inventory_steps": [
+    {
+      "title": "Commit to 4–6 decision criteria",
+      "body": "Select a small set that reflect outcomes and conditions that matter to you, not just surface features. Examples include scope of responsibility, learning curve, manager fit, lifestyle constraints, risk exposure, and runway for growth. For each, add a threshold and a nice-to-have target."
+    },
+    {
+      "title": "Describe 2–3 credible options",
+      "body": "Write a short description of each live option. Include a neutral description of what the option is, its main upside, its main risk, and the decision deadline if one exists. Avoid arguing for or against an option in this section; that comes later."
+    },
+    {
+      "title": "Capture context and constraints",
+      "body": "List time-sensitive realities such as contract end dates, personal obligations, location limits, and financial guardrails. Include any organization-specific cycles that influence timing. This prevents criteria from floating free of the calendar."
+    }
+  ],
+  "project_prompt": "Draft a one-page memo with the sections: decision, context, criteria with thresholds, options, evidence, uncertainties, trade-offs, and next question with a date to review.",
+  "role_phrase": "Your role is to be the steward of the decision quality, not the champion of an outcome.",
+  "evidence_phrase": "Evidence is what would still be true if your preferred option disappeared tomorrow.",
+  "translation_rule": "Translate feelings into testable claims. When you write “this feels risky,” add “because X could happen” and name the indicator that would signal the risk sooner.",
+  "rewrite_prompt": "Rewrite any persuasive sentences into neutral descriptions, then move arguments to the trade-offs section.",
+  "fragile": "A fragile memo confuses activity with evidence and blends wishful thinking with facts. It includes undefined criteria, moving thresholds, and vague next steps. It leans on third-hand narratives and generic market talk without naming sources or dates. It treats uncertainty as a reason to wait indefinitely or, paradoxically, as a reason to rush. It hides constraints or frames them as temporary when they have proven persistent. Above all, it cannot be challenged because it has no place to insert counterevidence.",
+  "defensible": "A defensible memo separates claims from support, names dates and sources, and defines how each criterion will be measured. It welcomes disconfirming inputs by listing what would change the decision. It shows your work: options, thresholds, trade-offs, and the cost of waiting. It ends with a small, time-boxed next question that tightens uncertainty. It can be read by a neutral party who could reconstruct your reasoning and respectfully disagree on the merits.",
+  "credibility_audit": "Before sharing your memo, run a credibility audit. Check that every statement in the evidence section is anchored in a source you can point to, with dates if relevant. Scan for verbs that smuggle judgments, such as “clearly,” and replace them with specifics. Verify that thresholds are stable across options; if they shift, either justify the change or standardize them. Confirm that each uncertainty has a matching next step that can reduce it. Lastly, ask whether the cost of waiting is defined. If it is not, your timing logic is unfinished.",
+  "worksheet_prompts": [
+    {
+      "label": "Decision and type",
+      "prompt": "Write the decision in one sentence and label it reversible or hard to reverse. State whether the decision is now, soon, or later, and explain why in two lines using timing facts, not feelings."
+    },
+    {
+      "label": "Criteria with thresholds",
+      "prompt": "List 4–6 criteria. For each, define a minimum acceptable threshold and an ideal target. Add one sentence on how you will observe or test the criterion within two weeks without overcommitting."
+    },
+    {
+      "label": "Evidence and uncertainties",
+      "prompt": "Create two columns. In the first, list 6–10 pieces of evidence with source and date. In the second, list 3–5 uncertainties. For each uncertainty, write one next question and the smallest action that could produce a signal."
+    }
+  ],
+  "worked_examples": [
+    {
+      "before": "I should probably accept the external role because it seems like a step up. The title is better, the pay looks higher, and the recruiter is enthusiastic. My current role feels stagnant and the organization is slow. If I wait, the offer might expire and I do not want to miss a rare chance.",
+      "after": "Decision: move to the external role or stay for an internal scope change. Type: partially reversible; first 90 days are the window to pivot.\n\nCriteria and thresholds: scope of responsibility (minimum: lead a meaningful initiative; ideal: own a cross-functional area), manager fit (minimum: aligned expectations; ideal: ongoing coaching), learning curve (minimum: clear first-90-day plan; ideal: exposure to new domain), lifestyle (minimum: sustainable hours during peak cycles; ideal: predictable travel), compensation (minimum: within stated guardrails; ideal: incremental uplift), integrity of work (minimum: not primarily firefighting; ideal: mix of build and improve).\n\nEvidence: recruiter notes from two calls last week; written role description; conversation with prospective peer; calendar audit shows limited growth projects internally. Uncertainties: manager fit at new role; hidden scope creep; internal option viability. Next question: ask for a 30-minute call with future manager focused on expectations and first-90-day plan; in parallel, schedule meeting with current leader to propose a concrete internal scope change and decision timeline.",
+      "insight": "The rewrite shifts from momentum and fear of missing out to explicit thresholds and testable next steps. It balances upside with identified risks and widens the comparison to include an internal redesign, not just exit or stay by default."
+    },
+    {
+      "before": "I am thinking about launching a small advisory practice on the side. People say I would be great at it and I enjoy helping others. I can probably fit it around my current job and see how it goes. If it gains traction, I could consider it full time later.",
+      "after": "Decision: pilot a limited advisory offering alongside current employment or defer. Type: reversible if scoped tightly.\n\nCriteria and thresholds: conflict and compliance (minimum: written permission and alignment with policies; ideal: clear boundaries in writing), client definition (minimum: two conversations with target clients; ideal: a paid pilot), time budget (minimum: five hours weekly for six weeks; ideal: ten hours without crowding core role), demand signal (minimum: one concrete request; ideal: two paid engagements), financial guardrails (minimum: no upfront expenses beyond a small cap; ideal: expenses covered by pilot revenue).\n\nEvidence: review of employment agreement; informal interest from two contacts; calendar review shows available early mornings. Uncertainties: realistic demand; ability to maintain energy; reputational risk. Next question: draft a one-page offer and test it with two target clients; ask manager for written guidance on outside work policy before any commitments.",
+      "insight": "The rewrite clarifies scope, adds guardrails, and converts a vague intention into a small experiment with a defined time window. It also surfaces policy constraints early, avoiding avoidable risk."
+    }
+  ],
+  "transfer_prompt": "Pick a different decision with lower stakes, such as joining a committee or declining a speaking request. Build a mini memo using the same structure. Keep it to half a page. Applying the process to a smaller choice trains the habit of separating criteria, evidence, and uncertainty without the pressure of a major move.",
+  "review_steps": [
+    {
+      "title": "Pressure test with a neutral reader",
+      "body": "Share the memo with someone who has no stake in the outcome. Ask them to find assumptions, moving thresholds, or missing counterevidence. Accept edits on the structure before debating conclusions."
+    },
+    {
+      "title": "Run the reversal test",
+      "body": "Write one paragraph arguing for the option you currently favor least using only your stated criteria and thresholds. If you cannot make a credible case, your criteria may be biased toward a preferred story."
+    },
+    {
+      "title": "Set a review date and default",
+      "body": "Choose a date to revisit the memo after your next question is answered. Define the default action if you do nothing by that date. Defaults reduce drift and force a choice based on real signals."
+    }
+  ],
+  "rehearsal": "Practice saying your memo out loud in two minutes. Start with the decision and type, name the criteria briefly, state the leading option and why, then the key uncertainty and your next question. Rehearsing helps you hear where you slide from evidence into persuasion. If you cannot say it plainly, the memo needs another pass.",
+  "spoken_prompt": "Given my criteria and thresholds, what evidence or blind spot would most change your view of my leading option?",
+  "action_days": [
+    "Day 1: Write the one-sentence decision and label the decision type and timing. Draft your initial list of criteria with thresholds.",
+    "Day 2: Extract raw notes and split them into evidence, interpretations, and assumptions. Move each item into the right bucket.",
+    "Day 3: Describe 2–3 options neutrally and add context and constraints. Remove persuasive language and tighten to essentials.",
+    "Day 4: Fill the uncertainties list and pair each with a next question and the smallest action that could reduce it.",
+    "Day 5: Run the credibility audit and the reversal test. Ask a neutral reader for feedback focused on structure.",
+    "Day 6: Execute the next question. Calendar a review date and write the default action if no new evidence emerges."
+  ],
+  "commitment": "I will separate facts from inferences, name thresholds before comparing options, and convert uncertainty into a next question I can answer within a short time window. I will revisit the memo on the review date and adjust based on new signals.",
+  "glossary": [
+    {
+      "term": "Evidence",
+      "definition": "Observable information from a reliable source that would remain true regardless of your preferred outcome."
+    },
+    {
+      "term": "Criteria",
+      "definition": "The small set of decision tests you commit to apply consistently across options."
+    },
+    {
+      "term": "Threshold",
+      "definition": "The minimum acceptable level for a criterion that must be met for an option to remain viable."
+    },
+    {
+      "term": "Uncertainty",
+      "definition": "A specific, decision-relevant unknown that can be reduced through a targeted next question."
+    },
+    {
+      "term": "Trade-off",
+      "definition": "A cost you accept to gain a benefit, made explicit so it can be weighed against criteria."
+    },
+    {
+      "term": "Default",
+      "definition": "The action that will occur if you make no decision by your review date, used to prevent drift."
+    }
+  ],
+  "topic": {
+    "number": "12",
+    "slug": "career-decision-memo",
+    "title": "The Career Decision Memo",
+    "subtitle": "Make the trade-offs visible before momentum makes the decision for you.",
+    "focus": "Write a disciplined decision note that separates evidence, uncertainty, criteria and the next question.",
+    "source_label": "DePaul Career Center — Job Offers & Salary Negotiation",
+    "source_url": "https://resources.depaul.edu/career-center/resumes-interviews/Pages/salary-negotiation.aspx"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "cover_objective": "Equip you with a calm, professional process to ask for time before you accept, decline, or negotiate an offer. You will learn how to create a brief review window, surface missing information, and return with a clear, defensible next step.",
+  "decision_title": "Ask for time before you answer",
+  "decision_intro": "An offer can trigger an adrenaline spike. The impulse to please, to end uncertainty, or to match the other party’s pace can make you answer before you have read the fine print or compared the role to your real constraints. That is how smart people end up agreeing to terms they do not fully understand, or closing doors they would have rather kept open. A measured response is not hesitation; it is leadership over your own decision. Asking for time is a signal that you intend to take the role, the people, and the obligations seriously. It also reduces avoidable back-and-forth by allowing you to review the documents once, list gaps, and come back with a thoughtful response. In this edition, you will build a short script and a repeatable routine to request a review window, set expectations, and keep the tone constructive. You will leave with language you can use the next time someone says, “Can you give me your answer today?”",
+  "orientation": "Treat an offer decision like any other material commitment: clarify scope, confirm the numbers, understand contingencies, and align timing with existing obligations. Most offers tolerate a small, clearly defined pause. The key is to ask early, be specific about your timeline, and explain what you will do during that time. You are not asking for a favor; you are shaping a process that protects both sides from rushed mistakes. You will practice a neutral, warm tone that acknowledges momentum without making promises. You will collect the written offer, identify what is missing, and set a return date you can meet. If you get pushback, you will know how to hold your boundary and keep rapport. Clarity beats speed, and a brief pause now is cheaper than a difficult course correction later.",
+  "read_steps": [
+    {
+      "title": "Acknowledge receipt and interest without committing",
+      "body": "Start by recognizing the moment and signaling engagement. Say thank you, reflect back the role title and the person or team involved, and share one specific, sincere point of enthusiasm. Avoid language that implies agreement. Mention you will review the written materials and return by a specific time. Example: “Thank you for the offer for the Senior Operations role. I appreciated meeting the team and I’m excited by the mandate to streamline fulfillment. Please send the written offer and benefits summary; I’ll review everything and get back to you by Thursday afternoon with a considered response.” This shows presence and professionalism without painting yourself into a corner. It also prompts them to deliver the documents you need to make a responsible decision."
+    },
+    {
+      "title": "Ask for a clear, short review window",
+      "body": "Choose a window that you can defend and keep. Typical windows range from one to three business days for straightforward offers, and slightly longer if relocation, equity plans, or complex contingencies are involved. Ask for a specific return time rather than saying “soon.” Frame it as a step toward a better decision: “To give you a well-considered answer, I’d like to review the written offer and benefits details. Would close of business Wednesday work for my response?” If you need more time because of preexisting commitments, name the constraint without oversharing: “I’m traveling Tuesday, so I propose end of day Thursday.” Specificity reduces anxiety for both sides and lowers the chance of repeated check-ins."
+    },
+    {
+      "title": "Clarify documents and open items before you sign off",
+      "body": "Do not enter a review window with vague materials. Confirm exactly what you will receive: the written offer letter, role scope, base and variable pay details, any equity plan overview, benefits summary, paid time off policy, non-compete or confidentiality agreements, and contingencies such as background checks. If any piece is missing, ask for it now so your review period is meaningful. Example: “Could you include the bonus plan description and the benefits summary with the offer? That will allow me to complete my review by Thursday.” This is not negotiation; it is establishing the inputs you need to decide. The clearer the packet, the cleaner your follow-up questions and next steps will be."
+    },
+    {
+      "title": "Protect optionality and tone under pressure",
+      "body": "If pressed for an immediate answer, acknowledge urgency and restate your plan calmly. Avoid apologizing for needing time. Use language that shows respect and boundaries: “I hear the team is moving quickly. To make a responsible decision, I need to review the written terms. I can commit to a response by Wednesday 3 p.m.” If they cannot allow that, propose the shortest viable window you can actually honor, then use it well. Do not accept a verbal summary in place of documents. If an offer includes a same-day expiration, ask what is driving that timeline and whether a 24-hour extension is possible. You are not refusing to decide; you are ensuring the decision is grounded. When you keep your return promise, you demonstrate reliability and reduce friction even in a compressed process."
+    }
+  ],
+  "extraction": "As you read the offer packet, extract decision-critical facts into one place. Capture the role title, team, reporting line, location or remote policy, travel expectations, start date, and probation period if applicable. Record compensation elements separately: base pay cadence, bonus eligibility and timing, commission rules, equity type and vesting schedule, and any sign-on payment and repayment triggers. Note benefits highlights: medical and retirement plans, paid time off and holidays, leave policies, and any allowances. List contingencies: background check, references, work eligibility, non-compete, non-solicit, confidentiality, or intellectual property agreements. Flag practical items: equipment, expense policy, relocation or visa support, and work schedule norms. Mark what is clear, what is unclear, and what is missing so you can focus your follow-up on real gaps rather than rereading the entire packet repeatedly.",
+  "inventory_intro": "A clean inventory converts a vague sense of risk into a short, actionable list. This prevents reactive questions and helps you separate personal preferences from decision blockers. Build two columns: confirmed details and open questions. Then order your questions by impact on your decision, not by curiosity.",
+  "inventory_steps": [
+    {
+      "title": "Map confirmed facts versus unknowns",
+      "body": "On one page, write down everything you know for sure from the written documents. In a second list, capture anything that is ambiguous, missing, or verbally promised but not in writing. This includes titles that differ from what you discussed, unclear bonus formulas, non-compete language you have not seen, or benefits that are referenced but not described. Visual separation prevents you from treating an assumption like a fact. It also gives you a concrete script: “I have three open items to confirm before I finalize my response.”"
+    },
+    {
+      "title": "Rank questions by decision impact",
+      "body": "Not all unknowns are equal. Identify which open items could change your decision or affect your first 90 days meaningfully. Examples include reporting line, variable pay mechanics, schedule expectations, or a relocation requirement. Lower-impact items, such as a minor equipment preference, can be resolved later. Rank your questions high, medium, or low impact. Lead your follow-up with the high-impact items so that, if time is tight, the conversation still covers what truly matters."
+    },
+    {
+      "title": "Define your non-negotiables and flex zones",
+      "body": "Before you re-engage, name your must-haves and where you can flex. Non-negotiables might be a specific start date due to notice requirements, a remote day to accommodate caregiving, or written clarity on bonus eligibility. Flex zones might include title fine-tuning or a one-time start-up task that falls outside your usual scope. Write them down. This reduces the chance of agreeing to something in the moment that conflicts with a prior commitment or value."
+    },
+    {
+      "title": "Plan how you will use your review window",
+      "body": "Decide the exact steps you will take and when: read the full packet, extract facts, research benefits questions you can answer independently, compile your top five clarifying questions, and schedule a 15–20 minute follow-up call if needed. Put these steps on your calendar inside the window you requested. When you know your plan, you are less likely to burn the time ruminating, and more likely to return with a crisp response that moves the process forward."
+    }
+  ],
+  "project_prompt": "Draft a short, respectful request for time that you could send today in response to an offer. Name the documents you need, the exact time you will respond, and what you will do in the window. Keep it to 4–6 sentences and use neutral, professional language.",
+  "role_phrase": "so I can give you a well-considered answer",
+  "evidence_phrase": "after reviewing the written offer, scope, and benefits details",
+  "translation_rule": "Replace urgency with structure. Convert vague timing into a specific return date and time. Swap apologies and over-explanations for respect and clarity. Avoid hedging (“hopefully,” “might,” “I guess”). Name what you need, state when you will return, and suggest the next step, such as a brief call to address key questions. Keep tones warm and factual.",
+  "rewrite_prompt": "Rewrite your draft ask-for-time message to remove filler words, tighten the timeline, and explicitly request any missing documents. Add one sentence that names what you will do during the review window and the exact time you will respond.",
+  "fragile": "Fragile requests sound uncertain, invite pushback, or leave the door open to misinterpretation. Examples include: “Can I maybe have a little more time?” which suggests you do not value theirs; “I’m swamped, can we do later?” which centers your chaos instead of the decision; “I’ll try to get back soon,” which makes you sound unreliable; or “I need time because I have other offers,” which can be read as posturing and may erode trust. Fragile language often over-apologizes (“I’m so sorry to ask…”) or hides the ask inside a long paragraph. The result is unclear expectations and a higher risk of repeated check-ins or rushed agreement.",
+  "defensible": "Defensible requests are specific, respectful, and tied to the quality of the decision. They state a clear return time and name the documents you will review. They acknowledge the other party’s pace without adopting it. Example frame: “Thank you for the offer. To give you a well-considered answer, I’d like to review the written offer, benefits summary, and bonus plan. Would end of day Wednesday work for my response? If helpful, I can send any clarifying questions by tomorrow.” This positions your ask as a benefit to both sides, sets a boundary you can keep, and invites a simple yes.",
+  "credibility_audit": "Before you send your ask-for-time message, run a quick credibility audit. First, timeline realism: can you confidently meet the return time you proposed? Second, document completeness: have you requested all materials needed to decide? Third, tone check: read it aloud; does it sound steady, warm, and clear without apologies or posturing? Fourth, alignment: does your message reflect the seniority of the role and the complexity of the offer? Fifth, follow-through plan: is your calendar blocked to do the review, and do you have a placeholder on their calendar for a short follow-up if needed? Credibility is not volume of words; it is clarity plus delivery.",
+  "worksheet_prompts": [
+    {
+      "label": "Clarify your decision window",
+      "prompt": "What is the shortest review window you can confidently keep, given your current obligations? Write the exact date and time you will respond, and list the steps you will complete during that window."
+    },
+    {
+      "label": "Name your must-have documents",
+      "prompt": "List the specific documents you need to see in writing before you can respond. For each, write the open question it will help you answer (for example, bonus plan to confirm eligibility and payout timing)."
+    },
+    {
+      "label": "Rank your open questions",
+      "prompt": "List your top five open questions in order of impact on your decision. For each, write one concise sentence that you will use when asking for clarification."
+    },
+    {
+      "label": "Draft your ask-for-time message",
+      "prompt": "Write a 4–6 sentence note you could send today in response to an offer. Include acknowledgment, your review window, the documents you need, and your exact return time. Then underline any words that sound apologetic or vague and replace them with clear, neutral terms."
+    }
+  ],
+  "worked_examples": [
+    {
+      "before": "Hi! Thanks for the offer. I’m excited and I think it could be a great fit. I need to look at a few things and talk to some people, so I’ll try to get back soon. Can you send whatever you have?",
+      "after": "Thank you for the offer for the Marketing Lead role. I’m glad to hear the team is enthusiastic. To give you a well-considered answer, I’d like to review the written offer, benefits summary, and any bonus plan details. Would end of day Thursday work for my response? If so, I’ll send any clarifying questions by tomorrow afternoon.",
+      "insight": "The before message is friendly but vague, with no timeline and no specific documents. The after message adds a role reference, names the packet, sets a clear return time, and offers a small milestone within the window. This reduces ambiguity and invites a simple confirmation."
+    },
+    {
+      "before": "This sounds good, and I think I can make it work. I need to check a couple things with my family. I’ll let you know as soon as I can. If there’s a deadline, tell me.",
+      "after": "I appreciate the offer for the Operations Manager role. To be responsible on timing and commitments, I’d like to review the written offer, PTO and leave policies, and the on-call expectations. I can return with a considered response by Tuesday 3 p.m. Does that timeline work on your side?",
+      "insight": "The before message centers personal logistics, lacks specificity, and hands control of timing to the other side. The after message connects the request to decision quality, lists targeted documents, and proposes a concrete response time while checking for alignment."
+    }
+  ],
+  "transfer_prompt": "Adapt your ask-for-time script to different channels and tempos. Prepare one version for live conversation (short, spoken, with a firm return time), one for email (slightly more detailed, with a bulleted list of requested documents if needed), and one for messaging apps (tight and polite, with a calendar invite to anchor the return). For global teams, specify time zones. For urgent scenarios, propose the shortest realistic window and a micro-milestone (for example, “I’ll send top questions by noon and return a decision by 5 p.m.”).",
+  "review_steps": [
+    {
+      "title": "Sanity-check your timeline against your calendar",
+      "body": "Open your calendar before you ask for time. Confirm you have space to read thoroughly, extract facts, and draft questions. If you see conflicts, move meetings now or choose a different return time. Reliability is built by making the promise you can keep, not the fastest one you can imagine."
+    },
+    {
+      "title": "Confirm document completeness before starting your clock",
+      "body": "Do not begin your review window until you have the documents you requested. If the offer arrives without key attachments, acknowledge receipt and restate your need: “Thanks for sending. I’ll start my review once the bonus plan and benefits summary arrive so I can give you a full response by Thursday.” This protects your window from being consumed by waiting."
+    },
+    {
+      "title": "Draft and prioritize your questions in one pass",
+      "body": "Read once to understand, then extract facts and list questions in a single sitting. Mark each question by impact level, and trim any that are nice-to-know. Group related items to speed the follow-up conversation. This keeps your return message concise and easier to answer quickly."
+    },
+    {
+      "title": "Decide your next move before the deadline",
+      "body": "Use the last portion of your window to choose your next step: accept as written, request specific clarifications, propose targeted adjustments, or decline respectfully. Write the message before your deadline, proof it, and schedule it to send on time if needed. Consistency between your ask-for-time and your on-time response reinforces trust."
+    }
+  ],
+  "rehearsal": "Practice your ask-for-time script out loud before you need it. Say the opening thank you, the role title, your request for the written materials, and your exact return time. Breathe, keep your tone steady, and pause after you ask. If the other party pushes for an instant answer, acknowledge their pace and repeat your return time. Have one backup line ready if they cannot allow your full window, such as offering the shortest viable alternative you can keep. Rehearsal reduces filler words, helps you avoid over-explaining, and makes your boundary sound natural rather than defensive.",
+  "spoken_prompt": "Thank you for the offer. To give you a well-considered answer after reviewing the written details, I’ll come back by [day, time]. Does that timing work?",
+  "action_days": [
+    "Capture the offer details and your ask-for-time draft in a single document you can reuse.",
+    "Block calendar time for focused review, extraction, and drafting questions within your requested window.",
+    "Request any missing documents immediately, and confirm when you will start your review clock.",
+    "Rank your top five open questions by impact and prepare a concise ask for each.",
+    "Schedule a brief follow-up call or send your questions in one organized message.",
+    "Deliver your response on or before your promised deadline, and document any agreements in writing."
+  ],
+  "commitment": "I will ask for time before I answer, set a clear return date, and use that window to produce a grounded, on-time response.",
+  "glossary": [
+    {
+      "term": "Response window",
+      "definition": "A specific, pre-agreed period you request to review offer materials and prepare a considered reply. Clarity on start and end times reduces check-ins and anxiety on both sides."
+    },
+    {
+      "term": "Written offer",
+      "definition": "The official document describing title, compensation, start date, and contingencies. It converts verbal discussions into concrete terms you can review and reference later."
+    },
+    {
+      "term": "Contingent terms",
+      "definition": "Conditions that must be met for an offer to stand, such as background checks, references, or eligibility verification. Understanding these protects you from surprises after acceptance."
+    },
+    {
+      "term": "Exploding deadline",
+      "definition": "A short-fuse expiration on an offer. When encountered, clarify the reason, request a minimal extension if needed, and focus your questions on high-impact items first."
+    },
+    {
+      "term": "Decision anchor",
+      "definition": "A specific date and time you commit to return your response. Anchors create trust and focus your review process; they are more effective than vague promises to reply soon."
+    },
+    {
+      "term": "Counterparty",
+      "definition": "The person or team on the other side of the decision process. Keeping their constraints, timelines, and need for clarity in mind helps you frame requests respectfully and productively."
+    }
+  ],
+  "topic": {
+    "number": "10",
+    "slug": "ask-for-time",
+    "title": "Ask for Time Before You Answer",
+    "subtitle": "Treat offer review as a deliberate professional decision rather than a rushed reaction.",
+    "focus": "Create space to read an offer, identify information gaps and respond with clarity rather than urgency.",
+    "source_label": "DePaul Career Center — Job Offers & Salary Negotiation",
+    "source_url": "https://resources.depaul.edu/career-center/resumes-interviews/Pages/salary-negotiation.aspx"
+  }
+}

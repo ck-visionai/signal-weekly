@@ -14,16 +14,16 @@ The public site presents a one-page preview for every sample. Sample Briefing 01
 |---|---|---|---|
 | Welcome Email | 01 — Evidence Before Adjectives | Your Signal Weekly starter working page | Complete one-page starter working page; not counted as a weekly reader edition |
 | Week 1 | 02 — The ATS Translation Layer | From the Sample Library: translate experience without keyword stuffing | **Expanded and verified:** ten-page reader-edition master retained for owner review; add its Beehiiv delivery link only after final publishing approval |
-| Week 2 | 03 — Your Three-Story Interview Bank | From the Sample Library: the three stories worth preparing | Expand, verify, and link an 8–12-page reader edition before send |
-| Week 3 | 04 — The Question Behind the Question | From the Sample Library: decode the difficult question | Expand, verify, and link an 8–12-page reader edition before send |
-| Week 4 | 05 — Research, Reflect, Rehearse | From the Sample Library: a better interview-prep note | Expand, verify, and link an 8–12-page reader edition before send |
-| Week 5 | 06 — The Executive Screen | From the Sample Library: make the first ten minutes count | Expand, verify, and link an 8–12-page reader edition before send |
-| Week 6 | 07 — When They Ask About a Failure | From the Sample Library: an honest answer to a difficult prompt | Expand, verify, and link an 8–12-page reader edition before send |
-| Week 7 | 08 — Questions That Help You Evaluate the Role | From the Sample Library: three questions that reveal the real role | Expand, verify, and link an 8–12-page reader edition before send |
-| Week 8 | 09 — The Whole-Role Negotiation Map | From the Sample Library: evaluate more than the salary number | Expand, verify, and link an 8–12-page reader edition before send |
-| Week 9 | 10 — Ask for Time Before You Answer | From the Sample Library: give an offer the review it deserves | Expand, verify, and link an 8–12-page reader edition before send |
-| Week 10 | 11 — When Salary Cannot Move | From the Sample Library: clarify what still matters | Expand, verify, and link an 8–12-page reader edition before send |
-| Week 11 | 12 — The Career Decision Memo | From the Sample Library: make the trade-offs visible | Expand, verify, and link an 8–12-page reader edition before send |
+| Week 2 | 03 — Your Three-Story Interview Bank | From the Sample Library: the three stories worth preparing | **Expanded and verified:** ten-page master retained for owner review; add a Beehiiv delivery link only after final publishing approval |
+| Week 3 | 04 — The Question Behind the Question | From the Sample Library: decode the difficult question | **Expanded and verified:** eleven-page master retained for owner review; add a Beehiiv delivery link only after final publishing approval |
+| Week 4 | 05 — Research, Reflect, Rehearse | From the Sample Library: a better interview-prep note | **Expanded and verified:** ten-page master retained for owner review; add a Beehiiv delivery link only after final publishing approval |
+| Week 5 | 06 — The Executive Screen | From the Sample Library: make the first ten minutes count | **Expanded and verified:** ten-page master retained for owner review; add a Beehiiv delivery link only after final publishing approval |
+| Week 6 | 07 — When They Ask About a Failure | From the Sample Library: an honest answer to a difficult prompt | **Expanded and verified:** ten-page master retained for owner review; add a Beehiiv delivery link only after final publishing approval |
+| Week 7 | 08 — Questions That Help You Evaluate the Role | From the Sample Library: three questions that reveal the real role | **Expanded and verified:** ten-page master retained for owner review; add a Beehiiv delivery link only after final publishing approval |
+| Week 8 | 09 — The Whole-Role Negotiation Map | From the Sample Library: evaluate more than the salary number | **Expanded and verified:** ten-page master retained for owner review; add a Beehiiv delivery link only after final publishing approval |
+| Week 9 | 10 — Ask for Time Before You Answer | From the Sample Library: give an offer the review it deserves | **Expanded and verified:** ten-page master retained for owner review; add a Beehiiv delivery link only after final publishing approval |
+| Week 10 | 11 — When Salary Cannot Move | From the Sample Library: clarify what still matters | **Expanded and verified:** ten-page master retained for owner review; add a Beehiiv delivery link only after final publishing approval |
+| Week 11 | 12 — The Career Decision Memo | From the Sample Library: make the trade-offs visible | **Expanded and verified:** ten-page master retained for owner review; add a Beehiiv delivery link only after final publishing approval |
 
 ## Recommended email structure
 

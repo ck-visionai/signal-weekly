@@ -1,0 +1,147 @@
+{
+  "cover_objective": "Equip you to decode difficult interview prompts, identify the underlying capability being tested, and select honest, specific evidence that demonstrates it.",
+  "decision_title": "Decode the question behind the question",
+  "decision_intro": "Some interview prompts feel like riddles. A senior stakeholder asks about a conflict you handled. A panel member drills into a budget miss. A founder pushes you to explain a time something did not work. These prompts are rarely about the surface story. They are structured to test a capability the role depends on: judgment under pressure, systems thinking, stakeholder alignment, risk management, or learning agility. If you take the question literally and answer at face value, you risk missing what the interviewer actually wants to learn. If you try to perform for applause, you risk sounding polished but untrustworthy. This edition teaches you to decode the question behind the question, choose a capability lens, and select evidence that is both relevant and believable. You will learn a small set of repeatable moves: listen for the capability cue, anchor your role and scope, name the constraint, and describe the reasoning you used. You will practice turning vague, defensive, or self-promotional responses into grounded, role-relevant answers that senior interviewers respect.",
+  "orientation": "Mid-career and executive interviews favor inference over interrogation. Instead of asking if you are good at a capability, interviewers observe how you reason about real constraints. A question about a delayed launch might be testing prioritization, not scheduling. A request to describe a failure may be probing your pattern recognition and recovery habits. The decoding move is to translate from story to capability and back again. Treat each prompt like a job-relevant capability test disguised as a conversation. Listen for context: who is asking, where they sit in the organization, and what this role must deliver. Calibrate your answer to the altitude of the role you are pursuing. Executives listen for how you choose trade-offs and align stakeholders. Functional heads examine how you structure unknowns, define definitions of done, and manage risk. Front-line leaders scan for how you coach, escalate, and protect standards. Your goal is not to impress with drama, but to demonstrate how you think when stakes, complexity, and time pressures are real. That starts by identifying the capability under assessment before you choose your evidence.",
+  "read_steps": [
+    {
+      "title": "Spot the archetype of the prompt",
+      "body": "Most difficult prompts fall into a few archetypes: pressure test, trade-off test, alignment test, scope and sequencing test, and self-correction test. A pressure test sounds like tell me about a time the plan slipped. A trade-off test sounds like how did you balance X and Y. An alignment test sounds like how did you bring dissenters along. A scope and sequencing test sounds like how did you break down a complex initiative. A self-correction test sounds like what did you do when your assumption failed. Naming the archetype quickly narrows the capability set at stake."
+    },
+    {
+      "title": "Map archetype to capability category",
+      "body": "Once you know the archetype, select the capability category most relevant to the role. Pressure tests often probe judgment and prioritization. Trade-off tests examine decision quality and risk appetite. Alignment tests assess stakeholder management and influence. Scope tests examine systems thinking and operational design. Self-correction tests assess learning agility and accountability. Ask yourself, if I were hiring for this role, which capability would matter most here. Let that guide your answer, not the flashiest part of the story."
+    },
+    {
+      "title": "Anchor your role, scope, and constraint",
+      "body": "Before details, state three anchors: your role, the scope you owned, and the main constraint. For example, as the operations lead, I owned end-to-end scheduling across three work streams under a vendor reliability constraint. This prevents the interviewer from guessing your authority, context, or seat at the table. It frames your choices and keeps your answer proportionate to the job you are pursuing. It also shifts focus from heroics to structure, which senior interviewers trust."
+    },
+    {
+      "title": "Describe the reasoning before the result",
+      "body": "Do not rush to outcomes. Explain how you framed the problem, what options you considered, what data or principles informed your decision, and how you monitored for downside. Then summarize what changed and what you learned. Reasoning first, result second, learning always. This reveals the capability being assessed without over-claiming. It also gives you room to describe difficult situations honestly without appearing careless or defensive."
+    }
+  ],
+  "extraction": "To extract the capability behind a prompt, listen for three cues. First, listen for the verbs in the question: convince, reconcile, escalate, de-risk, pivot, define, sequence. Verbs often signal the capability in play. Second, scan for the constraint the interviewer introduces: limited time, limited budget, competing stakeholders, ambiguous data, cross-functional dependency. The constraint often matches the real constraint in the role. Third, consider the asker's vantage point. A finance leader asking about a delayed approval is likely testing governance and decision hygiene, not storytelling flair. If you are unsure, ask a one-line clarifying question that tests your hypothesis: would it help if I focus on how I structured the decision versus the implementation details. By validating the angle, you reduce the risk of answering the wrong question and demonstrate the meta-capability of managing the conversation with respect.",
+  "inventory_intro": "Great decoding is wasted if your evidence is thin or mismatched. Build a compact inventory of episodes that demonstrate core capabilities for the target role. Do not chase perfect success stories. Choose moments where you exercised judgment in real conditions, including setbacks. For each episode, capture the role you played, the scope you actually owned, the binding constraints, the decision you made, the alignment work you did, and what you would do differently now. This turns raw experience into reusable signal that can be tailored to many prompts without sounding rehearsed or evasive.",
+  "inventory_steps": [
+    {
+      "title": "Select episodes across constraint types",
+      "body": "Pick four to six episodes that span different constraints: time compression, budget pressure, ambiguous data, cross-functional conflict, shifting goals. This range lets you match the interviewer’s prompt with a truthful, relevant example. Avoid collecting only wins. Include at least one episode where you adjusted course. Variety signals adaptability and gives you more ways to honor the capability being tested without stretching the truth."
+    },
+    {
+      "title": "Define your actual seat and edges",
+      "body": "For each episode, write one sentence about what you owned end to end, and one sentence about what was outside your control. Candidates lose credibility when answers inflate authority. Clear edges increase trust and allow you to talk about collaboration, escalation, and influence, which many senior roles value. It also keeps your story compact, because you are not carrying the entire enterprise on your back."
+    },
+    {
+      "title": "Name the decision and the trade-offs",
+      "body": "Identify the pivotal decision in the episode and the primary trade-off you navigated. For example, we chose stability over speed in the final two weeks, or we accepted short-term cost to avoid downstream quality risk. Stating the trade-off calls attention to the real capability: choosing, justifying, and owning consequences. It also provides a spine for your narrative that can adapt to various prompts."
+    },
+    {
+      "title": "Capture the learning and future rule",
+      "body": "Close each episode with the rule you now use because of it. For instance, I now insist on a written definition of done before kickoff, or I now set an early alignment checkpoint with dissenters. This turns a one-off story into a durable operating principle. Interviewers listen for these rules because they indicate transferable judgment, not just situational luck."
+    }
+  ],
+  "project_prompt": "Create a one-page capability map for the role you are targeting. List the top five capabilities the role uses to deliver value, the constraints most common in the environment, and one episode from your inventory that demonstrates each capability. Keep it short enough to scan in one minute.",
+  "role_phrase": "As the [role], I owned [scope] under [constraint], with authority to [decision rights]. I partnered with [key stakeholders] and was accountable for [outcome boundaries you genuinely owned].",
+  "evidence_phrase": "Given that setup, the pivotal decision was [trade-off]. I framed options by [data, principles, or tests], aligned [stakeholders] by [method], monitored [risk], and learned [operating rule you now use].",
+  "translation_rule": "Translate each prompt into capability, constraint, and decision. Ask what capability is truly being tested, what constraint defines the playing field, and what decision reveals your judgment. Answer in that order: role, scope, constraint; reasoning; learning.",
+  "rewrite_prompt": "Rewrite one of your common interview answers so that the capability is explicit in the opening line, the constraint is named early, and the reasoning is described before any outcomes. Keep it under two minutes spoken time and use your inventory language verbatim.",
+  "fragile": "Fragile answers are either theatrical or thin. Theatrical answers overplay success, blur role boundaries, or turn complex situations into neat victories. They feel practiced but hollow, and they collapse under gentle follow-up because details do not line up. Thin answers avoid decisions, hide trade-offs, or provide only chronology. They drift without showing what you actually did and why. Both types fail the decoding test because they do not reveal the capability being assessed. Fragile answers also include unanchored claims, vague timelines, and anonymous teams doing the hard parts. If your story works only when no one asks a second question, it is fragile. Build sturdiness by leading with your seat, scope, and constraint, and by naming the decision you owned.",
+  "defensible": "Defensible answers are specific, proportional, and falsifiable. They start with your actual role and scope, so your authority is clear. They name the primary constraint so your decision context is visible. They reveal your reasoning by describing options considered and the principle or data that drove your choice. They acknowledge trade-offs and residual risk without dramatizing. They give credit to collaborators and state edges of control. They end with a learning you still apply, which makes the episode portable to new contexts. Because they are grounded in structure rather than theatrics, defensible answers welcome follow-up. If an interviewer asks for more detail, you can expand in the same frame: decision, alignment, risk, next action.",
+  "credibility_audit": "Run a quick audit on any answer you plan to use. First, role clarity: can a stranger understand what authority you actually had. Second, scope boundaries: can you name what you did not control and who you depended on. Third, constraint honesty: is the main constraint stated plainly without blaming others. Fourth, decision spine: can you state the pivotal decision in one sentence. Fifth, alignment work: did you outline how you handled dissent or secured support. Sixth, risk management: did you name how you reduced or monitored downside. Seventh, learning transfer: did you articulate a rule you now use. If any element is missing or padded, revise before you rehearse.",
+  "worksheet_prompts": [
+    {
+      "label": "Capability hypothesis",
+      "prompt": "Select a difficult interview question you expect. Write the likely capability being tested, the key constraint it implies, and why this matters in the role you are targeting."
+    },
+    {
+      "label": "Episode match",
+      "prompt": "From your inventory, choose an episode that fits the capability and constraint. Write your role, scope, decision rights, and the specific trade-off you navigated."
+    },
+    {
+      "label": "Reasoning outline",
+      "prompt": "List the options you considered, the data or principles that guided your choice, and the alignment steps you took. Include how you monitored or limited risk."
+    },
+    {
+      "label": "Learning transfer",
+      "prompt": "Write the operating rule you adopted because of this episode and one way you would apply it in the first 90 days in the target role."
+    }
+  ],
+  "worked_examples": [
+    {
+      "before": "We missed a quarter because the vendor did not deliver, but I rallied the team, pushed everyone harder, and we ended up shipping most of it anyway. It was tough, but we learned to never rely on that vendor again, and the leadership team was impressed with our effort under pressure.",
+      "after": "As the program lead, I owned integration across three work streams under a vendor reliability constraint. The capability you may be testing is how I prioritize under pressure. The pivotal decision was whether to delay the whole release or decouple two unaffected components. I framed options by mapping dependencies and testing a minimal viable release for impact on customers and support. I aligned engineering and support leads in a 24-hour checkpoint to choose decoupling, while scheduling a fallback if quality drifted. We moved forward with a smaller release and documented what we would postpone. My rule since then: preserve integrity of unaffected work, and set a pre-commit dependency check before each milestone.",
+      "insight": "The weak answer chases approval, blames a vendor, and implies heroics without decisions. The stronger answer names role, scope, constraint, capability, decision, options, alignment, risk control, and a durable rule. It is specific without making performance claims."
+    },
+    {
+      "before": "I had a conflict with a sales leader about pricing. We argued a lot, but I stood my ground. Eventually they gave in and we kept the price where I wanted it. It showed that I can be firm with peers and protect margins.",
+      "after": "As the product lead, I owned packaging and price structure; sales owned discounting within policy. I think you may be testing stakeholder alignment and principled negotiation. The pivotal decision was whether to change list price mid-cycle or adjust discount policy for a specific segment. I framed options by clarifying our pricing principles, reviewing segment willingness to pay signals, and modeling downstream support load by deal type. I held a joint working session to surface risks, then proposed a pilot discount floor for the contested segment with a review gate in four weeks. We captured exceptions in writing. My rule since: align on principles first, then test in a bounded way rather than debating absolutes.",
+      "insight": "The weak answer centers winning an argument. The stronger answer clarifies roles, surfaces the capability being tested, and shows principled alignment work inside constraints. It avoids claiming victory and focuses on repeatable decision hygiene."
+    }
+  ],
+  "transfer_prompt": "Take three prompts from different domains and translate each into capability, constraint, and decision. For example, a question about cutting scope maps to prioritization under resource constraints; a question about a team dispute maps to alignment under ambiguity; a question about a missed forecast maps to accountability and correction. Practice with episodes that are adjacent but not identical to broaden your range without stretching credibility.",
+  "review_steps": [
+    {
+      "title": "Pre-interview capability warm-up",
+      "body": "Skim your capability map and choose one episode for each top capability. Say the first sentence out loud: role, scope, constraint. Confirm that you can state the pivotal decision in one breath. If you cannot, tighten the episode or choose another."
+    },
+    {
+      "title": "Active decoding during the interview",
+      "body": "When asked a complex prompt, silently name the archetype and capability. If uncertain, ask a one-line clarifier. Then answer with your anchors and reasoning. If the interviewer interrupts, do not speed up. Acknowledge, then continue with the decision and learning. Keep your tone calm and factual."
+    },
+    {
+      "title": "Mid-course correction",
+      "body": "If you realize mid-answer that you chose the wrong capability lens, adjust explicitly. For example, I focused on prioritization, but it sounds like you are more interested in how I managed dissent. Let me illustrate that dimension in the same episode. This shows agility without scrambling."
+    },
+    {
+      "title": "Close the loop",
+      "body": "End by connecting your operating rule to the role you are pursuing. For instance, I apply this by setting early alignment checkpoints with finance on any cross-functional initiative. This links your story to future performance without overpromising and positions you as intentional."
+    }
+  ],
+  "rehearsal": "Rehearse aloud with a timer. Practice opening with role, scope, and constraint in under fifteen seconds. Then practice a one-minute reasoning segment: options, principle or data, alignment, risk control. Finish with a ten-second learning rule. Record yourself once, listen for inflation, hedging, or vague verbs, and adjust. Do not memorize scripts. Memorize anchors and the decision spine. The goal is a steady cadence that can flex to different prompts while keeping your evidence honest and proportionate.",
+  "spoken_prompt": "Before I jump in, would you like me to focus on how I structured the decision, how I aligned stakeholders, or the implementation details that followed.",
+  "action_days": [
+    "Day 1: List the top five capabilities your target role must deliver, based on the job description and conversations with peers. Write one sentence defining each capability in your own words.",
+    "Day 2: Build your episode inventory. Capture six episodes across different constraints. For each, write your role, scope, constraint, pivotal decision, and learning rule.",
+    "Day 3: Create your capability map linking each capability to one episode. Note gaps where you lack strong evidence and identify adjacent episodes that could work with a narrower claim.",
+    "Day 4: Draft two-minute answers for three likely prompts, using the anchors and reasoning-first structure. Record yourself and mark any places where you inflate, hedge, or rush to outcomes.",
+    "Day 5: Run a credibility audit with a trusted peer. Ask them to challenge role clarity, scope edges, decision spine, and learning transfer. Revise answers to address any weak spots.",
+    "Day 6: Conduct a live rehearsal. Ask a peer to mix prompts across archetypes and interrupt you mid-answer. Practice clarifying, adjusting capability lenses, and closing with your operating rule."
+  ],
+  "commitment": "I will answer difficult prompts by naming the capability, stating my role, scope, and constraint, and revealing my reasoning and learning without exaggeration or blame.",
+  "glossary": [
+    {
+      "term": "Capability lens",
+      "definition": "The specific skill or judgment area you decide a prompt is testing, which guides what evidence you select and how you frame your answer."
+    },
+    {
+      "term": "Constraint",
+      "definition": "The binding limit shaping a decision, such as time, budget, dependencies, or stakeholder boundaries, which defines what good judgment looks like in the story."
+    },
+    {
+      "term": "Decision spine",
+      "definition": "A compact statement of the pivotal choice you made and the trade-off involved, which anchors your narrative and showcases judgment."
+    },
+    {
+      "term": "Alignment work",
+      "definition": "The actions you take to surface dissent, build shared understanding, and secure support, including principles, forums, and agreements."
+    },
+    {
+      "term": "Operating rule",
+      "definition": "A durable, portable principle you adopted from an experience that you can apply in new contexts, showing learning transfer."
+    },
+    {
+      "term": "Archetype",
+      "definition": "A common pattern of interview prompts, such as pressure test, trade-off test, alignment test, scope test, or self-correction test, which suggests the capability being assessed."
+    }
+  ],
+  "topic": {
+    "number": "04",
+    "slug": "question-behind-the-question",
+    "title": "The Question Behind the Question",
+    "subtitle": "Decode difficult prompts into the capability an interviewer is trying to assess.",
+    "focus": "Identify the capability beneath a difficult interview question, then select evidence that demonstrates it honestly.",
+    "source_label": "University of Michigan Career Center — Interviewing Resources",
+    "source_url": "https://careercenter.umich.edu/content/interviewing-resources"
+  }
+}

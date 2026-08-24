@@ -97,7 +97,9 @@
 - [x] Remove the misleading immediate “Get the complete edition” actions from Samples 02–12 and clearly label their progressive email-delivery status.
 - [ ] Publish one complete free sample, preview the remaining eleven samples, and pair full-download access with a verified Beehiiv subscriber-delivery path.
 - [x] Prepare a clearly labelled twelve-week “From the Sample Library” Beehiiv delivery schedule without presenting sample briefings as newly issued newsletters.
-- [ ] Expand the eleven subscriber-delivered Sample Briefings into verified 8–12-page reader editions before weekly delivery.
+- [x] Expand the eleven subscriber-delivered Sample Briefings into verified 8–12-page reader editions before weekly delivery.
+- [x] Produce and verify Sample Briefings 03–12 as 8–12-page reader editions using the approved Sample Briefing 02 quality standard.
+- [ ] Conduct a focused copyright and permissions review of the complete reader-edition library before wider distribution or reuse decisions.
 - [x] Produce and verify Sample Briefing 02, “The ATS Translation Layer,” as the first 8–12-page reader edition for future weekly delivery.
 - [ ] Update the Beehiiv welcome or first manual follow-up email to deliver the promised first Sample Library edition after a confirmed signup.
 - [ ] Verify the post-signup delivery path for locked complete sample editions before describing it as subscriber access on the public site.

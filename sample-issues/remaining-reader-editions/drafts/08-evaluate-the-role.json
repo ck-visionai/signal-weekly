@@ -1,0 +1,147 @@
+{
+  "cover_objective": "Equip yourself with a focused, professional question set that reveals the role’s true mandate, how success will be judged, who holds which decisions, and what operating conditions you would inherit.",
+  "decision_title": "Decision: Is this role set up for you to do meaningful work you can stand behind?",
+  "decision_intro": "Interviews are often framed as evaluations of you, but your most important job is to evaluate the role. You are making a multi-year decision that will shape how you spend your time, whose problems you solve, and which trade-offs you make. Relying on the job description or a polished pitch is risky; they rarely reveal what matters most day to day: the clarity of the mandate, the manager’s style, the distribution of decision rights, and the operating environment you would enter.\n\nThis edition helps you develop and use a precise question set that elicits concrete evidence rather than opinions. Instead of asking if a team “values collaboration,” you will ask for recent examples of cross-functional work and how conflicting priorities were resolved. Instead of asking what success “looks like,” you will ask how success is measured in the first months and who reviews progress. These shifts surface the practical conditions you will live with: the speed of decisions, the realism of goals, the quality of sponsorship, and the reliability of resources.\n\nYou will leave with questions you can adapt to any conversation in the process: the hiring manager screen, panel interviews, peer meetings, skip-level chats, and follow-up calls. You will also have a review routine that turns answers into a simple, comparable picture across opportunities. Nothing here guarantees an outcome, and that is by design. Your goal is to reduce uncertainty enough to make a deliberate choice you can defend, even if you later encounter surprises. This is a repeatable way to protect your time and reputation.",
+  "orientation": "Use this edition as a working guide before and during your interview cycle. Start by clarifying what you need to learn about the mandate, success measures, decision rights, and operating environment. Then translate each learning goal into a neutral, story-seeking question. Sequence these questions across the loop so that you ask the right person at the right moment. Close by interpreting what you heard through a consistent lens, looking for corroboration and gaps.\n\nTreat your questions as diagnostic instruments. Strong questions are anchored in time, ask for examples, and seek mechanisms, not slogans. Ask for the last instance a decision was made, who was in the room, what inputs were used, and how the result was tested. When you hear generalities, follow with a probe that invites a specific memory. When you hear a polished narrative, ask for the next layer down: artifacts, rhythms, and accountabilities.\n\nIf the conversation is rushed, lead with your top two or three questions. You can always return to the others by email or in a later call. Your aim is not to corner anyone; it is to learn enough about fit, timing, and constraints to decide with open eyes.",
+  "read_steps": [
+    {
+      "title": "Define what you must learn to make a sound decision",
+      "body": "List the uncertainties that would meaningfully change your choice if answered clearly. For most senior roles, these cluster into four domains: mandate and scope, success measures, decision rights, and operating environment. Mandate clarifies why the role exists now and which outcomes matter most. Success measures define how progress is judged, by whom, and on what cadence. Decision rights map who decides what at key inflection points. Operating environment covers resources, constraints, cultural norms, and interdependencies. Turn each uncertainty into a specific learning goal, such as understanding the first-year outcomes, the budget envelope, or the manager’s review rhythm."
+    },
+    {
+      "title": "Translate intentions into neutral, example-seeking questions",
+      "body": "Avoid adjectives and hypotheticals. Convert “Is leadership supportive?” into “Tell me about a recent initiative like this—who sponsored it, what resources were committed, and what changed after the first review?” Replace “What does success look like?” with “In the first 90 and 180 days, which outcomes would show we are on track, and how will we inspect them?” Aim for past-tense examples, defined time frames, and concrete mechanisms. Prepare follow-ups that ask for artifacts: calendars, dashboards, planning cadences, or governance forums."
+    },
+    {
+      "title": "Sequence questions across the interview loop",
+      "body": "Plan which questions to ask of which stakeholders. The hiring manager is best for mandate, success measures, and their operating system. Peers are best for decision rights, friction points, and collaboration norms. Cross-functional partners can reveal dependencies and how priorities compete. Skip-level leaders can confirm sponsorship and strategic durability. Spread your questions so each conversation has a clear goal. Keep a core set to ask multiple people to test alignment, and a rotating set tailored to each person’s vantage point."
+    },
+    {
+      "title": "Interpret signals and decide what they mean for you",
+      "body": "After each conversation, summarize what you heard using the same categories you set at the start. Note corroboration, contradictions, and omissions. Distinguish between uncertainty that can be resolved before you decide and uncertainty that is inherent in the work. Evaluate whether the manager’s style, the speed of decisions, and the level of resourcing match how you do your best work. Clarify trade-offs you would accept and nonnegotiables you cannot. Decide what follow-up evidence you need and who is the right person to ask."
+    }
+  ],
+  "extraction": "Listen for specifics: named decision forums, time-bound examples, artifacts, and clear owners. Favor verbs over adjectives in the answers. When someone describes a process, ask when it last ran and what changed as a result. Note who initiates decisions, who provides inputs, and who can veto. Track time horizons: weekly rituals, quarterly checkpoints, annual resets. Pay attention to how people describe conflict and learning—are misses examined to improve the system, or to assign blame? Notice hedging, contradictions across interviewers, or answers that never get beyond principle statements. Absence of detail is itself a signal about clarity, recall, or transparency. Your goal is to assemble a coherent picture that multiple people could reasonably recognize.",
+  "inventory_intro": "Before drafting questions, inventory your own decision criteria. You are not just testing the role; you are testing whether it supports the way you create value. Define your must-haves, trade-offs you will accept, and deal-breakers. This keeps your questions disciplined and prevents you from being swept away by brand or urgency.",
+  "inventory_steps": [
+    {
+      "title": "Clarify your mandate fit",
+      "body": "Write down the types of problems you want to own and the outcomes you are ready to be accountable for. Identify adjacent areas you can influence but should not be expected to lead. Note any mismatches that would create friction, such as being hired for strategy but evaluated on execution you cannot control."
+    },
+    {
+      "title": "Define success measures you can stand behind",
+      "body": "List the time frames and milestones that feel realistic for the kind of work at hand. Note the inspection rhythms you prefer, what leading indicators you trust, and which lagging outcomes you are willing to be judged on. Capture the early signals that would demonstrate traction without overpromising."
+    },
+    {
+      "title": "Map decision rights you need to do responsible work",
+      "body": "Document the decisions you need to own, the ones you can co-own, and the ones you are fine to influence without owning. Include budget authority, hiring and performance authority, technical or product choices, and prioritization power. Decide where you need escalation paths and what good governance looks like for you."
+    },
+    {
+      "title": "Describe the operating environment you can thrive in",
+      "body": "Outline your preferences for team size and composition, cross-functional partners, pace, and communication norms. Note constraints you can navigate and those you cannot, such as regulatory timing, vendor lock-in, or distributed teams across incompatible time zones. Be honest about the trade-offs you will accept for the right mandate."
+    }
+  ],
+  "project_prompt": "Build a role evaluation question set that tests mandate, success measures, decision rights, and operating conditions through concrete, time-bound examples asked of the right people.",
+  "role_phrase": "If we were six months in and you were pleased with progress, what specifically would be different, and how would we know?",
+  "evidence_phrase": "Can you walk me through the last time this kind of decision was made—who initiated it, what inputs were used, where it was decided, and what happened next?",
+  "translation_rule": "Turn each intent into a question that asks for a recent example, a mechanism, or a decision path. Replace adjectives with nouns and verbs: instead of asking if collaboration is strong, ask when the last cross-functional plan was set, which teams were involved, what trade-offs were made, and how conflicts were resolved. Anchor to time frames and cadences. Prefer “tell me about the last time” over “how would you.” Seek artifacts and rhythms: reviews, dashboards, forums, calendars, and checklists.",
+  "rewrite_prompt": "Rewrite each leading or hypothetical question into a neutral probe that invites a specific, recent example, identifies who owned the decision, and clarifies how progress was inspected.",
+  "fragile": "Fragile questions are broad, leading, or easy to deflect. They invite opinions or ideals rather than evidence. Examples include: “Is leadership supportive?” “Is this a collaborative culture?” “Will I have autonomy?” “Do you value strategy?” These questions put interviewers on the spot to declare virtues and can elicit rehearsed answers. Fragile questions also include hypotheticals that float above reality: “How would you handle a major setback?” or “How do you usually make decisions?” They do not anchor to time, ownership, or outcomes. When you hear a value statement in response, you learn little about how work actually moves. Fragile questions can signal that you have not done your homework, especially if they are already answered in public materials or the job description.",
+  "defensible": "Defensible questions are specific, time-bound, and aimed at the plumbing of how work gets done. They do not accuse or assume; they invite stories and mechanisms. Examples include: “Tell me about a setback in the last two quarters—what changed in the plan, who made the call, and what was learned?” “Walk me through how the current roadmap is prioritized—who submits requests, where are trade-offs made, and how are decisions communicated?” “In the first 90 days, what outcomes will we review together, on what cadence, and which leading indicators matter most?” “When a cross-functional dependency slips, what’s the escalation path, and who has final say on the revised plan?” These questions respect the interviewer’s experience while revealing governance, decision speed, and accountability.",
+  "credibility_audit": "Before you ask your questions, run a credibility audit. First, confirm that none of your questions are answered in the public job description or the recruiter’s brief. If they are, refine them to go a layer deeper. Second, check that each question fits your seniority and the scope of the role; avoid asking for authority that is clearly beyond the remit unless you are testing whether the remit can expand. Third, ensure you can explain why you are asking without sounding adversarial. A simple framing sentence—“I’ve learned to ask about decision paths early so I can align my approach”—keeps the tone constructive. Fourth, prepare a relevant example from your own experience for any question you ask, because strong interviewers may mirror it back to you. Fifth, balance your set so you do not over-index on risk. Include at least one question that explores opportunity or potential leverage, such as latent assets or underutilized capabilities. Finally, prioritize your top three must-ask questions for each conversation, in case time is short. This discipline shows respect for the interviewer and keeps you focused on high-value learning.",
+  "worksheet_prompts": [
+    {
+      "label": "Clarify the opportunity you are evaluating",
+      "prompt": "Name the role, the hiring manager, the business unit or team, and the primary mission as stated to you. What is your initial understanding of the outcomes the organization wants from this role in the next 12 months?"
+    },
+    {
+      "label": "Define your nonnegotiables and trade-offs",
+      "prompt": "List the top three nonnegotiables you need to do responsible work in this role (for example, decision rights, sponsorship, scope). List up to three trade-offs you are willing to accept for the right mandate."
+    },
+    {
+      "label": "Draft your top eight defensible questions",
+      "prompt": "Write eight neutral, example-seeking questions that test mandate, success measures, decision rights, and operating environment. For each, note who is the best person to ask (manager, peer, cross-functional partner, skip-level)."
+    },
+    {
+      "label": "Identify red flags, green lights, and follow-ups",
+      "prompt": "List the specific signals you will treat as red flags, the signals that would increase your confidence, and the follow-up evidence you will request if an answer is vague or contradictory."
+    }
+  ],
+  "worked_examples": [
+    {
+      "before": "Is leadership supportive of this function?",
+      "after": "Tell me about a significant initiative led by this function in the last year. Who sponsored it, what resources were committed at the start, where key decisions were made, and what changed after the first review?",
+      "insight": "The before question invites a value statement that anyone can answer positively. The after question asks for a concrete story with identifiable sponsors, commitments, and governance. It reveals whether the function has true backing or only rhetorical support. You will learn if resources are committed upfront or drip-fed, whether decisions happen in a clear forum, how review feedback changes plans, and whether leaders stay engaged past kickoff. You can also infer the manager’s influence and the durability of sponsorship when pressure increases."
+    },
+    {
+      "before": "What does success look like in this role?",
+      "after": "If we are sitting down 90 days in, what outcomes would reassure you we are on the right track, how will we inspect progress together, and who else will be in that review?",
+      "insight": "The before question encourages abstract ideals. The after question forces clarity on time-bound outcomes, inspection cadence, and stakeholders. You learn whether early wins are about inputs, outputs, or outcomes, and whether the manager will review progress in a structured way. You also see who else shares accountability and how aligned the review group is likely to be. This helps you gauge whether expectations are realistic, whether there is a plan to detect and address drift early, and how many voices will shape your first months."
+    }
+  ],
+  "transfer_prompt": "Use this question set beyond interviews. In recruiter screens, test basic mandate clarity and sponsorship before investing time. In peer conversations, probe collaboration rhythms and decision interfaces. In skip-level meetings, validate strategic durability and how priorities survive shifts. In reference calls, ask for examples that corroborate or challenge what you heard. In internal mobility discussions, adapt the same structure to evaluate scope expansion and new dependencies. Across all contexts, anchor to recent examples, mechanisms, and decision paths to keep learning grounded in reality.",
+  "review_steps": [
+    {
+      "title": "Debrief within 24 hours using a consistent template",
+      "body": "Summarize key points under mandate, success measures, decision rights, and operating environment. Write what you heard, not what you hoped to hear. Highlight direct quotes that show mechanisms or decisions. Note what you did not ask due to time and plan when and to whom you will ask next."
+    },
+    {
+      "title": "Score confidence, not positivity",
+      "body": "Replace a one-to-five satisfaction score with a one-to-five confidence score about your understanding of each domain. Low confidence means you need more evidence; high confidence means you have enough to decide, even if some signals are mixed. This prevents optimism from hiding uncertainty."
+    },
+    {
+      "title": "Cross-check alignment across interviewers",
+      "body": "Compare answers to the same questions from different people. Agreement on purpose and decision paths is a strong signal; disagreement can be healthy if it reflects role evolution, but it can also indicate unresolved tension. Note whether contradictions are explainable by vantage point or reveal structural misalignment."
+    },
+    {
+      "title": "Decide next actions and boundaries",
+      "body": "List the follow-ups you will make, the evidence you still need, and the boundaries you will set if you proceed. For example, you may continue only if success measures are defined with the hiring manager, or only if a decision forum is confirmed. If you cannot obtain needed clarity, capture why and whether that is acceptable risk for you."
+    }
+  ],
+  "rehearsal": "Practice aloud until your questions sound natural and concise. Record yourself asking each question with a one-sentence framing that explains why you are asking. Edit for length and tone. Rehearse neutral follow-ups that convert generalities into examples: “What was the time frame?” “Who made the call?” “What changed after that review?” Ask a trusted peer to role-play as a skeptical interviewer and push back so you can keep your composure and curiosity under pressure.",
+  "spoken_prompt": "I have a few questions that help me understand how this role creates value and how we’ll work together. I’ll keep them concise and focused on recent examples so I can align my approach to how you operate.",
+  "action_days": [
+    "Day 1: List your decision criteria under mandate, success measures, decision rights, and operating environment. Highlight your top three nonnegotiables and the trade-offs you can accept.",
+    "Day 2: Draft 12 example-seeking questions and map each to the best interview stage and stakeholder. Write one neutral follow-up for each question.",
+    "Day 3: Run a credibility audit. Remove anything answered in public materials, tighten wording for neutrality, and prepare a brief framing sentence for each question.",
+    "Day 4: Rehearse aloud. Record yourself, cut filler words, and refine sequencing so your top three questions fit even in a short conversation.",
+    "Day 5: Use your questions in two conversations. After each, debrief within 24 hours using your template and assign a confidence score for each domain.",
+    "Day 6: Iterate. Rewrite any question that produced vague answers, add targeted follow-ups to close gaps, and confirm your next evidence requests."
+  ],
+  "commitment": "I will ask neutral, example-seeking questions in every interview, debrief within 24 hours, and base my decision on clear evidence about mandate, success measures, decision rights, and operating conditions.",
+  "glossary": [
+    {
+      "term": "Mandate",
+      "definition": "The reason the role exists and the specific outcomes it is expected to deliver in a defined time frame."
+    },
+    {
+      "term": "Success measures",
+      "definition": "The indicators and review cadences used to judge whether the role is on track, including who inspects progress and when."
+    },
+    {
+      "term": "Decision rights",
+      "definition": "Who has the authority to make, influence, or veto key decisions related to scope, priorities, budget, hiring, and standards."
+    },
+    {
+      "term": "Operating environment",
+      "definition": "The resources, constraints, rhythms, norms, and dependencies that shape how work gets done day to day."
+    },
+    {
+      "term": "Scope",
+      "definition": "The boundaries of responsibility for the role, including what is owned, co-owned, influenced, or explicitly out of remit."
+    },
+    {
+      "term": "Escalation path",
+      "definition": "The predefined route for raising issues or conflicts, including who is involved, when to escalate, and how resolutions are decided."
+    }
+  ],
+  "topic": {
+    "number": "08",
+    "slug": "evaluate-the-role",
+    "title": "Questions That Help You Evaluate the Role",
+    "subtitle": "Use interview questions to understand scope, success measures and decision rights.",
+    "focus": "Build a question set that helps you assess the mandate, manager, decision rights and operating environment.",
+    "source_label": "University of Michigan Career Center — Interviewing Resources",
+    "source_url": "https://careercenter.umich.edu/content/interviewing-resources"
+  }
+}

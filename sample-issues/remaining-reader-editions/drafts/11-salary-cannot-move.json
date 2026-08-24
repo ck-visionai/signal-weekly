@@ -1,0 +1,139 @@
+{
+  "cover_objective": "Build a precise, respectful plan for clarifying the entire offer and identifying one or two priority terms to discuss when base salary is largely fixed.",
+  "decision_title": "Choose the one or two levers that matter most",
+  "decision_intro": "There are many moments in a career when base salary is constrained. Budgets close, pay bands are firm, or internal parity guardrails are in play. You may still feel pressure to advocate for yourself while maintaining a constructive tone. This edition helps you clarify the total package, decide what truly matters for this transition, and ask responsibly without signaling that everything is negotiable. You will assemble facts about the offer, map your needs and trade-offs, and practice a focused ask with alternatives. The goal is to reach a decision you can defend to yourself and your stakeholders, even if the number you hoped for is not available.",
+  "orientation": "You are not negotiating a number; you are designing a workable start. When base salary cannot move, shift from pushing to mapping. Clarify the full package, the timeline of value, and the terms that protect your ability to deliver. Ask for the smallest set of changes that unlock the most relief, performance, or stability. Anchor in business logic, not personal need. Show you understand where the employer is constrained, and place your requests within decision paths they can actually use. If you accept, accept cleanly. If you decline, close the loop respectfully and keep the door open.",
+  "read_steps": [
+    {
+      "title": "Confirm the ceiling and why it exists",
+      "body": "Before you decide what to ask for, verify the salary ceiling and understand its source. Ask clear, non-confrontational questions to learn whether the limit is policy, budget timing, level, or internal parity. Clarify the effective date for any future adjustments, such as annual cycles or promotion paths. Seek concrete boundaries rather than broad statements. You are not trying to argue the reason; you are trying to calibrate what is realistic. Once you understand the nature of the ceiling, you can stop expending energy on moves that are out of bounds and direct attention to terms that are open. This step preserves goodwill and prevents repeated requests that look uninformed."
+    },
+    {
+      "title": "Map the whole offer into present and future value",
+      "body": "Capture each element of the package across time. Write down base salary, bonus targets and timing, equity or long-term incentives, sign-on amounts and vesting, benefits, retirement match timing, paid time off, remote or hybrid provisions, and any allowances. Note waiting periods and cliffs. Convert each line item into a simple description of when it helps you. Some items deliver early relief, like a sign-on paid on start. Others support medium-term stability, like bonus eligibility after a cycle or an education stipend. Some reduce risk, like severance terms or relocation support. Seeing the sequence of value often reveals substitutes for a higher base that could still make the move practical."
+    },
+    {
+      "title": "Distinguish deal-breakers from enhancers",
+      "body": "Separate must-haves from nice-to-haves. A must-have is a term that meaningfully affects your ability to accept and succeed, such as flexible hours to cover caregiving, a sign-on to bridge a gap, or a title level that grants access to key stakeholders. Enhancers are items that make the role more comfortable but do not change your decision, such as a small equipment stipend or an extra day of paid time off. Rank these lists honestly. Limit your negotiation focus to one or two must-haves. Enhancers can be held in reserve or accepted as-is. This prioritization lowers friction and increases the odds of landing at least one meaningful improvement."
+    },
+    {
+      "title": "Design one focused ask with a clear fallback",
+      "body": "Boil your request down to a single message that links your priority term to business outcomes and decision feasibility. Specify the exact change you seek, why it matters for delivering the role, and how it could be approved. Prepare a fallback that is narrower but still helpful, and a clean acceptance plan if neither is possible. You are not threatening to walk; you are showing that you can make a crisp decision. The combination of a focused ask and a prepared fallback helps your counterpart advocate internally. It also prevents drift into a laundry list that dilutes your credibility."
+    }
+  ],
+  "extraction": "When you receive an offer and hear that base is fixed, slow the conversation long enough to collect the moving parts. Ask for a written summary of all compensation components, eligibility dates, and any one-time items. Verify bonus cycles, vesting schedules, and policy-based benefits. If something is unclear, ask what precedent exists and who owns the decision. Extract the timing of value and the names of decision makers. With this picture, you can judge what to elevate in your ask versus what to leave untouched. Do not assume silence equals flexibility. Confirm whether a term is discretionary or governed by a rule.",
+  "inventory_intro": "Before responding, conduct a brief inventory of your needs, risks, and tradeable value. You are clarifying what you truly need to accept, the risks you need to hedge, and what you can offer or sequence to enable your request. This prevents you from arguing your personal preferences and positions you to propose terms that help the business while addressing your constraints.",
+  "inventory_steps": [
+    {
+      "title": "List non-negotiables and exposure points",
+      "body": "Identify the small set of conditions that will materially affect your decision. Examples include a minimum first-year cash floor due to overlapping obligations, a schedule guardrail, or level alignment that unlocks the correct scope and access. Flag exposure points like forfeited bonus from your current employer, relocation cash flow, or caregiving logistics. Write each exposure as a short sentence tied to your ability to perform. This discipline keeps you from elevating minor preferences into negotiating points."
+    },
+    {
+      "title": "Identify levers you can trade or sequence",
+      "body": "Note where you can be flexible in exchange for your priority term. You might accept a later start date to align with budget timing, commit to a structured onboarding plan that accelerates impact, or agree to revisit certain terms after a defined milestone. Consider whether you can propose performance-based bridges, like a sign-on with a repayment provision or a title calibrated to scope with a review date. Levers you control can make your ask easier to approve."
+    },
+    {
+      "title": "Map approval paths and timing",
+      "body": "Think about who can approve each term. Base salary is often bound by level and parity. Sign-ons may sit with talent or finance. Title alignment involves org design. Remote work may require executive sign-off. Ask your recruiter or hiring manager to confirm owners and timelines. If your start date is near a budget rollover or comp cycle, ask how that affects approvals. You will design your request so it routes cleanly through real decision paths."
+    }
+  ],
+  "project_prompt": "Assemble a one-page negotiation brief. Include your understanding of the salary ceiling and why it exists, a timeline of value across the offer, your two must-haves with a sentence on business impact, your single focused ask, a narrower fallback, and a clean acceptance statement. Bring this to any live call to keep the conversation tight.",
+  "role_phrase": "The role I am ready to accept is...",
+  "evidence_phrase": "Based on the scope, deliverables, and timing we discussed...",
+  "translation_rule": "Translate personal wants into operational outcomes and approval-ready terms. Replace statements like I need more money with a specific, low-friction proposal that connects to execution, timing, or risk reduction for the employer. Use language that aligns with internal decision rules.",
+  "rewrite_prompt": "Rewrite your ask so it names one precise term, ties it to delivery or risk reduction, and states a realistic approval path and fallback.",
+  "fragile": "Fragile stances include arguing fairness without context, presenting a long list of small items, or implying you will accept only if multiple unrelated terms move. Demanding exceptions without acknowledging policy invites pushback. Framing the ask as compensation for personal life events without linking to delivery weakens your case. Sounding vague about timing or decision owners also reduces credibility.",
+  "defensible": "Defensible stances emphasize deliverables, timing, and the minimal change that unlocks your start. They acknowledge constraints, propose a concrete path to approval, and include a fallback you could accept. They show you have ranked your needs, understand parity and bands, and will make a crisp decision. This tone helps your counterpart advocate for you and preserves the relationship if the answer is no.",
+  "credibility_audit": "Before you ask, check three points. First, does your request align with how the organization actually approves things, including timing and level rules. Second, is your business logic clear enough that your counterpart could repeat it in a two-sentence summary to the final approver. Third, are you prepared to accept quickly if your one or two priority terms are met, or to decline respectfully if they are not. If any answer is no, refine the ask until it passes this audit.",
+  "worksheet_prompts": [
+    {
+      "label": "Map the value timeline",
+      "prompt": "List each offer component and note when it delivers value to you in the first 18 months. Include salary, bonus, sign-on, equity, benefits, and any waiting periods."
+    },
+    {
+      "label": "Name your two must-haves",
+      "prompt": "Write the one or two terms that would materially change your decision to accept. State why each matters for performing the role, not just for personal preference."
+    },
+    {
+      "label": "Draft your focused ask",
+      "prompt": "Write a three-sentence request that names one precise change, ties it to delivery or risk reduction, and states the approval path and a narrower fallback."
+    },
+    {
+      "label": "Define your walk-away line",
+      "prompt": "Write one sentence that states the minimum conditions under which you would decline and the reason that is consistent with your performance and commitments."
+    }
+  ],
+  "worked_examples": [
+    {
+      "before": "I really need a higher base. If you cannot move it, I would also like more vacation, a better title, and a work-from-home allowance.",
+      "after": "I understand the base is fixed due to level and parity. To make this transition work, could we add a one-time sign-on payable on start to bridge the gap from forfeited earnings. If sign-on funds are limited, a smaller sign-on with a three-month vesting or a relocation stipend would still address the cash-flow risk. I can confirm acceptance upon approval.",
+      "insight": "The weak version bundles many unrelated items and centers personal need without a decision path. The improved version acknowledges the constraint, names one business-aligned term with a clear purpose, and offers a fallback with similar intent. It shows the candidate understands approval mechanics and will decide quickly, which helps the counterpart advocate internally."
+    },
+    {
+      "before": "I want the senior title and a bonus guarantee because I am taking a risk.",
+      "after": "Given the cross-functional scope and the stakeholders we discussed, title alignment to the senior level would enable the access needed to deliver. If the title must follow the normal review, could we set a written milestone review at six months tied to defined outcomes and confirm bonus eligibility from start. I am comfortable starting with the current base under that plan.",
+      "insight": "The first version asserts risk without linking to delivery. The improved version connects the title to access and scope, acknowledges the standard process, and proposes a dated, outcome-based review with clear eligibility. It trades immediate change for a scheduled path and keeps the salary constraint out of dispute."
+    }
+  ],
+  "transfer_prompt": "Your focused-ask method also works for internal moves, retention discussions, and project-based engagements where rates are capped. In each case, clarify the ceiling, map value over time, rank a tiny set of must-haves, and propose one precise change tied to delivery. The same credibility audit applies before you ask.",
+  "review_steps": [
+    {
+      "title": "Clarity check",
+      "body": "Can someone outside the conversation read your one-page brief and repeat your ask and the reason in two sentences. If not, simplify. Remove extra adjectives and limit scope to one or two terms. Make the approval path explicit."
+    },
+    {
+      "title": "Reputation check",
+      "body": "How would your request look if shared internally by email. Ensure your tone is respectful and focused on delivery. Avoid framing that sounds entitled or transactional. Assume your words will be forwarded to the final approver."
+    },
+    {
+      "title": "Decision check",
+      "body": "If you receive a yes on your primary or fallback term, are you ready to accept promptly. If you receive a no on both, are you ready to decline respectfully. Decide in advance to avoid prolonged back-and-forth."
+    }
+  ],
+  "rehearsal": "Practice the conversation out loud. Start by acknowledging the base constraint and summarizing the role you are ready to accept. Deliver your focused ask in one breath. Pause. If you hear resistance, ask one clarifying question about decision rules, then present your fallback. Close by confirming you will decide quickly based on their response and timeline. Keep your tone calm, brief, and collaborative.",
+  "spoken_prompt": "I understand base is fixed at this level. To start effectively, could we approve a one-time sign-on payable on start, or alternatively a smaller sign-on with a short vesting schedule.",
+  "action_days": [
+    "Day 1: Request the full written offer with timing details for each component and confirm who owns each decision.",
+    "Day 2: Map your value timeline across the first 18 months and mark exposure points you need to cover.",
+    "Day 3: Rank two must-haves and one fallback. Discard enhancers from your negotiation plan.",
+    "Day 4: Draft your focused ask and run the credibility audit with a trusted peer.",
+    "Day 5: Rehearse your spoken prompt and schedule the call with the recruiter or hiring manager.",
+    "Day 6: Deliver the ask, document outcomes, and make a clear accept or decline plan based on responses."
+  ],
+  "commitment": "I will ask for the smallest set of changes that unlock a workable start, and I will decide promptly based on clear, written terms.",
+  "glossary": [
+    {
+      "term": "Base salary ceiling",
+      "definition": "A firm limit on base pay set by level, parity, or budget rules that is not likely to change for this offer."
+    },
+    {
+      "term": "Total compensation",
+      "definition": "The sum of cash and non-cash components, including salary, bonus, equity, benefits, and any one-time payments."
+    },
+    {
+      "term": "Non-cash value",
+      "definition": "Benefits or terms that do not increase base pay but improve the package, such as time flexibility, learning funds, or equipment."
+    },
+    {
+      "term": "Decision rights",
+      "definition": "Who has authority to approve each term of the offer and the process or timing they follow."
+    },
+    {
+      "term": "Trade-off",
+      "definition": "A concession or sequencing you accept to make approval easier, such as a milestone review in place of an immediate title change."
+    },
+    {
+      "term": "Walk-away line",
+      "definition": "Your pre-defined boundary for declining, stated in terms of conditions that prevent performance or create unacceptable risk."
+    }
+  ],
+  "topic": {
+    "number": "11",
+    "slug": "salary-cannot-move",
+    "title": "When Salary Cannot Move",
+    "subtitle": "Clarify the overall package and ask responsibly without assuming every term is negotiable.",
+    "focus": "Identify the one or two terms, questions or conditions that matter most when base salary has limited flexibility.",
+    "source_label": "DePaul Career Center — Job Offers & Salary Negotiation",
+    "source_url": "https://resources.depaul.edu/career-center/resumes-interviews/Pages/salary-negotiation.aspx"
+  }
+}

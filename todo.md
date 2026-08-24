@@ -129,6 +129,7 @@
 - [x] Replace the Offer Strategy card’s paper-stack visual with a visually distinct whole-role negotiation image while retaining the existing Interview Practice card artwork.
 - [x] Repair the footer “Start with the free working page” link so it scrolls to the embedded signup form instead of returning to the homepage header.
 - [x] Align footer-link visual cues so internal navigation and external/download actions use arrows consistently and understandably.
+- [x] Correct the footer Resources and Privacy links to use an internal-page arrow, reserving the up-right arrow for external and download destinations.
 - [ ] Define the original Career Signal ATS platform first-release scope, data safeguards, phased delivery plan and realistic build timeline before implementation.
 - [ ] Produce a detailed feature list and implementation architecture for the 3–4-week Career Signal ATS private beta.
 - [ ] Connect and review the user’s existing VS Code ATS project so reusable code can inform the Career Signal private-beta build rather than duplicating work.

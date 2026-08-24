@@ -1,5 +1,5 @@
 /**
- * Career Signal Weekly Editor
+ * Career Signal Editor
  * Owner-only operational workspace. The public site retains the Executive Signal Desk aesthetic;
  * this page prioritises clear labels, safe saves and simple content administration.
  */
@@ -123,13 +123,13 @@ export default function Editor() {
 
   if (loading) return <div className="editor-loading"><Loader2 className="animate-spin" /> Loading your editor…</div>;
   if (!user) {
-    return <main className="editor-gate"><div><span className="editor-kicker">CAREER SIGNAL WEEKLY / OWNER ACCESS</span><h1>Your content desk is protected.</h1><p>Sign in with the owner account to edit the landing page, downloads and public links.</p><Button onClick={() => startLogin()}><Sparkles size={16} /> Sign in to the editor</Button><a href="/">Return to the public site <ExternalLink size={14} /></a></div></main>;
+    return <main className="editor-gate"><div><span className="editor-kicker">CAREER SIGNAL / OWNER ACCESS</span><h1>Your content desk is protected.</h1><p>Sign in with the owner account to edit the landing page, downloads and public links.</p><Button onClick={() => startLogin()}><Sparkles size={16} /> Sign in to the editor</Button><a href="/">Return to the public site <ExternalLink size={14} /></a></div></main>;
   }
-  if (!isAdmin) return <main className="editor-gate"><div><span className="editor-kicker">ACCESS RESTRICTED</span><h1>This workspace is for the Career Signal Weekly owner.</h1><p>You are signed in, but this account is not authorised to edit the site.</p><a href="/">Return to the public site <ExternalLink size={14} /></a></div></main>;
+  if (!isAdmin) return <main className="editor-gate"><div><span className="editor-kicker">ACCESS RESTRICTED</span><h1>This workspace is for the Career Signal owner.</h1><p>You are signed in, but this account is not authorised to edit the site.</p><a href="/">Return to the public site <ExternalLink size={14} /></a></div></main>;
   if (editorContent.isLoading || !content) return <div className="editor-loading"><Loader2 className="animate-spin" /> Loading editable content…</div>;
 
   return (
-    <DashboardLayout menuItems={editorNav} title="Career Signal Weekly Editor">
+    <DashboardLayout menuItems={editorNav} title="Career Signal Editor">
       <div className="editor-shell">
         <header className="editor-page-header"><div><span className="editor-kicker">OWNER WORKSPACE</span><h1>{heading[0]}</h1><p>{heading[1]}</p></div><div className="editor-header-actions"><a href="/" target="_blank" rel="noreferrer">View live site <ExternalLink size={14} /></a><Button variant="outline" onClick={downloadBackup}><Download size={16} /> Download backup</Button><Button onClick={save} disabled={saveContent.isPending}><Save size={16} /> {saveContent.isPending ? "Saving…" : "Save changes"}</Button></div></header>
 
@@ -166,7 +166,7 @@ export default function Editor() {
             <EditorField label="Publishing frequency" value={content.hero.frequency} onChange={(value) => setContent({ ...content, hero: { ...content.hero, frequency: value } })} />
             <EditorField label="Audience line" value={content.hero.audience} onChange={(value) => setContent({ ...content, hero: { ...content.hero, audience: value } })} />
           </EditorCard>
-          <EditorCard title="Positioning line" intro="The restrained statement below the hero that explains Career Signal Weekly’s point of view.">
+          <EditorCard title="Positioning line" intro="The restrained statement below the hero that explains Career Signal’s point of view.">
             <EditorField label="Opening phrase" value={content.quiet.prefix} onChange={(value) => setContent({ ...content, quiet: { ...content.quiet, prefix: value } })} />
             <EditorField label="Bold emphasis" value={content.quiet.emphasis} onChange={(value) => setContent({ ...content, quiet: { ...content.quiet, emphasis: value } })} />
           </EditorCard>

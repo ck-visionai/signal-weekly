@@ -164,12 +164,12 @@ export const SITE_CONTENT_KEY = "signal-weekly-site";
 
 export const defaultSiteContent: SiteContent = {
   identity: {
-    brandName: "Career Signal Weekly",
+    brandName: "Career Signal",
     endorsement: "A Signrl publication",
-    managementLine: "Career Signal Weekly is a Signrl publication, managed by Signrl.",
+    managementLine: "Career Signal is a Signrl publication, managed by Signrl.",
     footerTagline: "Useful intelligence for your next consequential career decision.",
     footerMeta: "Made for career momentum",
-    copyrightLabel: "© 2026 CAREER SIGNAL WEEKLY",
+    copyrightLabel: "© 2026 CAREER SIGNAL",
     contactEmail: "signalweeklyhq@gmail.com",
     logoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/SqONCjkhpoZAPMjE.png",
   },
@@ -177,7 +177,7 @@ export const defaultSiteContent: SiteContent = {
     eyebrow: "THE FRIDAY CAREER BRIEF FOR EXPERIENCED PROFESSIONALS",
     headline: "Make your next career move easier to explain — and harder to",
     emphasis: "overlook.",
-    intro: "Start with a complete free working page that turns broad career claims into credible evidence. Then receive one concise Friday brief on ATS positioning, executive interviews, and whole-role negotiation.",
+    intro: "Start with a complete free working page that turns broad career claims into credible evidence. Then receive one weekly Friday brief on ATS positioning, executive interviews, and whole-role negotiation.",
     issueNumber: "SAMPLE BRIEFING 01",
     issueReadTime: "WORKING PAGE",
     issueKicker: "START HERE",
@@ -256,7 +256,7 @@ export const defaultSiteContent: SiteContent = {
     metaItems: ["NO COST", "FRIDAY BRIEFING", "LEAVE ANYTIME"],
   },
   resources: {
-    eyebrow: "THE CAREER SIGNAL WEEKLY LIBRARY",
+    eyebrow: "THE CAREER SIGNAL LIBRARY",
     title: "Practical documents for a more deliberate",
     emphasis: "next move.",
     intro: "Short, useful guides for the career decisions that deserve more than generic advice. Start with the document in front of you, then build from there.",

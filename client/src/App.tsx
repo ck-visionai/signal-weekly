@@ -11,7 +11,7 @@ import Privacy from "./pages/Privacy";
 import Resources from "./pages/Resources";
 
 /**
- * Signal Weekly / Executive Signal Desk
+ * Career Signal / Executive Signal Desk
  * SEO uses www.signrl.com as the single public address while preserving the editorial brand hierarchy.
  */
 const SITE_URL = "https://www.signrl.com";
@@ -44,15 +44,15 @@ function RouteSeo() {
     const isPrivacy = location === "/privacy";
     const isResources = location === "/resources";
     const title = isPrivacy
-      ? "Privacy Policy | Career Signal Weekly"
+      ? "Privacy Policy | Career Signal"
       : isResources
-        ? "Resources | Career Signal Weekly"
-        : "Career Signal Weekly | Career Intelligence for Leaders";
+        ? "Resources | Career Signal"
+        : "Career Signal | Career Intelligence for Leaders";
     const description = isPrivacy
-      ? "Read the Career Signal Weekly Privacy Policy and learn how subscription information is handled."
+      ? "Read the Career Signal Privacy Policy and learn how subscription information is handled."
       : isResources
-        ? "Download practical Career Signal Weekly guides for ATS résumés, executive interviews and career decisions."
-        : "Career Signal Weekly is a free career-intelligence briefing with practical ATS résumé, executive interview and salary-negotiation guidance for mid-career and senior professionals.";
+        ? "Download practical Career Signal guides for ATS résumés, executive interviews and career decisions."
+        : "Career Signal is a free career-intelligence briefing with practical ATS résumé, executive interview and salary-negotiation guidance for mid-career and senior professionals.";
     const path = isPrivacy ? "/privacy" : isResources ? "/resources" : "/";
 
     document.title = title;

@@ -1,5 +1,5 @@
 /**
- * Career Signal Weekly / Executive Signal Desk Resources
+ * Career Signal / Executive Signal Desk Resources
  * Editorial resource-library page: warm paper, graphite document panels and refined-teal actions.
  */
 import { useEffect } from "react";
@@ -39,7 +39,7 @@ export default function Resources() {
   return (
     <div className="resources-page">
       <header className="resources-nav">
-        <a className="brand" href="/" aria-label="Career Signal Weekly home">
+        <a className="brand" href="/" aria-label="Career Signal home">
           <SignalMark />
           <span className="brand-lockup"><strong className="brand-name">{content.identity.brandName}</strong><small>{content.identity.endorsement}</small></span>
         </a>
@@ -58,7 +58,7 @@ export default function Resources() {
 
         <section className="resource-feature" aria-labelledby="ats-audit-title">
           <div className="resource-feature-document" aria-hidden="true">
-            <div className="resource-document-topline"><span>CAREER SIGNAL WEEKLY / {featured.number}</span><span>PDF</span></div>
+            <div className="resource-document-topline"><span>CAREER SIGNAL / {featured.number}</span><span>PDF</span></div>
             <div className="resource-document-body"><p>{featured.category}</p><h2>{featured.title}</h2><div className="resource-document-lines"><i /><i /><i /><i /></div></div>
             <div className="resource-document-footer"><span>{featured.reviewTime.toUpperCase()}</span><span>01</span></div>
           </div>
@@ -75,7 +75,7 @@ export default function Resources() {
         </section>
 
         <section className="resource-method" aria-labelledby="method-title">
-          <div><div className="eyebrow"><span className="eyebrow-line" />WHAT MAKES A CAREER SIGNAL WEEKLY RESOURCE</div><h2 id="method-title">Less noise.<br /><em>More usable signal.</em></h2></div>
+          <div><div className="eyebrow"><span className="eyebrow-line" />WHAT MAKES A CAREER SIGNAL RESOURCE</div><h2 id="method-title">Less noise.<br /><em>More usable signal.</em></h2></div>
           <div className="resource-method-list"><article><span>01</span><h3><span>Specific</span></h3><p>Each guide focuses on one high-stakes career moment rather than attempting to solve your whole search at once.</p></article><article><span>02</span><h3><span>Evidence-led</span></h3><p>The practical advice is designed to help you make the strongest honest case for the work you have done.</p></article><article><span>03</span><h3><span>Built to use</span></h3><p>Every resource includes a checklist, prompt or working tool you can return to before your next decision.</p></article></div>
         </section>
 

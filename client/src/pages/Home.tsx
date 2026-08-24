@@ -1,5 +1,5 @@
 /**
- * Career Signal Weekly / Executive Signal Desk
+ * Career Signal / Executive Signal Desk
  * Contemporary editorial minimalism: warm ivory, graphite, refined teal, and paper briefing artifacts.
  */
 import { type MouseEvent, useEffect, useRef, useState } from "react";
@@ -67,7 +67,7 @@ export default function Home() {
   return (
     <div className="site-shell">
       <header className="topbar">
-        <a className="brand" href="#top" aria-label="Career Signal Weekly home">
+        <a className="brand" href="#top" aria-label="Career Signal home">
           <SignalMark />
           <span className="brand-lockup"><strong className="brand-name">{content.identity.brandName}</strong><small>{content.identity.endorsement}</small></span>
         </a>
@@ -103,7 +103,7 @@ export default function Home() {
             </p>
 
             <p className="hero-signup-offer">{content.hero.signupOfferLabel}</p>
-            <div className="beehiiv-embed" id="subscribe" ref={beehiivEmbedRef} aria-label="Subscribe to Career Signal Weekly">
+            <div className="beehiiv-embed" id="subscribe" ref={beehiivEmbedRef} aria-label="Subscribe to Career Signal">
               <noscript>
                 <a className="beehiiv-embed__fallback" href="https://signalweeklyhq.beehiiv.com/subscribe">
                   {content.navigation.fallbackSubscribeLabel}
@@ -144,7 +144,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="quiet-statement" aria-label="Career Signal Weekly positioning">
+        <section className="quiet-statement" aria-label="Career Signal positioning">
           <div className="quiet-statement-line" />
           <p>{content.quiet.prefix} <strong>{content.quiet.emphasis}</strong></p>
           <div className="quiet-statement-line" />

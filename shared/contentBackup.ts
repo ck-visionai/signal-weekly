@@ -2,11 +2,11 @@ import type { SiteContent } from "./siteContent";
 
 export function createContentBackup(content: SiteContent, createdAt = new Date()) {
   const timestamp = createdAt.toISOString();
-  const heading = "# Career Signal Weekly Content Backup";
+  const heading = "# Career Signal Content Backup";
   const summary = [
     `Created: ${timestamp}`,
     "",
-    "> This backup contains the editable Career Signal Weekly website content, public resources and redirect links.",
+    "> This backup contains the editable Career Signal website content, public resources and redirect links.",
     "> It does not contain Beehiiv subscribers, email messages, passwords, or domain-account information.",
     "",
     "## Quick reference",
@@ -24,12 +24,12 @@ export function createContentBackup(content: SiteContent, createdAt = new Date()
     "```",
     "",
     "## Recovery note",
-    "To restore content, sign in to the Career Signal Weekly Editor and copy the relevant values back into the matching fields. Do not upload this file publicly because it may contain unpublished draft wording or private destination links.",
+    "To restore content, sign in to the Career Signal Editor and copy the relevant values back into the matching fields. Do not upload this file publicly because it may contain unpublished draft wording or private destination links.",
   ];
 
   return `${heading}\n\n${summary.join("\n")}\n`;
 }
 
 export function contentBackupFilename(createdAt = new Date()) {
-  return `career-signal-weekly-content-backup-${createdAt.toISOString().slice(0, 10)}.md`;
+  return `career-signal-content-backup-${createdAt.toISOString().slice(0, 10)}.md`;
 }

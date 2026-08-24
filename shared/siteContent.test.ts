@@ -19,4 +19,11 @@ describe("Signal Weekly editor content schema", () => {
 
     expect(siteContentSchema.parse(draftContent).links.liveTrainingUrl).toBe("");
   });
+
+  it("keeps a concrete working-page offer and transparent sample labels in the published defaults", () => {
+    expect(defaultSiteContent.hero.signupOfferLabel).toContain("COMPLETE FREE WORKING PAGE");
+    expect(defaultSiteContent.navigation.subscribeLabel).toContain("free working page");
+    expect(defaultSiteContent.hero.issueNumber).toContain("SAMPLE BRIEFING");
+    expect(defaultSiteContent.archive.eyebrow).toBe("FROM THE SAMPLE LIBRARY");
+  });
 });

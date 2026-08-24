@@ -19,6 +19,7 @@ import {
 } from "lucide-react";
 import { trpc } from "@/lib/trpc";
 import { defaultSiteContent } from "@shared/siteContent";
+import { sampleIssues } from "@shared/sampleIssues";
 
 function SignalMark({ inverse = false, src }: { inverse?: boolean; src?: string }) {
   return (
@@ -99,6 +100,7 @@ export default function Home() {
               {content.hero.intro}
             </p>
 
+            <p className="hero-signup-offer">{content.hero.signupOfferLabel}</p>
             <div className="beehiiv-embed" id="subscribe" ref={beehiivEmbedRef} aria-label="Subscribe to Signal Weekly">
               <noscript>
                 <a className="beehiiv-embed__fallback" href="https://signalweeklyhq.beehiiv.com/subscribe">
@@ -120,12 +122,12 @@ export default function Home() {
               <img src={content.hero.imageUrl} alt={content.hero.imageAlt} />
               <div className="hero-image-wash" />
             </div>
-            <article className="hero-issue-card">
+            <a className="hero-issue-card" href={sampleIssues[0].completeUrl} target="_blank" rel="noreferrer" aria-label="Read the complete Evidence Before Adjectives working page">
               <div className="issue-card-topline"><span>{content.hero.issueNumber}</span><span>{content.hero.issueReadTime}</span></div>
               <p className="issue-card-kicker">{content.hero.issueKicker}</p>
               <h2>{content.hero.issueTitle}</h2>
               <div className="issue-card-footer"><span>{content.hero.issueOpenLabel}</span><MoveUpRight size={16} /></div>
-            </article>
+            </a>
             <a
               className="lead-magnet-card"
               href={content.hero.leadUrl}
@@ -189,7 +191,7 @@ export default function Home() {
           </div>
 
           <div className="sample-layout">
-            <article className="main-brief">
+            <a className="main-brief" href={sampleIssues[0].completeUrl} target="_blank" rel="noreferrer" aria-label="Read the complete Evidence Before Adjectives working page">
               <div className="main-brief-header"><span>{content.archive.leadNumber}</span><span>{content.archive.readingTime}</span></div>
               <div className="main-brief-copy">
                 <p className="brief-label">{content.archive.leadLabel}</p>
@@ -197,20 +199,20 @@ export default function Home() {
                 <p>{content.archive.leadDescription}</p>
               </div>
               <div className="brief-annotation"><span>01</span><p>{content.archive.annotationLabel}</p><ArrowUpRight size={18} /></div>
-            </article>
+            </a>
             <div className="brief-side-stack">
-              <article className="side-brief side-brief--top">
+              <a className="side-brief side-brief--top" href={sampleIssues[1].previewUrl} target="_blank" rel="noreferrer" aria-label="Read the preview of The ATS Translation Layer">
                 <span className="side-brief-index">02</span>
                 <p>{content.archive.sideBriefs[0].label}</p>
                 <h3>{content.archive.sideBriefs[0].title}</h3>
                 <ArrowUpRight size={18} />
-              </article>
-              <article className="side-brief side-brief--bottom">
+              </a>
+              <a className="side-brief side-brief--bottom" href={sampleIssues[2].previewUrl} target="_blank" rel="noreferrer" aria-label="Read the preview of Your Three-Story Interview Bank">
                 <span className="side-brief-index">03</span>
                 <p>{content.archive.sideBriefs[1].label}</p>
                 <h3>{content.archive.sideBriefs[1].title}</h3>
                 <ArrowUpRight size={18} />
-              </article>
+              </a>
             </div>
           </div>
         </section>

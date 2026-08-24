@@ -80,6 +80,9 @@
 - [x] Add a public Sample Issues library page or section where visitors can browse and open all twelve sample PDFs.
 - [x] Fix the Resources value-card headings so “Evidence-led” and “Built to use” do not wrap across visually awkward lines.
 - [ ] Prepare a prioritized subscriber-growth strategy and lead-magnet plan for Signal Weekly’s first acquisition cycle.
+- [ ] Apply P0 conversion copy: concrete free-working-page hero promise, unified subscriber CTA language, and transparent Sample Briefing labels on the homepage.
+- [ ] Update the Beehiiv embedded-form button and supporting form copy so the live form matches the free-working-page signup promise.
+- [x] Establish and document the 8–12-page, 20–30-minute weekly reader-edition standard for future Signal Weekly subscriber deliveries.
 - [x] Conduct a conversion and copywriting review of the entire public landing, Resources, confirmation and welcome-email journey, with prioritized subscriber-click improvements.
 - [ ] Map and streamline the visitor-to-subscriber journey from www.signrl.com through confirmation, welcome email and first Sample Briefing access.
 - [ ] Remove the misleading immediate “Get the complete edition” actions from Samples 02–12 and clearly label their progressive email-delivery status.

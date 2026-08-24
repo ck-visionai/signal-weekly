@@ -9,9 +9,13 @@ import { defaultSiteContent } from "@shared/siteContent";
 import { sampleIssues } from "@shared/sampleIssues";
 import { getResourcesAnchorTarget } from "@shared/resourcesNavigation";
 
+const CAREER_SIGNAL_LOGO = "/manus-storage/career-signal-logo-midnight-navy-final_97c9f1d6.png";
+
 function SignalMark({ inverse = false }: { inverse?: boolean }) {
   return (
-    <span className={`signal-mark ${inverse ? "signal-mark--inverse" : ""}`} aria-hidden="true"><i /><i /><i /></span>
+    <span className={`signal-logo-wrap ${inverse ? "signal-logo-wrap--on-dark" : ""}`} aria-hidden="true">
+      <img className="signal-logo" src={CAREER_SIGNAL_LOGO} alt="" />
+    </span>
   );
 }
 

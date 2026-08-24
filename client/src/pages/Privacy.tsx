@@ -4,6 +4,8 @@
  */
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
 
+const CAREER_SIGNAL_LOGO = "/manus-storage/career-signal-logo-midnight-navy-final_97c9f1d6.png";
+
 const sections = [
   {
     title: "1. Overview",
@@ -84,7 +86,7 @@ export default function Privacy() {
     <div className="privacy-page">
       <header className="privacy-nav">
         <a className="privacy-brand" href="/" aria-label="Return to Career Signal home">
-          <span className="privacy-mark" aria-hidden="true"><i /><i /><i /></span>
+          <span className="privacy-mark" aria-hidden="true"><img src={CAREER_SIGNAL_LOGO} alt="" /></span>
           Career Signal
         </a>
         <a className="privacy-return" href="/"><ArrowLeft size={15} /> Back to the briefing</a>

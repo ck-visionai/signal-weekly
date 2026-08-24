@@ -17,19 +17,34 @@
   --mist-teal: #a9c9dd;
 }
 
-.signal-mark {
-  width: 22px;
-  height: 22px;
+.signal-logo-wrap {
+  width: 34px;
+  height: 34px;
   display: inline-flex;
-  align-items: end;
-  gap: 2.5px;
   flex: 0 0 auto;
-  object-fit: initial;
+  align-items: center;
+  justify-content: center;
 }
 
-.signal-mark i { width: 4.5px; display: block; background: var(--midnight-authority); border-radius: 4px 4px 1px 1px; transform: skewY(-11deg); }
-.signal-mark i:nth-child(1) { height: 9px; }.signal-mark i:nth-child(2) { height: 14px; }.signal-mark i:nth-child(3) { height: 20px; }
-.signal-mark--inverse { filter: none; }.signal-mark--inverse i { background: #fff; }
+.signal-logo {
+  width: 34px;
+  height: 34px;
+  display: block;
+  object-fit: contain;
+}
+
+.signal-logo-wrap--on-dark {
+  width: 30px;
+  height: 30px;
+  padding: 1px;
+  border-radius: 7px;
+  background: #fff;
+}
+
+.signal-logo-wrap--on-dark .signal-logo {
+  width: 32px;
+  height: 32px;
+}
 
 .brand { letter-spacing: -0.052em; }.brand-lockup { gap: 3px; }.brand-name { font-size: 16px; }.brand-lockup small { color: var(--steel-blue); }
 .brand--footer .brand-lockup small { color: var(--cloud-blue); }
@@ -64,6 +79,8 @@
 .lead-magnet-icon { color: var(--midnight-authority); background: var(--ice); }
 .privacy-mark i, .privacy-return, .privacy-beehiiv, .resources-nav-return { color: var(--midnight-authority); }
 .privacy-mark i { background: var(--midnight-authority); }
+.privacy-mark { width: 30px; height: 30px; display: inline-flex; align-items: center; justify-content: center; }
+.privacy-mark img { width: 30px; height: 30px; display: block; object-fit: contain; }
 .carousel-controls button:hover { background: var(--midnight-authority); border-color: var(--midnight-authority); }
 .resource-library-download:focus-visible, .sample-library-actions a:focus-visible, .sample-library-card a:focus-visible { outline-color: rgba(3, 4, 94, 0.36); }
 

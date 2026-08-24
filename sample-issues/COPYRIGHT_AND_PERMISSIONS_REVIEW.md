@@ -66,6 +66,8 @@ Use the following rules for every new Sample Briefing and weekly reader edition.
 5. Add a short educational-scope note, but do not treat a disclaimer as a substitute for permission where permission is required.
 6. Before registering or commercialising the library at scale, obtain qualified legal advice about the relevant jurisdiction, contracts, authorship, AI-assisted components and brand assets.
 
+The owner-facing [`ASSET_PROVENANCE_REGISTER.md`](./ASSET_PROVENANCE_REGISTER.md) lists the current project assets that need confirmation and provides the exact record format to retain.
+
 ## References
 
 [1] [U.S. Copyright Office — What Is Copyright?](https://www.copyright.gov/what-is-copyright/)

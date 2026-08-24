@@ -72,3 +72,11 @@ GitHub Pages workflow `32756370567` completed successfully for checkpoint `af82e
 | Offer clarity | **Pass.** The hero and closing copy continue to state that the reward is a complete free working page. |
 | Frequency wording | **Pass.** The hero, form note, trust line and closing section consistently promise one weekly Friday brief. |
 | Beehiiv state | **Unchanged and unpublished.** The deployed website copy was updated without publishing or sending any Beehiiv draft. |
+
+## 25 August 2026 — Cache-busted public page confirmation
+
+| Check | Result |
+|---|---|
+| Offer Strategy card | **Pass.** The public HTML references the distinct `/manus-storage/career-signal-offer-strategy-card_4e86ef07.jpg` asset rather than the Interview Practice paper-stack treatment. |
+| Footer signup navigation | **Pass.** The public footer action resolves to `#subscribe`; the live page exposes the Beehiiv email input and `Get my free page` submit button after its normal asynchronous load. |
+| Footer cue system | **Pass.** The current public source retains the differentiated link destinations: internal Resources/Privacy pages, in-page anchors, and the external ATS PDF. |

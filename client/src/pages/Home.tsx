@@ -2,7 +2,7 @@
  * Signal Weekly / Executive Signal Desk
  * Contemporary editorial minimalism: warm ivory, graphite, Signal Cobalt, and paper briefing artifacts.
  */
-import { useEffect, useRef, useState } from "react";
+import { type MouseEvent, useEffect, useRef, useState } from "react";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -62,6 +62,13 @@ export default function Home() {
   const slide = topicSlides[activeSlide];
   const TopicIcon = slide.icon;
 
+  const scrollToSignup = (event: MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+    setMenuOpen(false);
+    beehiivEmbedRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+    window.history.replaceState(null, "", "#subscribe");
+  };
+
   return (
     <div className="site-shell">
       <header className="topbar">
@@ -76,7 +83,7 @@ export default function Home() {
           <a href="/resources" onClick={() => setMenuOpen(false)}>{content.navigation.resourcesLabel}</a>
         </nav>
 
-        <a className="topbar-cta" href="#subscribe">
+        <a className="topbar-cta" href="#subscribe" onClick={scrollToSignup}>
           {content.navigation.subscribeLabel} <ArrowUpRight size={15} strokeWidth={2.25} />
         </a>
         <button
@@ -173,7 +180,7 @@ export default function Home() {
                   <div className="card-meta"><span><i className="card-signal" />{card.label}</span><span>{card.index}</span></div>
                   <h3>{card.title}</h3>
                   <p>{card.text}</p>
-                  <a href="#subscribe">{content.navigation.valueCtaLabel} <ArrowRight size={15} /></a>
+                  <a href="#subscribe" onClick={scrollToSignup}>{content.navigation.valueCtaLabel} <ArrowRight size={15} /></a>
                 </div>
               </article>
             ))}
@@ -221,6 +228,21 @@ export default function Home() {
           <div className="practice-label-block">
             <div className="eyebrow"><span className="eyebrow-line" />{content.practice.eyebrow}</div>
             <p>{content.practice.intro}</p>
+            <div className="practice-path" aria-label="Choose a career decision to explore">
+              <span className="practice-path-kicker">CHOOSE A DECISION TO EXPLORE</span>
+              {topicSlides.map((topic, index) => (
+                <button
+                  className={index === activeSlide ? "practice-path-item practice-path-item--active" : "practice-path-item"}
+                  key={topic.eyebrow}
+                  type="button"
+                  onClick={() => setActiveSlide(index)}
+                  aria-pressed={index === activeSlide}
+                >
+                  <span>{topic.number}</span><strong>{topic.eyebrow.replace("THE ", "")}</strong><ArrowRight size={14} />
+                </button>
+              ))}
+            </div>
+            <a className="practice-cta" href="#subscribe" onClick={scrollToSignup}>Start with the free working page <ArrowRight size={14} /></a>
           </div>
           <div className="topic-carousel">
             <div className="topic-count"><span>0{activeSlide + 1}</span><i /> <span>0{topicSlides.length}</span></div>
@@ -256,7 +278,7 @@ export default function Home() {
               <div className="eyebrow"><span className="eyebrow-line" />{content.closing.eyebrow}</div>
               <h2 id="closing-title">{content.closing.heading}<br /><em>{content.closing.emphasis}</em></h2>
               <p>{content.closing.description}</p>
-              <a className="closing-button" href="#subscribe">{content.closing.ctaLabel} <ArrowRight size={18} /></a>
+              <a className="closing-button" href="#subscribe" onClick={scrollToSignup}>{content.closing.ctaLabel} <ArrowRight size={18} /></a>
               <div className="closing-meta"><span>{content.closing.metaItems[0]}</span><i /><span>{content.closing.metaItems[1]}</span><i /><span>{content.closing.metaItems[2]}</span></div>
             </div>
           </div>
@@ -270,7 +292,7 @@ export default function Home() {
           <p className="footer-management">{content.identity.managementLine}</p>
         </div>
         <div className="footer-links">
-          <div><p>{content.footer.exploreLabel}</p><a href="/resources">{content.navigation.resourcesLabel} <ArrowUpRight size={13} /></a><a href="#sample">{content.footer.sampleLinkLabel}</a><a href="#inside">{content.footer.insideLinkLabel}</a><a href={content.links.atsUrl} target="_blank" rel="noreferrer">{content.footer.atsLinkLabel} <ArrowUpRight size={13} /></a>{content.links.liveTrainingUrl ? <a href={content.links.liveTrainingUrl} target="_blank" rel="noreferrer">{content.footer.liveTrainingLabel} <ArrowUpRight size={13} /></a> : null}<a href="#subscribe">{content.navigation.subscribeLabel}</a></div>
+          <div><p>{content.footer.exploreLabel}</p><a href="/resources">{content.navigation.resourcesLabel} <ArrowUpRight size={13} /></a><a href="#sample">{content.footer.sampleLinkLabel}</a><a href="#inside">{content.footer.insideLinkLabel}</a><a href={content.links.atsUrl} target="_blank" rel="noreferrer">{content.footer.atsLinkLabel} <ArrowUpRight size={13} /></a>{content.links.liveTrainingUrl ? <a href={content.links.liveTrainingUrl} target="_blank" rel="noreferrer">{content.footer.liveTrainingLabel} <ArrowUpRight size={13} /></a> : null}<a href="#subscribe" onClick={scrollToSignup}>{content.navigation.subscribeLabel}</a></div>
           <div><p>{content.footer.elsewhereLabel}</p><a href={content.links.linkedinUrl} target="_blank" rel="noreferrer">{content.footer.linkedinLinkLabel} <Linkedin size={13} /></a><a href={`mailto:${content.identity.contactEmail}`}>{content.footer.contactLinkLabel} <ArrowUpRight size={13} /></a></div>
           <div><p>{content.footer.legalLabel}</p><a href="/privacy">{content.footer.privacyLinkLabel} <ArrowUpRight size={13} /></a></div>
         </div>

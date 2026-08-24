@@ -25,5 +25,7 @@ describe("Signal Weekly editor content schema", () => {
     expect(defaultSiteContent.navigation.subscribeLabel).toContain("free working page");
     expect(defaultSiteContent.hero.issueNumber).toContain("SAMPLE BRIEFING");
     expect(defaultSiteContent.archive.eyebrow).toBe("FROM THE SAMPLE LIBRARY");
+    expect(defaultSiteContent.closing.heading).toBe("Start here.");
+    expect(defaultSiteContent.closing.emphasis).toBe("Build from there.");
   });
 });

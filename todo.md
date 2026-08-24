@@ -79,16 +79,27 @@
 - [x] Create twelve clearly labelled Signal Weekly sample briefing PDFs without representing them as previously issued newsletters.
 - [x] Add a public Sample Issues library page or section where visitors can browse and open all twelve sample PDFs.
 - [x] Fix the Resources value-card headings so “Evidence-led” and “Built to use” do not wrap across visually awkward lines.
-- [ ] Prepare a prioritized subscriber-growth strategy and lead-magnet plan for Signal Weekly’s first acquisition cycle.
+- [x] Prepare a prioritized subscriber-growth strategy and lead-magnet plan for Signal Weekly’s first acquisition cycle.
 - [ ] Apply P0 conversion copy: concrete free-working-page hero promise, unified subscriber CTA language, and transparent Sample Briefing labels on the homepage.
 - [ ] Update the Beehiiv embedded-form button and supporting form copy so the live form matches the free-working-page signup promise.
+- [x] Replace the oversized Beehiiv button label with a concise single-line call to action in the saved Beehiiv draft.
+- [ ] Repair all “Get the free working page” calls to action so they reliably scroll to the embedded signup form rather than stalling on the current section.
+- [x] Recompose the homepage closing invitation so its heading, supporting copy, call to action, and trust line align cleanly at desktop and mobile widths.
+- [x] Rebalance the “Briefing, in practice” section by replacing its underused left-side whitespace with purposeful decision-context content and a visible topic map.
+- [x] Correct the low-contrast Preview 03 Sample Library card so its title, label, index, and action icon are clearly legible on the light-blue surface.
+- [ ] Publish and verify the saved Beehiiv embedded-form copy update after the owner approves the final live change.
 - [x] Establish and document the 8–12-page, 20–30-minute weekly reader-edition standard for future Signal Weekly subscriber deliveries.
 - [x] Conduct a conversion and copywriting review of the entire public landing, Resources, confirmation and welcome-email journey, with prioritized subscriber-click improvements.
+- [ ] Deliver a creative-director review of landing-page copy, typography, colour, texture, imagery, layout, and trust cues without implementing additional changes.
+- [x] Reconcile all recent owner requests against the current public site, Beehiiv configuration, Sample Library delivery plan, and pending implementation items before requesting further publishing actions.
 - [ ] Map and streamline the visitor-to-subscriber journey from www.signrl.com through confirmation, welcome email and first Sample Briefing access.
-- [ ] Remove the misleading immediate “Get the complete edition” actions from Samples 02–12 and clearly label their progressive email-delivery status.
+- [x] Remove the misleading immediate “Get the complete edition” actions from Samples 02–12 and clearly label their progressive email-delivery status.
 - [ ] Publish one complete free sample, preview the remaining eleven samples, and pair full-download access with a verified Beehiiv subscriber-delivery path.
 - [x] Prepare a clearly labelled twelve-week “From the Sample Library” Beehiiv delivery schedule without presenting sample briefings as newly issued newsletters.
-- [x] Expand the eleven subscriber-delivered sample briefings beyond their public previews into fuller multi-page PDF editions.
+- [ ] Expand the eleven subscriber-delivered Sample Briefings into verified 8–12-page reader editions before weekly delivery.
 - [ ] Update the Beehiiv welcome or first manual follow-up email to deliver the promised first Sample Library edition after a confirmed signup.
 - [ ] Verify the post-signup delivery path for locked complete sample editions before describing it as subscriber access on the public site.
 - [x] Fix direct navigation from the Beehiiv welcome-email Resources link so #sample-issues scrolls to the Sample Briefing Library after the page loads.
+- [ ] Save, deploy, and publicly verify the latest local homepage refinements and working-page CTA navigation repair after the owner approves their scope.
+- [ ] Follow the approved execution order: CTA deployment and live verification, then unimplemented creative-direction review, then the first verified 8–12-page weekly reader edition.
+- [ ] Publish the reviewed Beehiiv Welcome Email draft after the owner approves its final copy and branded Sample Library destination.

@@ -100,6 +100,9 @@
 - [x] Expand the eleven subscriber-delivered Sample Briefings into verified 8–12-page reader editions before weekly delivery.
 - [x] Produce and verify Sample Briefings 03–12 as 8–12-page reader editions using the approved Sample Briefing 02 quality standard.
 - [ ] Conduct a focused copyright and permissions review of the complete reader-edition library before wider distribution or reuse decisions.
+- [ ] Review reader-edition provenance, external-link attribution, copied visual assets, model-generated text risks, and licence/permission requirements before releasing full PDFs through Beehiiv.
+- [x] Complete the text-and-link portion of the reader-library copyright review, including source-link verification and AI-assisted-content recordkeeping guidance.
+- [ ] Complete the owner visual-asset register and human editorial release gate before publishing full reader-edition PDFs through Beehiiv.
 - [x] Produce and verify Sample Briefing 02, “The ATS Translation Layer,” as the first 8–12-page reader edition for future weekly delivery.
 - [ ] Update the Beehiiv welcome or first manual follow-up email to deliver the promised first Sample Library edition after a confirmed signup.
 - [ ] Verify the post-signup delivery path for locked complete sample editions before describing it as subscriber access on the public site.

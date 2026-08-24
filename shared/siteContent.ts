@@ -273,7 +273,7 @@ export const defaultSiteContent: SiteContent = {
       note: "Educational guidance only. It cannot guarantee an interview or outcome.",
     },
     upcoming: [
-      { status: "AVAILABLE NOW", title: "The Executive Interview Preparation Brief", summary: "A practical guide to preparing clear, credible answers for consequential conversations.", downloadUrl: "/manus-storage/main_49368bcd.pdf" },
+      { status: "AVAILABLE NOW", title: "The Executive Interview Preparation Brief", summary: "A practical guide to preparing clear, credible answers for consequential conversations.", downloadUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/hEfNztMDaEFBDiYj.pdf" },
       { status: "IN DEVELOPMENT", title: "The Whole-Role Negotiation Map", summary: "A framework for thinking beyond the headline number.", downloadUrl: "" },
     ],
   },

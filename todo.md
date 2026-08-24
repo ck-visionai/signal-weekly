@@ -146,3 +146,4 @@
 - [x] Reduce repeated “Evidence Before Adjectives” treatments across the hero, closing invitation and Sample Library while retaining it as the signature complete free working page.
 - [x] Replace the closing section’s repeated Evidence Before Adjectives cover with the approved three-signal Friday-brief panel: Positioning, Interview, Offer, and “One useful move each Friday.”
 - [x] Remove the Sample issues and What you’ll get links from the Career Signal footer Explore navigation.
+- [x] Remove the “Evidence Before Adjectives” title from Sample Library messaging and replace it with neutral descriptive working-page language, retaining the phrase only in the hero reward section.

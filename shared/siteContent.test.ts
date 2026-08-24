@@ -31,8 +31,9 @@ describe("Signal Weekly editor content schema", () => {
     expect(defaultSiteContent.closing.emphasis).toBe("Build from there.");
   });
 
-  it("keeps Evidence Before Adjectives as the signature sample resource while giving each guidance card its own educational direction", () => {
-    expect(defaultSiteContent.archive.leadTitle).toBe("Evidence Before Adjectives");
+  it("keeps the hero reward distinct from the neutral Sample Library working-page title while giving each guidance card its own educational direction", () => {
+    expect(defaultSiteContent.hero.issueTitle).toBe("Evidence Before Adjectives");
+    expect(defaultSiteContent.archive.leadTitle).toBe("The Career Evidence Working Page");
     expect(defaultSiteContent.pillars.map((pillar) => pillar.ctaLabel)).toEqual([
       "Explore the résumé briefing",
       "Explore interview practice",

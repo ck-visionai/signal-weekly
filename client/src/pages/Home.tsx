@@ -198,7 +198,7 @@ export default function Home() {
           </div>
 
           <div className="sample-layout">
-            <a className="main-brief" href={sampleIssues[0].completeUrl} target="_blank" rel="noreferrer" aria-label="Read the complete Evidence Before Adjectives working page">
+            <a className="main-brief" href={sampleIssues[0].completeUrl} target="_blank" rel="noreferrer" aria-label="Read the complete Career Evidence Working Page">
               <div className="main-brief-header"><span>{content.archive.leadNumber}</span><span>{content.archive.readingTime}</span></div>
               <div className="main-brief-copy">
                 <p className="brief-label">{content.archive.leadLabel}</p>

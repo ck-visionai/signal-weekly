@@ -228,7 +228,7 @@ export const defaultSiteContent: SiteContent = {
     leadNumber: "SAMPLE BRIEFING / 01",
     readingTime: "COMPLETE EDITION",
     leadLabel: "START HERE",
-    leadTitle: "Evidence Before Adjectives",
+    leadTitle: "The Career Evidence Working Page",
     leadDescription: "A complete working page for turning broad career claims into credible evidence before a recruiter or hiring manager has to infer the value.",
     annotationLabel: "READ THE COMPLETE WORKING PAGE",
     sideBriefs: [

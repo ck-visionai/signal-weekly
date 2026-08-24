@@ -39,3 +39,15 @@ The GitHub Pages deployment for checkpoint `746de0f6` completed successfully thr
 | Public Privacy page | **Pass.** The existing warm-paper reading experience retained Navy primary and interactive accents without changing legal content. |
 | Responsive review | **Pass.** Local desktop and mobile checks showed the navy-to-ice hierarchy remained readable in navigation, cards, dark sections, buttons and supporting surfaces. |
 | Beehiiv form and Welcome Email | **Unchanged and unpublished.** The colour update did not publish, send or otherwise alter either owner-controlled draft. |
+
+## 25 August 2026 — Official logo and differentiated guidance-card release
+
+The GitHub Pages deployment for checkpoint `7e2338de` completed successfully through workflow run `32753389433`.
+
+| Check | Result |
+|---|---|
+| Public homepage logo | **Pass.** `www.signrl.com` displayed the approved Career Signal icon with only its tallest centre line in Midnight Authority navy and the remaining bars and dot in black. |
+| Public homepage hero | **Pass.** The floating “Free download — The Executive ATS Résumé Audit” card was absent. The complete Evidence Before Adjectives working-page card, primary signup offer and hero image remained intact. |
+| Homepage guidance cards | **Pass.** The three cards rendered distinct messages—résumé fit, interview judgement and offer value—with contextual links to the Sample Library instead of repeated free-page conversion labels. |
+| Resources and Privacy headers | **Pass.** Both deployed pages used the same approved Career Signal icon and retained readable navy-to-ice presentation. |
+| Beehiiv form and Welcome Email | **Unchanged and unpublished.** No owner-controlled Beehiiv draft was published, sent or altered in this release. |

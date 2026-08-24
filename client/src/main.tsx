@@ -7,6 +7,7 @@ import superjson from "superjson";
 import App from "./App";
 import { startLogin } from "./const";
 import "./index.css";
+import "./brand-overrides.css";
 
 const requestedRoute = new URLSearchParams(window.location.search).get("_route");
 if (requestedRoute?.startsWith("/")) {

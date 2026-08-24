@@ -1,6 +1,6 @@
 /**
- * Signal Weekly / Executive Signal Desk
- * Contemporary editorial minimalism: warm ivory, graphite, Signal Cobalt, and paper briefing artifacts.
+ * Career Signal Weekly / Executive Signal Desk
+ * Contemporary editorial minimalism: warm ivory, graphite, refined teal, and paper briefing artifacts.
  */
 import { type MouseEvent, useEffect, useRef, useState } from "react";
 import {
@@ -21,14 +21,9 @@ import { trpc } from "@/lib/trpc";
 import { defaultSiteContent } from "@shared/siteContent";
 import { sampleIssues } from "@shared/sampleIssues";
 
-function SignalMark({ inverse = false, src }: { inverse?: boolean; src?: string }) {
+function SignalMark({ inverse = false }: { inverse?: boolean }) {
   return (
-    <img
-      className={`signal-mark ${inverse ? "signal-mark--inverse" : ""}`}
-      src={src ?? "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/SqONCjkhpoZAPMjE.png"}
-      alt=""
-      aria-hidden="true"
-    />
+    <span className={`signal-mark ${inverse ? "signal-mark--inverse" : ""}`} aria-hidden="true"><i /><i /><i /></span>
   );
 }
 
@@ -72,8 +67,8 @@ export default function Home() {
   return (
     <div className="site-shell">
       <header className="topbar">
-        <a className="brand" href="#top" aria-label="Signal Weekly home">
-          <SignalMark src={content.identity.logoUrl} />
+        <a className="brand" href="#top" aria-label="Career Signal Weekly home">
+          <SignalMark />
           <span className="brand-lockup"><strong className="brand-name">{content.identity.brandName}</strong><small>{content.identity.endorsement}</small></span>
         </a>
 
@@ -108,7 +103,7 @@ export default function Home() {
             </p>
 
             <p className="hero-signup-offer">{content.hero.signupOfferLabel}</p>
-            <div className="beehiiv-embed" id="subscribe" ref={beehiivEmbedRef} aria-label="Subscribe to Signal Weekly">
+            <div className="beehiiv-embed" id="subscribe" ref={beehiivEmbedRef} aria-label="Subscribe to Career Signal Weekly">
               <noscript>
                 <a className="beehiiv-embed__fallback" href="https://signalweeklyhq.beehiiv.com/subscribe">
                   {content.navigation.fallbackSubscribeLabel}
@@ -149,7 +144,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="quiet-statement" aria-label="Signal Weekly positioning">
+        <section className="quiet-statement" aria-label="Career Signal Weekly positioning">
           <div className="quiet-statement-line" />
           <p>{content.quiet.prefix} <strong>{content.quiet.emphasis}</strong></p>
           <div className="quiet-statement-line" />
@@ -272,7 +267,7 @@ export default function Home() {
               <div className="closing-artifact-top"><span>{content.closing.artifactName}</span><span>{content.closing.artifactSchedule}</span></div>
               <div className="closing-artifact-rule" />
               <p>{content.closing.artifactTitle.split(" ").map((word, index) => <span key={`${word}-${index}`}>{word}{index < content.closing.artifactTitle.split(" ").length - 1 ? <br /> : null}</span>)}</p>
-              <div className="closing-artifact-bottom"><span>{content.closing.artifactAudience}</span><SignalMark src={content.identity.logoUrl} /></div>
+              <div className="closing-artifact-bottom"><span>{content.closing.artifactAudience}</span><SignalMark inverse /></div>
             </div>
             <div className="closing-copy">
               <div className="eyebrow"><span className="eyebrow-line" />{content.closing.eyebrow}</div>
@@ -287,7 +282,7 @@ export default function Home() {
 
       <footer className="footer" id="archive">
         <div className="footer-main">
-          <a className="brand brand--footer" href="#top"><SignalMark inverse src={content.identity.logoUrl} /><span className="brand-lockup"><strong className="brand-name">{content.identity.brandName}</strong><small>{content.identity.endorsement}</small></span></a>
+          <a className="brand brand--footer" href="#top"><SignalMark inverse /><span className="brand-lockup"><strong className="brand-name">{content.identity.brandName}</strong><small>{content.identity.endorsement}</small></span></a>
           <p>{content.identity.footerTagline}</p>
           <p className="footer-management">{content.identity.managementLine}</p>
         </div>

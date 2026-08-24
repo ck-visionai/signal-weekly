@@ -44,15 +44,15 @@ function RouteSeo() {
     const isPrivacy = location === "/privacy";
     const isResources = location === "/resources";
     const title = isPrivacy
-      ? "Privacy Policy | Signal Weekly"
+      ? "Privacy Policy | Career Signal Weekly"
       : isResources
-        ? "Resources | Signal Weekly"
-        : "Signal Weekly | Career Intelligence for Leaders";
+        ? "Resources | Career Signal Weekly"
+        : "Career Signal Weekly | Career Intelligence for Leaders";
     const description = isPrivacy
-      ? "Read the Signal Weekly Privacy Policy and learn how subscription information is handled."
+      ? "Read the Career Signal Weekly Privacy Policy and learn how subscription information is handled."
       : isResources
-        ? "Download practical Signal Weekly guides for ATS résumés, executive interviews and career decisions."
-        : "Signal Weekly is a free career-intelligence briefing with practical ATS résumé, executive interview and salary-negotiation guidance for mid-career and senior professionals.";
+        ? "Download practical Career Signal Weekly guides for ATS résumés, executive interviews and career decisions."
+        : "Career Signal Weekly is a free career-intelligence briefing with practical ATS résumé, executive interview and salary-negotiation guidance for mid-career and senior professionals.";
     const path = isPrivacy ? "/privacy" : isResources ? "/resources" : "/";
 
     document.title = title;

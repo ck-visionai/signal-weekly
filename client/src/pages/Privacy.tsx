@@ -1,6 +1,6 @@
 /**
- * Signal Weekly / Executive Signal Desk
- * Privacy page uses the same warm-paper, graphite, and restrained cobalt editorial system as the landing page.
+ * Career Signal Weekly / Executive Signal Desk
+ * Privacy page uses the same warm-paper, graphite, and refined-teal editorial system as the landing page.
  */
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
 
@@ -8,29 +8,29 @@ const sections = [
   {
     title: "1. Overview",
     paragraphs: [
-      "Signal Weekly publishes practical career intelligence for mid-career and executive professionals. This Privacy Policy explains how we collect, use, disclose, and protect personal information when you visit the Signal Weekly website, subscribe to the newsletter, or contact us.",
+      "Career Signal Weekly publishes practical career intelligence for mid-career and executive professionals. This Privacy Policy explains how we collect, use, disclose, and protect personal information when you visit the Career Signal Weekly website, subscribe to the newsletter, or contact us.",
       "By using the website or subscribing, you acknowledge the practices described in this policy. If you do not agree with them, please do not provide personal information through the website.",
     ],
   },
   {
     title: "2. Information We Collect",
     paragraphs: [
-      "When you subscribe to Signal Weekly, we collect the email address you provide. If you contact us directly, we may collect your name, email address, and the contents of your message.",
+      "When you subscribe to Career Signal Weekly, we collect the email address you provide. If you contact us directly, we may collect your name, email address, and the contents of your message.",
       "Our website, hosting provider, and newsletter platform may also process limited technical information necessary to operate and protect their services, such as device or browser information, log data, IP address, and interaction data. If we introduce analytics, advertising pixels, additional forms, paid products, or new data-collection tools, we will update this policy before using them.",
     ],
   },
   {
     title: "3. How We Use Information",
     paragraphs: [
-      "We use personal information to operate Signal Weekly, confirm subscriptions, send the newsletter and related service messages, respond to requests, maintain security, understand and improve the publication, and comply with applicable legal obligations.",
+      "We use personal information to operate Career Signal Weekly, confirm subscriptions, send the newsletter and related service messages, respond to requests, maintain security, understand and improve the publication, and comply with applicable legal obligations.",
       "We do not sell your personal information. We do not use your email address to send unrelated marketing communications.",
     ],
   },
   {
     title: "4. Newsletter Subscription and Unsubscribe Choices",
     paragraphs: [
-      "Signal Weekly uses a double-confirmation process. After you submit an email address, you must confirm the subscription through the email we send before receiving the newsletter.",
-      "You may unsubscribe at any time by using the unsubscribe link included in every Signal Weekly email. You may also contact us at signalweeklyhq@gmail.com to request help with your subscription.",
+      "Career Signal Weekly uses a double-confirmation process. After you submit an email address, you must confirm the subscription through the email we send before receiving the newsletter.",
+      "You may unsubscribe at any time by using the unsubscribe link included in every Career Signal Weekly email. You may also contact us at signalweeklyhq@gmail.com to request help with your subscription.",
     ],
   },
   {
@@ -49,7 +49,7 @@ const sections = [
   {
     title: "7. Cookies, Analytics, and Similar Technologies",
     paragraphs: [
-      "The Signal Weekly website may use essential technologies required for its operation and security. If we use analytics, advertising cookies, or similar tracking technologies, we will describe the relevant tools and choices here and, where required, obtain consent before enabling them.",
+      "The Career Signal Weekly website may use essential technologies required for its operation and security. If we use analytics, advertising cookies, or similar tracking technologies, we will describe the relevant tools and choices here and, where required, obtain consent before enabling them.",
     ],
   },
   {
@@ -62,13 +62,13 @@ const sections = [
   {
     title: "9. International Processing",
     paragraphs: [
-      "Signal Weekly and its service providers may process information in countries other than the country in which you live. Where information is transferred internationally, we will use reasonable safeguards required by applicable law.",
+      "Career Signal Weekly and its service providers may process information in countries other than the country in which you live. Where information is transferred internationally, we will use reasonable safeguards required by applicable law.",
     ],
   },
   {
     title: "10. Children’s Privacy",
     paragraphs: [
-      "Signal Weekly is not directed to children, and we do not knowingly collect personal information from children. If you believe that a child has provided personal information to us, please contact us so that we can take appropriate steps.",
+      "Career Signal Weekly is not directed to children, and we do not knowingly collect personal information from children. If you believe that a child has provided personal information to us, please contact us so that we can take appropriate steps.",
     ],
   },
   {
@@ -83,9 +83,9 @@ export default function Privacy() {
   return (
     <div className="privacy-page">
       <header className="privacy-nav">
-        <a className="privacy-brand" href="/" aria-label="Return to Signal Weekly home">
+        <a className="privacy-brand" href="/" aria-label="Return to Career Signal Weekly home">
           <span className="privacy-mark" aria-hidden="true"><i /><i /><i /></span>
-          Signal Weekly
+          Career Signal Weekly
         </a>
         <a className="privacy-return" href="/"><ArrowLeft size={15} /> Back to the briefing</a>
       </header>
@@ -93,7 +93,7 @@ export default function Privacy() {
       <main className="privacy-main">
         <div className="privacy-eyebrow"><span /> LEGAL NOTE / 2026</div>
         <h1>Privacy, stated <em>plainly.</em></h1>
-        <p className="privacy-lede">How Signal Weekly handles the information you share when you subscribe or contact us.</p>
+        <p className="privacy-lede">How Career Signal Weekly handles the information you share when you subscribe or contact us.</p>
 
         <article className="privacy-article">
           <div className="privacy-meta"><span>PRIVACY POLICY</span><span>Effective 18 August 2026</span></div>
@@ -112,7 +112,7 @@ export default function Privacy() {
 
           <section className="privacy-section privacy-contact">
             <h2>12. Contact Us</h2>
-            <p>For questions about this Privacy Policy or Signal Weekly’s privacy practices, contact:</p>
+            <p>For questions about this Privacy Policy or Career Signal Weekly’s privacy practices, contact:</p>
             <address>
               <strong>Shortlizt LLC</strong><br />
               60 Paya Lebar Rd, Paya Lebar Square, Singapore 409051<br />

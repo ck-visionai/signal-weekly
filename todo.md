@@ -92,8 +92,12 @@
 - [x] Conduct a conversion and copywriting review of the entire public landing, Resources, confirmation and welcome-email journey, with prioritized subscriber-click improvements.
 - [x] Deliver a creative-director review of landing-page copy, typography, colour, texture, imagery, layout, and trust cues without implementing additional changes.
 - [ ] Apply the approved creative-director recommendations only after all outstanding launch, subscriber-flow and weekly reader-edition tasks are complete and verified.
-- [ ] Replace audience-facing “Signal Weekly” references with “Career Signal Weekly” as part of the approved final brand and creative pass.
+- [x] Replace audience-facing “Signal Weekly” references with “Career Signal Weekly” as part of the approved final brand and creative pass.
+- [x] Apply the immediate public landing-page textual rename from “Signal Weekly” to “Career Signal Weekly” while retaining the current visual mark pending logo confirmation.
 - [ ] Record the Signal Weekly logo’s ownership or licence provenance and determine whether the approved Career Signal Weekly rename requires a revised logo asset.
+- [x] Recommend a distinctive dark-blue Career Signal Weekly palette that reduces category similarity while retaining premium executive readability.
+- [x] Recommend an ownable refined teal palette inspired by luxury blue-green cues without copying a recognisable competitor colour identity.
+- [x] Apply the approved Career Signal Weekly Verdigris Ink / Caspian Teal / Harbour Teal palette to public brand tokens, interactive cues, and the temporary text-based logo treatment.
 - [x] Reconcile all recent owner requests against the current public site, Beehiiv configuration, Sample Library delivery plan, and pending implementation items before requesting further publishing actions.
 - [ ] Map and streamline the visitor-to-subscriber journey from www.signrl.com through confirmation, welcome email and first Sample Briefing access.
 - [x] Remove the misleading immediate “Get the complete edition” actions from Samples 02–12 and clearly label their progressive email-delivery status.

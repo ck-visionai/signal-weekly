@@ -1,6 +1,6 @@
 /**
- * Signal Weekly / Executive Signal Desk Resources
- * Editorial resource-library page: warm paper, graphite document panels and Signal Cobalt actions.
+ * Career Signal Weekly / Executive Signal Desk Resources
+ * Editorial resource-library page: warm paper, graphite document panels and refined-teal actions.
  */
 import { useEffect } from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight, CheckCircle2, Clock3, Download, FileText, Sparkles } from "lucide-react";
@@ -9,14 +9,9 @@ import { defaultSiteContent } from "@shared/siteContent";
 import { sampleIssues } from "@shared/sampleIssues";
 import { getResourcesAnchorTarget } from "@shared/resourcesNavigation";
 
-function SignalMark({ inverse = false, src }: { inverse?: boolean; src?: string }) {
+function SignalMark({ inverse = false }: { inverse?: boolean }) {
   return (
-    <img
-      className={`signal-mark ${inverse ? "signal-mark--inverse" : ""}`}
-      src={src ?? "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/SqONCjkhpoZAPMjE.png"}
-      alt=""
-      aria-hidden="true"
-    />
+    <span className={`signal-mark ${inverse ? "signal-mark--inverse" : ""}`} aria-hidden="true"><i /><i /><i /></span>
   );
 }
 
@@ -44,8 +39,8 @@ export default function Resources() {
   return (
     <div className="resources-page">
       <header className="resources-nav">
-        <a className="brand" href="/" aria-label="Signal Weekly home">
-          <SignalMark src={content.identity.logoUrl} />
+        <a className="brand" href="/" aria-label="Career Signal Weekly home">
+          <SignalMark />
           <span className="brand-lockup"><strong className="brand-name">{content.identity.brandName}</strong><small>{content.identity.endorsement}</small></span>
         </a>
         <a className="resources-nav-return" href="/"><ArrowLeft size={15} /> Back to the briefing</a>
@@ -63,7 +58,7 @@ export default function Resources() {
 
         <section className="resource-feature" aria-labelledby="ats-audit-title">
           <div className="resource-feature-document" aria-hidden="true">
-            <div className="resource-document-topline"><span>SIGNAL WEEKLY / {featured.number}</span><span>PDF</span></div>
+            <div className="resource-document-topline"><span>CAREER SIGNAL WEEKLY / {featured.number}</span><span>PDF</span></div>
             <div className="resource-document-body"><p>{featured.category}</p><h2>{featured.title}</h2><div className="resource-document-lines"><i /><i /><i /><i /></div></div>
             <div className="resource-document-footer"><span>{featured.reviewTime.toUpperCase()}</span><span>01</span></div>
           </div>
@@ -80,7 +75,7 @@ export default function Resources() {
         </section>
 
         <section className="resource-method" aria-labelledby="method-title">
-          <div><div className="eyebrow"><span className="eyebrow-line" />WHAT MAKES A SIGNAL WEEKLY RESOURCE</div><h2 id="method-title">Less noise.<br /><em>More usable signal.</em></h2></div>
+          <div><div className="eyebrow"><span className="eyebrow-line" />WHAT MAKES A CAREER SIGNAL WEEKLY RESOURCE</div><h2 id="method-title">Less noise.<br /><em>More usable signal.</em></h2></div>
           <div className="resource-method-list"><article><span>01</span><h3><span>Specific</span></h3><p>Each guide focuses on one high-stakes career moment rather than attempting to solve your whole search at once.</p></article><article><span>02</span><h3><span>Evidence-led</span></h3><p>The practical advice is designed to help you make the strongest honest case for the work you have done.</p></article><article><span>03</span><h3><span>Built to use</span></h3><p>Every resource includes a checklist, prompt or working tool you can return to before your next decision.</p></article></div>
         </section>
 
@@ -97,7 +92,7 @@ export default function Resources() {
       </main>
 
       <footer className="resources-footer">
-        <div><a className="brand brand--footer" href="/"><SignalMark inverse src={content.identity.logoUrl} /><span className="brand-lockup"><strong className="brand-name">{content.identity.brandName}</strong><small>{content.identity.endorsement}</small></span></a><p>{content.identity.footerTagline}</p></div>
+        <div><a className="brand brand--footer" href="/"><SignalMark inverse /><span className="brand-lockup"><strong className="brand-name">{content.identity.brandName}</strong><small>{content.identity.endorsement}</small></span></a><p>{content.identity.footerTagline}</p></div>
         <div className="resources-footer-links"><a href="/">The briefing <ArrowUpRight size={13} /></a><a href="/privacy">Privacy Policy <ArrowUpRight size={13} /></a><a href={`mailto:${content.identity.contactEmail}`}>Contact <ArrowUpRight size={13} /></a></div>
         <span>{content.identity.copyrightLabel}</span>
       </footer>

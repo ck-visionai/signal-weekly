@@ -1,5 +1,5 @@
 /**
- * Signal Weekly Editor
+ * Career Signal Weekly Editor
  * Owner-only operational workspace. The public site retains the Executive Signal Desk aesthetic;
  * this page prioritises clear labels, safe saves and simple content administration.
  */
@@ -123,13 +123,13 @@ export default function Editor() {
 
   if (loading) return <div className="editor-loading"><Loader2 className="animate-spin" /> Loading your editor…</div>;
   if (!user) {
-    return <main className="editor-gate"><div><span className="editor-kicker">SIGNAL WEEKLY / OWNER ACCESS</span><h1>Your content desk is protected.</h1><p>Sign in with the owner account to edit the landing page, downloads and public links.</p><Button onClick={() => startLogin()}><Sparkles size={16} /> Sign in to the editor</Button><a href="/">Return to the public site <ExternalLink size={14} /></a></div></main>;
+    return <main className="editor-gate"><div><span className="editor-kicker">CAREER SIGNAL WEEKLY / OWNER ACCESS</span><h1>Your content desk is protected.</h1><p>Sign in with the owner account to edit the landing page, downloads and public links.</p><Button onClick={() => startLogin()}><Sparkles size={16} /> Sign in to the editor</Button><a href="/">Return to the public site <ExternalLink size={14} /></a></div></main>;
   }
-  if (!isAdmin) return <main className="editor-gate"><div><span className="editor-kicker">ACCESS RESTRICTED</span><h1>This workspace is for the Signal Weekly owner.</h1><p>You are signed in, but this account is not authorised to edit the site.</p><a href="/">Return to the public site <ExternalLink size={14} /></a></div></main>;
+  if (!isAdmin) return <main className="editor-gate"><div><span className="editor-kicker">ACCESS RESTRICTED</span><h1>This workspace is for the Career Signal Weekly owner.</h1><p>You are signed in, but this account is not authorised to edit the site.</p><a href="/">Return to the public site <ExternalLink size={14} /></a></div></main>;
   if (editorContent.isLoading || !content) return <div className="editor-loading"><Loader2 className="animate-spin" /> Loading editable content…</div>;
 
   return (
-    <DashboardLayout menuItems={editorNav} title="Signal Weekly Editor">
+    <DashboardLayout menuItems={editorNav} title="Career Signal Weekly Editor">
       <div className="editor-shell">
         <header className="editor-page-header"><div><span className="editor-kicker">OWNER WORKSPACE</span><h1>{heading[0]}</h1><p>{heading[1]}</p></div><div className="editor-header-actions"><a href="/" target="_blank" rel="noreferrer">View live site <ExternalLink size={14} /></a><Button variant="outline" onClick={downloadBackup}><Download size={16} /> Download backup</Button><Button onClick={save} disabled={saveContent.isPending}><Save size={16} /> {saveContent.isPending ? "Saving…" : "Save changes"}</Button></div></header>
 
@@ -147,7 +147,7 @@ export default function Editor() {
           <EditorCard title="Hero briefing" intro="The opening section visitors see before the signup form.">
             <EditorField label="Small heading" value={content.hero.eyebrow} onChange={(value) => setContent({ ...content, hero: { ...content.hero, eyebrow: value } })} />
             <EditorField label="Main headline" value={content.hero.headline} onChange={(value) => setContent({ ...content, hero: { ...content.hero, headline: value } })} />
-            <EditorField label="Blue emphasis" value={content.hero.emphasis} onChange={(value) => setContent({ ...content, hero: { ...content.hero, emphasis: value } })} />
+            <EditorField label="Teal emphasis" value={content.hero.emphasis} onChange={(value) => setContent({ ...content, hero: { ...content.hero, emphasis: value } })} />
             <EditorField label="Introductory paragraph" value={content.hero.intro} multiline onChange={(value) => setContent({ ...content, hero: { ...content.hero, intro: value } })} />
             <EditorField label="Current issue number" value={content.hero.issueNumber} onChange={(value) => setContent({ ...content, hero: { ...content.hero, issueNumber: value } })} />
             <EditorField label="Current issue reading time" value={content.hero.issueReadTime} onChange={(value) => setContent({ ...content, hero: { ...content.hero, issueReadTime: value } })} />
@@ -166,20 +166,20 @@ export default function Editor() {
             <EditorField label="Publishing frequency" value={content.hero.frequency} onChange={(value) => setContent({ ...content, hero: { ...content.hero, frequency: value } })} />
             <EditorField label="Audience line" value={content.hero.audience} onChange={(value) => setContent({ ...content, hero: { ...content.hero, audience: value } })} />
           </EditorCard>
-          <EditorCard title="Positioning line" intro="The restrained statement below the hero that explains Signal Weekly’s point of view.">
+          <EditorCard title="Positioning line" intro="The restrained statement below the hero that explains Career Signal Weekly’s point of view.">
             <EditorField label="Opening phrase" value={content.quiet.prefix} onChange={(value) => setContent({ ...content, quiet: { ...content.quiet, prefix: value } })} />
             <EditorField label="Bold emphasis" value={content.quiet.emphasis} onChange={(value) => setContent({ ...content, quiet: { ...content.quiet, emphasis: value } })} />
           </EditorCard>
           <EditorCard title="What you will get" intro="The introduction shown before the three public career-guidance cards.">
             <EditorField label="Small heading" value={content.inside.eyebrow} onChange={(value) => setContent({ ...content, inside: { ...content.inside, eyebrow: value } })} />
             <EditorField label="Heading" value={content.inside.heading} onChange={(value) => setContent({ ...content, inside: { ...content.inside, heading: value } })} />
-            <EditorField label="Blue emphasis" value={content.inside.emphasis} onChange={(value) => setContent({ ...content, inside: { ...content.inside, emphasis: value } })} />
+            <EditorField label="Teal emphasis" value={content.inside.emphasis} onChange={(value) => setContent({ ...content, inside: { ...content.inside, emphasis: value } })} />
             <EditorField label="Introduction" value={content.inside.intro} multiline onChange={(value) => setContent({ ...content, inside: { ...content.inside, intro: value } })} />
           </EditorCard>
           <EditorCard title="Closing invitation" intro="The final call-to-action before the footer.">
             <EditorField label="Small heading" value={content.closing.eyebrow} onChange={(value) => setContent({ ...content, closing: { ...content.closing, eyebrow: value } })} />
             <EditorField label="Heading" value={content.closing.heading} onChange={(value) => setContent({ ...content, closing: { ...content.closing, heading: value } })} />
-            <EditorField label="Blue emphasis" value={content.closing.emphasis} onChange={(value) => setContent({ ...content, closing: { ...content.closing, emphasis: value } })} />
+            <EditorField label="Teal emphasis" value={content.closing.emphasis} onChange={(value) => setContent({ ...content, closing: { ...content.closing, emphasis: value } })} />
             <EditorField label="Description" value={content.closing.description} multiline onChange={(value) => setContent({ ...content, closing: { ...content.closing, description: value } })} />
             <EditorField label="Button label" value={content.closing.ctaLabel} onChange={(value) => setContent({ ...content, closing: { ...content.closing, ctaLabel: value } })} />
             <EditorField label="Briefing artifact name" value={content.closing.artifactName} onChange={(value) => setContent({ ...content, closing: { ...content.closing, artifactName: value } })} />

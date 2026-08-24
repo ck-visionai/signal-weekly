@@ -1,0 +1,62 @@
+/* Career Signal Weekly: an ownable refined-teal system applied after the legacy editorial styles. */
+:root {
+  --primary: #0d4b56;
+  --ring: #155e66;
+  --cobalt: #0d4b56;
+  --signal-ink: #0d4b56;
+  --caspian-teal: #155e66;
+  --harbour-teal: #1c7378;
+  --mist-teal: #d9ecea;
+}
+
+.signal-mark {
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: end;
+  gap: 2.5px;
+  flex: 0 0 auto;
+  object-fit: initial;
+}
+
+.signal-mark i { width: 4.5px; display: block; background: var(--signal-ink); border-radius: 4px 4px 1px 1px; transform: skewY(-11deg); }
+.signal-mark i:nth-child(1) { height: 9px; }.signal-mark i:nth-child(2) { height: 14px; }.signal-mark i:nth-child(3) { height: 20px; }
+.signal-mark--inverse { filter: none; }.signal-mark--inverse i { background: #fff; }
+
+.brand { letter-spacing: -0.052em; }.brand-lockup { gap: 3px; }.brand-name { font-size: 16px; }.brand-lockup small { color: #5d7c80; }
+.brand--footer .brand-lockup small { color: #94c8c8; }
+
+.hero-glow--blue { background: radial-gradient(circle, rgba(144, 207, 203, 0.48) 0%, rgba(208, 235, 231, 0.2) 38%, rgba(248,247,242,0) 70%); }
+.hero-issue-card { background: var(--signal-ink); box-shadow: 0 20px 35px rgba(13, 75, 86, 0.27); }
+.issue-card-kicker { color: #b7e0de; }.issue-card-footer { color: #d6efed; }
+.hero-issue-card:hover, .hero-issue-card:focus-visible { box-shadow: 0 25px 42px rgba(13, 75, 86, 0.34); }
+.hero-signup-offer { color: var(--signal-ink); }
+
+.sample-section { background: #0a3038; }.sample-backdrop { background: radial-gradient(circle, rgba(76, 161, 160, 0.58) 0%, rgba(28, 115, 120, 0.24) 42%, transparent 70%); }
+.eyebrow--light { color: #b8e1de; }.sample-header h2 em { color: #9fd3d1; }.text-link--light { color: #d2efed; }
+.side-brief--top { background: var(--caspian-teal); }.side-brief.side-brief--bottom { color: #183f45; background: var(--mist-teal); }.side-brief.side-brief--bottom p { color: #32636a; }.side-brief.side-brief--bottom h3 { color: #183f45; }.side-brief.side-brief--bottom .side-brief-index { color: var(--caspian-teal); }.side-brief.side-brief--bottom svg { color: var(--signal-ink); }
+
+.topic-icon { color: var(--signal-ink); background: #d9efed; }.topic-count span:first-child, .topic-eyebrow, .practice-path-item:hover svg, .practice-path-item--active svg, .practice-path-item--active span, .practice-cta { color: var(--signal-ink); }.topic-note span { background: var(--signal-ink); }.practice-path-item:focus-visible { outline-color: rgba(13, 75, 86, 0.3); }
+
+.closing-section { background: #e8eeea; }.closing-section::after { background: radial-gradient(circle, rgba(145, 207, 202, 0.46), rgba(232,238,234,0) 70%); }.closing-artifact { background: #0a3038; box-shadow: 0 22px 50px rgba(8, 48, 56, 0.22); }.closing-artifact-top, .closing-artifact-bottom { color: #c4e7e4; }.closing-artifact > p em { color: #9ad5d2; }.closing-button { background: var(--signal-ink); box-shadow: 0 8px 16px rgba(13, 75, 86, 0.18); }.closing-button:hover { background: #083840; }
+
+.footer, .resources-footer { background: #082a31; }.footer-links a:hover { color: #95d5d2; }
+.resources-index, .resource-feature { background: #0a3038; }.resources-index span, .resource-number { color: #a8dbd7; }.resources-index p, .resource-lede { color: #cee9e7; }.resource-feature-document { box-shadow: 24px 24px 0 rgba(43, 128, 132, 0.28), 0 28px 60px rgba(0,0,0,0.22); }.resource-document-lines i:nth-child(3) { background: #b7dddd; }.resource-status { color: #c0e9e6; }.resource-feature-copy .resource-number, .resource-facts svg, .resource-includes li::before { color: #a8dbd7; border-color: #a8dbd7; }.resource-facts span, .resource-includes li { color: #d7efed; }.resource-download { color: var(--signal-ink); }.resource-download:hover { background: var(--mist-teal); }.resource-subscribe { color: #bde4e1; }.resource-download:focus-visible, .resource-subscribe:focus-visible { outline-color: #bde4e1; }.resource-note { color: #9dc3c3; }
+
+.artifact-paper--two span:first-child, .artifact-index { background: var(--signal-ink); color: var(--signal-ink); }.artifact-paper span:nth-child(4) { background: #a8d6d3; }.resource-library-download:hover { border-color: var(--signal-ink); box-shadow: 7px 7px 0 rgba(13, 75, 86, 0.12); }
+
+.lead-magnet-card:focus-visible, .hero-issue-card:focus-visible, .main-brief:focus-visible, .side-brief:focus-visible { outline-color: #82bebc; }
+
+/* Legacy component states retained below the original stylesheet now inherit the refined-teal system. */
+.signup-form button, .beehiiv-embed__fallback { background: var(--signal-ink); box-shadow: 0 8px 16px rgba(13, 75, 86, 0.19); }
+.signup-form button:hover, .beehiiv-embed__fallback:hover { background: #083840; }
+.signup-success > span { color: var(--signal-ink); background: var(--mist-teal); }
+.form-note a { color: #46686d; text-decoration-color: rgba(13, 75, 86, 0.42); }
+.lead-magnet-card:focus-visible { outline-color: rgba(13, 75, 86, 0.36); }
+.lead-magnet-icon { color: var(--signal-ink); background: var(--mist-teal); }
+.privacy-mark i, .privacy-return, .privacy-beehiiv, .resources-nav-return { color: var(--signal-ink); }
+.privacy-mark i { background: var(--signal-ink); }
+.carousel-controls button:hover { background: var(--signal-ink); border-color: var(--signal-ink); }
+.resource-library-download:focus-visible, .sample-library-actions a:focus-visible, .sample-library-card a:focus-visible { outline-color: rgba(13, 75, 86, 0.36); }
+
+@media (max-width: 760px) { .brand-name { font-size: 14px; }.brand-lockup small { font-size: 6px; } }

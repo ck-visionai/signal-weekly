@@ -164,12 +164,12 @@ export const SITE_CONTENT_KEY = "signal-weekly-site";
 
 export const defaultSiteContent: SiteContent = {
   identity: {
-    brandName: "Signal Weekly",
+    brandName: "Career Signal Weekly",
     endorsement: "A Signrl publication",
-    managementLine: "Signal Weekly is a Signrl publication, managed by Signrl.",
+    managementLine: "Career Signal Weekly is a Signrl publication, managed by Signrl.",
     footerTagline: "Useful intelligence for your next consequential career decision.",
     footerMeta: "Made for career momentum",
-    copyrightLabel: "© 2026 SIGNAL WEEKLY",
+    copyrightLabel: "© 2026 CAREER SIGNAL WEEKLY",
     contactEmail: "signalweeklyhq@gmail.com",
     logoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/SqONCjkhpoZAPMjE.png",
   },
@@ -188,7 +188,7 @@ export const defaultSiteContent: SiteContent = {
     leadAriaLabel: "Download the Executive ATS Résumé Audit PDF",
     leadUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/RHWORFZPTcCpUqFY.pdf",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/rMtHWNmluaMtQIPa.jpg",
-    imageAlt: "Elegant executive desk with layered papers and cobalt pen",
+    imageAlt: "Elegant executive desk with layered papers and a verdigris writing pen",
     signupOfferLabel: "START WITH THE COMPLETE FREE WORKING PAGE",
     formNote: "Free. One concise email each Friday. Confirm your address to begin. Leave anytime. By subscribing, you agree to our",
     formPrivacyLinkLabel: "Privacy Policy.",
@@ -256,7 +256,7 @@ export const defaultSiteContent: SiteContent = {
     metaItems: ["NO COST", "FRIDAY BRIEFING", "LEAVE ANYTIME"],
   },
   resources: {
-    eyebrow: "THE SIGNAL WEEKLY LIBRARY",
+    eyebrow: "THE CAREER SIGNAL WEEKLY LIBRARY",
     title: "Practical documents for a more deliberate",
     emphasis: "next move.",
     intro: "Short, useful guides for the career decisions that deserve more than generic advice. Start with the document in front of you, then build from there.",

@@ -1,6 +1,6 @@
 {
-  "name": "Signal Weekly",
-  "short_name": "Signal Weekly",
+  "name": "Career Signal Weekly",
+  "short_name": "Career Signal",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#F8F7F2",

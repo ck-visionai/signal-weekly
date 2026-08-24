@@ -9,17 +9,17 @@ export type StaticRouteDocument = {
 export const staticRouteDocuments: StaticRouteDocument[] = [
   {
     path: "resources",
-    title: "Career Resources | Signal Weekly",
-    description: "Practical career resources from Signal Weekly, including the Executive ATS Résumé Audit and executive interview-preparation guide.",
-    socialTitle: "Career Resources | Signal Weekly",
+    title: "Career Resources | Career Signal Weekly",
+    description: "Practical career resources from Career Signal Weekly, including the Executive ATS Résumé Audit and executive interview-preparation guide.",
+    socialTitle: "Career Resources | Career Signal Weekly",
     socialDescription: "Practical field guides for consequential career decisions, including ATS résumé and executive interview preparation.",
   },
   {
     path: "privacy",
-    title: "Privacy Policy | Signal Weekly",
-    description: "Read the Signal Weekly Privacy Policy and understand how newsletter subscription information is handled.",
-    socialTitle: "Privacy Policy | Signal Weekly",
-    socialDescription: "The privacy policy for Signal Weekly, a Signrl publication.",
+    title: "Privacy Policy | Career Signal Weekly",
+    description: "Read the Career Signal Weekly Privacy Policy and understand how newsletter subscription information is handled.",
+    socialTitle: "Privacy Policy | Career Signal Weekly",
+    socialDescription: "The privacy policy for Career Signal Weekly, a Signrl publication.",
   },
 ];
 

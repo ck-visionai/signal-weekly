@@ -39,7 +39,13 @@ export default function Home() {
   const beehiivEmbedRef = useRef<HTMLDivElement>(null);
   const topicIcons = [FileSearch, MessageSquareText, Target];
   const topicSlides = content.practice.slides.map((slide, index) => ({ ...slide, number: String(index + 1).padStart(2, "0"), icon: topicIcons[index] }));
-  const valueCards = content.pillars.map((pillar, index) => ({ ...pillar, image: pillar.imageUrl || null, artifact: ["resume", "interview", "offer"][index] }));
+  const valueCards = content.pillars.map((pillar, index) => ({
+    ...pillar,
+    image: pillar.imageUrl || null,
+    artifact: ["resume", "interview", "offer"][index],
+    ctaLabel: pillar.ctaLabel || ["Explore the résumé briefing", "Explore interview practice", "Explore offer strategy"][index],
+    ctaUrl: pillar.ctaUrl || "/resources#sample-issues",
+  }));
 
   useEffect(() => {
     const container = beehiivEmbedRef.current;
@@ -134,17 +140,6 @@ export default function Home() {
               <h2>{content.hero.issueTitle}</h2>
               <div className="issue-card-footer"><span>{content.hero.issueOpenLabel}</span><MoveUpRight size={16} /></div>
             </a>
-            <a
-              className="lead-magnet-card"
-              href={content.hero.leadUrl}
-              target="_blank"
-              rel="noreferrer"
-              aria-label={content.hero.leadAriaLabel}
-            >
-              <span className="lead-magnet-icon"><FileSearch size={16} /></span>
-              <div><strong>{content.hero.leadButtonLabel}</strong><span>{content.hero.leadTitle}</span></div>
-              <ArrowUpRight size={16} />
-            </a>
           </div>
         </section>
 
@@ -179,7 +174,7 @@ export default function Home() {
                   <div className="card-meta"><span><i className="card-signal" />{card.label}</span><span>{card.index}</span></div>
                   <h3>{card.title}</h3>
                   <p>{card.text}</p>
-                  <a href="#subscribe" onClick={scrollToSignup}>{content.navigation.valueCtaLabel} <ArrowRight size={15} /></a>
+                  <a href={card.ctaUrl}>{card.ctaLabel} <ArrowRight size={15} /></a>
                 </div>
               </article>
             ))}

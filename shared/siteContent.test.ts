@@ -28,4 +28,18 @@ describe("Signal Weekly editor content schema", () => {
     expect(defaultSiteContent.closing.heading).toBe("Start here.");
     expect(defaultSiteContent.closing.emphasis).toBe("Build from there.");
   });
+
+  it("keeps Evidence Before Adjectives as the signature sample resource while giving each guidance card its own educational direction", () => {
+    expect(defaultSiteContent.archive.leadTitle).toBe("Evidence Before Adjectives");
+    expect(defaultSiteContent.pillars.map((pillar) => pillar.ctaLabel)).toEqual([
+      "Explore the résumé briefing",
+      "Explore interview practice",
+      "Explore offer strategy",
+    ]);
+    expect(defaultSiteContent.pillars.map((pillar) => pillar.ctaUrl)).toEqual([
+      "/resources#sample-issues",
+      "/resources#sample-issues",
+      "/resources#sample-issues",
+    ]);
+  });
 });

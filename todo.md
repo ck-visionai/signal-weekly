@@ -120,5 +120,19 @@
 - [x] Change the hero sentence from “one concise Friday brief” to “one weekly Friday brief” and verify the published landing-page copy.
 - [x] Review the proposed navy-to-ice palette for Career Signal and recommend a cohesive landing-page and future-website colour-role system before implementation.
 - [x] Replace the current refined-teal public colour system with the approved Career Signal navy-to-ice palette across brand marks, surfaces, controls and interactive states.
-- [ ] Recolour the supplied Career Signal logo’s central blue line to official Midnight Authority navy (#03045E) and replace the temporary website mark with the matching final icon.
+- [x] Recolour the supplied Career Signal logo’s central blue line to official Midnight Authority navy (#03045E) and replace the temporary website mark with the matching final icon.
 - [x] Create a simple, forward-use Beehiiv guide explaining how to schedule and safely automate Career Signal’s weekly subscriber emails without sending content automatically during setup.
+- [x] Convert the Career Signal Beehiiv weekly-email playbook into a downloadable PDF.
+- [x] Remove the floating “Free download — The Executive ATS Résumé Audit” resource card from the Career Signal homepage hero while retaining the primary signup experience and Resources access.
+- [ ] Review and recommend a more compact mobile spacing treatment for the Sample Library headline and call to action without changing it until owner approval.
+- [ ] Define the original Career Signal ATS platform first-release scope, data safeguards, phased delivery plan and realistic build timeline before implementation.
+- [ ] Produce a detailed feature list and implementation architecture for the 3–4-week Career Signal ATS private beta.
+- [ ] Connect and review the user’s existing VS Code ATS project so reusable code can inform the Career Signal private-beta build rather than duplicating work.
+- [ ] Guide the owner through safely committing and pushing the existing local Shortlitz ATS project changes to the authorized GitHub repository before code review.
+- [ ] Define and execute a focused three-day Career Signal ATS private-MVP path using the reusable Shortlitz code, limited to résumé upload, job-description input, match score, missing-keyword guidance and practical improvement suggestions.
+- [ ] Review the supplied Signrl ATS product-guideline archive, identify material questions and align the specifications with the Shortlitz codebase and focused three-day MVP scope.
+- [x] Design the Day 1 deterministic résumé-to-job matching-engine vertical slice for the agreed Signrl ATS private MVP.
+- [x] Assess and recommend a safe AI coding-agent collaboration approach for the three-day ATS MVP without conflicting edits or unnecessary résumé-data exposure.
+- [x] Verify the latest Shortlitz code upload and provide current GitHub Copilot cloud-agent setup, eligibility and cost-control guidance before the owner enables a plan.
+- [x] Recommend differentiated messaging for the three Career Signal homepage guidance cards so Evidence Before Adjectives remains a signature resource rather than an overused phrase.
+- [x] Apply the approved three-card messaging system: résumé “Prove the fit before the first screen,” interview “Make your judgement easy to trust,” and offer “Protect the value in the offer,” with contextual education links and a single primary free-page conversion CTA.

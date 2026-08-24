@@ -13,6 +13,8 @@ const pillarSchema = z.object({
   title: shortText(100),
   text: longText(260),
   imageUrl: z.string().trim().max(2048),
+  ctaLabel: shortText(100),
+  ctaUrl: publicUrl,
 });
 
 const practiceSlideSchema = z.object({
@@ -215,9 +217,9 @@ export const defaultSiteContent: SiteContent = {
     intro: "Every issue turns a high-stakes career moment into a small set of clear, usable moves.",
   },
   pillars: [
-    { index: "01", label: "RÉSUMÉ SIGNAL", title: "Make the first scan count.", text: "Build an ATS-ready résumé that tells a recruiter what changed because you were in the room.", imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/TgevWfEsgboMGMxi.jpg" },
-    { index: "02", label: "INTERVIEW PRACTICE", title: "Answer like a leader.", text: "Translate your experience into decisive stories for questions that are built to test your judgment.", imageUrl: "" },
-    { index: "03", label: "OFFER STRATEGY", title: "Negotiate the whole role.", text: "Frame a confident conversation about pay, benefits, scope, and the platform you need to do your best work.", imageUrl: "" },
+    { index: "01", label: "RÉSUMÉ SIGNAL", title: "Prove the fit before the first screen.", text: "Turn broad experience into role-specific evidence an ATS and recruiter can recognise.", imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/TgevWfEsgboMGMxi.jpg", ctaLabel: "Explore the résumé briefing", ctaUrl: "/resources#sample-issues" },
+    { index: "02", label: "INTERVIEW PRACTICE", title: "Make your judgement easy to trust.", text: "Build decision stories that show how you think, lead, and deliver under pressure.", imageUrl: "", ctaLabel: "Explore interview practice", ctaUrl: "/resources#sample-issues" },
+    { index: "03", label: "OFFER STRATEGY", title: "Protect the value in the offer.", text: "Negotiate pay, scope, benefits, and the conditions that make the next role work.", imageUrl: "", ctaLabel: "Explore offer strategy", ctaUrl: "/resources#sample-issues" },
   ],
   archive: {
     eyebrow: "FROM THE SAMPLE LIBRARY",

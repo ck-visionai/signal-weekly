@@ -116,7 +116,7 @@ export default function Home() {
       <header className="topbar">
         <a className="brand" href="#top" aria-label="Signal Weekly home">
           <SignalMark />
-          <span>Signal Weekly</span>
+          <span className="brand-lockup"><strong className="brand-name">Signal Weekly</strong><small>A Signrl publication</small></span>
         </a>
 
         <nav className={`nav-links ${menuOpen ? "nav-links--open" : ""}`} aria-label="Primary navigation">
@@ -307,8 +307,9 @@ export default function Home() {
 
       <footer className="footer" id="archive">
         <div className="footer-main">
-          <a className="brand brand--footer" href="#top"><SignalMark inverse /><span>Signal Weekly</span></a>
+          <a className="brand brand--footer" href="#top"><SignalMark inverse /><span className="brand-lockup"><strong className="brand-name">Signal Weekly</strong><small>A Signrl publication</small></span></a>
           <p>Useful intelligence for your next consequential career decision.</p>
+          <p className="footer-management">Signal Weekly is a Signrl publication, managed by Signrl.</p>
         </div>
         <div className="footer-links">
           <div><p>EXPLORE</p><a href="#sample">Sample issues</a><a href="#inside">What you’ll get</a><a href="#subscribe">Subscribe</a></div>

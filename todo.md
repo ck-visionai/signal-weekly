@@ -29,3 +29,26 @@
 - [ ] Apply the DNS records for signrl.com and verify the live custom-domain launch.
 - [x] Prepare the Signal Weekly static project for GitHub Pages and signrl.com.
 - [ ] Verify the GitHub Pages deployment build and guide the GitHub/DNS activation steps.
+- [ ] Confirm the GitHub Pages setup is performed on the repository containing the Signal Weekly source code.
+- [ ] Verify that the renamed signrl repository includes the Signal Weekly source and GitHub Pages workflow.
+- [ ] Assess audience-comprehension risks between the Signrl umbrella brand and Signal Weekly newsletter title.
+- [ ] Define the recommended endorsed-brand architecture and public naming conventions.
+- [ ] Prepare concise landing-page copy that explains the Signrl relationship without jargon.
+- [ ] Identify practical legal checks before presenting Signrl as the operating company or brand owner.
+- [ ] Add the approved “A Signrl publication” endorsement and contextual “managed by Signrl” language to the landing page.
+- [ ] Reconnect the project GitHub integration and grant repository access before publishing the Signrl attribution update.
+- [ ] Perform a clean GitHub connector reset and verify the project recognises ck-visionai/signrl access.
+- [ ] Verify the updated www.signrl.com custom-domain and HTTPS configuration.
+- [ ] Repeat the GitHub connector workflow from the beginning and isolate the project authorisation failure.
+- [ ] Create a zero-technical-background GitHub administration guide for editing and publishing the Signal Weekly landing page.
+- [ ] Retry GitHub project access after the user cleared the reported connector pop-up block.
+- [ ] Uninstall the stale Manus Connector GitHub App installation, reconnect from scratch, and retest checkpoint publishing.
+- [ ] Confirm the clean replacement repository name and target custom-domain URL before rebuilding and migrating the Signal Weekly site.
+- [ ] Define and build a no-code content editor that preserves the current Signal Weekly landing-page design, text, visuals, signup flow, and Privacy Policy.
+- [ ] Clarify the hosting, database, and cost implications of the no-code editor before selecting an implementation path.
+- [ ] Design the layman-friendly management features for subscriber collection, downloads, content updates, ATS links, and live-training links.
+- [ ] Clarify the independent-access and editing arrangement for the no-code Signal Weekly editor.
+- [ ] Upgrade and build the secure no-code Signal Weekly Editor with editable content, downloads, ATS links, and live-session links.
+- [ ] Retrieve the Signal Weekly Manus task share link for support’s project-binding investigation.
+- [ ] Retry project connection and the full-stack Editor upgrade after completing the Manus support cache and login reset steps.
+- [ ] Validate the support-repaired project GitHub access with a checkpoint, then resume the no-code editor upgrade.

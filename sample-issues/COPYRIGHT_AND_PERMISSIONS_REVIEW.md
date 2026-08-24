@@ -66,7 +66,7 @@ Use the following rules for every new Sample Briefing and weekly reader edition.
 5. Add a short educational-scope note, but do not treat a disclaimer as a substitute for permission where permission is required.
 6. Before registering or commercialising the library at scale, obtain qualified legal advice about the relevant jurisdiction, contracts, authorship, AI-assisted components and brand assets.
 
-The owner-facing [`ASSET_PROVENANCE_REGISTER.md`](./ASSET_PROVENANCE_REGISTER.md) lists the current project assets that need confirmation and provides the exact record format to retain.
+The owner-facing [`ASSET_PROVENANCE_REGISTER.md`](./ASSET_PROVENANCE_REGISTER.md) lists the current project assets that need confirmation and provides the exact record format to retain. As of 24 August 2026, the owner confirmed that the executive-desk hero image and Résumé Signal card image were created or generated for this project; the logo and existing PDF-guide artwork still require a source / licence record.
 
 ## References
 

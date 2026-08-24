@@ -15,8 +15,8 @@
 | Asset | Current URL or location | Likely use | Owner confirmation required | Status |
 |---|---|---|---|---|
 | Signal Weekly logo | `SqONCjkhpoZAPMjE.png` on the project file CDN | Header and brand identification | Confirm it was commissioned, created for Signal Weekly, generated under a commercial-use right, or otherwise owned/licensed by Shortlizt LLC / Signrl. | Owner confirmation needed |
-| Hero executive-desk image | `rMtHWNmluaMtQIPa.jpg` on the project file CDN | Homepage hero | Confirm it was commissioned, created for Signal Weekly, generated under a commercial-use right, or otherwise owned/licensed. | Owner confirmation needed |
-| Résumé Signal card image | `TgevWfEsgboMGMxi.jpg` on the project file CDN | Homepage value card | Confirm it was commissioned, created for Signal Weekly, generated under a commercial-use right, or otherwise owned/licensed. | Owner confirmation needed |
+| Hero executive-desk image | `rMtHWNmluaMtQIPa.jpg` on the project file CDN | Homepage hero | Owner confirmed on 24 Aug 2026 that this was created or generated for this project. Retain the generation / project record. | Confirmed, project-created / generated |
+| Résumé Signal card image | `TgevWfEsgboMGMxi.jpg` on the project file CDN | Homepage value card | Owner confirmed on 24 Aug 2026 that this was created or generated for this project. Retain the generation / project record. | Confirmed, project-created / generated |
 | PDF guide artwork | Embedded in existing public ATS and interview guide PDFs | Resource-library downloads | Confirm source / licence record for any third-party raster art, logos or screenshots in each guide. | Owner confirmation needed |
 
 ## Owner confirmation wording

@@ -92,6 +92,8 @@
 - [x] Conduct a conversion and copywriting review of the entire public landing, Resources, confirmation and welcome-email journey, with prioritized subscriber-click improvements.
 - [x] Deliver a creative-director review of landing-page copy, typography, colour, texture, imagery, layout, and trust cues without implementing additional changes.
 - [ ] Apply the approved creative-director recommendations only after all outstanding launch, subscriber-flow and weekly reader-edition tasks are complete and verified.
+- [ ] Replace audience-facing “Signal Weekly” references with “Career Signal Weekly” as part of the approved final brand and creative pass.
+- [ ] Record the Signal Weekly logo’s ownership or licence provenance and determine whether the approved Career Signal Weekly rename requires a revised logo asset.
 - [x] Reconcile all recent owner requests against the current public site, Beehiiv configuration, Sample Library delivery plan, and pending implementation items before requesting further publishing actions.
 - [ ] Map and streamline the visitor-to-subscriber journey from www.signrl.com through confirmation, welcome email and first Sample Briefing access.
 - [x] Remove the misleading immediate “Get the complete edition” actions from Samples 02–12 and clearly label their progressive email-delivery status.

@@ -71,5 +71,6 @@
 - [x] Verify every public landing-page section renders from saved editor content rather than hardcoded fallback strings.
 - [x] Repair the GitHub Pages direct-route response for /resources so search crawlers receive HTTP 200 rather than HTTP 404.
 - [x] Re-run the Google Search Console live test and request indexing for https://www.signrl.com/resources after the direct-route repair is published.
-- [ ] Create a simple owner-editor handover guide covering sign-in, content edits, document uploads, redirects and safe publishing checks.
+- [x] Create a simple owner-editor handover guide covering sign-in, content edits, document uploads, redirects and safe publishing checks.
 - [ ] Align www.signrl.com with the editor-backed managed application before relying on editor saves for public content updates.
+- [ ] Migrate www.signrl.com from GitHub Pages to the editor-backed managed Signal Weekly application while retaining GitHub Pages as a recoverable backup.

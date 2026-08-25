@@ -198,7 +198,7 @@ export default function Home() {
           </div>
 
           <div className="sample-layout">
-            <a className="main-brief" href={sampleIssues[0].completeUrl} target="_blank" rel="noreferrer" aria-label="Read the complete Career Evidence Working Page">
+            <a className="main-brief" href="/resources#sample-issues" aria-label="Open the Career Evidence Working Page in Resources">
               <div className="main-brief-header"><span>{content.archive.leadNumber}</span><span>{content.archive.readingTime}</span></div>
               <div className="main-brief-copy">
                 <p className="brief-label">{content.archive.leadLabel}</p>
@@ -208,13 +208,13 @@ export default function Home() {
               <div className="brief-annotation"><span>01</span><p>{content.archive.annotationLabel}</p><ArrowUpRight size={18} /></div>
             </a>
             <div className="brief-side-stack">
-              <a className="side-brief side-brief--top" href={sampleIssues[1].previewUrl} target="_blank" rel="noreferrer" aria-label="Read the preview of The ATS Translation Layer">
+              <a className="side-brief side-brief--top" href="/resources#sample-issues" aria-label="Open The ATS Translation Layer in Resources">
                 <span className="side-brief-index">02</span>
                 <p>{content.archive.sideBriefs[0].label}</p>
                 <h3>{content.archive.sideBriefs[0].title}</h3>
                 <ArrowUpRight size={18} />
               </a>
-              <a className="side-brief side-brief--bottom" href={sampleIssues[2].previewUrl} target="_blank" rel="noreferrer" aria-label="Read the preview of Your Three-Story Interview Bank">
+              <a className="side-brief side-brief--bottom" href="/resources#sample-issues" aria-label="Open Your Three-Story Interview Bank in Resources">
                 <span className="side-brief-index">03</span>
                 <p>{content.archive.sideBriefs[1].label}</p>
                 <h3>{content.archive.sideBriefs[1].title}</h3>

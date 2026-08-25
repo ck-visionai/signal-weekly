@@ -23,7 +23,7 @@ import { trpc } from "@/lib/trpc";
 import { defaultSiteContent } from "@shared/siteContent";
 import { sampleIssues } from "@shared/sampleIssues";
 
-const CAREER_SIGNAL_LOGO = "/manus-storage/career-signal-logo-midnight-navy-final_97c9f1d6.png";
+const CAREER_SIGNAL_LOGO = "/career-signal-updated-mark.png";
 const OFFER_STRATEGY_IMAGE = "/manus-storage/career-signal-offer-strategy-card_4e86ef07.jpg";
 
 function SignalMark({ inverse = false }: { inverse?: boolean }) {

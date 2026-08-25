@@ -1,6 +1,6 @@
 /**
  * Career Signal / Executive Signal Desk Resources
- * Editorial resource-library page: warm paper, graphite document panels and refined-teal actions.
+ * Editorial resource-library page: warm paper, graphite document panels and navy-to-ice actions.
  */
 import { useEffect } from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight, CheckCircle2, Clock3, Download, FileText, Sparkles } from "lucide-react";
@@ -9,7 +9,7 @@ import { defaultSiteContent } from "@shared/siteContent";
 import { sampleIssues } from "@shared/sampleIssues";
 import { getResourcesAnchorTarget } from "@shared/resourcesNavigation";
 
-const CAREER_SIGNAL_LOGO = "/manus-storage/career-signal-logo-midnight-navy-final_97c9f1d6.png";
+const CAREER_SIGNAL_LOGO = "/career-signal-updated-mark.png";
 
 function SignalMark({ inverse = false }: { inverse?: boolean }) {
   return (

@@ -1,10 +1,10 @@
 /**
  * Career Signal / Executive Signal Desk
- * Privacy page uses the same warm-paper, graphite, and refined-teal editorial system as the landing page.
+ * Privacy page uses the same warm-paper, graphite, and navy-to-ice editorial system as the landing page.
  */
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
 
-const CAREER_SIGNAL_LOGO = "/manus-storage/career-signal-logo-midnight-navy-final_97c9f1d6.png";
+const CAREER_SIGNAL_LOGO = "/career-signal-updated-mark.png";
 
 const sections = [
   {

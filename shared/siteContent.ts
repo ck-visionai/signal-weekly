@@ -173,7 +173,7 @@ export const defaultSiteContent: SiteContent = {
     footerMeta: "Made for career momentum",
     copyrightLabel: "© 2026 CAREER SIGNAL",
     contactEmail: "signalweeklyhq@gmail.com",
-    logoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/SqONCjkhpoZAPMjE.png",
+    logoUrl: "/career-signal-updated-mark.png",
   },
   hero: {
     eyebrow: "THE FRIDAY CAREER BRIEF FOR EXPERIENCED PROFESSIONALS",

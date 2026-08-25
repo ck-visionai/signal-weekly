@@ -4,11 +4,11 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#F8F7F2",
-  "theme_color": "#F8F7F2",
+  "theme_color": "#03045e",
   "icons": [
     {
-      "src": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/SqONCjkhpoZAPMjE.png",
-      "sizes": "800x800",
+      "src": "/career-signal-updated-mark.png",
+      "sizes": "202x228",
       "type": "image/png"
     }
   ]

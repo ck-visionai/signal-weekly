@@ -2,7 +2,7 @@
   "task_kind": "existing-typst",
   "output": "pdf",
   "signals": ["signal-weekly", "reader-edition"],
-  "hard_constraints": ["8-12 finished pages", "20-30 minutes of reading and application", "preserve existing Signal Weekly Typst visual language", "one practical worksheet and one decision framework"],
+  "hard_constraints": ["8-12 finished pages", "20-30 minutes of reading and application", "preserve existing Career Weekly Typst visual language", "one practical worksheet and one decision framework"],
   "content_features": {
     "code_blocks": 0,
     "defined_terms": 10,

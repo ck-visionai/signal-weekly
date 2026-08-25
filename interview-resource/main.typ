@@ -1,11 +1,11 @@
-// Signal Weekly interview-preparation resource.
+// Career Weekly interview-preparation resource.
 // The shared report theme owns global typography, hierarchy and page rhythm.
 
 #import "report-theme.typ": report-accent, report-theme
 
 #show: report-theme.with(
   title: "The Executive Interview Preparation Brief",
-  author: "Signal Weekly",
+  author: "Career Weekly",
   rhythm: "report",
   running-header: true,
 )
@@ -21,7 +21,7 @@
     #line(length: 40%, stroke: 0.5pt + luma(160))
     #v(2em)
     #text(size: 12pt)[
-      Signal Weekly \ 
+      Career Weekly \
       #datetime.today().display("[month repr:long] [day], [year]")
     ]
   ]
@@ -187,7 +187,7 @@ Complete this before the interview. Keep it as notes, not a script.
 )
 
 #v(1em)
-#text(fill: luma(95), size: 9pt)[Signal Weekly publishes practical career-intelligence resources for professionals and leaders in motion. This educational guide cannot guarantee an interview, offer or career outcome.]
+#text(fill: luma(95), size: 9pt)[Career Weekly publishes practical career-intelligence resources for professionals and leaders in motion. This educational guide cannot guarantee an interview, offer or career outcome.]
 
 = Sources
 

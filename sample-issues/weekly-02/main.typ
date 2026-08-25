@@ -12,7 +12,7 @@
 #show: make-glossary
 #show: report-theme.with(
   title: "The ATS Translation Layer",
-  author: "Signal Weekly · A Signrl publication",
+  author: "Career Weekly · A Signrl publication",
   rhythm: "longform",
   body-size: 10pt,
   running-header: false,
@@ -101,7 +101,7 @@
 #align(left)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[SAMPLE BRIEFING 02 · READER EDITION]
   #h(1fr)
-  #text(size: 8pt, weight: "bold", fill: muted)[SIGNAL WEEKLY · A SIGNRL PUBLICATION]
+  #text(size: 8pt, weight: "bold", fill: muted)[CAREER WEEKLY · A SIGNRL PUBLICATION]
 ]
 #v(0.7em)
 #line(length: 100%, stroke: 1.4pt + cobalt)
@@ -462,4 +462,4 @@ Apply the logic of Example A or Example B to your own work. Name the original ge
 #v(0.5em)
 #small([Further reading: #link("https://careercenter.umich.edu/content/interviewing-resources")[University of Michigan Career Center, Interviewing Resources] and #link("https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/")[MIT Career Advising & Professional Development, STAR method]. These links provide general career-preparation information.])
 #v(0.45em)
-#small([Signal Weekly is a Signrl publication. This reader edition is prepared for educational reading and does not guarantee a career outcome.])
+#small([Career Weekly is a Signrl publication. This reader edition is prepared for educational reading and does not guarantee a career outcome.])

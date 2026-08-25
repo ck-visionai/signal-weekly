@@ -1,6 +1,6 @@
-# Signal Weekly: Twelve-Week Sample Library Delivery Schedule
+# Career Weekly: Twelve-Week Sample Library Delivery Schedule
 
-This schedule is for **manual Beehiiv sending**. Each edition is accurately labelled **“From the Sample Library”**; it is not presented as a newly published historical newsletter issue. The Welcome Email delivers Sample Briefing 01 after confirmation. Then send **one weekly email**, combining a short current Signal Weekly note with the scheduled library edition so subscribers receive value without being overloaded by separate emails.
+This schedule is for **manual Beehiiv sending**. Each edition is accurately labelled **“From the Sample Library”**; it is not presented as a newly published historical newsletter issue. The Welcome Email delivers Sample Briefing 01 after confirmation. Then send **one weekly email**, combining a short current Career Weekly note with the scheduled library edition so subscribers receive value without being overloaded by separate emails.
 
 ## Mandatory reader-edition standard
 
@@ -12,7 +12,7 @@ The public site presents a one-page preview for every sample. Sample Briefing 01
 
 | Timing | Subscriber edition | Suggested subject line | Required delivery status |
 |---|---|---|---|
-| Welcome Email | 01 — Evidence Before Adjectives | Your Signal Weekly starter working page | Complete one-page starter working page; not counted as a weekly reader edition |
+| Welcome Email | 01 — Evidence Before Adjectives | Your Career Weekly starter working page | Complete one-page starter working page; not counted as a weekly reader edition |
 | Week 1 | 02 — The ATS Translation Layer | From the Sample Library: translate experience without keyword stuffing | **Expanded and verified:** ten-page reader-edition master retained for owner review; add its Beehiiv delivery link only after final publishing approval |
 | Week 2 | 03 — Your Three-Story Interview Bank | From the Sample Library: the three stories worth preparing | **Expanded and verified:** ten-page master retained for owner review; add a Beehiiv delivery link only after final publishing approval |
 | Week 3 | 04 — The Question Behind the Question | From the Sample Library: decode the difficult question | **Expanded and verified:** eleven-page master retained for owner review; add a Beehiiv delivery link only after final publishing approval |

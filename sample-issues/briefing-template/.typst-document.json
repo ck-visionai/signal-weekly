@@ -1,9 +1,9 @@
 {
   "entry": "main.typ",
   "metadata": {
-    "author": "Signal Weekly",
+    "author": "Career Weekly",
     "subtitle": "Preview edition",
-    "title": "Signal Weekly Sample Briefing"
+    "title": "Career Weekly Sample Briefing"
   },
   "mode": "report",
   "theme": "report-theme.typ"

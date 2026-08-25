@@ -1,4 +1,4 @@
-# Signal Weekly Weekly Reader-Edition Standard
+# Career Weekly Weekly Reader-Edition Standard
 
 ## Purpose
 
@@ -62,4 +62,4 @@ Before scheduling a weekly delivery, the owner must confirm every item below.
 2. Use the existing two-page PDFs only as internal source outlines.
 3. Expand each Week 1–11 library topic into a new **8–12-page reader edition** using this standard.
 4. Verify the final page count and content quality before uploading and adding its link to the Beehiiv send.
-5. Send one extended edition with one current weekly Signal Weekly note; do not send the complete library at once.
+5. Send one extended edition with one current weekly Career Weekly note; do not send the complete library at once.

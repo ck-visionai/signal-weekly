@@ -1,8 +1,8 @@
-# Signal Weekly Sample Briefings
+# Career Weekly Sample Briefings
 
 These documents are **sample briefing editions for reading**. They are not represented as historic newsletter sends, real subscriber issues, or evidence of job-search outcomes.
 
-Each edition will be a short, practical PDF with a consistent Signal Weekly editorial format: a clear decision, a concise framework, a worksheet or prompt, and further-reading references. The library will use sequential **Sample Briefing** labels rather than calendar dates.
+Each edition will be a short, practical PDF with a consistent Career Weekly editorial format: a clear decision, a concise framework, a worksheet or prompt, and further-reading references. The library will use sequential **Sample Briefing** labels rather than calendar dates.
 
 | ID | Sample briefing title | Career decision | Primary source basis |
 |---|---|---|---|

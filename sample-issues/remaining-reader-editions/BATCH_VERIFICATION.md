@@ -1,6 +1,6 @@
-# Remaining Signal Weekly Reader Editions: Batch Verification
+# Remaining Career Weekly Reader Editions: Batch Verification
 
-The ten reader-edition masters below were created as **From the Sample Library** material. Each uses the approved Signal Weekly ten-page structure, with original educational guidance, worked examples, a practical worksheet, a six-day action reset, glossary terms, and an educational-only scope note. No Beehiiv delivery link has been added or published.
+The ten reader-edition masters below were created as **From the Sample Library** material. Each uses the approved Career Weekly ten-page structure, with original educational guidance, worked examples, a practical worksheet, a six-day action reset, glossary terms, and an educational-only scope note. No Beehiiv delivery link has been added or published.
 
 | Sample Briefing | Title | Finished pages | Extracted words | Strict compile | Text verification | Visual sample |
 |---:|---|---:|---:|---|---|---|

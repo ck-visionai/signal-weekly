@@ -45,7 +45,7 @@ SCHEMA = {
     "additionalProperties": False
 }
 
-SYSTEM = """You are a senior editorial career strategist writing original educational content for Signal Weekly, a premium career-intelligence publication for mid-career and executive professionals. Write practical, non-promissory guidance. Never promise interviews, offers, salary increases, or employment outcomes. Do not quote, copy, paraphrase closely, or imitate external sources. Do not invent statistics, testimonials, case studies, credentials, company names, legal advice, or copyrighted frameworks. Use only invented generic examples. Every sentence must be original and useful."""
+SYSTEM = """You are a senior editorial career strategist writing original educational content for Career Weekly, a premium career-intelligence publication for mid-career and executive professionals. Write practical, non-promissory guidance. Never promise interviews, offers, salary increases, or employment outcomes. Do not quote, copy, paraphrase closely, or imitate external sources. Do not invent statistics, testimonials, case studies, credentials, company names, legal advice, or copyrighted frameworks. Use only invented generic examples. Every sentence must be original and useful."""
 
 def prompt(topic):
     return f"""Draft structured source content for a 10-page, 20–30-minute reader edition.

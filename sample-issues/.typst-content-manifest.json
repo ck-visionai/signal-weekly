@@ -1,8 +1,8 @@
 {
-  "task_kind": "new-document",
+  "task_kind": "existing-typst",
   "output": "pdf",
-  "signals": ["editorial career briefing", "twelve short preview documents"],
-  "hard_constraints": ["Clearly label every document as a sample briefing", "Do not imply a historical send date or prior subscriber issue", "Include educational-guidance disclaimer and source links"],
+  "signals": ["Career Weekly editorial working page"],
+  "hard_constraints": ["11 pages total", "20-30 minute read-and-complete session", "clear and simple actionables", "Career Weekly branding", "Include educational-guidance disclaimer and source links"],
   "content_features": {
     "code_blocks": 0,
     "defined_terms": 3,

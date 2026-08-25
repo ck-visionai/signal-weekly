@@ -10,7 +10,7 @@
 #let line-grey = rgb("#D7DBDF")
 
 #show: make-glossary
-#show: report-theme.with(title: "The Question Behind the Question", author: "Signal Weekly · A Signrl publication", rhythm: "longform", body-size: 10pt, running-header: false)
+#show: report-theme.with(title: "The Question Behind the Question", author: "Career Weekly · A Signrl publication", rhythm: "longform", body-size: 10pt, running-header: false)
 #set page(margin: (top: 1.55cm, bottom: 1.5cm, x: 1.8cm), numbering: "1")
 #set text(font: ("Libertinus Serif", "Noto Sans"), size: 10pt, fill: ink, lang: "en", region: "us")
 #set par(justify: false, leading: 1.08em, spacing: 0.5em, first-line-indent: 0pt)
@@ -36,7 +36,7 @@
 
 // PAGE 1 — COVER
 #set page(numbering: none, header: none)
-#align(left)[#text(size: 8pt, weight: "bold", fill: cobalt)[SAMPLE BRIEFING 04 · READER EDITION] #h(1fr) #text(size: 8pt, weight: "bold", fill: muted)[SIGNAL WEEKLY · A SIGNRL PUBLICATION]]
+#align(left)[#text(size: 8pt, weight: "bold", fill: cobalt)[SAMPLE BRIEFING 04 · READER EDITION] #h(1fr) #text(size: 8pt, weight: "bold", fill: muted)[CAREER WEEKLY · A SIGNRL PUBLICATION]]
 #v(0.7em)
 #line(length: 100%, stroke: 1.4pt + cobalt)
 #v(1.5em)
@@ -282,4 +282,4 @@ Rewrite one of your common interview answers so that the capability is explicit 
 #print-glossary(terms, show-all: true, disable-back-references: true)
 #set text(size: 10pt)
 #v(0.45em)
-#small([Further reading: #link("https://careercenter.umich.edu/content/interviewing-resources")[University of Michigan Career Center — Interviewing Resources]. This link is provided for general career-preparation context. Signal Weekly is a Signrl publication; this educational reader edition does not guarantee a career outcome.])
+#small([Further reading: #link("https://careercenter.umich.edu/content/interviewing-resources")[University of Michigan Career Center — Interviewing Resources]. This link is provided for general career-preparation context. Career Weekly is a Signrl publication; this educational reader edition does not guarantee a career outcome.])

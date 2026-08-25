@@ -3,7 +3,7 @@
 
 #show: make-glossary
 #show: report-theme.with(
-  title: "Signal Weekly Sample Briefing 02",
+  title: "Career Weekly Sample Briefing 02",
   author: "A Signrl publication",
   rhythm: "longform",
   body-size: 10pt,
@@ -15,6 +15,6 @@
 )
 #register-glossary(terms)
 
-This preflight confirms the Signal Weekly reader-edition base and the use of #gls("ats").
+This preflight confirms the Career Weekly reader-edition base and the use of #gls("ats").
 
 #print-glossary(terms, show-all: true, disable-back-references: true)

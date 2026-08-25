@@ -5,7 +5,7 @@
 
 #show: report-theme.with(
   title: "The Executive ATS Résumé Audit",
-  author: "Signal Weekly",
+  author: "Career Weekly",
   rhythm: "report",
   running-header: true,
 )
@@ -21,7 +21,7 @@
     #line(length: 40%, stroke: 0.5pt + luma(160))
     #v(2em)
     #text(size: 12pt)[
-      Prepared by Signal Weekly \
+      Prepared by Career Weekly \
       #datetime.today().display("[year]-[month]-[day]")
     ]
   ]
@@ -156,7 +156,7 @@ Keep a simple record as you tailor each application. It prevents rushed rewrites
 An ATS-friendly résumé is not a generic résumé. It is a clear, evidence-led version of your experience for a specific decision. Use the job description as a source of language, not as a script to copy. Then make it easy for the next reader—software or human—to understand the work you have actually done.
 
 #block(fill: luma(244), inset: 12pt, radius: 4pt)[
-  *Signal Weekly* delivers practical career intelligence for professionals and leaders in motion. Visit #link("https://www.signrl.com")[www.signrl.com] for weekly guidance on résumés, interviews and negotiation.
+  *Career Weekly* delivers practical career intelligence for professionals and leaders in motion. Visit #link("https://www.signrl.com")[www.signrl.com] for weekly guidance on résumés, interviews and negotiation.
 ]
 
 = References

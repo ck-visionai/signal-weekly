@@ -4,8 +4,8 @@
 #import "report-theme.typ": report-accent, report-theme
 
 #show: report-theme.with(
-  title: "Signal Weekly Sample Briefing",
-  author: "Signal Weekly",
+  title: "Career Weekly Sample Briefing",
+  author: "Career Weekly",
   rhythm: "report",
   running-header: true,
 )
@@ -14,14 +14,14 @@
 #page(margin: (top: 30%, x: 2.2cm), numbering: none, header: none)[
   #set par(first-line-indent: 0em)
   #align(center)[
-    #text(size: 26pt, weight: "bold", fill: report-accent)[Signal Weekly Sample Briefing]
+    #text(size: 26pt, weight: "bold", fill: report-accent)[Career Weekly Sample Briefing]
     #v(0.5em)
     #text(size: 14pt, fill: luma(80))[Preview edition]
     #v(2em)
     #line(length: 40%, stroke: 0.5pt + luma(160))
     #v(2em)
     #text(size: 12pt)[
-      作者: Signal Weekly \
+      作者: Career Weekly \
       日期: #datetime.today().display("[year] 年 [month] 月 [day] 日")
     ]
   ]

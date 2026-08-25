@@ -5,7 +5,7 @@
 #let soft-blue = rgb("#F1F5FF")
 
 #show: report-theme.with(
-  title: "Signal Weekly Sample Library",
+  title: "Career Weekly Sample Library",
   author: "A Signrl publication",
   rhythm: "longform",
   body-size: 10pt,
@@ -20,7 +20,7 @@
   #align(left)[
     #text(size: 8.2pt, weight: "bold", fill: cobalt)[SAMPLE BRIEFING #number · COMPLETE SAMPLE EDITION]
     #h(1fr)
-    #text(size: 7.5pt, fill: luma(98))[SIGNAL WEEKLY · A SIGNRL PUBLICATION]
+    #text(size: 7.5pt, fill: luma(98))[CAREER WEEKLY · A SIGNRL PUBLICATION]
   ]
   #v(0.7em)
   #line(length: 100%, stroke: 1.2pt + cobalt)

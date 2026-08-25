@@ -1,4 +1,4 @@
-# Research notes for Signal Weekly Sample Briefings
+# Research notes for Career Weekly Sample Briefings
 
 The following public career-services sources were reviewed on 24 August 2026. The sample briefings will paraphrase and cite their frameworks rather than reproducing their material.
 

@@ -117,7 +117,7 @@ h1 em, h2 em { color: var(--cobalt); font-style: italic; }
 
 /* Closing refinement: the subscription moment returns to the private briefing desk system. */
 .brand { font-family: "Manrope", sans-serif; font-size: 17px; font-weight: 800; letter-spacing: -0.06em; }
-.brand-lockup { display: inline-flex; flex-direction: column; gap: 4px; line-height: 1; }.brand-name { display: inline-flex; align-items: baseline; }.brand-name::after { content: "."; margin-left: 1px; color: var(--cobalt); }.brand-lockup small { color: #77808c; font-size: 7px; font-weight: 800; letter-spacing: 0.11em; text-transform: uppercase; }
+.brand-lockup { display: inline-flex; flex-direction: column; gap: 4px; line-height: 1; }.brand-name { display: inline-flex; align-items: baseline; }.brand-lockup small { color: #77808c; font-size: 7px; font-weight: 800; letter-spacing: 0.11em; text-transform: uppercase; }
 .signal-mark { display: inline-block; width: 25px; height: 25px; object-fit: contain; }
 .signal-mark--inverse { filter: brightness(0) invert(1); }
 .value-card { position: relative; }.value-card::before { content: ""; width: 32px; height: 2px; position: absolute; top: 0; left: 22px; z-index: 2; background: var(--cobalt); }.value-artifact { height: 221px; position: relative; overflow: hidden; background: #e9e9e5; }

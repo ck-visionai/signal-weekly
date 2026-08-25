@@ -1,4 +1,5 @@
 /* Signal Weekly / Executive Signal Desk: composed editorial minimalism in warm ivory, graphite and Signal Cobalt. */
+/* Career Signal ground truth: contemporary editorial minimalism, warm paper, graphite ink, refined teal/cobalt accents, DM Serif Display + Manrope, and tactile briefing-card artifacts. */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
@@ -208,3 +209,121 @@ h1 em, h2 em { color: var(--cobalt); font-style: italic; }
 .side-brief.side-brief--bottom svg { color: var(--cobalt); }
 .editor-loading, .editor-gate { min-height: 100vh; display: grid; place-items: center; color: var(--ink); background: var(--paper); font-weight: 700; }.editor-loading { gap: 9px; }.editor-gate > div { width: min(100% - 42px, 570px); padding: 46px; border-top: 4px solid var(--cobalt); background: #fff; box-shadow: 0 26px 70px rgba(23,26,31,0.12); }.editor-kicker { color: var(--cobalt); font-size: 10px; font-weight: 900; letter-spacing: 0.13em; }.editor-gate h1, .editor-page-header h1 { margin: 15px 0 12px; font-family: "DM Serif Display", Georgia, serif; font-weight: 400; letter-spacing: -0.05em; }.editor-gate h1 { font-size: clamp(2.7rem, 5vw, 4rem); line-height: 0.95; }.editor-gate p { max-width: 450px; color: #626c77; font-size: 14px; font-weight: 600; line-height: 1.7; }.editor-gate button { margin-top: 17px; gap: 8px; }.editor-gate a { margin-top: 22px; display: inline-flex; align-items: center; gap: 7px; color: var(--cobalt); font-size: 12px; font-weight: 800; }.editor-shell { width: min(100%, 1180px); margin: 0 auto; padding: 30px 28px 68px; }.editor-page-header { padding-bottom: 27px; display: flex; justify-content: space-between; align-items: flex-end; gap: 30px; border-bottom: 1px solid #d9dce2; }.editor-page-header h1 { margin-top: 8px; font-size: clamp(2.5rem, 4vw, 4rem); line-height: 0.94; }.editor-page-header p { max-width: 580px; margin: 0; color: #637080; font-size: 14px; font-weight: 600; line-height: 1.65; }.editor-header-actions { display: flex; align-items: center; gap: 14px; white-space: nowrap; }.editor-header-actions a { display: inline-flex; align-items: center; gap: 6px; color: var(--cobalt); font-size: 12px; font-weight: 800; }.editor-header-actions button, .editor-save-footer button { gap: 8px; color: #fff; background: var(--cobalt); }.editor-card { margin-top: 26px; padding: 27px; border: 1px solid #dfe2e6; border-radius: 13px; background: #fff; box-shadow: 0 10px 25px rgba(20,31,47,0.035); }.editor-card-header { max-width: 690px; margin-bottom: 23px; }.editor-card h2 { margin: 0 0 7px; font-family: "DM Serif Display", Georgia, serif; font-size: 30px; font-weight: 400; letter-spacing: -0.04em; }.editor-card p { margin: 0; color: #65717f; font-size: 12px; font-weight: 600; line-height: 1.65; }.editor-card-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }.editor-field { display: grid; gap: 7px; }.editor-field > span { color: #273343; font-size: 11px; font-weight: 850; }.editor-field input, .editor-field textarea { border-color: #cfd6e1; background: #fcfcfb; font-size: 13px; }.editor-field textarea { min-height: 92px; resize: vertical; }.editor-field small { color: #768291; font-size: 10px; font-weight: 600; line-height: 1.4; }.editor-repeater { grid-column: 1 / -1; padding: 18px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; border: 1px solid #dfe4ed; border-left: 3px solid var(--cobalt); border-radius: 7px; background: #f7f8fa; }.editor-repeater > b { grid-column: 1 / -1; color: var(--cobalt); font-size: 10px; letter-spacing: 0.1em; }.editor-upload { grid-column: 1 / -1; padding: 21px; display: flex; align-items: center; gap: 16px; border: 1px dashed #89a8f6; background: #f0f5ff; }.editor-upload > svg { color: var(--cobalt); }.editor-upload label { color: #172a50; font-size: 13px; font-weight: 800; }.editor-upload p { margin-top: 4px; font-size: 10px; }.editor-upload input { max-width: 225px; margin-left: auto; font-size: 11px; }.editor-upload-state { grid-column: 1 / -1; display: flex; align-items: center; gap: 7px; color: #52647d !important; }.editor-upload-result { grid-column: 1 / -1; padding: 15px; display: flex; align-items: flex-start; gap: 10px; color: #123b9a; background: #edf3ff; }.editor-upload-result strong { display: block; font-size: 11px; }.editor-upload-result code { display: block; margin-top: 4px; color: #304c79; overflow-wrap: anywhere; font-size: 10px; }.editor-save-footer { margin-top: 28px; padding: 17px 0; display: flex; align-items: center; justify-content: space-between; gap: 20px; color: #667280; border-top: 1px solid #d9dce2; font-size: 11px; font-weight: 600; }
 @media (max-width: 760px) { .editor-shell { padding: 22px 14px 46px; }.editor-page-header { display: block; }.editor-header-actions { margin-top: 18px; flex-wrap: wrap; }.editor-card { padding: 20px 15px; }.editor-card-fields, .editor-repeater { grid-template-columns: 1fr; }.editor-upload { align-items: flex-start; flex-wrap: wrap; }.editor-upload input { width: 100%; max-width: none; margin-left: 0; }.editor-save-footer { align-items: flex-start; flex-direction: column; } }
+
+/* Imported implementation repair: the current JSX uses image-backed marks and closing-brief class names; these rules preserve the original editorial proportions across every route. */
+.signal-logo-wrap {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.signal-logo {
+  width: 30px;
+  height: 30px;
+  display: block;
+  object-fit: contain;
+}
+.signal-logo-wrap--on-dark .signal-logo { filter: brightness(0) invert(1); }
+.privacy-mark {
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.privacy-mark img {
+  width: 22px;
+  height: 22px;
+  display: block;
+  object-fit: contain;
+}
+.closing-brief-panel {
+  height: 334px;
+  padding: 22px 23px 18px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 17px;
+  color: #fff;
+  background: #152744;
+  box-shadow: 0 22px 50px rgba(23, 38, 67, 0.22);
+  transform: rotate(-3.2deg);
+}
+.closing-brief-top,
+.closing-brief-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #c2d2f6;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+}
+.closing-brief-top .signal-logo-wrap { width: 20px; height: 20px; flex-basis: 20px; }
+.closing-brief-top .signal-logo { width: 20px; height: 20px; }
+.closing-brief-rule {
+  height: 1px;
+  margin-top: 19px;
+  background: rgba(255, 255, 255, 0.29);
+}
+.closing-signals {
+  display: grid;
+  gap: 10px;
+  margin: auto 0;
+}
+.closing-signals > div {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  column-gap: 8px;
+  align-items: baseline;
+}
+.closing-signals span {
+  color: #9cbaff;
+  font-size: 9px;
+  font-weight: 800;
+}
+.closing-signals strong {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+}
+.closing-signals small {
+  grid-column: 2;
+  color: #c2d2f6;
+  font-size: 8px;
+  font-weight: 600;
+}
+.closing-brief-panel > p {
+  margin: 0 0 21px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 0.92;
+}
+.closing-brief-bottom {
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.29);
+}
+@media (max-width: 760px) {
+  .signal-logo-wrap { width: 27px; height: 27px; flex-basis: 27px; }
+  .signal-logo { width: 27px; height: 27px; }
+  .closing-brief-panel {
+    width: min(310px, 90%);
+    height: 308px;
+    justify-self: center;
+  }
+  .closing-brief-panel > p { font-size: 25px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .topic-content { animation: none; }
+  .value-card,
+  .value-image-wrap img,
+  .hero-issue-card,
+  .main-brief,
+  .side-brief { transition: none; }
+}

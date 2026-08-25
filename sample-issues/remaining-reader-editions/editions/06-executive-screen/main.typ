@@ -83,17 +83,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #v(0.55em)
 #deck([Your opening is a compact map: situation, lever, evidence, handoff. Name the operating situations you lead through, show two decision-and-action fragments that fit the role, and point the listener to the next question. Clear beats complete.])
 #v(0.75em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Clarify the job of your opening]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[The first minutes are not a test of charm; they are a test of clarity. Your opening needs to do four things quickly: orient the listener to your operating zone, connect that zone to the role they are filling, demonstrate traction with two…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Map the anatomy: positioning line, evidence lines, handoff]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[An effective opening has a simple structure you can memorize and adapt: 1) Positioning line (10–15 seconds). Name your function and the operating situations you lead through. Include the scale or constraints only if they matter to this…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Choose role-relevant operating situations]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Operating situations are the environments and conditions under which your leadership is most effective. Common patterns include: - Turnaround with time pressure and trust deficits - Scale-up from founder-led to durable operating model -…]
@@ -114,17 +114,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #grid(columns: (0.32fr, 0.68fr), gutter: 14pt,
   block(fill: navy, inset: 13pt)[#text(size: 9pt, weight: "bold", fill: rgb("#D7E4FF"))[LOOK FOR] #v(0.65em) #text(size: 17pt, weight: "bold", fill: rgb("#FFFFFF"))[Decisions,
 ot duties.]],
-  [#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+  [#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Map your recurring operating situations]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[List three to five situations you have confronted more than once. Name them in neutral, portable language. Examples: stabilizing a function after leadership turnover; moving from founder-driven to system-driven…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Identify the levers you reliably pull]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[For each situation, write the primary levers you used. Keep them behavioral and testable. Examples: redesigning planning cadences; implementing a lightweight intake process; reframing metrics into a weekly operating…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Capture edge constraints and conditions]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Strong openings mention the constraints that shaped the work. Constraints can include time compression, budget ceilings, regulatory windows, multi-region complexity, vendor lock-in, or leadership transitions. Naming…]
@@ -178,25 +178,25 @@ Refactor your current bio or long introduction into the structure above. Delete 
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[List two operating situations that best match the target role. For each, write one sentence naming the situation in market language (e.g., post-merger integration across regions; scale-up from founder-led to operating…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Levers and decisions]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[For each situation, name the primary lever you would pull (e.g., redesign decision rights, rationalize go-to-market motion, implement planning cadence). Write the specific decision you typically own when using that…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Constraints and conditions]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Identify two constraints you have successfully worked within that are likely relevant to the role (e.g., time compression, regulatory change, stakeholder sensitivity, budget ceilings). Write one sentence on how you…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Evidence lines]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Draft two evidence lines using the structure: context, decision, action, capability. Keep each to two sentences. Example starter: “In (context), I owned the decision to (decision). I (action), which shows how I…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 8 — WORKED EXAMPLES
@@ -234,17 +234,17 @@ Refactor your current bio or long introduction into the structure above. Delete 
 #v(0.45em)
 #text(size: 22pt, weight: "bold")[Use the same reasoning on paper and aloud.]
 #v(0.55em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Time and trim test]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Read your opening aloud and time it. Aim for 75–90 seconds. Cut extra adjectives and subordinate clauses. Replace multi-word phrases with single words. If a sentence does not point to the role, remove or tighten it.]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Outsider clarity check]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Share the script with someone outside your function. Ask them to repeat back what you do, where you operate best, and what you might do in the target role. If they struggle, your language is still insider-focused. Rewrite until a cross-functional peer can…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Role alignment scan]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Compare your opening to the role description and known mandate. Circle the words that match their priorities. If your situations or levers do not mirror the role’s needs, adjust them. Delete anything that forces the listener to bridge a big gap. Add…]
@@ -256,7 +256,7 @@ Refactor your current bio or long introduction into the structure above. Delete 
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Thanks for making time. I lead (function or mandate) for organizations navigating (operating situation), especially when (key constraint). For this role, I’m focused on the (specific mandate from job description), where…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 10 — NEXT STEPS AND GLOSSARY

@@ -85,13 +85,13 @@ A strong career claim gives the reader somewhere to look. It names the situation
 #v(1em)
 #action-box[YOUR TURN][Write the broad claim you want to make more credible.]
 #v(0.5em)
-#block(stroke: 0.6pt + rule-color, inset: 10pt, height: 42pt)[]
+#block(width: 100%, stroke: 0.6pt + rule-color, inset: 10pt, height: 42pt)[]
 #v(0.9em)
 #section-kicker[THE READER’S NEXT QUESTION]
 #v(0.3em)
 If a skeptical but fair reader saw only this claim, what would they ask next? Write the question in plain language. For example: “What did you actually change?” or “How do you know it worked?”
 #v(0.4em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 6pt, y: 7pt), height: 42pt)[]
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 6pt, y: 7pt), height: 42pt)[]
 #footer-note()
 
 #pagebreak()
@@ -154,7 +154,7 @@ Complete these prompts for your own example.
 #v(0.3em)
 Which adjective could disappear without reducing the meaning? What evidence should replace it?
 #v(0.25em)
-#block(stroke: 0.6pt + rule-color, inset: 10pt, height: 38pt)[]
+#block(width: 100%, stroke: 0.6pt + rule-color, inset: 10pt, height: 38pt)[]
 #footer-note()
 
 #pagebreak()
@@ -181,7 +181,7 @@ Without context, an action can sound like a task list. Context does not mean a l
 #v(0.35em)
 Start with “When…” or “As…” and stop after the situation is clear. Do not explain the entire company.
 #v(0.25em)
-#block(stroke: 0.6pt + rule-color, inset: 10pt, height: 56pt)[]
+#block(width: 100%, stroke: 0.6pt + rule-color, inset: 10pt, height: 56pt)[]
 #v(0.95em)
 #action-box[KEEP IT RELEVANT][A context detail earns its place when it helps the reader understand the decision or result. If it is interesting but does not change the meaning, cut it.]
 #footer-note()
@@ -208,7 +208,7 @@ Use a strong verb, then name the object of the work. “Led” is not wrong, but
 #v(0.35em)
 Complete the sentence with a verb that describes what you personally did. Use “we” only when the shared ownership is important; otherwise show your part.
 #v(0.25em)
-#block(stroke: 0.6pt + rule-color, inset: 10pt, height: 58pt)[]
+#block(width: 100%, stroke: 0.6pt + rule-color, inset: 10pt, height: 58pt)[]
 #v(0.9em)
 #action-box[THE INTERVIEW TEST][Could you explain the action in 30 seconds, including the choice you made and the alternatives you rejected? If not, the wording is probably still too broad.]
 #footer-note()
@@ -239,7 +239,7 @@ Use a bounded or comparative description: “cut the review cycle from several w
 #v(0.35em)
 What changed afterward? What would a colleague notice?
 #v(0.25em)
-#block(stroke: 0.6pt + rule-color, inset: 10pt, height: 62pt)[]
+#block(width: 100%, stroke: 0.6pt + rule-color, inset: 10pt, height: 62pt)[]
 #footer-note()
 
 #pagebreak()
@@ -255,7 +255,7 @@ A dependable sequence is: context, action, object, result. You can change the or
 #v(0.9em)
 #section-kicker[YOUR FIRST DRAFT]
 #v(0.35em)
-#block(stroke: 0.6pt + rule-color, inset: 10pt, height: 75pt)[]
+#block(width: 100%, stroke: 0.6pt + rule-color, inset: 10pt, height: 75pt)[]
 #v(0.85em)
 #section-kicker[TRIM THE DRAFT]
 #v(0.35em)
@@ -268,7 +268,7 @@ A dependable sequence is: context, action, object, result. You can change the or
 #v(0.8em)
 #section-kicker[REVISED DRAFT]
 #v(0.35em)
-#block(stroke: 0.6pt + rule-color, inset: 10pt, height: 62pt)[]
+#block(width: 100%, stroke: 0.6pt + rule-color, inset: 10pt, height: 62pt)[]
 #footer-note()
 
 #pagebreak()
@@ -293,7 +293,7 @@ You can demonstrate judgement while protecting a client, employer or colleague. 
 #v(0.35em)
 Ask yourself: What can I say truthfully? What detail is restricted? What substitute still shows the scale, judgement or outcome?
 #v(0.25em)
-#block(stroke: 0.6pt + rule-color, inset: 10pt, height: 65pt)[]
+#block(width: 100%, stroke: 0.6pt + rule-color, inset: 10pt, height: 65pt)[]
 #v(0.8em)
 #action-box[DO NOT OVER-CORRECT][Confidentiality does not require vagueness. It requires choosing a level of detail that demonstrates your work without disclosing protected information.]
 #footer-note()
@@ -324,13 +324,13 @@ Show the bullet to someone who does not know the project. Ask only two questions
 #v(0.85em)
 #section-kicker[THEIR READING]
 #v(0.35em)
-#block(stroke: 0.6pt + rule-color, inset: 10pt, height: 62pt)[]
+#block(width: 100%, stroke: 0.6pt + rule-color, inset: 10pt, height: 62pt)[]
 #v(0.8em)
 #section-kicker[ONE FIX]
 #v(0.35em)
 What will you change after the review?
 #v(0.25em)
-#block(stroke: 0.6pt + rule-color, inset: 10pt, height: 38pt)[]
+#block(width: 100%, stroke: 0.6pt + rule-color, inset: 10pt, height: 38pt)[]
 #footer-note()
 
 #pagebreak()
@@ -355,7 +355,7 @@ The finished bullet is not the end product. It is a compact source of truth you 
 #v(0.35em)
 Complete this sentence and put a date beside it: “Before my next application, interview or career conversation, I will…”
 #v(0.25em)
-#block(stroke: 0.6pt + rule-color, inset: 10pt, height: 64pt)[]
+#block(width: 100%, stroke: 0.6pt + rule-color, inset: 10pt, height: 64pt)[]
 #v(0.85em)
 #action-box[KEEP THE RECORD][Save the final bullet with the source notes behind it: project, date, scope, result and who can verify it. This makes future tailoring faster and keeps your claims consistent.]
 #v(0.85em)

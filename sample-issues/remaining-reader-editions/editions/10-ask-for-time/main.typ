@@ -83,17 +83,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #v(0.55em)
 #deck([As you read the offer packet, extract decision-critical facts into one place. Capture the role title, team, reporting line, location or remote policy, travel expectations, start date, and probation period if applicable. Record compensation elements separately: base pay cadence, bonus eligibility and timing, commission rules, equity type and vesting schedule, and any sign-on payment and repayment triggers. Note benefits highlights: medical and retirement plans, paid time off and holidays, leave policies, and any allowances. List contingencies: background check, references, work eligibility, non-compete, non-solicit, confidentiality, or intellectual property agreements. Flag practical items: equipment, expense policy, relocation or visa support, and work schedule norms. Mark what is clear, what is unclear, and…])
 #v(0.75em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Acknowledge receipt and interest without committing]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Start by recognizing the moment and signaling engagement. Say thank you, reflect back the role title and the person or team involved, and share one specific, sincere point of enthusiasm. Avoid language that implies agreement. Mention you…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Ask for a clear, short review window]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Choose a window that you can defend and keep. Typical windows range from one to three business days for straightforward offers, and slightly longer if relocation, equity plans, or complex contingencies are involved. Ask for a specific…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Clarify documents and open items before you sign off]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Do not enter a review window with vague materials. Confirm exactly what you will receive: the written offer letter, role scope, base and variable pay details, any equity plan overview, benefits summary, paid time off policy, non-compete or…]
@@ -114,17 +114,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #grid(columns: (0.32fr, 0.68fr), gutter: 14pt,
   block(fill: navy, inset: 13pt)[#text(size: 9pt, weight: "bold", fill: rgb("#D7E4FF"))[LOOK FOR] #v(0.65em) #text(size: 17pt, weight: "bold", fill: rgb("#FFFFFF"))[Decisions,
 ot duties.]],
-  [#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+  [#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Map confirmed facts versus unknowns]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[On one page, write down everything you know for sure from the written documents. In a second list, capture anything that is ambiguous, missing, or verbally promised but not in writing. This includes titles that differ…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Rank questions by decision impact]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Not all unknowns are equal. Identify which open items could change your decision or affect your first 90 days meaningfully. Examples include reporting line, variable pay mechanics, schedule expectations, or a relocation…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Define your non-negotiables and flex zones]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Before you re-engage, name your must-haves and where you can flex. Non-negotiables might be a specific start date due to notice requirements, a remote day to accommodate caregiving, or written clarity on bonus…]
@@ -178,25 +178,25 @@ Rewrite your draft ask-for-time message to remove filler words, tighten the time
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[What is the shortest review window you can confidently keep, given your current obligations? Write the exact date and time you will respond, and list the steps you will complete during that window.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Name your must-have documents]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[List the specific documents you need to see in writing before you can respond. For each, write the open question it will help you answer (for example, bonus plan to confirm eligibility and payout timing).]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Rank your open questions]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[List your top five open questions in order of impact on your decision. For each, write one concise sentence that you will use when asking for clarification.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Draft your ask-for-time message]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Write a 4–6 sentence note you could send today in response to an offer. Include acknowledgment, your review window, the documents you need, and your exact return time. Then underline any words that sound apologetic or…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 8 — WORKED EXAMPLES
@@ -234,17 +234,17 @@ Rewrite your draft ask-for-time message to remove filler words, tighten the time
 #v(0.45em)
 #text(size: 22pt, weight: "bold")[Use the same reasoning on paper and aloud.]
 #v(0.55em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Sanity-check your timeline against your calendar]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Open your calendar before you ask for time. Confirm you have space to read thoroughly, extract facts, and draft questions. If you see conflicts, move meetings now or choose a different return time. Reliability is built by making the promise you can keep, not…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Confirm document completeness before starting your clock]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Do not begin your review window until you have the documents you requested. If the offer arrives without key attachments, acknowledge receipt and restate your need: “Thanks for sending. I’ll start my review once the bonus plan and benefits summary arrive so I…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Draft and prioritize your questions in one pass]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Read once to understand, then extract facts and list questions in a single sitting. Mark each question by impact level, and trim any that are nice-to-know. Group related items to speed the follow-up conversation. This keeps your return message concise and…]
@@ -256,7 +256,7 @@ Rewrite your draft ask-for-time message to remove filler words, tighten the time
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Thank you for the offer. To give you a well-considered answer after reviewing the written details, I’ll come back by (day, time). Does that timing work?]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 10 — NEXT STEPS AND GLOSSARY

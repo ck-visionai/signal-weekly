@@ -83,17 +83,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #v(0.55em)
 #deck([Start by dumping raw material without editing: notes from conversations, role descriptions, calendar snapshots, compensation ranges, family constraints, your curiosity level, and your non-starters. Do not organize yet. Once everything is visible, circle statements that are observable and underline items that are feelings or inferences. Move circled items to an evidence list and underlined items to assumptions to be tested. If you are missing counterevidence, add a placeholder to seek it. The aim is to remove hidden commitments that bias your reading of new information.])
 #v(0.75em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Name the decision and the decision type]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Write one sentence that states the decision and whether it is a now, soon, or later decision. This anchors urgency and scope. If it is a reversible choice, you can move quickly with lighter evidence. If it is hard to reverse, you slow down…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Split facts, interpretations, and assumptions]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[List what you know from direct observation, what you believe based on interpretation, and what you are assuming without data. Mark each clearly. This reveals where confidence is earned versus imported and highlights what would change your…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Define criteria and their thresholds]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Turn vague preferences into explicit tests. For each criterion, set the minimum you will accept and the ideal you would like. Thresholds let you compare options without bending the rules each time a new detail appears.]
@@ -114,17 +114,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #grid(columns: (0.32fr, 0.68fr), gutter: 14pt,
   block(fill: navy, inset: 13pt)[#text(size: 9pt, weight: "bold", fill: rgb("#D7E4FF"))[LOOK FOR] #v(0.65em) #text(size: 17pt, weight: "bold", fill: rgb("#FFFFFF"))[Decisions,
 ot duties.]],
-  [#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+  [#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Commit to 4–6 decision criteria]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Select a small set that reflect outcomes and conditions that matter to you, not just surface features. Examples include scope of responsibility, learning curve, manager fit, lifestyle constraints, risk exposure, and…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Describe 2–3 credible options]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Write a short description of each live option. Include a neutral description of what the option is, its main upside, its main risk, and the decision deadline if one exists. Avoid arguing for or against an option in this…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Capture context and constraints]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[List time-sensitive realities such as contract end dates, personal obligations, location limits, and financial guardrails. Include any organization-specific cycles that influence timing. This prevents criteria from…]
@@ -178,25 +178,25 @@ Rewrite any persuasive sentences into neutral descriptions, then move arguments 
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Write the decision in one sentence and label it reversible or hard to reverse. State whether the decision is now, soon, or later, and explain why in two lines using timing facts, not feelings.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Criteria with thresholds]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[List 4–6 criteria. For each, define a minimum acceptable threshold and an ideal target. Add one sentence on how you will observe or test the criterion within two weeks without overcommitting.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Evidence and uncertainties]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Create two columns. In the first, list 6–10 pieces of evidence with source and date. In the second, list 3–5 uncertainties. For each uncertainty, write one next question and the smallest action that could produce a…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Adaptation note]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Pick a different decision with lower stakes, such as joining a committee or declining a speaking request. Build a mini memo using the same structure. Keep it to half a page. Applying the process to a smaller choice…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 8 — WORKED EXAMPLES
@@ -234,17 +234,17 @@ Rewrite any persuasive sentences into neutral descriptions, then move arguments 
 #v(0.45em)
 #text(size: 22pt, weight: "bold")[Use the same reasoning on paper and aloud.]
 #v(0.55em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Pressure test with a neutral reader]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Share the memo with someone who has no stake in the outcome. Ask them to find assumptions, moving thresholds, or missing counterevidence. Accept edits on the structure before debating conclusions.]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Run the reversal test]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Write one paragraph arguing for the option you currently favor least using only your stated criteria and thresholds. If you cannot make a credible case, your criteria may be biased toward a preferred story.]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Set a review date and default]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Choose a date to revisit the memo after your next question is answered. Define the default action if you do nothing by that date. Defaults reduce drift and force a choice based on real signals.]
@@ -256,7 +256,7 @@ Rewrite any persuasive sentences into neutral descriptions, then move arguments 
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Given my criteria and thresholds, what evidence or blind spot would most change your view of my leading option?]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 10 — NEXT STEPS AND GLOSSARY

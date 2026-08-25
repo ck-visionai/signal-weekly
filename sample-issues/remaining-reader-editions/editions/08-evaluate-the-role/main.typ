@@ -83,17 +83,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #v(0.55em)
 #deck([Listen for specifics: named decision forums, time-bound examples, artifacts, and clear owners. Favor verbs over adjectives in the answers. When someone describes a process, ask when it last ran and what changed as a result. Note who initiates decisions, who provides inputs, and who can veto. Track time horizons: weekly rituals, quarterly checkpoints, annual resets. Pay attention to how people describe conflict and learning—are misses examined to improve the system, or to assign blame? Notice hedging, contradictions across interviewers, or answers that never get beyond principle statements. Absence of detail is itself a signal about clarity, recall, or transparency. Your goal is to assemble a coherent picture that multiple people could reasonably recognize.])
 #v(0.75em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Define what you must learn to make a sound decision]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[List the uncertainties that would meaningfully change your choice if answered clearly. For most senior roles, these cluster into four domains: mandate and scope, success measures, decision rights, and operating environment. Mandate…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Translate intentions into neutral, example-seeking questions]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Avoid adjectives and hypotheticals. Convert “Is leadership supportive?” into “Tell me about a recent initiative like this—who sponsored it, what resources were committed, and what changed after the first review?” Replace “What does success…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Sequence questions across the interview loop]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Plan which questions to ask of which stakeholders. The hiring manager is best for mandate, success measures, and their operating system. Peers are best for decision rights, friction points, and collaboration norms. Cross-functional…]
@@ -114,17 +114,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #grid(columns: (0.32fr, 0.68fr), gutter: 14pt,
   block(fill: navy, inset: 13pt)[#text(size: 9pt, weight: "bold", fill: rgb("#D7E4FF"))[LOOK FOR] #v(0.65em) #text(size: 17pt, weight: "bold", fill: rgb("#FFFFFF"))[Decisions,
 ot duties.]],
-  [#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+  [#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Clarify your mandate fit]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Write down the types of problems you want to own and the outcomes you are ready to be accountable for. Identify adjacent areas you can influence but should not be expected to lead. Note any mismatches that would create…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Define success measures you can stand behind]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[List the time frames and milestones that feel realistic for the kind of work at hand. Note the inspection rhythms you prefer, what leading indicators you trust, and which lagging outcomes you are willing to be judged…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Map decision rights you need to do responsible work]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Document the decisions you need to own, the ones you can co-own, and the ones you are fine to influence without owning. Include budget authority, hiring and performance authority, technical or product choices, and…]
@@ -178,25 +178,25 @@ Rewrite each leading or hypothetical question into a neutral probe that invites 
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Name the role, the hiring manager, the business unit or team, and the primary mission as stated to you. What is your initial understanding of the outcomes the organization wants from this role in the next 12 months?]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Define your nonnegotiables and trade-offs]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[List the top three nonnegotiables you need to do responsible work in this role (for example, decision rights, sponsorship, scope). List up to three trade-offs you are willing to accept for the right mandate.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Draft your top eight defensible questions]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Write eight neutral, example-seeking questions that test mandate, success measures, decision rights, and operating environment. For each, note who is the best person to ask (manager, peer, cross-functional partner,…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Identify red flags, green lights, and follow-ups]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[List the specific signals you will treat as red flags, the signals that would increase your confidence, and the follow-up evidence you will request if an answer is vague or contradictory.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 8 — WORKED EXAMPLES
@@ -234,17 +234,17 @@ Rewrite each leading or hypothetical question into a neutral probe that invites 
 #v(0.45em)
 #text(size: 22pt, weight: "bold")[Use the same reasoning on paper and aloud.]
 #v(0.55em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Debrief within 24 hours using a consistent template]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Summarize key points under mandate, success measures, decision rights, and operating environment. Write what you heard, not what you hoped to hear. Highlight direct quotes that show mechanisms or decisions. Note what you did not ask due to time and plan when…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Score confidence, not positivity]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Replace a one-to-five satisfaction score with a one-to-five confidence score about your understanding of each domain. Low confidence means you need more evidence; high confidence means you have enough to decide, even if some signals are mixed. This prevents…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Cross-check alignment across interviewers]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Compare answers to the same questions from different people. Agreement on purpose and decision paths is a strong signal; disagreement can be healthy if it reflects role evolution, but it can also indicate unresolved tension. Note whether contradictions are…]
@@ -256,7 +256,7 @@ Rewrite each leading or hypothetical question into a neutral probe that invites 
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[I have a few questions that help me understand how this role creates value and how we’ll work together. I’ll keep them concise and focused on recent examples so I can align my approach to how you operate.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 10 — NEXT STEPS AND GLOSSARY

@@ -47,7 +47,7 @@
 
   #text(size: 8pt, weight: "bold", fill: cobalt)[TRY THIS BEFORE YOUR NEXT STEP]
   #v(0.24em)
-  #block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 6pt, y: 3pt))[
+  #block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 6pt, y: 3pt))[
     #practice
   ]
   #v(0.9em)

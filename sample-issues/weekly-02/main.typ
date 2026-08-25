@@ -93,7 +93,7 @@
   #v(0.25em)
   #text(size: 8.5pt, fill: muted)[#prompt]
   #v(0.45em)
-  #block(stroke: 0.7pt + line-grey, inset: 8pt, height: height)[#text(size: 8pt, fill: luma(125))[Write here. Use specific projects, decisions, constraints and results—not general qualities.]]
+  #block(width: 100%, stroke: 0.7pt + line-grey, inset: 8pt, height: height)[#text(size: 8pt, fill: luma(125))[Write here. Use specific projects, decisions, constraints and results—not general qualities.]]
 ]
 
 // PAGE 1 — COVER

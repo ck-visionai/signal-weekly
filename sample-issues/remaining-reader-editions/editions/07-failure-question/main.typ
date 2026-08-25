@@ -83,17 +83,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #v(0.55em)
 #deck([As you draft, extract only the facts you need to explain what was attempted, the call you made, what you missed, and how your practice is now different. If a detail does not illuminate your decision-making, leave it out. Your goal is not to win the argument with your past; it is to demonstrate that you run better systems now.])
 #v(0.75em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Understand the purpose of the question]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Interviewers and stakeholders use failure questions to model how you learn, not to relive your worst day. They listen for whether you can diagnose causes without dramatics, assign responsibility accurately, protect trust, and implement…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Select a story that carries insight, not just noise]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Choose a situation where you had meaningful responsibility and a clear decision point, even if other factors played a role. Avoid stories still entangled in confidentiality or where naming any detail would violate trust. If the failure…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Use a four-part structure: context, ownership, learning, change]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Keep your answer under two minutes. Organize it this way: - Context: one or two lines that set the stage. State the objective and constraints. - Ownership: what you decided, did, or failed to do. Name the missed signal or flawed…]
@@ -114,17 +114,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #grid(columns: (0.32fr, 0.68fr), gutter: 14pt,
   block(fill: navy, inset: 13pt)[#text(size: 9pt, weight: "bold", fill: rgb("#D7E4FF"))[LOOK FOR] #v(0.65em) #text(size: 17pt, weight: "bold", fill: rgb("#FFFFFF"))[Decisions,
 ot duties.]],
-  [#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+  [#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[List 5–7 candidate failures with decision points you owned]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Write short labels with dates or phases. For each, name the objective, the constraint, and the key decision you made that influenced the outcome. Examples: launched without pilot, overestimated adoption, misaligned…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Prune red flags and high-risk stories]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Remove stories that compromise confidentiality, retraumatize others, or would require naming individuals in a way that assigns blame. Also drop situations where you had almost no agency—there is little learning to show.]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Map controllable versus uncontrollable factors]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[For your top two stories, list factors you controlled (assumptions, sequencing, stakeholder engagement, scope, risk triggers) and those you did not (regulatory changes, force majeure, inherited constraints). This primes…]
@@ -178,25 +178,25 @@ Rewrite your story to include only what clarifies your decision, what you misjud
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[List three candidate failures where you had a real decision point. For each, write the objective, the constraint you underestimated, and the decision you owned that influenced the outcome.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Own your call]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[For your selected story, write two sentences that name your role and the specific call you made. Then write one sentence that names the signal you missed at the time.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Name the learning]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[What did you learn about your process that generalizes to other work? Write one sentence that states the insight without blame or flattery. Example structure: “I learned that when X is true, I must Y before Z.”]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Operationalize the change]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[List two concrete behaviors you now use to prevent or manage similar situations. For each, note when you apply it, what you look for, and how you know it is working.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 8 — WORKED EXAMPLES
@@ -234,17 +234,17 @@ Rewrite your story to include only what clarifies your decision, what you misjud
 #v(0.45em)
 #text(size: 22pt, weight: "bold")[Use the same reasoning on paper and aloud.]
 #v(0.55em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Check proportional ownership]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Read your draft and underline every sentence about your role. If more than half the lines refer to other people, rebalance. If you over-own to look noble, recalibrate to what you actually controlled.]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Is the change observable?]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Ask yourself, could a colleague notice the change you claim? If the change is an idea rather than a behavior, make it concrete: cadence, artifact, threshold, or trigger you now use.]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Trim to essential facts]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Remove color commentary and motive assignments. Keep the objective, the constraint, your decision, the missed signal, the learning, and the changed practice. Everything else is optional.]
@@ -256,7 +256,7 @@ Rewrite your story to include only what clarifies your decision, what you misjud
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[“Context, my call, what I learned, what I changed.”]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 10 — NEXT STEPS AND GLOSSARY

@@ -83,17 +83,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #v(0.55em)
 #deck([To extract the capability behind a prompt, listen for three cues. First, listen for the verbs in the question: convince, reconcile, escalate, de-risk, pivot, define, sequence. Verbs often signal the capability in play. Second, scan for the constraint the interviewer introduces: limited time, limited budget, competing stakeholders, ambiguous data, cross-functional dependency. The constraint often matches the real constraint in the role. Third, consider the asker's vantage point. A finance leader asking about a delayed approval is likely testing governance and decision hygiene, not storytelling flair. If you are unsure, ask a one-line clarifying question that tests your hypothesis: would it help if I focus on how I structured the decision versus the implementation details. By validating the angle, you reduce…])
 #v(0.75em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Spot the archetype of the prompt]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Most difficult prompts fall into a few archetypes: pressure test, trade-off test, alignment test, scope and sequencing test, and self-correction test. A pressure test sounds like tell me about a time the plan slipped. A trade-off test…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Map archetype to capability category]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Once you know the archetype, select the capability category most relevant to the role. Pressure tests often probe judgment and prioritization. Trade-off tests examine decision quality and risk appetite. Alignment tests assess stakeholder…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Anchor your role, scope, and constraint]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Before details, state three anchors: your role, the scope you owned, and the main constraint. For example, as the operations lead, I owned end-to-end scheduling across three work streams under a vendor reliability constraint. This prevents…]
@@ -114,17 +114,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #grid(columns: (0.32fr, 0.68fr), gutter: 14pt,
   block(fill: navy, inset: 13pt)[#text(size: 9pt, weight: "bold", fill: rgb("#D7E4FF"))[LOOK FOR] #v(0.65em) #text(size: 17pt, weight: "bold", fill: rgb("#FFFFFF"))[Decisions,
 ot duties.]],
-  [#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+  [#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Select episodes across constraint types]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Pick four to six episodes that span different constraints: time compression, budget pressure, ambiguous data, cross-functional conflict, shifting goals. This range lets you match the interviewer’s prompt with a…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Define your actual seat and edges]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[For each episode, write one sentence about what you owned end to end, and one sentence about what was outside your control. Candidates lose credibility when answers inflate authority. Clear edges increase trust and…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Name the decision and the trade-offs]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Identify the pivotal decision in the episode and the primary trade-off you navigated. For example, we chose stability over speed in the final two weeks, or we accepted short-term cost to avoid downstream quality risk.…]
@@ -178,25 +178,25 @@ Rewrite one of your common interview answers so that the capability is explicit 
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Select a difficult interview question you expect. Write the likely capability being tested, the key constraint it implies, and why this matters in the role you are targeting.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Episode match]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[From your inventory, choose an episode that fits the capability and constraint. Write your role, scope, decision rights, and the specific trade-off you navigated.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Reasoning outline]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[List the options you considered, the data or principles that guided your choice, and the alignment steps you took. Include how you monitored or limited risk.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Learning transfer]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Write the operating rule you adopted because of this episode and one way you would apply it in the first 90 days in the target role.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 8 — WORKED EXAMPLES
@@ -234,17 +234,17 @@ Rewrite one of your common interview answers so that the capability is explicit 
 #v(0.45em)
 #text(size: 22pt, weight: "bold")[Use the same reasoning on paper and aloud.]
 #v(0.55em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Pre-interview capability warm-up]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Skim your capability map and choose one episode for each top capability. Say the first sentence out loud: role, scope, constraint. Confirm that you can state the pivotal decision in one breath. If you cannot, tighten the episode or choose another.]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Active decoding during the interview]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[When asked a complex prompt, silently name the archetype and capability. If uncertain, ask a one-line clarifier. Then answer with your anchors and reasoning. If the interviewer interrupts, do not speed up. Acknowledge, then continue with the decision and…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Mid-course correction]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[If you realize mid-answer that you chose the wrong capability lens, adjust explicitly. For example, I focused on prioritization, but it sounds like you are more interested in how I managed dissent. Let me illustrate that dimension in the same episode. This…]
@@ -256,7 +256,7 @@ Rewrite one of your common interview answers so that the capability is explicit 
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Before I jump in, would you like me to focus on how I structured the decision, how I aligned stakeholders, or the implementation details that followed.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 10 — NEXT STEPS AND GLOSSARY

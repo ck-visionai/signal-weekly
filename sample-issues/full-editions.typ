@@ -60,12 +60,12 @@
   #text(size: 8pt, weight: "bold", fill: cobalt)[WORK THROUGH THESE THREE PROMPTS]
   #v(0.35em)
   #for move in moves [
-    #block(stroke: (left: 2pt + cobalt), inset: (left: 12pt, right: 8pt, y: 8pt), above: 8pt)[#move]
+    #block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 12pt, right: 8pt, y: 8pt), above: 8pt)[#move]
   ]
   #v(1.1em)
   #text(size: 8pt, weight: "bold", fill: cobalt)[YOUR ONE-SENTENCE COMMITMENT]
   #v(0.35em)
-  #block(stroke: 0.6pt + luma(175), inset: 12pt, height: 65pt)[
+  #block(width: 100%, stroke: 0.6pt + luma(175), inset: 12pt, height: 65pt)[
     #text(fill: luma(130))[The action I will take before my next career decision is:]
   ]
   #v(0.8em)

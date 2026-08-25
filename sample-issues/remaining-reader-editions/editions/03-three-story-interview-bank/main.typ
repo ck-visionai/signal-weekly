@@ -83,17 +83,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #v(0.55em)
 #deck([Start by scanning the past three to five years for episodes with visible turning points. Write a brief inventory without editing: what changed, who was involved, what you owned and what makes the scene meaningful. Then test each scene with two questions: Could I tell this in under three minutes? Could I explain my choices step by step? If the answer to either question is no, set the scene aside or split it into smaller pieces. For each candidate scene, write a one‑line headline that names the central tension, such as shifting scope, conflicting priorities, or a quality issue near a deadline. Under the headline, jot the constraint in one sentence. Then list three actions you took that you can defend under follow‑up questioning. Finally, note one outcome you can describe factually and one lesson you carried…])
 #v(0.75em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Identify the right scenes]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Choose moments with clear stakes where your actions mattered. Look for scenes with time pressure, resource limits or conflicting goals. Avoid projects where your role is hard to isolate. Prefer episodes where you can explain your decision…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Structure for adaptability]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Build each story with a short context, the specific constraint you faced, two or three decisive actions you took and one outcome with a reflection. Keep the context under three sentences. Name the constraint in plain language. Choose…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Extract portable evidence]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[List the tangible artifacts and observations that back your story. Examples include a process you designed, a decision log you kept, a role you played in a meeting or a shift in backlog, timeline or quality. You do not need numbers to be…]
@@ -114,17 +114,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #grid(columns: (0.32fr, 0.68fr), gutter: 14pt,
   block(fill: navy, inset: 13pt)[#text(size: 9pt, weight: "bold", fill: rgb("#D7E4FF"))[LOOK FOR] #v(0.65em) #text(size: 17pt, weight: "bold", fill: rgb("#FFFFFF"))[Decisions,
 ot duties.]],
-  [#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+  [#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Surface candidate scenes]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Review recent roles, transitions and initiatives. For each, ask: Where did I face a real constraint? Where did my judgment change the outcome? Capture quick notes about the setting, your role, the core decision and the…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Score for strength and portability]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Rate each scene on two axes from low to high: stakes and portability. Stakes reflect why it mattered. Portability reflects how many different questions it could answer. Prefer scenes with clear stakes and at least…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Select and narrow scope]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Choose one change, one problem‑solving and one learning scene. Narrow each to a single core decision. Trim side plots that do not support the decision path. If two stories overlap heavily, keep one and retire the other…]
@@ -178,25 +178,25 @@ Rewrite each story three times: once to emphasize leadership and influence, once
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Write a scene where direction, scope, team structure or external conditions shifted. Specify: the moment you recognized the change, the constraint that most shaped your response, two or three actions you took to reset…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Problem-solving story builder]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Choose a knotty issue you owned. Outline: the core question you needed to answer, the options you considered, the test or principle that helped you choose, the actions you took to execute and one visible result. Add the…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Learning story builder]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Pick a time you were wrong, underinformed or surprised. Define: the assumption that failed, the feedback or event that revealed it, what you changed next, and how you incorporated the learning into your habits or…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Adaptation map]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[For each story, write two sibling questions it can answer. Draft a one‑sentence bridge from the question to your story, then write an alternate opening that highlights the most relevant constraint or lesson. Note a…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 8 — WORKED EXAMPLES
@@ -234,17 +234,17 @@ Rewrite each story three times: once to emphasize leadership and influence, once
 #v(0.45em)
 #text(size: 22pt, weight: "bold")[Use the same reasoning on paper and aloud.]
 #v(0.55em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Tighten language and trim filler]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Cut adjectives that do not add proof. Replace vague verbs with specific actions. Remove side plots. Keep the context under three sentences. Ensure each action verb describes a choice, not just activity.]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Stress‑test with follow‑ups]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Ask a colleague to interrupt you with realistic probes: What other options did you reject? Who pushed back? How did you know the risk was acceptable? If you cannot answer succinctly, add clarifying detail to your written version and practice delivering it.]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Align to the target role]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Read the role description and choose two qualities you want the interviewer to see. Adjust your opening and closing lines so the story connects your way of working to those qualities. Do not change the facts; change the emphasis.]
@@ -256,7 +256,7 @@ Rewrite each story three times: once to emphasize leadership and influence, once
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[That question touches something I had to work through directly. May I share a brief example that shows how I approached it, the constraint I faced and what changed because of the choices I made?]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 10 — NEXT STEPS AND GLOSSARY

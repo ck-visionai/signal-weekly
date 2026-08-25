@@ -83,17 +83,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #v(0.55em)
 #deck([Use a simple, reusable capture format for each signal: signal, source, implication, validation question. For example: signal — visible shift toward platform unification; source — repeated references to consolidating tools across teams; implication — need for prioritization, change management, and migration risk handling; validation question — who owns the dependency map and how are trade-offs decided today? Write no more than three sentences per item. Keep citations to public items you can name if asked. Limit yourself to five to seven signals. Fewer is fine; more can dilute focus. Each signal should be specific enough to suggest the kind of proof you will bring and the questions you will ask.])
 #v(0.75em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Scan for strategy and direction signals]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Start with sources that reflect intentional choices: leadership letters, product announcements, hiring themes across open roles, and public remarks that repeat over time. As you skim, capture exact phrases that recur, stated priorities,…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Read the job language as evidence of pain and proof requirements]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[A job description is often a mix of aspirations, non-negotiables, and legacy text. Separate the language into three columns in your notes: must-haves stated plainly, recurring verbs that imply the kind of work expected, and contextual…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Study external constraints and stakeholder landscape]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Look beyond the organisation’s own messages. Consider customer expectations, competitive moves, regulatory context, supplier dependencies, and macro conditions that could influence priorities. Capture only what you can point to with a…]
@@ -114,17 +114,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #grid(columns: (0.32fr, 0.68fr), gutter: 14pt,
   block(fill: navy, inset: 13pt)[#text(size: 9pt, weight: "bold", fill: rgb("#D7E4FF"))[LOOK FOR] #v(0.65em) #text(size: 17pt, weight: "bold", fill: rgb("#FFFFFF"))[Decisions,
 ot duties.]],
-  [#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+  [#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Choose three to five proof stories that align to signals]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[For each selected signal, identify at least one story you can defend. Prioritize stories that demonstrate how you thought, how you collaborated, and how you handled resistance or uncertainty. Include the starting point,…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Extract portable skills and patterns from each story]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Name the skills that travel well across contexts, such as prioritization frameworks, stakeholder mapping, incident response routines, or experiment design. Note patterns others would recognize: repeated use of…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Prepare proof you can actually verify]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Inventory what could be confirmed by a previous colleague or by artefacts you can describe at a high level without sharing proprietary material. Examples include meeting cadences, decision logs, high-level rollout…]
@@ -178,25 +178,25 @@ Rewrite each resume bullet you might reference as a spoken, two-sentence story: 
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[List five to seven organisation signals with source and implication. For each, write one sentence on what it likely means for the role and one validation question you will ask to confirm or adjust your view.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Evidence ledger]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[For each signal, select one story from your experience. Write the two-sentence version: context and decision; effect and learning. Note who could confirm your role if asked and which artefact or routine you can describe.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Question bank]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Draft six thoughtful questions that test key assumptions. Aim for questions that reveal priorities, constraints, stakeholder ownership, success criteria, and trade-offs. Avoid questions you can answer through public…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Talk track rehearsal]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Write your 90-second opening that connects a top signal to your relevant evidence and one or two questions. Record a voice memo of you delivering it. Note where you rush, hedge, or use filler, and revise for clarity and…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 8 — WORKED EXAMPLES
@@ -234,17 +234,17 @@ Rewrite each resume bullet you might reference as a spoken, two-sentence story: 
 #v(0.45em)
 #text(size: 22pt, weight: "bold")[Use the same reasoning on paper and aloud.]
 #v(0.55em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Check the chain from signal to question]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[For each signal, confirm that the implication is clear and that your validation question would actually change your approach if answered. Remove questions that only ask for confirmation of what you already assume.]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Test for defensibility under probing]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Read each evidence snippet and list the first three follow-ups a skeptical stakeholder might ask. If you cannot answer crisply without adding adjectives, rewrite the snippet until it names a decision, a constraint, and a collaboration pattern.]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Rehearse in your natural register]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Deliver your 90-second opening aloud three times, once as if speaking to a detail-oriented leader, once to a peer, and once to a non-specialist. Note which words feel stilted or scripted. Adjust phrasing until you would be comfortable saying it in a hallway…]
@@ -256,7 +256,7 @@ Rewrite each resume bullet you might reference as a spoken, two-sentence story: 
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Thanks for the conversation. From what I can see, there’s a clear emphasis on improving reliability while consolidating tools across teams. That suggests the role needs someone comfortable with prioritization, change…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 10 — NEXT STEPS AND GLOSSARY

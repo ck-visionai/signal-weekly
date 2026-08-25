@@ -34,7 +34,7 @@ def safe_key(text, index):
 def cards(items, count=3, body_limit=220):
     rendered = []
     for index, item in enumerate(items[:count], 1):
-        rendered.append(f'''#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+        rendered.append(f'''#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[{index:02d}] #h(0.45em) #text(weight: "bold")[{typ(item["title"], 80)}]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[{typ(item["body"], body_limit)}]
@@ -46,7 +46,7 @@ def worksheet(prompt, height):
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[{typ(prompt["prompt"], 220)}]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: {height}pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]'''
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: {height}pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]'''
 
 def render(data):
     topic = data["topic"]

@@ -83,17 +83,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #v(0.55em)
 #deck([When you receive an offer and hear that base is fixed, slow the conversation long enough to collect the moving parts. Ask for a written summary of all compensation components, eligibility dates, and any one-time items. Verify bonus cycles, vesting schedules, and policy-based benefits. If something is unclear, ask what precedent exists and who owns the decision. Extract the timing of value and the names of decision makers. With this picture, you can judge what to elevate in your ask versus what to leave untouched. Do not assume silence equals flexibility. Confirm whether a term is discretionary or governed by a rule.])
 #v(0.75em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Confirm the ceiling and why it exists]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Before you decide what to ask for, verify the salary ceiling and understand its source. Ask clear, non-confrontational questions to learn whether the limit is policy, budget timing, level, or internal parity. Clarify the effective date for…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Map the whole offer into present and future value]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Capture each element of the package across time. Write down base salary, bonus targets and timing, equity or long-term incentives, sign-on amounts and vesting, benefits, retirement match timing, paid time off, remote or hybrid provisions,…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Distinguish deal-breakers from enhancers]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Separate must-haves from nice-to-haves. A must-have is a term that meaningfully affects your ability to accept and succeed, such as flexible hours to cover caregiving, a sign-on to bridge a gap, or a title level that grants access to key…]
@@ -114,17 +114,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #grid(columns: (0.32fr, 0.68fr), gutter: 14pt,
   block(fill: navy, inset: 13pt)[#text(size: 9pt, weight: "bold", fill: rgb("#D7E4FF"))[LOOK FOR] #v(0.65em) #text(size: 17pt, weight: "bold", fill: rgb("#FFFFFF"))[Decisions,
 ot duties.]],
-  [#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+  [#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[List non-negotiables and exposure points]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Identify the small set of conditions that will materially affect your decision. Examples include a minimum first-year cash floor due to overlapping obligations, a schedule guardrail, or level alignment that unlocks the…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Identify levers you can trade or sequence]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Note where you can be flexible in exchange for your priority term. You might accept a later start date to align with budget timing, commit to a structured onboarding plan that accelerates impact, or agree to revisit…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Map approval paths and timing]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Think about who can approve each term. Base salary is often bound by level and parity. Sign-ons may sit with talent or finance. Title alignment involves org design. Remote work may require executive sign-off. Ask your…]
@@ -178,25 +178,25 @@ Rewrite your ask so it names one precise term, ties it to delivery or risk reduc
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[List each offer component and note when it delivers value to you in the first 18 months. Include salary, bonus, sign-on, equity, benefits, and any waiting periods.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Name your two must-haves]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Write the one or two terms that would materially change your decision to accept. State why each matters for performing the role, not just for personal preference.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Draft your focused ask]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Write a three-sentence request that names one precise change, ties it to delivery or risk reduction, and states the approval path and a narrower fallback.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Define your walk-away line]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Write one sentence that states the minimum conditions under which you would decline and the reason that is consistent with your performance and commitments.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 8 — WORKED EXAMPLES
@@ -234,17 +234,17 @@ Rewrite your ask so it names one precise term, ties it to delivery or risk reduc
 #v(0.45em)
 #text(size: 22pt, weight: "bold")[Use the same reasoning on paper and aloud.]
 #v(0.55em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Clarity check]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Can someone outside the conversation read your one-page brief and repeat your ask and the reason in two sentences. If not, simplify. Remove extra adjectives and limit scope to one or two terms. Make the approval path explicit.]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Reputation check]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[How would your request look if shared internally by email. Ensure your tone is respectful and focused on delivery. Avoid framing that sounds entitled or transactional. Assume your words will be forwarded to the final approver.]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Decision check]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[If you receive a yes on your primary or fallback term, are you ready to accept promptly. If you receive a no on both, are you ready to decline respectfully. Decide in advance to avoid prolonged back-and-forth.]
@@ -256,7 +256,7 @@ Rewrite your ask so it names one precise term, ties it to delivery or risk reduc
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[I understand base is fixed at this level. To start effectively, could we approve a one-time sign-on payable on start, or alternatively a smaller sign-on with a short vesting schedule.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 10 — NEXT STEPS AND GLOSSARY

@@ -83,17 +83,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #v(0.55em)
 #deck([Extract the facts you have and the gaps you need to fill. List every concrete number and policy you know: base pay, bonus target and formula, equity units or percentage, vesting schedule, benefits premiums, time-off rules, work location and travel expectations, role title, reporting line, number of direct reports, decision rights, and review cadence. Note what is unclear or undocumented. Convert all timing references into dates or cycles. Where your only source is verbal, mark it as such. This extraction snapshot becomes your single source of truth for mapping, questions, and negotiation messages.])
 #v(0.75em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Name the five domains of a whole role]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Break the role into five domains you can actually compare. Compensation: salary, bonus structure, equity or profit-sharing, and review cadence. Benefits: healthcare and wellbeing, retirement, paid time off, leave policies, education…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Translate vague language into operational terms]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Offer letters and conversations often use words that sound good but lack concrete meaning. Translate phrases like lead strategic initiatives into named areas, measurable responsibilities, and key stakeholders. Ask, which decisions will I…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Assign value and risk across time]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Some elements pay now; others pay later. A higher bonus tied to team results increases risk in your first year. A lower cash salary with strong learning and visible scope may compound into future roles. Generous benefits, flexible working,…]
@@ -114,17 +114,17 @@ Choose one real career moment where this topic matters. Write down the decision,
 #grid(columns: (0.32fr, 0.68fr), gutter: 14pt,
   block(fill: navy, inset: 13pt)[#text(size: 9pt, weight: "bold", fill: rgb("#D7E4FF"))[LOOK FOR] #v(0.65em) #text(size: 17pt, weight: "bold", fill: rgb("#FFFFFF"))[Decisions,
 ot duties.]],
-  [#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+  [#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Set your baselines]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Define the minimums you need to say yes with integrity. Capture your base pay floor, required healthcare or equivalent stipend needs, vacation floor, location constraints, and any must-have schedule protections. Link…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Prioritize your growth and impact goals]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Identify the top two skills or experiences you intend to gain in the next 12–24 months and the kind of impact you want to be accountable for. Examples include leading a cross-functional initiative, owning a P&L slice,…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Define your risk tolerance and buffers]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Decide how much performance risk you can carry in year one. Consider variable pay percentage, dependence on factors you do not control, ramp expectations, and ambiguity level. Identify buffers you would require if risk…]
@@ -178,25 +178,25 @@ Rewrite each ask so it names the outcome at stake, the specific term that enable
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[List the exact base salary, bonus target and formula, equity or long-term incentive details, benefits premiums and coverage summary, paid time off, location and schedule expectations, title, reporting line, team size,…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Baseline check]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Write your base pay floor, benefits and time-off minimums, location and schedule limits, and any must-have resources or decision rights. For each item, write one sentence explaining why it is necessary for you to…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 60pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Priority map]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[Rank your top three goals for the next 12–24 months and the kind of impact you want to own. For each, note how the offer supports or impedes the goal and what adjustment would materially improve fit.]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 #v(0.65em)
 #text(size: 8pt, weight: "bold", fill: cobalt)[Trade space and give-get pairs]
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[List three flexible items you could trade (start date, review timing, scope sequencing, hybrid days, or professional development budget) and three corresponding asks you would pair with them. Write one short sentence…]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 70pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 8 — WORKED EXAMPLES
@@ -234,17 +234,17 @@ Rewrite each ask so it names the outcome at stake, the specific term that enable
 #v(0.45em)
 #text(size: 22pt, weight: "bold")[Use the same reasoning on paper and aloud.]
 #v(0.55em)
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[01] #h(0.45em) #text(weight: "bold")[Pressure-test your non-negotiables]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Ask yourself if each non-negotiable is tied to your ability to deliver, not just comfort. For each, write the specific risk if it is not met and the mitigation you tried to design. Remove any item that is really a preference in disguise. This step tightens…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[02] #h(0.45em) #text(weight: "bold")[Check for internal consistency]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Make sure your asks do not conflict. For example, if you ask for larger scope and fewer hours without adding resources or changing priorities, your message will appear unrealistic. Align title asks with decision rights and reporting line. Align bonus…]
 ],
-#block(stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
+#block(width: 100%, stroke: (left: 2pt + cobalt), inset: (left: 10pt, right: 4pt, y: 4pt), above: 7pt)[
   #text(size: 8pt, weight: "bold", fill: cobalt)[03] #h(0.45em) #text(weight: "bold")[Model the first 90 days under the current offer]
   #v(0.22em)
   #text(size: 8.8pt, fill: muted)[Write a one-page outline of what you will do in the first 90 days if you accept as is. Identify friction points you would face and resources you would need. If the plan looks plausible, your negotiation can be lighter and focused. If the plan is full of risks…]
@@ -256,7 +256,7 @@ Rewrite each ask so it names the outcome at stake, the specific term that enable
 #v(0.25em)
 #text(size: 8.3pt, fill: muted)[I am excited about this role and want to set us up for reliable delivery; may I share two adjustments that will reduce ramp risk and help me meet the targets we discussed?]
 #v(0.35em)
-#block(stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
+#block(width: 100%, stroke: 0.65pt + line-grey, inset: 8pt, height: 76pt)[#text(size: 7.6pt, fill: luma(125))[Write here. Use evidence you can explain, not language you merely hope a reviewer will notice.]]
 
 #pagebreak()
 // PAGE 10 — NEXT STEPS AND GLOSSARY

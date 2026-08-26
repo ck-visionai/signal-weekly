@@ -5,6 +5,7 @@ import { getSessionCookieOptions } from "./_core/cookies";
 import { createHeartbeatJob, updateHeartbeatJob } from "./_core/heartbeat";
 import { systemRouter } from "./_core/systemRouter";
 import { adminProcedure, publicProcedure, router } from "./_core/trpc";
+import { releasePatch } from "./releaseTransitions";
 import {
   createEdition,
   getEditionById,
@@ -80,18 +81,18 @@ export const appRouter = router({
     }),
     publishNow: adminProcedure.input(z.object({ id: z.number().int().positive() })).mutation(async ({ input }) => {
       if ((await listEditionSources(input.id)).length === 0) throw new Error("Add at least one citation source before publishing");
-      return updateEdition(input.id, { status: "published", publishedAt: new Date() });
+      return updateEdition(input.id, releasePatch("publish"));
     }),
     schedule: adminProcedure.input(z.object({ id: z.number().int().positive(), releaseAt: z.coerce.date() })).mutation(async ({ input }) => {
       if ((await listEditionSources(input.id)).length === 0) throw new Error("Add at least one citation source before scheduling");
-      return updateEdition(input.id, { status: "scheduled", releaseAt: input.releaseAt, publishedAt: null });
+      return updateEdition(input.id, releasePatch("schedule", input.releaseAt));
     }),
     pause: adminProcedure.input(z.object({ id: z.number().int().positive() })).mutation(({ input }) =>
-      updateEdition(input.id, { status: "draft" })
+      updateEdition(input.id, releasePatch("pause"))
     ),
     reschedule: adminProcedure.input(z.object({ id: z.number().int().positive(), releaseAt: z.coerce.date() })).mutation(async ({ input }) => {
       if ((await listEditionSources(input.id)).length === 0) throw new Error("Add at least one citation source before scheduling");
-      return updateEdition(input.id, { status: "scheduled", releaseAt: input.releaseAt });
+      return updateEdition(input.id, releasePatch("reschedule", input.releaseAt));
     }),
     rollback: adminProcedure.input(z.object({ id: z.number().int().positive() })).mutation(async ({ input }) => {
       return rollbackEdition(input.id);

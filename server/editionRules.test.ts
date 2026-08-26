@@ -22,12 +22,25 @@ describe("Career Weekly launch guards", () => {
   it("routes every Edition 01 admin mutation through an immutable-guarded operation", () => {
     const routerSource = readFileSync(new URL("./routers.ts", import.meta.url), "utf8");
     expect(routerSource).toContain("updateEdition(input.id, input.patch)");
-    expect(routerSource).toContain('updateEdition(input.id, { status: "published", publishedAt: new Date() })');
-    expect(routerSource).toContain('updateEdition(input.id, { status: "scheduled", releaseAt: input.releaseAt, publishedAt: null })');
-    expect(routerSource).toContain('updateEdition(input.id, { status: "draft" })');
-    expect(routerSource).toContain('updateEdition(input.id, { status: "scheduled", releaseAt: input.releaseAt })');
+    expect(routerSource).toContain('updateEdition(input.id, releasePatch("publish"))');
+    expect(routerSource).toContain('updateEdition(input.id, releasePatch("schedule", input.releaseAt))');
+    expect(routerSource).toContain('updateEdition(input.id, releasePatch("pause"))');
+    expect(routerSource).toContain('updateEdition(input.id, releasePatch("reschedule", input.releaseAt))');
     expect(routerSource).toContain("rollbackEdition(input.id)");
     expect(routerSource).toContain("replaceEditionSources(input.id, input.sources)");
+  });
+
+  it("covers the non-Edition-01 release transition success paths", () => {
+    const routerSource = readFileSync(new URL("./routers.ts", import.meta.url), "utf8");
+    const dbSource = readFileSync(new URL("./editionDb.ts", import.meta.url), "utf8");
+    expect(routerSource).toContain('updateEdition(input.id, releasePatch("schedule", input.releaseAt))');
+    expect(routerSource).toContain('updateEdition(input.id, releasePatch("reschedule", input.releaseAt))');
+    expect(routerSource).toContain('updateEdition(input.id, releasePatch("pause"))');
+    expect(routerSource).toContain('updateEdition(input.id, releasePatch("publish"))');
+    expect(routerSource).toContain("rollbackEdition(input.id)");
+    expect(routerSource).toContain("publishDueEditions()");
+    expect(dbSource).toContain('eq(editions.status, "scheduled")');
+    expect(dbSource).toContain('set(releasePatch("publish", undefined, now))');
   });
 
   it("keeps the approved complimentary-issue CTA and role-negotiation copy", () => {

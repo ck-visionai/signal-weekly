@@ -1,6 +1,7 @@
 import { and, desc, eq, lte } from "drizzle-orm";
 import { editionSources, editions, releaseControls, type InsertEdition, type InsertEditionSource } from "../drizzle/schema";
 import { getDb } from "./db";
+import { releasePatch } from "./releaseTransitions";
 
 type PublicEditionCandidate = {
   id: number;
@@ -131,7 +132,7 @@ export async function getEditionByScheduleTaskUid(taskUid: string) {
 
 export async function rollbackEdition(id: number) {
   await assertEditionMutable(id);
-  return updateEdition(id, { status: "draft", publishedAt: null });
+  return updateEdition(id, releasePatch("rollback"));
 }
 
 export async function publishDueEditions(now = new Date()) {
@@ -143,7 +144,7 @@ export async function publishDueEditions(now = new Date()) {
     if ((await listEditionSources(edition.id)).length > 0) publishable.push(edition);
   }
   for (const edition of publishable) {
-    await db.update(editions).set({ status: "published", publishedAt: now }).where(and(eq(editions.id, edition.id), eq(editions.status, "scheduled")));
+    await db.update(editions).set(releasePatch("publish", undefined, now)).where(and(eq(editions.id, edition.id), eq(editions.status, "scheduled")));
   }
   return publishable;
 }

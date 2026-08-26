@@ -60,30 +60,8 @@ export default function Home() {
   useEffect(() => {
     const container = beehiivEmbedRef.current;
     if (!container) return;
-
-    container.replaceChildren();
     container.dataset.expectedSubmitLabel = content.navigation.subscribeLabel;
-    const applySignupCopy = () => {
-      const controls = container.querySelectorAll<HTMLButtonElement | HTMLInputElement>("button, input[type=submit]");
-      controls.forEach((control) => {
-        if (control instanceof HTMLInputElement) control.value = content.navigation.subscribeLabel;
-        else control.textContent = content.navigation.subscribeLabel;
-        control.setAttribute("aria-label", content.navigation.subscribeLabel);
-      });
-    };
-    const observer = new MutationObserver(applySignupCopy);
-    observer.observe(container, { childList: true, subtree: true });
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = "https://subscribe-forms.beehiiv.com/v3/loader.js";
-    script.dataset.beehiivForm = "d349b356-d05e-4f5d-9e54-24383c078aea";
-    container.appendChild(script);
-    applySignupCopy();
-
     return () => {
-      observer.disconnect();
-      script.remove();
-      container.replaceChildren();
       delete container.dataset.expectedSubmitLabel;
     };
   }, []);
@@ -140,11 +118,9 @@ export default function Home() {
             </p>
 
             <div className="beehiiv-embed" id="subscribe" ref={beehiivEmbedRef} aria-label="Subscribe to Career Weekly" data-signup-provider="beehiiv">
-              <noscript>
-                <a className="beehiiv-embed__fallback" href="https://signalweeklyhq.beehiiv.com/subscribe">
-                  {content.navigation.fallbackSubscribeLabel}
-                </a>
-              </noscript>
+              <a className="beehiiv-embed__fallback" href="https://signalweeklyhq.beehiiv.com/subscribe" data-submit-label={content.navigation.subscribeLabel}>
+                {content.navigation.fallbackSubscribeLabel}
+              </a>
             </div>
             <p className="form-note">{content.hero.formNote} <a href="/privacy">{content.hero.formPrivacyLinkLabel}</a></p>
 

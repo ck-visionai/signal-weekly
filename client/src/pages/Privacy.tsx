@@ -29,52 +29,59 @@ const sections = [
     ],
   },
   {
-    title: "4. Newsletter Subscription and Unsubscribe Choices",
+    title: "4. Editorial Research and Content Use",
+    paragraphs: [
+      "Career Weekly develops sample briefings from publicly available, licensed, or otherwise permitted sources, together with original editorial analysis and practical frameworks. Source citations are included where appropriate so readers can inspect the basis for the briefing.",
+      "Subscriber information is not used to create individualized market or career research profiles. We use reasonable technical and organizational measures, including access controls and protected delivery routes where applicable, to reduce unauthorized access or redistribution of publication materials; no online system can guarantee complete prevention of misuse.",
+    ],
+  },
+  {
+    title: "5. Newsletter Subscription and Unsubscribe Choices",
     paragraphs: [
       "Career Weekly uses a double-confirmation process. After you submit an email address, you must confirm the subscription through the email we send before receiving the newsletter.",
       "You may unsubscribe at any time by using the unsubscribe link included in every Career Weekly email. You may also contact us at signalweeklyhq@gmail.com to request help with your subscription.",
     ],
   },
   {
-    title: "5. Service Providers",
+    title: "6. Service Providers",
     paragraphs: [
       "We use carefully selected service providers to operate the website and newsletter. In particular, Beehiiv processes subscription information and delivers newsletter emails on our behalf. Our website hosting provider processes information needed to make the website available and secure.",
       "These providers may process personal information only as needed to provide their services, subject to their own contractual, security, and privacy practices.",
     ],
   },
   {
-    title: "6. Data Retention",
+    title: "7. Data Retention",
     paragraphs: [
       "We retain subscriber information while your subscription remains active and for a reasonable period afterward when necessary for operational, legal, security, or record-keeping purposes. When you unsubscribe, we will stop sending marketing emails, although limited information may be retained to honour your unsubscribe request and meet legal obligations.",
     ],
   },
   {
-    title: "7. Cookies, Analytics, and Similar Technologies",
+    title: "8. Cookies, Analytics, and Similar Technologies",
     paragraphs: [
       "The Career Weekly website may use essential technologies required for its operation and security. If we use analytics, advertising cookies, or similar tracking technologies, we will describe the relevant tools and choices here and, where required, obtain consent before enabling them.",
     ],
   },
   {
-    title: "8. Your Privacy Rights",
+    title: "9. Your Privacy Rights",
     paragraphs: [
       "Depending on where you live, you may have rights to request access to, correction of, deletion of, or restriction of the personal information we hold about you, or to object to certain processing. You may also have the right to withdraw consent where our processing is based on consent.",
       "To make a request, contact us at signalweeklyhq@gmail.com. We may need to verify your identity before responding. We will respond in accordance with applicable law.",
     ],
   },
   {
-    title: "9. International Processing",
+    title: "10. International Processing",
     paragraphs: [
       "Career Weekly and its service providers may process information in countries other than the country in which you live. Where information is transferred internationally, we will use reasonable safeguards required by applicable law.",
     ],
   },
   {
-    title: "10. Children’s Privacy",
+    title: "11. Children’s Privacy",
     paragraphs: [
       "Career Weekly is not directed to children, and we do not knowingly collect personal information from children. If you believe that a child has provided personal information to us, please contact us so that we can take appropriate steps.",
     ],
   },
   {
-    title: "11. Changes to This Policy",
+    title: "12. Changes to This Policy",
     paragraphs: [
       "We may update this Privacy Policy from time to time. We will post the updated version on this page and revise the effective date above. Material changes will take effect when the updated policy is posted unless otherwise stated.",
     ],
@@ -107,7 +114,7 @@ export default function Privacy() {
           ))}
 
           <section className="privacy-section privacy-contact">
-            <h2>12. Contact Us</h2>
+            <h2>13. Contact Us</h2>
             <p>For questions about this Privacy Policy or Career Weekly’s privacy practices, contact:</p>
             <address>
               <strong>Signrl</strong><br />

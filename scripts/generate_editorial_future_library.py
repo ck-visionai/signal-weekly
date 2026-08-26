@@ -95,6 +95,9 @@ def block(text: str, *, fill: str = "eef2fb", label: str | None = None) -> str:
 
 
 def page(issue_no: int, title: str, subtitle: str, edition_label: str, page_no: int, total: int, paragraphs: list[str], *, intro: bool = False, action: bool = False, notice: bool = False, source_lines: list[str] | None = None) -> str:
+    # Every editorial subject is emitted as a complete Typst page. This prevents a
+    # subject heading from landing in the bottom 10% of the preceding page and
+    # keeps the heading with its opening argument for comfortable reading.
     heading_body = f'''#text(font: "Noto Sans", size: 8pt, weight: "bold", fill: blue)[{edition_label}]
     #v(0.35em)
     #text(size: 22pt, weight: "bold", fill: ink)[{esc(title)}]

@@ -192,7 +192,7 @@ export const defaultSiteContent: SiteContent = {
     imageUrl: "/manus-storage/career-weekly-hero-clean_c77cf438.png",
     imageAlt: "Editorial desk with clean layered papers and a verdigris writing pen",
     signupOfferLabel: "GET MY FREE GUIDE",
-    formNote: "Free. One weekly Friday brief. Confirm your address to begin. Leave anytime. By subscribing, you agree to our",
+    formNote: "Free. One weekly Friday brief. Confirm your address to begin. By subscribing, you agree to our",
     formPrivacyLinkLabel: "Privacy Policy.",
     frequency: "One weekly Friday brief",
     audience: "For mid-career and executive professionals",
@@ -222,7 +222,7 @@ export const defaultSiteContent: SiteContent = {
     { index: "03", label: "OFFER STRATEGY", title: "Protect the value in the offer.", text: "Negotiate pay, scope, benefits, and the conditions that make the next role work.", imageUrl: "/manus-storage/career-signal-card-offer-strategy_958a5603.jpg", ctaLabel: "Explore offer strategy", ctaUrl: "/resources#sample-issues" },
   ],
   archive: {
-    eyebrow: "FROM THE SAMPLE LIBRARY",
+    eyebrow: "FROM THE CAREER INTELLIGENCE LIBRARY",
     heading: "A complete working page.",
     emphasis: "Built to use.",
     leadNumber: "SAMPLE BRIEFING / 01",
@@ -240,9 +240,9 @@ export const defaultSiteContent: SiteContent = {
     eyebrow: "THE BRIEFING, IN PRACTICE",
     intro: "Thoughtful prompts for the moments that deserve more than a template answer.",
     slides: [
-      { eyebrow: "THE POSITIONING PROBLEM", title: "Your résumé is not a biography. It is a business case.", description: "Turn a nonlinear career into a clear executive narrative that a recruiter can understand in a first scan.", note: "The issue: translating scope into a signal." },
-      { eyebrow: "THE CONVERSATION PROBLEM", title: "Difficult questions are often invitations to lead.", description: "Prepare the executive-level answers that communicate judgment, self-awareness, and operating range under pressure.", note: "The issue: making a credible pivot in the room." },
-      { eyebrow: "THE DECISION PROBLEM", title: "Compensation is one part of a larger mandate.", description: "Negotiate salary, equity, scope, and the conditions that make the next role genuinely worth accepting.", note: "The issue: asking with precision, not apology." },
+      { eyebrow: "THE POSITIONING PROBLEM", title: "Your résumé is not a biography. It is a business case.", description: "Turn a nonlinear career into a clear executive narrative that a recruiter can understand in a first scan.", note: "The focus: translating scope into a signal." },
+      { eyebrow: "THE CONVERSATION PROBLEM", title: "Difficult questions are often invitations to lead.", description: "Prepare the executive-level answers that communicate judgment, self-awareness, and operating range under pressure.", note: "The focus: making a credible pivot in the room." },
+      { eyebrow: "THE DECISION PROBLEM", title: "Compensation is one part of a larger mandate.", description: "Negotiate salary, equity, scope, and the conditions that make the next role genuinely worth accepting.", note: "The focus: asking with precision, not apology." },
     ],
   },
   closing: {
@@ -255,7 +255,7 @@ export const defaultSiteContent: SiteContent = {
     artifactSchedule: "START HERE",
     artifactTitle: "EVIDENCE BEFORE ADJECTIVES.",
     artifactAudience: "COMPLETE FREE WORKING PAGE",
-    metaItems: ["NO COST", "FRIDAY BRIEFING", "LEAVE ANYTIME"],
+    metaItems: ["NO COST", "NEW BRIEFING EVERY FRIDAY", "EMPOWERING YOUR CAREER SUCCESS"],
   },
   resources: {
     eyebrow: "THE CAREER WEEKLY LIBRARY",
@@ -278,7 +278,7 @@ export const defaultSiteContent: SiteContent = {
     },
     upcoming: [
       { status: "AVAILABLE NOW", title: "The Executive Interview Preparation Brief", summary: "A practical guide to preparing clear, credible answers for consequential conversations.", downloadUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/hEfNztMDaEFBDiYj.pdf" },
-      { status: "IN DEVELOPMENT", title: "The Whole-Role Negotiation Map", summary: "A framework for thinking beyond the headline number.", downloadUrl: "" },
+      { status: "SCHEDULED RELEASE SOON", title: "The Whole-Role Negotiation Map", summary: "A framework for thinking beyond the headline number.", downloadUrl: "" },
     ],
   },
   links: {

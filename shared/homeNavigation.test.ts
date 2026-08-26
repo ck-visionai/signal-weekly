@@ -25,8 +25,8 @@ describe("Career Weekly homepage navigation and card artwork", () => {
     expect(homeSource).not.toContain('<a href="#inside">{content.footer.insideLinkLabel} <ArrowDown size={13} /></a>');
   });
 
-  it("routes the Practice section to the same concise free-page conversion action", () => {
-    expect(homeSource).toContain('>Get my free page <ArrowRight size={14} /></a>');
+  it("routes the Practice section to the same concise free-guide conversion action", () => {
+    expect(homeSource).toContain('>Get my free guide <ArrowRight size={14} /></a>');
   });
 
   it("uses a distinct three-signal Friday-brief panel instead of a third Evidence Before Adjectives cover", () => {

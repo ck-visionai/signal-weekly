@@ -22,8 +22,6 @@ import {
 } from "lucide-react";
 import { defaultSiteContent } from "@shared/siteContent";
 import { sampleIssues } from "@shared/sampleIssues";
-import { trpc } from "@/lib/trpc";
-import { getArchivedEditions } from "@shared/editionRules";
 
 const CAREER_SIGNAL_LOGO = "/manus-storage/career-signal-updated-mark-darknavy_2cf79fac.png";
 const OFFER_STRATEGY_IMAGE = "/manus-storage/career-signal-offer-brief_0ee33e08.jpg";
@@ -51,10 +49,6 @@ export default function Home() {
   const beehiivEmbedRef = useRef<HTMLDivElement>(null);
   const topicIcons = [FileSearch, MessageSquareText, Target];
   const topicSlides = content.practice.slides.map((slide, index) => ({ ...slide, number: String(index + 1).padStart(2, "0"), icon: topicIcons[index] }));
-  const releasedQuery = trpc.editions.public.useQuery({ limit: 12, offset: 0 });
-  const archiveQuery = trpc.editions.archive.useQuery();
-  const releasedEditions = releasedQuery.data ?? [];
-  const archivedEditions = getArchivedEditions(archiveQuery.data ?? []);
   const valueCards = content.pillars.map((pillar, index) => ({
     ...pillar,
     image: pillar.imageUrl || (index === 2 ? OFFER_STRATEGY_IMAGE : null),
@@ -235,11 +229,6 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="landing-edition-rail" aria-label="Released Career Intelligence Library editions">
-            <div className="landing-edition-rail__heading"><span>RELEASED CAREER INTELLIGENCE LIBRARY</span><small>Edition 01 stays available; newer releases rotate into this compact window.</small></div>
-            <div className="landing-edition-rail__grid">{releasedEditions.map(edition => <a className="landing-edition-card" href={`/api/editions/${edition.id}/preview`} target="_blank" rel="noreferrer" key={edition.id}><span>EDITION {String(edition.issueNumber).padStart(2, "0")}</span><strong>{edition.title}</strong><small>Read preview <ArrowUpRight size={13} /></small></a>)}</div>
-            <details className="landing-edition-archive"><summary>Browse older released editions ({archivedEditions.length})</summary><div>{archivedEditions.length ? archivedEditions.map(edition => <a href={`/api/editions/${edition.id}/complete`} target="_blank" rel="noreferrer" key={edition.id}>Edition {String(edition.issueNumber).padStart(2, "0")} · {edition.title} <ArrowUpRight size={13} /></a>) : <p>Older releases will appear here once the library grows beyond the rolling 12.</p>}</div></details>
-          </div>
         </section>
 
         <section className="practice-section" aria-labelledby="practice-title">
@@ -260,7 +249,7 @@ export default function Home() {
                 </button>
               ))}
             </div>
-            <a className="practice-cta" href="#subscribe" onClick={scrollToSignup}>Get my free page <ArrowRight size={14} /></a>
+            <a className="practice-cta" href="#subscribe" onClick={scrollToSignup}>Get my free guide <ArrowRight size={14} /></a>
           </div>
           <div className="topic-carousel">
             <div className="topic-count"><span>0{activeSlide + 1}</span><i /> <span>0{topicSlides.length}</span></div>

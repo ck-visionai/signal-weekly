@@ -176,7 +176,7 @@ export const defaultSiteContent: SiteContent = {
     logoUrl: "/career-signal-updated-mark-darknavy.png",
   },
   hero: {
-    eyebrow: "THE FRIDAY CAREER BRIEF FOR EXPERIENCED PROFESSIONALS",
+    eyebrow: "THE FRIDAY CAREER BRIEF FOR WORKING PROFESSIONALS",
     headline: "Make your next career move easier to explain — and harder to",
     emphasis: "overlook.",
     intro: "Start with a complete free working page that turns broad career claims into credible evidence. Then receive one weekly Friday brief on ATS positioning, executive interviews, and whole-role negotiation.",

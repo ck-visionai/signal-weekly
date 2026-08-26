@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from generate_editorial_future_library import OUT, body_paragraphs, page
+from generate_editorial_future_library import OUT, body_paragraphs, editorial_page
 
 ISSUE = 1
 TITLE = 'The Career Evidence Working Page'
@@ -18,7 +18,7 @@ def main() -> None:
     preview_editorial_pages = 5
     stem = 'career-weekly-edition-01-career-evidence-working-page'
     complete = ''.join(
-        page(
+        editorial_page(
             ISSUE,
             TITLE,
             SUBTITLE,
@@ -33,7 +33,7 @@ def main() -> None:
         for number in range(1, complete_pages + 1)
     )
     preview = ''.join(
-        page(
+        editorial_page(
             ISSUE,
             TITLE,
             SUBTITLE,

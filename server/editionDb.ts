@@ -2,6 +2,22 @@ import { and, desc, eq, lte } from "drizzle-orm";
 import { editionSources, editions, releaseControls, type InsertEdition, type InsertEditionSource } from "../drizzle/schema";
 import { getDb } from "./db";
 
+type PublicEditionCandidate = {
+  id: number;
+  previewKey?: string | null;
+  completeKey?: string | null;
+  previewUrl?: string | null;
+  completeUrl?: string | null;
+};
+
+function withProtectedDelivery<T extends PublicEditionCandidate>(edition: T): T {
+  return {
+    ...edition,
+    previewUrl: edition.previewKey ? `/api/editions/${edition.id}/preview` : edition.previewUrl,
+    completeUrl: edition.completeKey ? `/api/editions/${edition.id}/complete` : edition.completeUrl,
+  };
+}
+
 export async function listPublicEditions(limit = 12, offset = 0) {
   const db = await getDb();
   if (!db) return [];
@@ -10,10 +26,10 @@ export async function listPublicEditions(limit = 12, offset = 0) {
     .orderBy(desc(editions.issueNumber))
     .limit(limit)
     .offset(offset);
-  if (limit !== 12 || offset !== 0) return recent;
+  if (limit !== 12 || offset !== 0) return recent.map(withProtectedDelivery);
   const pinned = await db.select().from(editions).where(and(eq(editions.status, "published"), eq(editions.issueNumber, 1))).limit(1);
-  if (!pinned[0] || recent.some(edition => edition.id === pinned[0].id)) return recent;
-  return [pinned[0], ...recent.slice(0, 11)];
+  if (!pinned[0] || recent.some(edition => edition.id === pinned[0].id)) return recent.map(withProtectedDelivery);
+  return [pinned[0], ...recent.slice(0, 11)].map(withProtectedDelivery);
 }
 
 export async function getEditionById(id: number) {
@@ -27,7 +43,7 @@ export async function getPublishedEditionById(id: number) {
   const db = await getDb();
   if (!db) return undefined;
   const result = await db.select().from(editions).where(and(eq(editions.id, id), eq(editions.status, "published"))).limit(1);
-  return result[0];
+  return result[0] ? withProtectedDelivery(result[0]) : undefined;
 }
 
 export async function listEditorEditions() {
@@ -42,8 +58,12 @@ export async function listEditionSources(editionId: number) {
   return db.select().from(editionSources).where(eq(editionSources.editionId, editionId)).orderBy(desc(editionSources.accessedAt));
 }
 
+export function assertMutableIssueNumber(issueNumber: number) {
+  if (issueNumber === 1) throw new Error("Edition 01 is immutable");
+}
+
 export async function createEdition(input: InsertEdition) {
-  if (input.issueNumber === 1) throw new Error("Edition 01 is immutable");
+  assertMutableIssueNumber(input.issueNumber);
   const db = await getDb();
   if (!db) throw new Error("Database is not available");
   const result = await db.insert(editions).values(input);
@@ -53,7 +73,7 @@ export async function createEdition(input: InsertEdition) {
 export async function assertEditionMutable(id: number) {
   const edition = await getEditionById(id);
   if (!edition) throw new Error("Edition was not found");
-  if (edition.issueNumber === 1) throw new Error("Edition 01 is immutable");
+  assertMutableIssueNumber(edition.issueNumber);
   return edition;
 }
 
@@ -66,6 +86,7 @@ export async function updateEdition(id: number, input: Partial<InsertEdition>) {
 }
 
 export async function replaceEditionSources(editionId: number, sources: Array<Omit<InsertEditionSource, "editionId">>) {
+  await assertEditionMutable(editionId);
   const db = await getDb();
   if (!db) throw new Error("Database is not available");
   await db.delete(editionSources).where(eq(editionSources.editionId, editionId));

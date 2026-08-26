@@ -18,8 +18,8 @@ for pdf in sorted(OUT.glob('career-weekly-edition-*-preview.pdf')):
         errors.append(f'{pdf.name}: preview page count {pages}')
     if 'CAREER WEEKLY · A SIGNRL PUBLICATION' not in text:
         errors.append(f'{pdf.name}: missing masthead')
-    if 'CONTINUE WITH THE COMPLETE EDITION' not in text:
-        errors.append(f'{pdf.name}: missing complete-edition invitation')
+    if 'CONTINUE WITH THE FULL EDITION' not in text:
+        errors.append(f'{pdf.name}: missing full-edition invitation')
     if text.count('WORKING PROMPT') != 1:
         errors.append(f'{pdf.name}: expected one concise exercise, found {text.count("WORKING PROMPT")}')
 

@@ -94,12 +94,11 @@ def block(text: str, *, fill: str = "eef2fb", label: str | None = None) -> str:
   ]'''
 
 
-def page(issue_no: int, title: str, subtitle: str, edition_label: str, page_no: int, total: int, paragraphs: list[str], *, intro: bool = False, action: bool = False, notice: bool = False, source_lines: list[str] | None = None) -> str:
-    # Every editorial subject is emitted as a complete Typst page. This prevents a
-    # subject heading from landing in the bottom 10% of the preceding page and
-    # keeps the heading with its opening argument for comfortable reading.
-    heading_body = f'''#text(font: "Noto Sans", size: 8pt, weight: "bold", fill: blue)[{edition_label}]
-    #v(0.35em)
+def editorial_page(issue_no: int, title: str, subtitle: str, edition_label: str, page_no: int, total: int, paragraphs: list[str], *, intro: bool = False, action: bool = False, notice: bool = False, source_lines: list[str] | None = None) -> str:
+    # Pagination is structural: every editorial section is emitted inside its own
+    # Typst #page block, so its subject heading can never land in the bottom 10%
+    # of a preceding page or separate from its opening argument.
+    heading_body = f'''#v(0.35em)
     #text(size: 22pt, weight: "bold", fill: ink)[{esc(title)}]
     #v(0.55em)
     #text(size: 11pt, fill: ink)[{esc(subtitle)}]'''
@@ -112,7 +111,7 @@ def page(issue_no: int, title: str, subtitle: str, edition_label: str, page_no: 
     if action:
         action_block = '\n  ' + block('Write one accurate example from your own experience. Name the context, the action, the constraint, and the evidence another person could evaluate.', label='WORKING PROMPT')
         if notice:
-            action_block += '\n  ' + block('This is a preview. Download the Complete Edition for the full editorial briefing and working pages.', fill='e7f5f7', label='CONTINUE WITH THE COMPLETE EDITION')
+            action_block += '\n  ' + block('This is a preview. Download the full edition for the full editorial briefing and working pages.', fill='e7f5f7', label='CONTINUE WITH THE FULL EDITION')
     return f'''#page(margin: 1.65cm, header: none, footer: none)[
   #text(font: "Noto Sans", size: 7.5pt, weight: "bold", fill: navy)[CAREER WEEKLY · A SIGNRL PUBLICATION]
   #align(right)[#text(font: "Noto Sans", size: 7.5pt, weight: "bold", fill: blue)[{edition_label} · {page_no:02d} / {total:02d}]]
@@ -136,11 +135,11 @@ def build_one(item: tuple[int, str, str, str, str]) -> dict:
     stem = f'career-weekly-edition-{issue_no:02d}-{safe}'
     editorial_pages = complete_pages - 3
     complete = ''.join(
-        page(issue_no, title, subtitle, 'COMPLETE EDITION', p, complete_pages, body_paragraphs(theme, title, subtitle, p, editorial_pages), intro=p == 1, action=p > editorial_pages, source_lines=[f'{source[0]} — {source[2]}', source[1]] if p == complete_pages else None)
+        editorial_page(issue_no, title, subtitle, 'COMPLETE EDITION', p, complete_pages, body_paragraphs(theme, title, subtitle, p, editorial_pages), intro=p == 1, action=p > editorial_pages, source_lines=[f'{source[0]} — {source[2]}', source[1]] if p == complete_pages else None)
         for p in range(1, complete_pages + 1)
     )
     preview = ''.join(
-        page(issue_no, title, subtitle, 'PREVIEW EDITION', p, preview_pages, body_paragraphs(theme, title, subtitle, p, preview_pages - 1), intro=p == 1, action=p == preview_pages, notice=True)
+        editorial_page(issue_no, title, subtitle, 'PREVIEW EDITION', p, preview_pages, body_paragraphs(theme, title, subtitle, p, preview_pages - 1), intro=p == 1, action=p == preview_pages, notice=True)
         for p in range(1, preview_pages + 1)
     )
     preamble = '#set text(font: ("Libertinus Serif", "Noto Sans"), size: 10.5pt, fill: rgb("18202a"))\n#set par(justify: false, leading: 0.72em, spacing: 0.72em)\n#let navy = rgb("03045e")\n#let blue = rgb("475492")\n#let ink = rgb("18202a")\n'

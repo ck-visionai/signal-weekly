@@ -262,7 +262,7 @@ export default function Home() {
                 </button>
               ))}
             </div>
-            <a className="practice-cta" href="#subscribe" onClick={scrollToSignup}>Get my free guide <ArrowRight size={14} /></a>
+            <a className="practice-cta" href="#subscribe" onClick={scrollToSignup}>{content.navigation.subscribeLabel} <ArrowRight size={14} /></a>
           </div>
           <div className="topic-carousel">
             <div className="topic-count"><span>0{activeSlide + 1}</span><i /> <span>0{topicSlides.length}</span></div>

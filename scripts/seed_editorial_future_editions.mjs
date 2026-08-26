@@ -10,8 +10,9 @@ for (const line of uploadLog.split(/\r?\n/)) {
   const match = line.match(/^\[SUCCESS\] (.+?) -> \/manus-storage\/(.+)$/);
   if (match) storageByFile.set(match[1], match[2]);
 }
-if (manifest.length !== 88 || storageByFile.size !== 176) {
-  throw new Error(`Expected 88 issues and 176 uploads; got ${manifest.length} and ${storageByFile.size}`);
+const expectedFiles = new Set(manifest.flatMap(item => [item.previewFile, item.completeFile]));
+if (manifest.length !== 88 || [...expectedFiles].some(file => !storageByFile.has(file))) {
+  throw new Error(`Expected 88 issues and mappings for ${expectedFiles.size} PDFs; got ${manifest.length} issues and ${storageByFile.size} uploaded files`);
 }
 
 const connection = await mysql.createConnection(process.env.DATABASE_URL);
@@ -23,8 +24,8 @@ try {
     if (!previewKey || !completeKey) throw new Error(`Missing storage mapping for edition ${item.issueNumber}`);
     const slug = `edition-${String(item.issueNumber).padStart(2, '0')}-${item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`;
     const editorialLead = `${item.title} examines a specific career decision through evidence, context, and judgment rather than generic confidence language.`;
-    const previewContent = `${editorialLead} The Preview Edition introduces the central argument, a practical example, and one concise exercise. Download the Complete Edition for the full editorial briefing and working pages.`;
-    const completeContent = `${editorialLead} The Complete Edition develops the argument through issue-specific explanation, examples, practical guidance, common failure modes, and three final action pages for applying the idea to one real role, project, conversation, or decision.`;
+    const previewContent = `${editorialLead} The Preview Edition introduces the central argument, a practical example, and one concise exercise. Download the full edition for the full editorial briefing and working pages.`;
+    const completeContent = `${editorialLead} The full edition develops the argument through issue-specific explanation, examples, practical guidance, common failure modes, and three final action pages for applying the idea to one real role, project, conversation, or decision.`;
     const summary = `${item.subtitle} Editorial briefing with a final three-page action sequence for working professionals.`;
     await connection.execute(
       `UPDATE editions SET slug = ?, title = ?, subtitle = ?, status = 'draft', previewKey = ?, completeKey = ?, previewContent = ?, completeContent = ?, previewPages = ?, completePages = ?, masthead = 'CAREER WEEKLY · A SIGNRL PUBLICATION', summary = ? WHERE issueNumber = ?`,

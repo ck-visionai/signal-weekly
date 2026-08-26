@@ -5,7 +5,9 @@ describe("sample briefing library", () => {
   it("contains twelve transparently numbered preview editions", () => {
     expect(sampleIssues).toHaveLength(12);
     expect(sampleIssues.map((issue) => issue.number)).toEqual(["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]);
-    expect(sampleIssues.every((issue) => issue.previewUrl.endsWith(".pdf") && issue.completeUrl.endsWith(".pdf"))).toBe(true);
+    expect(sampleIssues[0].previewUrl).toBe("/api/editions/1/preview");
+    expect(sampleIssues[0].completeUrl).toBe("/api/editions/1/complete");
+    expect(sampleIssues.slice(1).every((issue) => issue.previewUrl.endsWith(".pdf") && issue.completeUrl.endsWith(".pdf"))).toBe(true);
   });
 
   it("offers exactly one full sample publicly while preserving the staged library", () => {

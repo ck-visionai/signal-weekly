@@ -9,7 +9,7 @@ describe("content backup export", () => {
     const backup = createContentBackup(defaultSiteContent, createdAt);
 
     expect(backup).toContain("# Career Weekly Content Backup");
-    expect(backup).toContain("The Executive ATS Résumé Audit");
+    expect(backup).toContain("The Career Evidence Working Page");
     expect(backup).toContain(defaultSiteContent.links.atsUrl);
     expect(backup).toContain('"brandName": "Career Weekly"');
     expect(backup).toContain("does not contain Beehiiv subscribers");

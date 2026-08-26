@@ -58,19 +58,47 @@
         "@graph": [
           {
             "@type": "Organization",
+            "@id": "https://www.signrl.com/#organization",
             "name": "Signrl",
             "url": "https://www.signrl.com/",
             "logo": "/manus-storage/career-signal-updated-mark-darknavy_2cf79fac.png"
           },
           {
             "@type": "WebSite",
+            "@id": "https://www.signrl.com/#website",
             "name": "Career Weekly",
             "url": "https://www.signrl.com/",
             "description": "A complimentary weekly career-intelligence briefing for working professionals.",
-            "publisher": {
-              "@type": "Organization",
-              "name": "Signrl"
-            }
+            "publisher": { "@id": "https://www.signrl.com/#organization" }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.signrl.com/#webpage",
+            "url": "https://www.signrl.com/",
+            "name": "Career Weekly | Career Intelligence for Working Professionals",
+            "isPartOf": { "@id": "https://www.signrl.com/#website" },
+            "about": { "@id": "https://www.signrl.com/#organization" },
+            "description": "Practical résumé, executive interview, and role-negotiation guidance for working professionals."
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is Career Weekly?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Career Weekly is a complimentary Friday briefing for working professionals who want clearer evidence and better judgment around consequential career decisions." }
+              },
+              {
+                "@type": "Question",
+                "name": "What does each briefing cover?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Each briefing focuses on a practical career situation, such as résumé positioning, executive interviews, role negotiation, or evaluating a new opportunity." }
+              },
+              {
+                "@type": "Question",
+                "name": "Who is Career Weekly for?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Career Weekly is designed for mid-career and executive professionals who want useful context, examples, and working prompts rather than generic career advice." }
+              }
+            ]
           }
         ]
       }

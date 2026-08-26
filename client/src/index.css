@@ -371,3 +371,13 @@ h1 em, h2 em { color: var(--cobalt); font-style: italic; }
 .sample-library-archive-list a { display: inline-flex; align-items: center; gap: 4px; color: var(--cobalt); font-size: 9px; font-weight: 800; }
 @media (max-width: 860px) { .landing-edition-rail__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .sample-library-archive-list > div { grid-template-columns: 90px minmax(0, 1fr); } .sample-library-archive-list a { justify-self: start; } }
 @media (max-width: 620px) { .landing-edition-rail { margin-top: 32px; padding: 14px; } .landing-edition-rail__heading { display: block; } .landing-edition-rail__heading small { display: block; margin-top: 8px; line-height: 1.4; } .landing-edition-rail__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .landing-edition-card { min-height: 102px; padding: 11px; } .landing-edition-card strong { font-size: 15px; } .sample-library-archive-list > div { grid-template-columns: 1fr; gap: 5px; } }
+
+/* AEO-friendly answer block: visible, concise, and readable without changing the editorial hierarchy. */
+.faq-section { padding: 96px max(24px, calc((100vw - 1360px) / 2)); background: #f4f3ee; }
+.faq-intro { max-width: 620px; }
+.faq-section h2 { margin: 16px 0 0; font-family: "DM Serif Display", Georgia, serif; font-size: clamp(2.4rem, 4vw, 4rem); font-weight: 400; letter-spacing: -0.05em; line-height: 0.96; }
+.faq-grid { margin-top: 42px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.faq-grid article { padding: 24px 22px; border-top: 2px solid var(--cobalt); background: #fff; }
+.faq-grid h3 { margin: 0 0 12px; font-size: 14px; font-weight: 850; letter-spacing: -0.02em; }
+.faq-grid p { margin: 0; color: #626c77; font-size: 12px; font-weight: 600; line-height: 1.7; }
+@media (max-width: 760px) { .faq-section { padding: 72px 18px; }.faq-grid { grid-template-columns: 1fr; margin-top: 30px; }.faq-grid article { padding: 20px 18px; } }

@@ -4,7 +4,7 @@
  */
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
 
-const CAREER_SIGNAL_LOGO = "/career-signal-updated-mark.png";
+const CAREER_SIGNAL_LOGO = "/career-signal-updated-mark-bluebar-v2.png";
 
 const sections = [
   {

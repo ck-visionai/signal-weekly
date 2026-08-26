@@ -9,7 +9,7 @@ import { defaultSiteContent } from "@shared/siteContent";
 import { sampleIssues } from "@shared/sampleIssues";
 import { getResourcesAnchorTarget } from "@shared/resourcesNavigation";
 
-const CAREER_SIGNAL_LOGO = "/career-signal-updated-mark.png";
+const CAREER_SIGNAL_LOGO = "/career-signal-updated-mark-bluebar-v2.png";
 
 function SignalMark({ inverse = false }: { inverse?: boolean }) {
   return (

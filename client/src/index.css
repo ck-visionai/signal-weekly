@@ -233,7 +233,6 @@ h1 em, h2 em { color: var(--cobalt); font-style: italic; }
   display: block;
   object-fit: contain;
 }
-.signal-logo-wrap--on-dark .signal-logo { filter: brightness(0) invert(1); }
 .privacy-mark {
   width: 22px;
   height: 22px;

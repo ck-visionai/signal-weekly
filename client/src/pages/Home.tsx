@@ -62,15 +62,29 @@ export default function Home() {
     if (!container) return;
 
     container.replaceChildren();
+    container.dataset.expectedSubmitLabel = content.navigation.subscribeLabel;
+    const applySignupCopy = () => {
+      const controls = container.querySelectorAll<HTMLButtonElement | HTMLInputElement>("button, input[type=submit]");
+      controls.forEach((control) => {
+        if (control instanceof HTMLInputElement) control.value = content.navigation.subscribeLabel;
+        else control.textContent = content.navigation.subscribeLabel;
+        control.setAttribute("aria-label", content.navigation.subscribeLabel);
+      });
+    };
+    const observer = new MutationObserver(applySignupCopy);
+    observer.observe(container, { childList: true, subtree: true });
     const script = document.createElement("script");
     script.async = true;
     script.src = "https://subscribe-forms.beehiiv.com/v3/loader.js";
     script.dataset.beehiivForm = "d349b356-d05e-4f5d-9e54-24383c078aea";
     container.appendChild(script);
+    applySignupCopy();
 
     return () => {
+      observer.disconnect();
       script.remove();
       container.replaceChildren();
+      delete container.dataset.expectedSubmitLabel;
     };
   }, []);
 
@@ -125,8 +139,7 @@ export default function Home() {
               {content.hero.intro}
             </p>
 
-            <p className="hero-signup-offer">{content.hero.signupOfferLabel}</p>
-            <div className="beehiiv-embed" id="subscribe" ref={beehiivEmbedRef} aria-label="Subscribe to Career Weekly">
+            <div className="beehiiv-embed" id="subscribe" ref={beehiivEmbedRef} aria-label="Subscribe to Career Weekly" data-signup-provider="beehiiv">
               <noscript>
                 <a className="beehiiv-embed__fallback" href="https://signalweeklyhq.beehiiv.com/subscribe">
                   {content.navigation.fallbackSubscribeLabel}
@@ -304,7 +317,7 @@ export default function Home() {
           <p className="footer-management">{content.identity.managementLine}</p>
         </div>
         <div className="footer-links">
-          <div><p>{content.footer.exploreLabel}</p><a href="/resources">{content.navigation.resourcesLabel} <ArrowRight size={13} /></a><a href={content.links.atsUrl} target="_blank" rel="noreferrer">{content.footer.atsLinkLabel} <ArrowUpRight size={13} /></a>{content.links.liveTrainingUrl ? <a href={content.links.liveTrainingUrl} target="_blank" rel="noreferrer">{content.footer.liveTrainingLabel} <ArrowUpRight size={13} /></a> : null}<a href="#subscribe" onClick={scrollToSignup}>{content.navigation.subscribeLabel} <ArrowDown size={13} /></a></div>
+          <div><p>{content.footer.exploreLabel}</p><a href="/resources">{content.navigation.resourcesLabel} <ArrowRight size={13} /></a>{content.links.liveTrainingUrl ? <a href={content.links.liveTrainingUrl} target="_blank" rel="noreferrer">{content.footer.liveTrainingLabel} <ArrowUpRight size={13} /></a> : null}<a href="#subscribe" onClick={scrollToSignup}>{content.navigation.subscribeLabel} <ArrowDown size={13} /></a></div>
           <div><p>{content.footer.elsewhereLabel}</p><a href={content.links.linkedinUrl} target="_blank" rel="noreferrer">{content.footer.linkedinLinkLabel} <Linkedin size={13} /></a><a href={`mailto:${content.identity.contactEmail}`}>{content.footer.contactLinkLabel} <ArrowUpRight size={13} /></a></div>
           <div><p>{content.footer.legalLabel}</p><a href="/privacy">{content.footer.privacyLinkLabel} <ArrowRight size={13} /></a></div>
         </div>

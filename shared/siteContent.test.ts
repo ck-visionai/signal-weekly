@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { defaultSiteContent, siteContentSchema } from "./siteContent";
 
-describe("Signal Weekly editor content schema", () => {
-  it("accepts the complete published Signal Weekly content model", () => {
+describe("Career Weekly editor content schema", () => {
+  it("accepts the complete published Career Weekly content model", () => {
     expect(siteContentSchema.parse(defaultSiteContent)).toEqual(defaultSiteContent);
   });
 
@@ -26,7 +26,7 @@ describe("Signal Weekly editor content schema", () => {
     expect(defaultSiteContent.hero.intro).toContain("complete free working page");
     expect(defaultSiteContent.closing.description).toContain("one weekly Friday brief");
     expect(defaultSiteContent.hero.issueNumber).toContain("SAMPLE BRIEFING");
-    expect(defaultSiteContent.archive.eyebrow).toBe("FROM THE SAMPLE LIBRARY");
+    expect(defaultSiteContent.archive.eyebrow).toBe("FROM THE CAREER INTELLIGENCE LIBRARY");
     expect(defaultSiteContent.closing.heading).toBe("Start here.");
     expect(defaultSiteContent.closing.emphasis).toBe("Build from there.");
   });

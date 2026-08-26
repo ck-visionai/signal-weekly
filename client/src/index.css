@@ -333,3 +333,15 @@ h1 em, h2 em { color: var(--cobalt); font-style: italic; }
   .main-brief,
   .side-brief { transition: none; }
 }
+
+/* Career Signal mark treatment: one consistent black-and-dark-navy mark; white base only where the surrounding surface is navy. */
+.signal-logo-wrap--on-dark {
+  padding: 4px;
+  background: #fff;
+  border-radius: 2px;
+}
+.brand--footer .signal-logo-wrap--on-dark {
+  width: 36px;
+  height: 36px;
+  flex-basis: 36px;
+}

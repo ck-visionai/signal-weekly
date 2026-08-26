@@ -173,7 +173,7 @@ export const defaultSiteContent: SiteContent = {
     footerMeta: "Made for career momentum",
     copyrightLabel: "© 2026 CAREER SIGNAL",
     contactEmail: "signalweeklyhq@gmail.com",
-    logoUrl: "/career-signal-updated-mark-bluebar-v2.png",
+    logoUrl: "/career-signal-updated-mark-darknavy.png",
   },
   hero: {
     eyebrow: "THE FRIDAY CAREER BRIEF FOR EXPERIENCED PROFESSIONALS",
@@ -217,9 +217,9 @@ export const defaultSiteContent: SiteContent = {
     intro: "Every issue turns a high-stakes career moment into a small set of clear, usable moves.",
   },
   pillars: [
-    { index: "01", label: "RÉSUMÉ SIGNAL", title: "Prove the fit before the first screen.", text: "Turn broad experience into role-specific evidence an ATS and recruiter can recognise.", imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/TgevWfEsgboMGMxi.jpg", ctaLabel: "Explore the résumé briefing", ctaUrl: "/resources#sample-issues" },
-    { index: "02", label: "INTERVIEW PRACTICE", title: "Make your judgement easy to trust.", text: "Build decision stories that show how you think, lead, and deliver under pressure.", imageUrl: "", ctaLabel: "Explore interview practice", ctaUrl: "/resources#sample-issues" },
-    { index: "03", label: "OFFER STRATEGY", title: "Protect the value in the offer.", text: "Negotiate pay, scope, benefits, and the conditions that make the next role work.", imageUrl: "", ctaLabel: "Explore offer strategy", ctaUrl: "/resources#sample-issues" },
+    { index: "01", label: "RÉSUMÉ SIGNAL", title: "Prove the fit before the first screen.", text: "Turn broad experience into role-specific evidence an ATS and recruiter can recognise.", imageUrl: "/career-signal-card-resume-positioning.jpg", ctaLabel: "Explore the résumé briefing", ctaUrl: "/resources#sample-issues" },
+    { index: "02", label: "INTERVIEW PRACTICE", title: "Make your judgement easy to trust.", text: "Build decision stories that show how you think, lead, and deliver under pressure.", imageUrl: "/career-signal-card-interview-practice.jpg", ctaLabel: "Explore interview practice", ctaUrl: "/resources#sample-issues" },
+    { index: "03", label: "OFFER STRATEGY", title: "Protect the value in the offer.", text: "Negotiate pay, scope, benefits, and the conditions that make the next role work.", imageUrl: "/career-signal-card-offer-strategy.jpg", ctaLabel: "Explore offer strategy", ctaUrl: "/resources#sample-issues" },
   ],
   archive: {
     eyebrow: "FROM THE SAMPLE LIBRARY",

@@ -23,14 +23,13 @@ import { trpc } from "@/lib/trpc";
 import { defaultSiteContent } from "@shared/siteContent";
 import { sampleIssues } from "@shared/sampleIssues";
 
-const CAREER_SIGNAL_LOGO = "/career-signal-updated-mark-bluebar-v2.png";
-const CAREER_SIGNAL_LOGO_DARK = "/career-signal-updated-mark-bluebar-on-dark.png";
+const CAREER_SIGNAL_LOGO = "/career-signal-updated-mark-darknavy.png";
 const OFFER_STRATEGY_IMAGE = "/manus-storage/career-signal-offer-strategy-card_4e86ef07.jpg";
 
 function SignalMark({ inverse = false }: { inverse?: boolean }) {
   return (
     <span className={`signal-logo-wrap ${inverse ? "signal-logo-wrap--on-dark" : ""}`} aria-hidden="true">
-      <img className="signal-logo" src={inverse ? CAREER_SIGNAL_LOGO_DARK : CAREER_SIGNAL_LOGO} alt="" />
+      <img className="signal-logo" src={CAREER_SIGNAL_LOGO} alt="" />
     </span>
   );
 }

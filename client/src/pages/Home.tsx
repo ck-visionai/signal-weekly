@@ -1,5 +1,5 @@
 /**
- * Career Signal / Executive Signal Desk
+ * Career Weekly / Executive Signal Desk
  * Contemporary editorial minimalism: warm ivory, graphite, refined teal, and paper briefing artifacts.
  */
 import { type MouseEvent, useEffect, useRef, useState } from "react";
@@ -83,7 +83,7 @@ export default function Home() {
   return (
     <div className="site-shell">
       <header className="topbar">
-        <a className="brand" href="#top" aria-label="Career Signal home">
+        <a className="brand" href="#top" aria-label="Career Weekly home">
           <SignalMark />
           <span className="brand-lockup"><strong className="brand-name">{content.identity.brandName}</strong><small>{content.identity.endorsement}</small></span>
         </a>
@@ -119,7 +119,7 @@ export default function Home() {
             </p>
 
             <p className="hero-signup-offer">{content.hero.signupOfferLabel}</p>
-            <div className="beehiiv-embed" id="subscribe" ref={beehiivEmbedRef} aria-label="Subscribe to Career Signal">
+            <div className="beehiiv-embed" id="subscribe" ref={beehiivEmbedRef} aria-label="Subscribe to Career Weekly">
               <noscript>
                 <a className="beehiiv-embed__fallback" href="https://signalweeklyhq.beehiiv.com/subscribe">
                   {content.navigation.fallbackSubscribeLabel}
@@ -149,7 +149,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="quiet-statement" aria-label="Career Signal positioning">
+        <section className="quiet-statement" aria-label="Career Weekly positioning">
           <div className="quiet-statement-line" />
           <p>{content.quiet.prefix} <strong>{content.quiet.emphasis}</strong></p>
           <div className="quiet-statement-line" />
@@ -277,7 +277,7 @@ export default function Home() {
                 <div><span>03</span><strong>Offer</strong><small>Protect the value.</small></div>
               </div>
               <p>ONE USEFUL MOVE<br />EACH FRIDAY.</p>
-              <div className="closing-brief-bottom"><span>CAREER SIGNAL</span><span>WEEKLY BRIEF</span></div>
+              <div className="closing-brief-bottom"><span>CAREER WEEKLY</span><span>WEEKLY BRIEF</span></div>
             </div>
             <div className="closing-copy">
               <div className="eyebrow"><span className="eyebrow-line" />{content.closing.eyebrow}</div>

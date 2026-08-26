@@ -166,12 +166,12 @@ export const SITE_CONTENT_KEY = "signal-weekly-site";
 
 export const defaultSiteContent: SiteContent = {
   identity: {
-    brandName: "Career Signal",
+    brandName: "Career Weekly",
     endorsement: "A Signrl publication",
-    managementLine: "Career Signal is a Signrl publication, managed by Signrl.",
+    managementLine: "Career Weekly is a Signrl publication, managed by Signrl.",
     footerTagline: "Useful intelligence for your next consequential career decision.",
     footerMeta: "Made for career momentum",
-    copyrightLabel: "© 2026 CAREER SIGNAL",
+    copyrightLabel: "© 2026 CAREER WEEKLY",
     contactEmail: "signalweeklyhq@gmail.com",
     logoUrl: "/career-signal-updated-mark-darknavy.png",
   },
@@ -258,7 +258,7 @@ export const defaultSiteContent: SiteContent = {
     metaItems: ["NO COST", "FRIDAY BRIEFING", "LEAVE ANYTIME"],
   },
   resources: {
-    eyebrow: "THE CAREER SIGNAL LIBRARY",
+    eyebrow: "THE CAREER WEEKLY LIBRARY",
     title: "Practical documents for a more deliberate",
     emphasis: "next move.",
     intro: "Short, useful guides for the career decisions that deserve more than generic advice. Start with the document in front of you, then build from there.",

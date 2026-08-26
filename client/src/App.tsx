@@ -1,3 +1,7 @@
+/**
+ * Career Weekly / Executive Signal Desk
+ * Ground-truth import from ck-visionai/signal-weekly: editorial minimalism, warm paper, graphite, teal/cobalt accents, and briefing-card composition.
+ */
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { useEffect } from "react";
@@ -6,14 +10,10 @@ import { Route, Switch, useLocation } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
-import Editor from "./pages/Editor";
 import Privacy from "./pages/Privacy";
 import Resources from "./pages/Resources";
+import Editor from "./pages/Editor";
 
-/**
- * Career Weekly / Executive Signal Desk
- * SEO uses www.signrl.com as the single public address while preserving the editorial brand hierarchy.
- */
 const SITE_URL = "https://www.signrl.com";
 
 function setMeta(selector: string, attribute: "name" | "property", key: string, content: string) {
@@ -40,7 +40,6 @@ function RouteSeo() {
   const [location] = useLocation();
 
   useEffect(() => {
-    if (location.startsWith("/editor")) return;
     const isPrivacy = location === "/privacy";
     const isResources = location === "/resources";
     const title = isPrivacy
@@ -69,30 +68,20 @@ function Router() {
   // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/privacy"} component={Privacy} />
-      <Route path={"/resources"} component={Resources} />
-      <Route path={"/editor"} component={Editor} />
-      <Route path={"/editor/:section"} component={Editor} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
+      <Route path="/" component={Home} />
+      <Route path="/privacy" component={Privacy} />
+      <Route path="/resources" component={Resources} />
+      <Route path="/editor" component={Editor} />
+      <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
   );
 }
 
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
-
 function App() {
   return (
     <ErrorBoundary>
-      <ThemeProvider
-        defaultTheme="light"
-        // switchable
-      >
+      <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <Toaster />
           <RouteSeo />

@@ -4,12 +4,13 @@
  */
 import { useEffect } from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight, CheckCircle2, Clock3, Download, FileText, Sparkles } from "lucide-react";
-import { trpc } from "@/lib/trpc";
 import { defaultSiteContent } from "@shared/siteContent";
 import { sampleIssues } from "@shared/sampleIssues";
 import { getResourcesAnchorTarget } from "@shared/resourcesNavigation";
+import { trpc } from "@/lib/trpc";
+import { getArchivedEditions, getRollingVisibleEditions } from "@shared/editionRules";
 
-const CAREER_SIGNAL_LOGO = "/career-signal-updated-mark-darknavy.png";
+const CAREER_SIGNAL_LOGO = "/manus-storage/career-signal-updated-mark-darknavy_2cf79fac.png";
 
 function SignalMark({ inverse = false }: { inverse?: boolean }) {
   return (
@@ -20,10 +21,15 @@ function SignalMark({ inverse = false }: { inverse?: boolean }) {
 }
 
 export default function Resources() {
-  const contentQuery = trpc.content.public.useQuery(undefined, { retry: false, refetchOnWindowFocus: false });
-  const content = contentQuery.data ?? defaultSiteContent;
+  // Static WebDev uses the repository’s editorial defaults as the published content source.
+  const content = defaultSiteContent;
   const resource = content.resources;
   const featured = resource.featured;
+  const publishedQuery = trpc.editions.archive.useQuery();
+  const releasedEditions = publishedQuery.data ?? [];
+  const visibleEditions = getRollingVisibleEditions(releasedEditions);
+  const archiveEditions = getArchivedEditions(releasedEditions);
+  const libraryIssues = visibleEditions.length > 0 ? visibleEditions.map(edition => ({ number: String(edition.issueNumber).padStart(2, "0"), title: edition.title, subtitle: edition.subtitle, previewUrl: `/api/editions/${edition.id}/preview`, completeUrl: `/api/editions/${edition.id}/complete`, freeComplete: edition.issueNumber === 1, deliveryLabel: edition.issueNumber === 1 ? "Complete edition available now" : "Full edition arrives weekly by email" })) : sampleIssues;
 
   useEffect(() => {
     const scrollToRequestedSection = () => {
@@ -89,8 +95,9 @@ export default function Resources() {
         </section>
 
         <section className="sample-library" id="sample-issues" aria-labelledby="sample-issues-title">
-          <div className="sample-library-intro"><div className="eyebrow"><span className="eyebrow-line" />CAREER INTELLIGENCE LIBRARY</div><h2 id="sample-issues-title">Browse the preview.<br /><em>Build your next move.</em></h2><p>Explore a focused preview of each guide, then download the complete edition when you want the full working sequence.</p><div className="sample-library-actions"><a href={sampleIssues[0].completeUrl} target="_blank" rel="noreferrer">Download the complete edition <Download size={15} /></a><a href="/#subscribe">Subscribe for future full editions <ArrowRight size={15} /></a></div></div>
-          <div className="sample-library-grid">{sampleIssues.map((issue) => <article className="sample-library-card" key={issue.number}><span>SAMPLE {issue.number}</span><h3>{issue.title}</h3><p>{issue.subtitle}</p><div><a href={issue.previewUrl} target="_blank" rel="noreferrer">Read preview <ArrowUpRight size={14} /></a>{issue.freeComplete ? <a href={issue.completeUrl} target="_blank" rel="noreferrer">Complete edition <Download size={13} /></a> : <span className="sample-library-delivery"><Clock3 size={13} /> {issue.deliveryLabel}</span>}</div></article>)}</div>
+          <div className="sample-library-intro"><div className="eyebrow"><span className="eyebrow-line" />CAREER INTELLIGENCE LIBRARY</div><h2 id="sample-issues-title">Browse the preview.<br /><em>Build your next move.</em></h2><p>Explore a focused preview of each guide, then download the complete edition when you want the full working sequence.</p><div className="sample-library-actions"><a href={libraryIssues[0]?.completeUrl || sampleIssues[0].completeUrl} target="_blank" rel="noreferrer">Download the complete edition <Download size={15} /></a><a href="/#subscribe">Subscribe for future full editions <ArrowRight size={15} /></a></div></div>
+          <div className="sample-library-grid">{libraryIssues.map((issue) => <article className="sample-library-card" key={issue.number}><span>SAMPLE {issue.number}</span><h3>{issue.title}</h3><p>{issue.subtitle}</p><div><a href={issue.previewUrl} target="_blank" rel="noreferrer">Read preview <ArrowUpRight size={14} /></a>{issue.freeComplete && issue.completeUrl ? <a href={issue.completeUrl} target="_blank" rel="noreferrer">Complete edition <Download size={13} /></a> : <span className="sample-library-delivery"><Clock3 size={13} /> {issue.deliveryLabel}</span>}</div></article>)}</div>
+          <details className="sample-library-archive-control"><summary>Browse older released editions ({archiveEditions.length})</summary><div className="sample-library-archive-list">{archiveEditions.length ? archiveEditions.map(edition => <div key={edition.id}><span>EDITION {String(edition.issueNumber).padStart(2, "0")}</span><strong>{edition.title}</strong><a href={`/api/editions/${edition.id}/preview`} target="_blank" rel="noreferrer">Read preview <ArrowUpRight size={13} /></a>{edition.completeUrl && <a href={`/api/editions/${edition.id}/complete`} target="_blank" rel="noreferrer">Download complete <Download size={13} /></a>}</div>) : <p>Older released editions will appear here after the library grows beyond the rolling 12.</p>}</div></details>
           <p className="sample-library-note">Career Intelligence Library guides are prepared for educational reading. They are preview editions, not historic newsletter sends, and do not guarantee a career outcome.</p>
         </section>
       </main>

@@ -3,11 +3,11 @@
   "short_name": "Career Signal",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#F8F7F2",
+  "background_color": "#f8f7f2",
   "theme_color": "#03045e",
   "icons": [
     {
-      "src": "/career-signal-updated-mark-darknavy.png",
+      "src": "/manus-storage/career-signal-updated-mark-darknavy_2cf79fac.png",
       "sizes": "202x228",
       "type": "image/png"
     }

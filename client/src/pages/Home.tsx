@@ -2,6 +2,7 @@
  * Career Weekly / Executive Signal Desk
  * Contemporary editorial minimalism: warm ivory, graphite, refined teal, and paper briefing artifacts.
  */
+import { useAuth } from "@/_core/hooks/useAuth";
 import { type MouseEvent, useEffect, useRef, useState } from "react";
 import {
   ArrowDown,
@@ -19,12 +20,13 @@ import {
   Target,
   X,
 } from "lucide-react";
-import { trpc } from "@/lib/trpc";
 import { defaultSiteContent } from "@shared/siteContent";
 import { sampleIssues } from "@shared/sampleIssues";
+import { trpc } from "@/lib/trpc";
+import { getArchivedEditions } from "@shared/editionRules";
 
-const CAREER_SIGNAL_LOGO = "/career-signal-updated-mark-darknavy.png";
-const OFFER_STRATEGY_IMAGE = "/manus-storage/career-signal-offer-strategy-card_4e86ef07.jpg";
+const CAREER_SIGNAL_LOGO = "/manus-storage/career-signal-updated-mark-darknavy_2cf79fac.png";
+const OFFER_STRATEGY_IMAGE = "/manus-storage/career-signal-offer-brief_0ee33e08.jpg";
 
 function SignalMark({ inverse = false }: { inverse?: boolean }) {
   return (
@@ -35,13 +37,24 @@ function SignalMark({ inverse = false }: { inverse?: boolean }) {
 }
 
 export default function Home() {
-  const contentQuery = trpc.content.public.useQuery(undefined, { retry: false, refetchOnWindowFocus: false });
-  const content = contentQuery.data ?? defaultSiteContent;
+  // The useAuth hook provides authentication state.
+  // To implement login/logout, call logout(), or start login from an event
+  // handler: onClick={() => startLogin()} (imported from "@/const"). Never call
+  // startLogin() during render (no href={startLogin()}) — it mints a one-time
+  // nonce cookie and must run only at the moment of navigation.
+  let { user, loading, error, isAuthenticated, logout } = useAuth();
+
+  // Static WebDev uses the repository’s editorial defaults as the published content source.
+  const content = defaultSiteContent;
   const [activeSlide, setActiveSlide] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
   const beehiivEmbedRef = useRef<HTMLDivElement>(null);
   const topicIcons = [FileSearch, MessageSquareText, Target];
   const topicSlides = content.practice.slides.map((slide, index) => ({ ...slide, number: String(index + 1).padStart(2, "0"), icon: topicIcons[index] }));
+  const releasedQuery = trpc.editions.public.useQuery({ limit: 12, offset: 0 });
+  const archiveQuery = trpc.editions.archive.useQuery();
+  const releasedEditions = releasedQuery.data ?? [];
+  const archivedEditions = getArchivedEditions(archiveQuery.data ?? []);
   const valueCards = content.pillars.map((pillar, index) => ({
     ...pillar,
     image: pillar.imageUrl || (index === 2 ? OFFER_STRATEGY_IMAGE : null),
@@ -221,6 +234,11 @@ export default function Home() {
                 <ArrowUpRight size={18} />
               </a>
             </div>
+          </div>
+          <div className="landing-edition-rail" aria-label="Released Career Intelligence Library editions">
+            <div className="landing-edition-rail__heading"><span>RELEASED CAREER INTELLIGENCE LIBRARY</span><small>Edition 01 stays available; newer releases rotate into this compact window.</small></div>
+            <div className="landing-edition-rail__grid">{releasedEditions.map(edition => <a className="landing-edition-card" href={`/api/editions/${edition.id}/preview`} target="_blank" rel="noreferrer" key={edition.id}><span>EDITION {String(edition.issueNumber).padStart(2, "0")}</span><strong>{edition.title}</strong><small>Read preview <ArrowUpRight size={13} /></small></a>)}</div>
+            <details className="landing-edition-archive"><summary>Browse older released editions ({archivedEditions.length})</summary><div>{archivedEditions.length ? archivedEditions.map(edition => <a href={`/api/editions/${edition.id}/complete`} target="_blank" rel="noreferrer" key={edition.id}>Edition {String(edition.issueNumber).padStart(2, "0")} · {edition.title} <ArrowUpRight size={13} /></a>) : <p>Older releases will appear here once the library grows beyond the rolling 12.</p>}</div></details>
           </div>
         </section>
 

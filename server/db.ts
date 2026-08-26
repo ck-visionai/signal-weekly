@@ -1,8 +1,7 @@
 import { eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, siteContent, users } from "../drizzle/schema";
+import { InsertUser, users } from "../drizzle/schema";
 import { ENV } from './_core/env';
-import { defaultSiteContent, SITE_CONTENT_KEY, type SiteContent } from "../shared/siteContent";
 
 let _db: ReturnType<typeof drizzle> | null = null;
 
@@ -90,27 +89,4 @@ export async function getUserByOpenId(openId: string) {
   return result.length > 0 ? result[0] : undefined;
 }
 
-export async function getSiteContent(): Promise<SiteContent> {
-  const db = await getDb();
-  if (!db) return defaultSiteContent;
-
-  const result = await db
-    .select({ content: siteContent.content })
-    .from(siteContent)
-    .where(eq(siteContent.contentKey, SITE_CONTENT_KEY))
-    .limit(1);
-
-  return result[0]?.content ?? defaultSiteContent;
-}
-
-export async function saveSiteContent(content: SiteContent, userId: number): Promise<SiteContent> {
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available. Please try again shortly.");
-
-  await db
-    .insert(siteContent)
-    .values({ contentKey: SITE_CONTENT_KEY, content, updatedBy: userId })
-    .onDuplicateKeyUpdate({ set: { content, updatedBy: userId, updatedAt: new Date() } });
-
-  return content;
-}
+// TODO: add feature queries here as your schema grows.

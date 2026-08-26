@@ -6,6 +6,9 @@ import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import { registerOAuthRoutes } from "./oauth";
 import { registerStorageProxy } from "./storageProxy";
 import { appRouter } from "../routers";
+import { getEditionById, getReleaseControlByTaskUid, publishDueEditions } from "../editionDb";
+import { storageGetSignedUrl } from "../storage";
+import { sdk } from "./sdk";
 import { createContext } from "./context";
 import { serveStatic, setupVite } from "./vite";
 
@@ -28,6 +31,36 @@ async function findAvailablePort(startPort: number = 3000): Promise<number> {
   throw new Error(`No available port found starting from ${startPort}`);
 }
 
+async function handleScheduledRelease(req: express.Request, res: express.Response) {
+  try {
+    const user = await sdk.authenticateRequest(req);
+    if (!user.isCron || !user.taskUid) {
+      return res.status(403).json({ error: "cron-only" });
+    }
+    const releaseControl = await getReleaseControlByTaskUid(user.taskUid);
+    if (!releaseControl) {
+      return res.json({ ok: true, skipped: "orphan" });
+    }
+    const published = await publishDueEditions(new Date());
+    return res.json({ ok: true, releaseControlId: releaseControl.id, publishedIssueNumbers: published.map(edition => edition.issueNumber) });
+  } catch (error) {
+    return res.status(500).json({ error: String(error), timestamp: new Date().toISOString() });
+  }
+}
+
+async function deliverPublishedPdf(req: express.Request, res: express.Response) {
+  const editionId = Number(req.params.id);
+  const variant = req.params.variant;
+  if (!Number.isInteger(editionId) || !["preview", "complete"].includes(variant)) return res.status(400).json({ error: "invalid-edition-request" });
+  const edition = await getEditionById(editionId);
+  if (!edition || edition.status !== "published") return res.status(404).json({ error: "edition-not-published" });
+  const key = variant === "preview" ? edition.previewKey : edition.completeKey;
+  const directUrl = variant === "preview" ? edition.previewUrl : edition.completeUrl;
+  if (key) return res.redirect(await storageGetSignedUrl(key));
+  if (directUrl) return res.redirect(directUrl);
+  return res.status(404).json({ error: "pdf-not-available" });
+}
+
 async function startServer() {
   const app = express();
   const server = createServer(app);
@@ -36,6 +69,8 @@ async function startServer() {
   app.use(express.urlencoded({ limit: "50mb", extended: true }));
   registerStorageProxy(app);
   registerOAuthRoutes(app);
+  app.post("/api/scheduled/release-friday-edition", handleScheduledRelease);
+  app.get("/api/editions/:id/:variant", deliverPublishedPdf);
   // tRPC API
   app.use(
     "/api/trpc",

@@ -8,14 +8,14 @@ describe("content backup export", () => {
   it("includes readable summary information and the full editable content record", () => {
     const backup = createContentBackup(defaultSiteContent, createdAt);
 
-    expect(backup).toContain("# Career Signal Content Backup");
+    expect(backup).toContain("# Career Weekly Content Backup");
     expect(backup).toContain("The Executive ATS Résumé Audit");
     expect(backup).toContain(defaultSiteContent.links.atsUrl);
-    expect(backup).toContain('"brandName": "Career Signal"');
+    expect(backup).toContain('"brandName": "Career Weekly"');
     expect(backup).toContain("does not contain Beehiiv subscribers");
   });
 
   it("creates a dated Markdown filename", () => {
-    expect(contentBackupFilename(createdAt)).toBe("career-signal-content-backup-2026-08-24.md");
+    expect(contentBackupFilename(createdAt)).toBe("career-weekly-content-backup-2026-08-24.md");
   });
 });

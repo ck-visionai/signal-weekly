@@ -14,7 +14,7 @@ describe("sample briefing library", () => {
   });
 
   it("labels the remaining editions as progressive email deliveries rather than immediate downloads", () => {
-    expect(sampleIssues.find((issue) => issue.number === "02")?.deliveryLabel).toBe("Next full edition arrives by email");
+    expect(sampleIssues.find((issue) => issue.number === "02")?.deliveryLabel).toBe("Full edition arrives weekly by email");
     expect(sampleIssues.filter((issue) => !issue.freeComplete).every((issue) => issue.deliveryLabel.includes("arrives") && issue.deliveryLabel.includes("email"))).toBe(true);
   });
 });

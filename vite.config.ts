@@ -150,66 +150,7 @@ function vitePluginManusDebugCollector(): Plugin {
   };
 }
 
-function vitePluginStorageProxy(): Plugin {
-  return {
-    name: "manus-storage-proxy",
-    configureServer(server: ViteDevServer) {
-      server.middlewares.use("/manus-storage", async (req, res) => {
-        const key = req.url?.replace(/^\//, "");
-        if (!key) {
-          res.writeHead(400, { "Content-Type": "text/plain" });
-          res.end("Missing storage key");
-          return;
-        }
-
-        const forgeBaseUrl = (process.env.BUILT_IN_FORGE_API_URL || "").replace(/\/+$/, "");
-        const forgeKey = process.env.BUILT_IN_FORGE_API_KEY;
-
-        if (!forgeBaseUrl || !forgeKey) {
-          res.writeHead(500, { "Content-Type": "text/plain" });
-          res.end("Storage proxy not configured");
-          return;
-        }
-
-        try {
-          const forgeUrl = new URL("v1/storage/presign/get", forgeBaseUrl + "/");
-          forgeUrl.searchParams.set("path", key);
-
-          const forgeResp = await fetch(forgeUrl, {
-            headers: { Authorization: `Bearer ${forgeKey}` },
-          });
-
-          if (!forgeResp.ok) {
-            res.writeHead(502, { "Content-Type": "text/plain" });
-            res.end("Storage backend error");
-            return;
-          }
-
-          const { url } = (await forgeResp.json()) as { url: string };
-          if (!url) {
-            res.writeHead(502, { "Content-Type": "text/plain" });
-            res.end("Empty signed URL");
-            return;
-          }
-
-          res.writeHead(307, { Location: url, "Cache-Control": "no-store" });
-          res.end();
-        } catch {
-          res.writeHead(502, { "Content-Type": "text/plain" });
-          res.end("Storage proxy error");
-        }
-      });
-    },
-  };
-}
-
-const isGitHubPagesBuild = process.env.GITHUB_PAGES === "true";
-const plugins = [
-  react(),
-  tailwindcss(),
-  jsxLocPlugin(),
-  ...(isGitHubPagesBuild ? [] : [vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()]),
-];
+const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
 
 export default defineConfig({
   plugins,
@@ -224,17 +165,8 @@ export default defineConfig({
   root: path.resolve(import.meta.dirname, "client"),
   publicDir: path.resolve(import.meta.dirname, "client", "public"),
   build: {
-    outDir: path.resolve(import.meta.dirname, isGitHubPagesBuild ? "dist/pages" : "dist/public"),
+    outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
-    rollupOptions: isGitHubPagesBuild
-      ? {
-          input: {
-            home: path.resolve(import.meta.dirname, "client", "index.html"),
-            resources: path.resolve(import.meta.dirname, "client", "resources", "index.html"),
-            privacy: path.resolve(import.meta.dirname, "client", "privacy", "index.html"),
-          },
-        }
-      : undefined,
   },
   server: {
     host: true,

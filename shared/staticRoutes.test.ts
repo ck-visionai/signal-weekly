@@ -7,7 +7,7 @@ describe("GitHub Pages static route documents", () => {
     const html = fs.readFileSync(path.resolve(import.meta.dirname, "../client/resources/index.html"), "utf8");
 
     expect(html).toContain('href="https://www.signrl.com/resources"');
-    expect(html).toContain("Career Resources | Career Signal");
+    expect(html).toContain("Resources | Career Weekly");
     expect(html).toContain("Executive ATS Résumé Audit");
   });
 
@@ -16,9 +16,9 @@ describe("GitHub Pages static route documents", () => {
     const privacyPage = fs.readFileSync(path.resolve(import.meta.dirname, "../client/src/pages/Privacy.tsx"), "utf8");
 
     expect(html).toContain('href="https://www.signrl.com/privacy"');
-    expect(html).toContain("Privacy Policy | Career Signal");
-    expect(html).not.toContain("Career Resources | Career Signal");
-    expect(privacyPage).toContain("Career Signal publishes practical career intelligence");
-    expect(privacyPage).toContain("How Career Signal handles the information you share");
+    expect(html).toContain("Privacy Policy | Career Weekly");
+    expect(html).not.toContain("Resources | Career Weekly");
+    expect(privacyPage).toContain("Career Weekly publishes practical career intelligence");
+    expect(privacyPage).toContain("How Career Weekly handles the information you share");
   });
 });

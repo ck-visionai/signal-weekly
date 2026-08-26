@@ -27,13 +27,7 @@ import { useLocation } from "wouter";
 import { DashboardLayoutSkeleton } from './DashboardLayoutSkeleton';
 import { Button } from "./ui/button";
 
-type DashboardMenuItem = {
-  icon: typeof LayoutDashboard;
-  label: string;
-  path: string;
-};
-
-const defaultMenuItems: DashboardMenuItem[] = [
+const menuItems = [
   { icon: LayoutDashboard, label: "Page 1", path: "/" },
   { icon: Users, label: "Page 2", path: "/some-path" },
 ];
@@ -45,12 +39,8 @@ const MAX_WIDTH = 480;
 
 export default function DashboardLayout({
   children,
-  menuItems = defaultMenuItems,
-  title = "Navigation",
 }: {
   children: React.ReactNode;
-  menuItems?: DashboardMenuItem[];
-  title?: string;
 }) {
   const [sidebarWidth, setSidebarWidth] = useState(() => {
     const saved = localStorage.getItem(SIDEBAR_WIDTH_KEY);
@@ -98,7 +88,7 @@ export default function DashboardLayout({
         } as CSSProperties
       }
     >
-      <DashboardLayoutContent setSidebarWidth={setSidebarWidth} menuItems={menuItems} title={title}>
+      <DashboardLayoutContent setSidebarWidth={setSidebarWidth}>
         {children}
       </DashboardLayoutContent>
     </SidebarProvider>
@@ -108,15 +98,11 @@ export default function DashboardLayout({
 type DashboardLayoutContentProps = {
   children: React.ReactNode;
   setSidebarWidth: (width: number) => void;
-  menuItems: DashboardMenuItem[];
-  title: string;
 };
 
 function DashboardLayoutContent({
   children,
   setSidebarWidth,
-  menuItems,
-  title,
 }: DashboardLayoutContentProps) {
   const { user, logout } = useAuth();
   const [location, setLocation] = useLocation();
@@ -183,7 +169,7 @@ function DashboardLayoutContent({
               {!isCollapsed ? (
                 <div className="flex items-center gap-2 min-w-0">
                   <span className="font-semibold tracking-tight truncate">
-                    {title}
+                    Navigation
                   </span>
                 </div>
               ) : null}

@@ -23,12 +23,15 @@ describe("Career Weekly editor content schema", () => {
   it("keeps a concrete working-page offer and transparent sample labels in the published defaults", () => {
     expect(defaultSiteContent.hero.signupOfferLabel).toBe("Access my complimentary issue");
     expect(defaultSiteContent.navigation.subscribeLabel).toBe("Access my complimentary issue");
-    expect(defaultSiteContent.hero.intro).toContain("complete free working page");
+    expect(defaultSiteContent.hero.intro).toContain("complete complimentary working page");
     expect(defaultSiteContent.closing.description).toContain("one weekly Friday brief");
     expect(defaultSiteContent.hero.issueNumber).toContain("SAMPLE BRIEFING");
     expect(defaultSiteContent.archive.eyebrow).toBe("FROM THE CAREER INTELLIGENCE LIBRARY");
     expect(defaultSiteContent.closing.heading).toBe("Start here.");
     expect(defaultSiteContent.closing.emphasis).toBe("Build from there.");
+    expect(defaultSiteContent.resources.featured.title).toBe("The Career Evidence Working Page");
+    expect(defaultSiteContent.resources.upcoming.map((item) => item.title)).toEqual(["The Career Decision Memo", "When Salary Cannot Move"]);
+    expect(defaultSiteContent.resources.upcoming.every((item) => item.downloadUrl === "")).toBe(true);
   });
 
   it("keeps the hero reward distinct from the neutral Sample Library working-page title while giving each guidance card its own educational direction", () => {

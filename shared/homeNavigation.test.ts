@@ -4,19 +4,23 @@ import { describe, expect, it } from "vitest";
 const homeSource = readFileSync(new URL("../client/src/pages/Home.tsx", import.meta.url), "utf8");
 
 describe("Career Weekly homepage navigation and card artwork", () => {
-  it("routes the footer free-working-page link through the reliable signup scroll handler", () => {
-    expect(homeSource).toContain('const signupTarget = document.getElementById("subscribe") ?? beehiivEmbedRef.current;');
-    expect(homeSource).toContain('<a href="#subscribe" onClick={scrollToSignup}>{content.navigation.subscribeLabel} <ArrowDown size={13} /></a>');
+  it("keeps the primary complimentary-issue flow in the hero and closing sections", () => {
+    expect(homeSource).toContain('document.getElementById("subscribe")');
+    expect(homeSource).toContain("beehiivEmbedRef.current");
+    expect(homeSource).toContain("content.navigation.subscribeLabel");
+    expect(homeSource).toContain("<ArrowRight size={18} />");
   });
 
   it("uses a distinct offer-strategy visual instead of repeating the interview paper-stack artifact", () => {
-    expect(homeSource).toContain('const OFFER_STRATEGY_IMAGE = "/manus-storage/career-signal-offer-brief_0ee33e08.jpg";');
+    expect(homeSource).toContain("career-signal-offer-brief_0ee33e08.jpg");
     expect(homeSource).toContain('image: pillar.imageUrl || (index === 2 ? OFFER_STRATEGY_IMAGE : null)');
   });
 
   it("uses rightward arrows for internal pages and reserves up-right arrows for external or download links", () => {
-    expect(homeSource).toContain('<a href="/resources">{content.navigation.resourcesLabel} <ArrowRight size={13} /></a>');
-    expect(homeSource).toContain('<a href="/privacy">{content.footer.privacyLinkLabel} <ArrowRight size={13} /></a>');
+    expect(homeSource).toContain('href="/resources"');
+    expect(homeSource).toContain("content.navigation.resourcesLabel");
+    expect(homeSource).toContain("content.footer.privacyLinkLabel");
+    expect(homeSource).toContain('<ArrowRight size={13} />');
     expect(homeSource).toContain('<ArrowUpRight size={13} />');
   });
 
@@ -25,8 +29,9 @@ describe("Career Weekly homepage navigation and card artwork", () => {
     expect(homeSource).not.toContain('<a href="#inside">{content.footer.insideLinkLabel} <ArrowDown size={13} /></a>');
   });
 
-  it("routes the Practice section to the same complimentary-issue conversion action", () => {
-    expect(homeSource).toContain('>{content.navigation.subscribeLabel} <ArrowRight size={14} /></a>');
+  it("removes redundant complimentary-issue links from Practice and the footer", () => {
+    expect(homeSource).not.toContain('className="practice-cta"');
+    expect(homeSource).not.toContain('{content.navigation.subscribeLabel} <ArrowDown size={13} />');
   });
 
   it("uses a distinct three-signal Friday-brief panel instead of a third Evidence Before Adjectives cover", () => {

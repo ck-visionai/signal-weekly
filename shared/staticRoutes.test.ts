@@ -8,7 +8,7 @@ describe("GitHub Pages static route documents", () => {
 
     expect(html).toContain('href="https://www.signrl.com/resources"');
     expect(html).toContain("Resources | Career Weekly");
-    expect(html).toContain("Executive ATS Résumé Audit");
+    expect(html).toContain("The Career Evidence Working Page");
   });
 
   it("emits a canonical privacy document without retaining home-page metadata", () => {

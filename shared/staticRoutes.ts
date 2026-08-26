@@ -10,7 +10,7 @@ export const staticRouteDocuments: StaticRouteDocument[] = [
   {
     path: "resources",
     title: "Career Resources | Career Weekly",
-    description: "Practical career resources from Career Weekly, including the Executive ATS Résumé Audit and executive interview-preparation guide.",
+    description: "Practical career resources from Career Weekly, including The Career Evidence Working Page and future career decision briefings.",
     socialTitle: "Career Resources | Career Weekly",
     socialDescription: "Practical field guides for consequential career decisions, including ATS résumé and executive interview preparation.",
   },

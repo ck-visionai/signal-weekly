@@ -51,7 +51,7 @@ function RouteSeo() {
       ? "Read the Career Weekly Privacy Policy and learn how subscription information is handled."
       : isResources
         ? "Download practical Career Weekly guides for ATS résumés, executive interviews and career decisions."
-        : "Career Weekly is a free career-intelligence briefing with practical ATS résumé, executive interview and salary-negotiation guidance for mid-career and senior professionals.";
+        : "Career Weekly is a complimentary career-intelligence briefing with practical ATS résumé, executive interview and salary-negotiation guidance for mid-career and senior professionals.";
     const path = isPrivacy ? "/privacy" : isResources ? "/resources" : "/";
 
     document.title = title;

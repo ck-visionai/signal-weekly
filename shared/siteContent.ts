@@ -2,10 +2,14 @@ import { z } from "zod";
 
 const shortText = (max: number) => z.string().trim().min(1).max(max);
 const longText = (max: number) => z.string().trim().min(1).max(max);
-const publicUrl = z.string().trim().max(2048).refine(
-  (value) => value.startsWith("/") || /^https?:\/\//.test(value),
-  "Enter a full http(s) URL or a site-relative path beginning with /.",
-);
+const publicUrl = z
+  .string()
+  .trim()
+  .max(2048)
+  .refine(
+    value => value.startsWith("/") || /^https?:\/\//.test(value),
+    "Enter a full http(s) URL or a site-relative path beginning with /."
+  );
 
 const pillarSchema = z.object({
   index: shortText(4),
@@ -28,10 +32,15 @@ const futureResourceSchema = z.object({
   status: shortText(40),
   title: shortText(120),
   summary: longText(220),
-  downloadUrl: z.string().trim().max(2048).refine(
-    (value) => value === "" || value.startsWith("/") || /^https?:\/\//.test(value),
-    "Enter a full http(s) URL, a site-relative path, or leave blank while the guide is in development.",
-  ),
+  downloadUrl: z
+    .string()
+    .trim()
+    .max(2048)
+    .refine(
+      value =>
+        value === "" || value.startsWith("/") || /^https?:\/\//.test(value),
+      "Enter a full http(s) URL, a site-relative path, or leave blank while the guide is in development."
+    ),
 });
 
 export const siteContentSchema = z.object({
@@ -97,7 +106,9 @@ export const siteContentSchema = z.object({
     leadTitle: shortText(190),
     leadDescription: longText(360),
     annotationLabel: shortText(90),
-    sideBriefs: z.array(z.object({ label: shortText(80), title: shortText(150) })).length(2),
+    sideBriefs: z
+      .array(z.object({ label: shortText(80), title: shortText(150) }))
+      .length(2),
   }),
   practice: z.object({
     eyebrow: shortText(90),
@@ -139,10 +150,15 @@ export const siteContentSchema = z.object({
   }),
   links: z.object({
     atsUrl: publicUrl,
-    liveTrainingUrl: z.string().trim().max(2048).refine(
-      (value) => value === "" || value.startsWith("/") || /^https?:\/\//.test(value),
-      "Enter a full http(s) URL, a site-relative path, or leave blank until a training session exists.",
-    ),
+    liveTrainingUrl: z
+      .string()
+      .trim()
+      .max(2048)
+      .refine(
+        value =>
+          value === "" || value.startsWith("/") || /^https?:\/\//.test(value),
+        "Enter a full http(s) URL, a site-relative path, or leave blank until a training session exists."
+      ),
     linkedinUrl: publicUrl,
   }),
   footer: z.object({
@@ -168,8 +184,9 @@ export const defaultSiteContent: SiteContent = {
   identity: {
     brandName: "Career Weekly",
     endorsement: "A Signrl publication",
-    managementLine: "Career Weekly is a Signrl publication, managed by Signrl.",
-    footerTagline: "Useful intelligence for your next consequential career decision.",
+    managementLine: "A Signrl publication.",
+    footerTagline:
+      "Useful intelligence for your next consequential career decision.",
     footerMeta: "Made for career momentum",
     copyrightLabel: "© 2026 CAREER WEEKLY",
     contactEmail: "signalweeklyhq@gmail.com",
@@ -179,20 +196,24 @@ export const defaultSiteContent: SiteContent = {
     eyebrow: "THE FRIDAY CAREER BRIEF FOR WORKING PROFESSIONALS",
     headline: "Make your next career move easier to explain — and harder to",
     emphasis: "overlook.",
-    intro: "Start with a complete free working page that turns broad career claims into credible evidence. Then receive one weekly Friday brief on ATS positioning, executive interviews, and role negotiation.",
+    intro:
+      "Start with a complete complimentary working page that turns broad career claims into credible evidence. Then receive one weekly Friday brief on ATS positioning, executive interviews, and role negotiation.",
     issueNumber: "SAMPLE BRIEFING 01",
     issueReadTime: "WORKING PAGE",
     issueKicker: "START HERE",
     issueTitle: "Evidence Before Adjectives",
     issueOpenLabel: "Read the complete working page",
-    leadTitle: "The Executive ATS Résumé Audit",
-    leadButtonLabel: "Free download",
-    leadAriaLabel: "Download the Executive ATS Résumé Audit PDF",
-    leadUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/RHWORFZPTcCpUqFY.pdf",
+    leadTitle: "The Career Evidence Working Page",
+    leadButtonLabel: "Complimentary download",
+    leadAriaLabel: "Download The Career Evidence Working Page PDF",
+    leadUrl:
+      "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/RHWORFZPTcCpUqFY.pdf",
     imageUrl: "/manus-storage/career-weekly-hero-clean_c77cf438.png",
-    imageAlt: "Editorial desk with clean layered papers and a verdigris writing pen",
+    imageAlt:
+      "Editorial desk with clean layered papers and a verdigris writing pen",
     signupOfferLabel: "Access my complimentary issue",
-    formNote: "Free. One weekly Friday brief. Confirm your address to begin. By subscribing, you agree to our",
+    formNote:
+      "Complimentary. One weekly Friday brief. Confirm your address to begin. By subscribing, you agree to our",
     formPrivacyLinkLabel: "Privacy Policy.",
     frequency: "One weekly Friday brief",
     audience: "For mid-career and executive professionals",
@@ -214,12 +235,39 @@ export const defaultSiteContent: SiteContent = {
     eyebrow: "INSIDE THE BRIEFING",
     heading: "The search is complex.",
     emphasis: "The guidance shouldn’t be.",
-    intro: "Every issue turns a high-stakes career moment into a small set of clear, usable moves.",
+    intro:
+      "Every issue turns a high-stakes career moment into a small set of clear, usable moves.",
   },
   pillars: [
-    { index: "01", label: "RÉSUMÉ SIGNAL", title: "Prove the fit before the first screen.", text: "Turn broad experience into role-specific evidence an ATS and recruiter can recognise.", imageUrl: "/manus-storage/career-signal-card-resume-positioning_f1c46160.jpg", ctaLabel: "Explore the résumé briefing", ctaUrl: "/resources#sample-issues" },
-    { index: "02", label: "INTERVIEW PRACTICE", title: "Make your judgement easy to trust.", text: "Build decision stories that show how you think, lead, and deliver under pressure.", imageUrl: "/manus-storage/career-signal-card-interview-practice_69acf95b.jpg", ctaLabel: "Explore interview practice", ctaUrl: "/resources#sample-issues" },
-    { index: "03", label: "OFFER STRATEGY", title: "Protect the value in the offer.", text: "Negotiate pay, scope, benefits, and the conditions that make the next role work.", imageUrl: "/manus-storage/career-signal-card-offer-strategy_958a5603.jpg", ctaLabel: "Explore offer strategy", ctaUrl: "/resources#sample-issues" },
+    {
+      index: "01",
+      label: "RÉSUMÉ SIGNAL",
+      title: "Prove the fit before the first screen.",
+      text: "Turn broad experience into role-specific evidence an ATS and recruiter can recognise.",
+      imageUrl:
+        "/manus-storage/career-signal-card-resume-positioning_f1c46160.jpg",
+      ctaLabel: "Explore the résumé briefing",
+      ctaUrl: "/resources#sample-issues",
+    },
+    {
+      index: "02",
+      label: "INTERVIEW PRACTICE",
+      title: "Make your judgement easy to trust.",
+      text: "Build decision stories that show how you think, lead, and deliver under pressure.",
+      imageUrl:
+        "/manus-storage/career-signal-card-interview-practice_69acf95b.jpg",
+      ctaLabel: "Explore interview practice",
+      ctaUrl: "/resources#sample-issues",
+    },
+    {
+      index: "03",
+      label: "OFFER STRATEGY",
+      title: "Protect the value in the offer.",
+      text: "Negotiate pay, scope, benefits, and the conditions that make the next role work.",
+      imageUrl: "/manus-storage/career-signal-card-offer-strategy_958a5603.jpg",
+      ctaLabel: "Explore offer strategy",
+      ctaUrl: "/resources#sample-issues",
+    },
   ],
   archive: {
     eyebrow: "FROM THE CAREER INTELLIGENCE LIBRARY",
@@ -229,7 +277,8 @@ export const defaultSiteContent: SiteContent = {
     readingTime: "FULL EDITION",
     leadLabel: "START HERE",
     leadTitle: "The Career Evidence Working Page",
-    leadDescription: "A complete working page for turning broad career claims into credible evidence before a recruiter or hiring manager has to infer the value.",
+    leadDescription:
+      "A complete working page for turning broad career claims into credible evidence before a recruiter or hiring manager has to infer the value.",
     annotationLabel: "READ THE FULL WORKING PAGE",
     sideBriefs: [
       { label: "PREVIEW 02", title: "The ATS Translation Layer" },
@@ -238,51 +287,93 @@ export const defaultSiteContent: SiteContent = {
   },
   practice: {
     eyebrow: "THE BRIEFING, IN PRACTICE",
-    intro: "Thoughtful prompts for the moments that deserve more than a template answer.",
+    intro:
+      "Thoughtful prompts for the moments that deserve more than a template answer.",
     slides: [
-      { eyebrow: "THE POSITIONING PROBLEM", title: "Your résumé is not a biography. It is a business case.", description: "Turn a nonlinear career into a clear executive narrative that a recruiter can understand in a first scan.", note: "The focus: translating scope into a signal." },
-      { eyebrow: "THE CONVERSATION PROBLEM", title: "Difficult questions are often invitations to lead.", description: "Prepare the executive-level answers that communicate judgment, self-awareness, and operating range under pressure.", note: "The focus: making a credible pivot in the room." },
-      { eyebrow: "THE DECISION PROBLEM", title: "Compensation is one part of a larger mandate.", description: "Negotiate salary, equity, scope, and the conditions that make the next role genuinely worth accepting.", note: "The focus: asking with precision, not apology." },
+      {
+        eyebrow: "THE POSITIONING PROBLEM",
+        title: "Your résumé is not a biography. It is a business case.",
+        description:
+          "Turn a nonlinear career into a clear executive narrative that a recruiter can understand in a first scan.",
+        note: "The focus: translating scope into a signal.",
+      },
+      {
+        eyebrow: "THE CONVERSATION PROBLEM",
+        title: "Difficult questions are often invitations to lead.",
+        description:
+          "Prepare the executive-level answers that communicate judgment, self-awareness, and operating range under pressure.",
+        note: "The focus: making a credible pivot in the room.",
+      },
+      {
+        eyebrow: "THE DECISION PROBLEM",
+        title: "Compensation is one part of a larger mandate.",
+        description:
+          "Negotiate salary, equity, scope, and the conditions that make the next role genuinely worth accepting.",
+        note: "The focus: asking with precision, not apology.",
+      },
     ],
   },
   closing: {
     eyebrow: "YOUR FRIDAY CAREER BRIEF",
     heading: "Start here.",
     emphasis: "Build from there.",
-    description: "Begin with the complete free working page today. Then receive one weekly Friday brief for the career decision in front of you.",
+    description:
+      "Begin with the complete complimentary working page today. Then receive one weekly Friday brief for the career decision in front of you.",
     ctaLabel: "Access my complimentary issue",
     artifactName: "SAMPLE LIBRARY",
     artifactSchedule: "START HERE",
     artifactTitle: "EVIDENCE BEFORE ADJECTIVES.",
-    artifactAudience: "COMPLETE FREE WORKING PAGE",
-    metaItems: ["NO COST", "NEW BRIEFING EVERY FRIDAY", "EMPOWERING YOUR CAREER SUCCESS"],
+    artifactAudience: "COMPLIMENTARY WORKING PAGE",
+    metaItems: [
+      "NO COST",
+      "NEW BRIEFING EVERY FRIDAY",
+      "EMPOWERING YOUR CAREER SUCCESS",
+    ],
   },
   resources: {
     eyebrow: "THE CAREER WEEKLY LIBRARY",
     title: "Practical documents for a more deliberate",
     emphasis: "next move.",
-    intro: "Short, useful guides for the career decisions that deserve more than generic advice. Start with the document in front of you, then build from there.",
+    intro:
+      "Short, useful guides for the career decisions that deserve more than generic advice. Start with the document in front of you, then build from there.",
     featured: {
       number: "RESOURCE 001",
       status: "AVAILABLE NOW",
       category: "CAREER INTELLIGENCE",
-      title: "The Executive ATS Résumé Audit",
-      description: "A pre-submission checklist for making your real experience easier to read, search and verify—without turning your résumé into a keyword list.",
+      title: "The Career Evidence Working Page",
+      description:
+        "A practical working page for making your real experience easier to read, search, and verify—without turning your résumé into a keyword list.",
       reviewTime: "15-minute review",
       format: "6-page PDF",
       proofPoint: "Evidence-led guidance",
-      bullets: ["Make a portal-ready version that preserves the important text.", "Map role language to experience you can credibly explain.", "Use a 30-second executive scan and reusable application log."],
-      downloadLabel: "Download the free audit",
-      downloadUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/RHWORFZPTcCpUqFY.pdf",
+      bullets: [
+        "Make a portal-ready version that preserves the important text.",
+        "Map role language to experience you can credibly explain.",
+        "Use a 30-second executive scan and reusable application log.",
+      ],
+      downloadLabel: "Download the complimentary working page",
+      downloadUrl:
+        "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/RHWORFZPTcCpUqFY.pdf",
       note: "Educational guidance only. It cannot guarantee an interview or outcome.",
     },
     upcoming: [
-      { status: "AVAILABLE NOW", title: "The Executive Interview Preparation Brief", summary: "A practical guide to preparing clear, credible answers for consequential conversations.", downloadUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/hEfNztMDaEFBDiYj.pdf" },
-      { status: "SCHEDULED RELEASE SOON", title: "The Whole-Role Negotiation Map", summary: "A framework for thinking beyond the headline number.", downloadUrl: "" },
+      {
+        status: "SCHEDULED RELEASE SOON",
+        title: "The Career Decision Memo",
+        summary: "Make the trade-offs visible before you decide.",
+        downloadUrl: "",
+      },
+      {
+        status: "SCHEDULED RELEASE SOON",
+        title: "When Salary Cannot Move",
+        summary: "Clarify what matters when headline salary cannot move.",
+        downloadUrl: "",
+      },
     ],
   },
   links: {
-    atsUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/RHWORFZPTcCpUqFY.pdf",
+    atsUrl:
+      "https://files.manuscdn.com/user_upload_by_module/session_file/310519663899346819/RHWORFZPTcCpUqFY.pdf",
     liveTrainingUrl: "",
     linkedinUrl: "https://www.linkedin.com",
   },

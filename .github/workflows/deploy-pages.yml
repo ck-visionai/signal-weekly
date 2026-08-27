@@ -30,13 +30,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
       - name: Build static site
-        run: pnpm run build:pages
+        run: pnpm run build
       - name: Prevent Jekyll processing
-        run: touch dist/pages/.nojekyll
+        run: touch dist/public/.nojekyll
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/pages
+          path: dist/public
 
   deploy:
     needs: build

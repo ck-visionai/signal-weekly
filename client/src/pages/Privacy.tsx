@@ -105,7 +105,7 @@ export default function Privacy() {
         <p className="privacy-lede">How Career Weekly handles the information you share when you subscribe or contact us.</p>
 
         <article className="privacy-article">
-          <div className="privacy-meta"><span>PRIVACY POLICY</span><span>Effective 18 August 2026</span></div>
+          <div className="privacy-meta"><span>PRIVACY POLICY</span><span>Effective 22 August 2026</span></div>
           {sections.map((section) => (
             <section className="privacy-section" key={section.title}>
               <h2>{section.title}</h2>
@@ -114,7 +114,7 @@ export default function Privacy() {
           ))}
 
           <section className="privacy-section privacy-contact">
-            <h2>13. Contact Us</h2>
+            <h2>Contact Us</h2>
             <p>For questions about this Privacy Policy or Career Weekly’s privacy practices, contact:</p>
             <address>
               <strong>Signrl</strong><br />

@@ -315,6 +315,12 @@
 
 - [x] Execute only launch-critical verification and configuration within the 45-minute window; defer paid Beehiiv automation, external CMS, and archive expansion.
 
+## Privacy Policy Update
+
+- [x] Change the Privacy Policy effective date to 22 August 2026.
+- [x] Remove the numeric `13.` prefix from the Contact Us heading while retaining the Contact Us section.
+- [x] Validate the rendered Privacy Policy, synchronize the changes to GitHub, and save a checkpoint; GitHub main is pending the final policy commit.
+
 ## Landing Page Portability Follow-up
 
 - [x] Add one-click restore of a selected landing-page revision into the draft record, with validation and audit attribution.

@@ -160,7 +160,7 @@ export default function Home() {
             >
               <a
                 className="beehiiv-embed__fallback"
-                href="https://signalweeklyhq.beehiiv.com/subscribe"
+                href="https://careerweekly.beehiiv.com/subscribe"
                 data-submit-label={content.navigation.subscribeLabel}
               >
                 {content.navigation.fallbackSubscribeLabel}

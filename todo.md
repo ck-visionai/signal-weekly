@@ -146,6 +146,8 @@
 
 ## Launch Readiness Sweep
 
+- [x] Replace the homepage Beehiiv fallback subscribe destination with `https://careerweekly.beehiiv.com/subscribe`, add regression coverage, and verify no old subscribe URL remains in editable public source.
+
 - [x] Apply the confirmed “The focus:” wording consistently in editable and GitHub source.
 - [x] Remove duplicate free-guide signup copy, remove “Leave anytime,” and update the closing success metadata.
 - [x] Confirm no public footer shows “ATS resume audit.”
@@ -315,6 +317,25 @@
 
 - [x] Execute only launch-critical verification and configuration within the 45-minute window; defer paid Beehiiv automation, external CMS, and archive expansion.
 
+## Career Weekly Thumbnail Asset
+
+- [x] Create and deliver a high-resolution replacement thumbnail from the supplied Beehiiv image, preserving the desk composition and replacing old publication wording with `Career Weekly`; generated at 2080×1664.
+- [x] Replace the thumbnail’s old logo treatments with the approved Signrl mark on all visible branded surfaces.
+- [x] Ensure the full “Career Weekly” title remains visible, including the final “Y,” with no blue-paper overlap.
+- [x] Deliver the corrected thumbnail PNG and Signrl logo PNG as separate downloadable files.
+
+## Signrl Logo Asset
+
+- [x] Recreate the Signrl mark to match the latest attached reference: centered vertical blue bar, black side bars, right black bar, and right-side black dot, with the white rounded-square treatment shown.
+- [x] Apply the latest reference-matched Signrl mark to the separate Career Weekly thumbnail while preserving the unobstructed title.
+- [x] Move or resize the blue paper in the current thumbnail so it clears the final `Y` in `Career Weekly` completely.
+
+- [x] Regenerate the standalone Signrl logo to match the attached upright bar-and-dot reference exactly, as a high-resolution transparent PNG.
+- [x] Replace the thumbnail’s visible logo treatments with the same corrected Signrl mark while keeping the full Career Weekly title unobstructed.
+
+- [x] Generate and deliver a high-resolution, square Signrl logo suitable for the Beehiiv publication-logo upload, with clean edges and no unintended text or background artifacts.
+- [x] Regenerate the standalone Signrl logo to match the attached upright bar-and-dot reference exactly, as a high-resolution transparent PNG.
+
 ## Privacy and Subscriber Branding Update
 
 - [x] Keep the Privacy Policy subtitle on one line at desktop widths while preserving readable responsive behavior on mobile.
@@ -356,3 +377,4 @@
 
 - [x] Move the “Clear Answers” section directly below the hero metadata row and before “Inside the Briefing” in both editable and synchronized landing pages.
 - [x] Validate the revised hierarchy at desktop and mobile widths, then synchronize and checkpoint the change.
+- [x] Lighten the blue card and remove the white square behind its Signrl logo while preserving logo legibility and title clearance.

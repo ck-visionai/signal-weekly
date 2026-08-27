@@ -4,7 +4,7 @@ The supplied subscriber-page screenshot shows a hosted subscription surface with
 
 ## 27 August 2026 verification
 
-The live subscription URL is `https://signalweeklyhq.beehiiv.com/subscribe`, which redirects to the hosted signup modal. It currently displays the title `Career Weekly`, the tagline `Career intelligence for your next consequential move`, and a Beehiiv CDN-hosted publication logo. The tagline wraps to two lines at the observed viewport, so the one-line treatment must be configured in Beehiiv’s hosted page styling or by adjusting the hosted page layout/font size; it cannot be controlled by the Career Weekly React CSS. The Beehiiv admin publication-settings URL did not load a usable control surface in the current browser session, so no external change was submitted.
+The previously observed subscription URL was `https://signalweeklyhq.beehiiv.com/subscribe`. Beehiiv now shows the updated live subscription URL as `https://careerweekly.beehiiv.com/subscribe`, and its email username as `careerweekly@mail.beehiiv.com`. It currently displays the title `Career Weekly`, the tagline `Career intelligence for your next consequential move`, and a Beehiiv CDN-hosted publication logo. The tagline wraps to two lines at the observed viewport, so the one-line treatment must be configured in Beehiiv’s hosted page styling or by adjusting the hosted page layout/font size; it cannot be controlled by the Career Weekly React CSS. The Beehiiv admin publication-settings URL did not load a usable control surface in the earlier browser session; the subsequent Beehiiv settings screenshots confirm that the web and email subdomains are now live under `careerweekly`.
 
 ## Privacy layout verification
 

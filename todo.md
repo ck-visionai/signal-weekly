@@ -1,149 +1,333 @@
-- [x] Verify the Signal Weekly wordmark and audience-label text refinements in Home.tsx.
-- [ ] Save a checkpoint containing the verified refinements.
-- [x] Compare free email newsletter services suitable for Signal Weekly.
-- [ ] Provide a beginner-friendly integration recommendation and setup sequence.
-- [x] Compare professional email-address options for the Signal Weekly sender account.
-- [ ] Recommend a simple no-cost or low-cost setup for the initial newsletter launch.
-- [x] Create a square Signal Weekly publication logo for Beehiiv.
-- [x] Create a wide Signal Weekly publication thumbnail for Beehiiv.
-- [x] Prepare the double-confirmation and welcome-email copy for new Signal Weekly subscribers.
-- [x] Configure and test the Beehiiv subscriber onboarding flow.
-- [x] Obtain the required Beehiiv embedded-form script from the published form.
-- [x] Connect the Signal Weekly website email form to the verified Beehiiv signup flow.
-- [ ] Complete an end-to-end Beehiiv signup test and save the updated website version.
-- [ ] Verify and share an accessible preview route for the landing-page signup test.
-- [ ] Clarify the recommended custom-domain configuration for Signal Weekly.
-- [ ] Prepare a privacy-policy draft and identify the details needed before publishing it.
-- [x] Review the user-updated privacy-policy draft for remaining placeholders and consistency.
-- [x] Apply the final privacy-policy corrections and remove internal drafting notes.
-- [x] Add a public privacy-policy page, footer link, and signup disclosure.
-- [x] Verify the privacy-policy experience and save the finished version.
-- [x] Clarify the mailing-address requirement and privacy-conscious alternatives for Signal Weekly.
-- [x] Compare domain registrar and hosting options for Signal Weekly and the future ATS product.
-- [x] Recommend the domain and hosting setup that keeps the current launch simple and future ATS development flexible.
-- [x] Define ownable umbrella-brand naming criteria for the consulting, ATS, and newsletter business.
-- [x] Develop story-led name candidates with a higher chance of `.com` availability.
-- [x] Research ancient concepts of signals, signs, guidance, and interpretation for naming inspiration.
-- [x] Develop signal-inspired umbrella-brand names with respectful origin stories.
-- [ ] Obtain the custom-domain DNS records from the published Signal Weekly site settings.
-- [ ] Apply the DNS records for signrl.com and verify the live custom-domain launch.
-- [x] Prepare the Signal Weekly static project for GitHub Pages and signrl.com.
-- [ ] Verify the GitHub Pages deployment build and guide the GitHub/DNS activation steps.
-- [ ] Confirm the GitHub Pages setup is performed on the repository containing the Signal Weekly source code.
-- [ ] Verify that the renamed signrl repository includes the Signal Weekly source and GitHub Pages workflow.
-- [ ] Assess audience-comprehension risks between the Signrl umbrella brand and Signal Weekly newsletter title.
-- [ ] Define the recommended endorsed-brand architecture and public naming conventions.
-- [ ] Prepare concise landing-page copy that explains the Signrl relationship without jargon.
-- [ ] Identify practical legal checks before presenting Signrl as the operating company or brand owner.
-- [ ] Add the approved “A Signrl publication” endorsement and contextual “managed by Signrl” language to the landing page.
-- [ ] Reconnect the project GitHub integration and grant repository access before publishing the Signrl attribution update.
-- [ ] Perform a clean GitHub connector reset and verify the project recognises ck-visionai/signrl access.
-- [ ] Verify the updated www.signrl.com custom-domain and HTTPS configuration.
-- [ ] Repeat the GitHub connector workflow from the beginning and isolate the project authorisation failure.
-- [ ] Create a zero-technical-background GitHub administration guide for editing and publishing the Signal Weekly landing page.
-- [ ] Retry GitHub project access after the user cleared the reported connector pop-up block.
-- [ ] Uninstall the stale Manus Connector GitHub App installation, reconnect from scratch, and retest checkpoint publishing.
-- [ ] Confirm the clean replacement repository name and target custom-domain URL before rebuilding and migrating the Signal Weekly site.
-- [x] Define and build a no-code content editor that preserves the current Signal Weekly landing-page design, text, visuals, signup flow, and Privacy Policy.
-- [ ] Clarify the hosting, database, and cost implications of the no-code editor before selecting an implementation path.
-- [ ] Design the layman-friendly management features for subscriber collection, downloads, content updates, ATS links, and live-training links.
-- [ ] Clarify the independent-access and editing arrangement for the no-code Signal Weekly editor.
-- [x] Upgrade and build the secure no-code Signal Weekly Editor with editable content, downloads, ATS links, and live-session links.
-- [ ] Retrieve the Signal Weekly Manus task share link for support’s project-binding investigation.
-- [ ] Retry project connection and the full-stack Editor upgrade after completing the Manus support cache and login reset steps.
-- [ ] Validate the support-repaired project GitHub access with a checkpoint, then resume the no-code editor upgrade.
-- [ ] Create a complete SEO launch, ownership backup, and zero-downtime future working-portal transfer playbook.
-- [ ] Implement canonical URL, SEO metadata, robots, sitemap, structured data, social previews and a clean source backup for the live site.
-- [ ] Verify signrl.com in Google Search Console and submit the sitemap.
-- [ ] Test the Beehiiv confirmation and welcome-email subscriber journey with a fresh address.
-- [ ] Create and publish the first truthful ATS résumé resource for Signal Weekly.
-- [ ] Align the GitHub Pages custom domain and sitemap canonical address before Search Console submission.
-- [ ] Continue Beehiiv launch configuration and prepare the first ATS resource while Search Console verification propagates.
-- [ ] Replace the mismatched Google Search Console TXT token and complete domain verification before sitemap submission.
-- [ ] Review Beehiiv confirmation and welcome automations, then create and promote the first truthful ATS resource.
-- [ ] Add a dedicated Resources page for the Executive ATS Résumé Audit and future downloadable guides.
-- [x] Upgrade the project to support a secure owner-only Signal Weekly content editor for all landing-page sections.
-- [x] Build the layman-friendly editor for newsletter copy, visual links, resource listings, ATS links and live-training links.
-- [x] Create and publish the first interview-preparation guide in the Resources library.
-- [x] Complete an end-to-end Beehiiv test with a fresh unused email address, including confirmation, redirect and welcome email.
-- [x] Request indexing of https://www.signrl.com/resources in Google Search Console.
-- [x] Wire the remaining homepage copy, logo, hero image and visual asset URLs into the secure editor-backed content model.
-- [x] Verify every public landing-page section renders from saved editor content rather than hardcoded fallback strings.
-- [x] Repair the GitHub Pages direct-route response for /resources so search crawlers receive HTTP 200 rather than HTTP 404.
-- [x] Re-run the Google Search Console live test and request indexing for https://www.signrl.com/resources after the direct-route repair is published.
-- [x] Create a simple owner-editor handover guide covering sign-in, content edits, document uploads, redirects and safe publishing checks.
-- [ ] Align www.signrl.com with the editor-backed managed application before relying on editor saves for public content updates.
-- [ ] Migrate www.signrl.com from GitHub Pages to the editor-backed managed Signal Weekly application while retaining GitHub Pages as a recoverable backup.
-- [x] Add a one-click editor download that exports the current managed website content, resources and redirect links as a readable backup file.
-- [x] Keep www.signrl.com on GitHub Pages and defer the managed custom-domain migration until the owner separately confirms an upgrade decision.
-- [x] Create twelve clearly labelled Signal Weekly sample briefing PDFs without representing them as previously issued newsletters.
-- [x] Add a public Sample Issues library page or section where visitors can browse and open all twelve sample PDFs.
-- [x] Fix the Resources value-card headings so “Evidence-led” and “Built to use” do not wrap across visually awkward lines.
-- [x] Prepare a prioritized subscriber-growth strategy and lead-magnet plan for Signal Weekly’s first acquisition cycle.
-- [x] Standardize all public subscriber CTA labels to one owner-approved phrase while retaining the concrete free-working-page promise and transparent Sample Briefing labels.
-- [ ] Update the Beehiiv embedded-form button and supporting form copy so the live form matches the free-working-page signup promise.
-- [x] Replace the oversized Beehiiv button label with a concise single-line call to action in the saved Beehiiv draft.
-- [x] Repair all “Get the free working page” calls to action so they reliably scroll to the embedded signup form rather than stalling on the current section.
-- [x] Recompose the homepage closing invitation so its heading, supporting copy, call to action, and trust line align cleanly at desktop and mobile widths.
-- [x] Rebalance the “Briefing, in practice” section by replacing its underused left-side whitespace with purposeful decision-context content and a visible topic map.
-- [x] Correct the low-contrast Preview 03 Sample Library card so its title, label, index, and action icon are clearly legible on the light-blue surface.
-- [ ] Publish and verify the saved Beehiiv embedded-form copy update after the owner approves the final live change.
-- [x] Establish and document the 8–12-page, 20–30-minute weekly reader-edition standard for future Signal Weekly subscriber deliveries.
-- [x] Conduct a conversion and copywriting review of the entire public landing, Resources, confirmation and welcome-email journey, with prioritized subscriber-click improvements.
-- [x] Deliver a creative-director review of landing-page copy, typography, colour, texture, imagery, layout, and trust cues without implementing additional changes.
-- [ ] Apply the approved creative-director recommendations only after all outstanding launch, subscriber-flow and weekly reader-edition tasks are complete and verified.
-- [x] Replace audience-facing “Signal Weekly” references with “Career Signal Weekly” as part of the approved final brand and creative pass.
-- [x] Apply the immediate public landing-page textual rename from “Signal Weekly” to “Career Signal Weekly” while retaining the current visual mark pending logo confirmation.
-- [ ] Record the Signal Weekly logo’s ownership or licence provenance and determine whether the approved Career Signal Weekly rename requires a revised logo asset.
-- [x] Recommend a distinctive dark-blue Career Signal Weekly palette that reduces category similarity while retaining premium executive readability.
-- [x] Recommend an ownable refined teal palette inspired by luxury blue-green cues without copying a recognisable competitor colour identity.
-- [x] Apply the approved Career Signal Weekly Verdigris Ink / Caspian Teal / Harbour Teal palette to public brand tokens, interactive cues, and the temporary text-based logo treatment.
-- [x] Reconcile all recent owner requests against the current public site, Beehiiv configuration, Sample Library delivery plan, and pending implementation items before requesting further publishing actions.
-- [ ] Map and streamline the visitor-to-subscriber journey from www.signrl.com through confirmation, welcome email and first Sample Briefing access.
-- [x] Remove the misleading immediate “Get the complete edition” actions from Samples 02–12 and clearly label their progressive email-delivery status.
-- [ ] Publish one complete free sample, preview the remaining eleven samples, and pair full-download access with a verified Beehiiv subscriber-delivery path.
-- [x] Prepare a clearly labelled twelve-week “From the Sample Library” Beehiiv delivery schedule without presenting sample briefings as newly issued newsletters.
-- [x] Expand the eleven subscriber-delivered Sample Briefings into verified 8–12-page reader editions before weekly delivery.
-- [x] Produce and verify Sample Briefings 03–12 as 8–12-page reader editions using the approved Sample Briefing 02 quality standard.
-- [ ] Conduct a focused copyright and permissions review of the complete reader-edition library before wider distribution or reuse decisions.
-- [ ] Review reader-edition provenance, external-link attribution, copied visual assets, model-generated text risks, and licence/permission requirements before releasing full PDFs through Beehiiv.
-- [x] Complete the text-and-link portion of the reader-library copyright review, including source-link verification and AI-assisted-content recordkeeping guidance.
-- [ ] Complete the owner visual-asset register and human editorial release gate before publishing full reader-edition PDFs through Beehiiv.
-- [x] Produce and verify Sample Briefing 02, “The ATS Translation Layer,” as the first 8–12-page reader edition for future weekly delivery.
-- [ ] Update the Beehiiv welcome or first manual follow-up email to deliver the promised first Sample Library edition after a confirmed signup.
-- [ ] Verify the post-signup delivery path for locked complete sample editions before describing it as subscriber access on the public site.
-- [x] Fix direct navigation from the Beehiiv welcome-email Resources link so #sample-issues scrolls to the Sample Briefing Library after the page loads.
-- [x] Publicly verify the complete deployed homepage refinement set, including closing-section composition, Practice-panel balance, and Preview 03 contrast, after the working-page CTA repair.
-- [ ] Follow the approved execution order: CTA deployment and live verification, then unimplemented creative-direction review, then the first verified 8–12-page weekly reader edition.
-- [ ] Publish the reviewed Beehiiv Welcome Email draft after the owner approves its final copy and branded Sample Library destination.
-- [x] Replace the public-facing Career Signal Weekly name with Career Signal while retaining the Signrl endorsement, domain and existing sender address.
-- [x] Change the hero sentence from “one concise Friday brief” to “one weekly Friday brief” and verify the published landing-page copy.
-- [x] Review the proposed navy-to-ice palette for Career Signal and recommend a cohesive landing-page and future-website colour-role system before implementation.
-- [x] Replace the current refined-teal public colour system with the approved Career Signal navy-to-ice palette across brand marks, surfaces, controls and interactive states.
-- [x] Recolour the supplied Career Signal logo’s central blue line to official Midnight Authority navy (#03045E) and replace the temporary website mark with the matching final icon.
-- [x] Create a simple, forward-use Beehiiv guide explaining how to schedule and safely automate Career Signal’s weekly subscriber emails without sending content automatically during setup.
-- [x] Convert the Career Signal Beehiiv weekly-email playbook into a downloadable PDF.
-- [x] Remove the floating “Free download — The Executive ATS Résumé Audit” resource card from the Career Signal homepage hero while retaining the primary signup experience and Resources access.
-- [x] Review and recommend a more compact mobile spacing treatment for the Sample Library headline and call to action without changing it until owner approval.
-- [x] Apply the approved compact mobile-only spacing treatment to the Sample Library heading and library link while retaining its current copy and headline scale.
-- [x] Replace the Offer Strategy card’s paper-stack visual with a visually distinct whole-role negotiation image while retaining the existing Interview Practice card artwork.
-- [x] Repair the footer “Start with the free working page” link so it scrolls to the embedded signup form instead of returning to the homepage header.
-- [x] Align footer-link visual cues so internal navigation and external/download actions use arrows consistently and understandably.
-- [x] Correct the footer Resources and Privacy links to use an internal-page arrow, reserving the up-right arrow for external and download destinations.
-- [ ] Define the original Career Signal ATS platform first-release scope, data safeguards, phased delivery plan and realistic build timeline before implementation.
-- [ ] Produce a detailed feature list and implementation architecture for the 3–4-week Career Signal ATS private beta.
-- [ ] Connect and review the user’s existing VS Code ATS project so reusable code can inform the Career Signal private-beta build rather than duplicating work.
-- [ ] Guide the owner through safely committing and pushing the existing local Shortlitz ATS project changes to the authorized GitHub repository before code review.
-- [ ] Define and execute a focused three-day Career Signal ATS private-MVP path using the reusable Shortlitz code, limited to résumé upload, job-description input, match score, missing-keyword guidance and practical improvement suggestions.
-- [ ] Review the supplied Signrl ATS product-guideline archive, identify material questions and align the specifications with the Shortlitz codebase and focused three-day MVP scope.
-- [x] Design the Day 1 deterministic résumé-to-job matching-engine vertical slice for the agreed Signrl ATS private MVP.
-- [x] Assess and recommend a safe AI coding-agent collaboration approach for the three-day ATS MVP without conflicting edits or unnecessary résumé-data exposure.
-- [x] Verify the latest Shortlitz code upload and provide current GitHub Copilot cloud-agent setup, eligibility and cost-control guidance before the owner enables a plan.
-- [x] Recommend differentiated messaging for the three Career Signal homepage guidance cards so Evidence Before Adjectives remains a signature resource rather than an overused phrase.
-- [x] Apply the approved three-card messaging system: résumé “Prove the fit before the first screen,” interview “Make your judgement easy to trust,” and offer “Protect the value in the offer,” with contextual education links and a single primary free-page conversion CTA.
-- [x] Continue refining the Career Signal landing page before Beehiiv publication, beginning with a focused audit of remaining conversion-copy and interaction consistency issues.
-- [x] Reconfirm the public deployment and visible cache state for the distinct Offer Strategy visual, footer signup scroll behaviour and footer navigation-arrow system.
-- [x] Reduce repeated “Evidence Before Adjectives” treatments across the hero, closing invitation and Sample Library while retaining it as the signature complete free working page.
-- [x] Replace the closing section’s repeated Evidence Before Adjectives cover with the approved three-signal Friday-brief panel: Positioning, Interview, Offer, and “One useful move each Friday.”
-- [x] Remove the Sample issues and What you’ll get links from the Career Signal footer Explore navigation.
-- [x] Remove the “Evidence Before Adjectives” title from Sample Library messaging and replace it with neutral descriptive working-page language, retaining the phrase only in the hero reward section.
+# Career Weekly UI/UX Repair Checklist
+
+- [x] Compare the current preview against the attached reference at desktop and mobile widths.
+- [x] Restore the intended Career Signal color tokens, contrast, and section backgrounds.
+- [x] Repair header/logo scale, navigation spacing, and mobile menu behavior.
+- [x] Repair hero composition, headline scale, form treatment, image frame, and floating brief card through the verified responsive landing-page treatment.
+- [x] Remove pen scribbles from the notepad in the hero photo.
+- [x] Replace the scribbled notepad treatment with a contextual, text-free resume/work-planning visual aligned to the landing-page imagery.
+- [x] Replace the hero asset, verify responsive crops, validate, and sync the update.
+- [x] Repair the inside-the-brief cards, archive cards, practice panel, closing panel, and footer alignment.
+- [x] Verify Resources and Privacy pages retain the same design system and route escape paths.
+- [x] Verify responsive behavior at the reference mobile breakpoint without overflow or clipped content.
+- [x] Run TypeScript/build checks and save a fresh checkpoint after visual verification.
+- [x] Compare the live preview with the original reference at desktop and mobile breakpoints.
+- [x] Confirm the final UI and color changes are represented in the GitHub source tree.
+- [x] Run source-repository validation and push the verified changes to `ck-visionai/signal-weekly`.
+- [x] Replace the teal color system with the approved navy-to-ice roles: #03045e, #262d79, #475492, #677bab, #88a2c4, #a9c9dd, and #caf0f6.
+- [x] Apply named palette roles consistently to branding, buttons, links, labels, surfaces, sample library, footer, and hero glow.
+- [x] Verify desktop/mobile contrast and route consistency, then validate and push the palette update to GitHub.
+- [x] Import the supplied five-bar-and-dot logo as a project-scoped static asset.
+- [x] Replace logo references in header, footer, Resources, Privacy, favicon, and closing brief.
+- [x] Verify light/dark logo treatment and responsive sizing, then validate and push the logo update to `ck-visionai/signal-weekly`.
+- [x] Trace the complete-working-page link and identify the currently served document asset and page count.
+- [x] Rename PDF mastheads and publication labels to “CAREER WEEKLY · A SIGNRL PUBLICATION”.
+- [x] Research and write a 6-page Career Evidence Preview Edition with a clear complete-edition notice.
+- [x] Research and write an 11-page Career Evidence Complete Edition.
+- [x] Replace all current sample-library PDF links and establish the same naming convention for future PDFs.
+- [x] Locate or obtain the intended 11-page Career Weekly document and confirm the desired naming.
+- [x] Replace the old document link and related Signal Weekly labels, then verify the download path.
+- [x] Rebuild all 12 sample topics as Preview and Complete PDF editions.
+- [x] Assign varied 11–15 page lengths across the 24 PDFs, with previews at roughly 30–35% of their complete editions.
+- [x] Left-align all post-intro body text, paragraphs, tables, callouts, and worksheet prompts.
+- [x] Apply “CAREER WEEKLY · A SIGNRL PUBLICATION” to every current and future sample-library PDF.
+- [x] Wire, validate, and verify all 24 PDF download links and page counts.
+- [x] Confirm whether 11–15 pages applies to both editions or only Complete Editions, and whether the 30–35% rule is content volume or preview page count.
+- [x] Remove the duplicated privacy-policy operator/contact/address strip and remove the physical address from Contact Us.
+- [x] Replace the Shortlizt LLC public/legal label with Signrl as requested.
+- [x] Rename Sample Briefing Library to Career Intelligence Library in reader-facing copy.
+- [x] Add an editorial research/content-use notice without turning it into a personal-data policy.
+- [x] Provide setup guidance for a career-weekly@signrl.com mailbox.
+- [x] Trace the sample-card box and arrow click targets against the built Resources route.
+- [x] Make individual sample cards open the resource page while keeping complete-edition links as downloads.
+- [x] Verify the sample library labels, routes, and external PDF behavior in the live preview.
+- [x] Match the reference’s three-column Sample Library grid and separate preview/download actions.
+- [x] Replace the résumé card image with a structured résumé-positioning visual.
+- [x] Replace the interview card image with an interview/story-planning visual.
+- [x] Replace the offer card image with a negotiation/offer-strategy visual.
+- [x] Verify the three images align with their card messaging and responsive crops.
+- [x] Apply a light approved blue to the longest logo bar while preserving the remaining mark.
+- [x] Update all WebDev/GitHub logo references and verify the mark on light and navy surfaces.
+- [x] Recolor the longest logo bar to approved dark navy while keeping the other bars and dot black.
+- [x] Use the consistent mark in the header and add a white square base for footer visibility.
+- [x] Verify desktop/mobile rendering, validate, and sync the revised logo treatment.
+
+## 100-Issue Publishing System
+
+- [x] Confirm and document the edition data model for 100 weekly issues and 200 PDFs, preserving Edition 01 as immutable.
+- [x] Upgrade the existing static Career Weekly project to a database-backed full-stack project for editor data, authentication, file metadata, and release state.
+- [x] Add protected editor workflows for drafts, scheduled releases, manual publish, pause, reschedule, and rollback controls.
+- [x] Implement the Friday 08:00 UTC release handler and manual editor override; activation remains deployment-dependent.
+- [x] Create and source-validate Editions 13–100, including 88 Preview Editions and 88 Complete Editions.
+- [x] Keep only the latest 12 released editions in the primary landing-page display while exposing older released editions through an archive dropdown.
+- [x] Keep all future editions private and unavailable to the public until their scheduled release.
+- [x] Add source records and citations to each researched issue so the editor can audit the evidence behind every PDF.
+- [x] Validate PDF generation, page counts, download links, release transitions, archive behavior, mobile layout, and GitHub synchronization.
+- [x] Document external CMS options for a later migration without introducing an external CMS in this phase.
+
+## Remediation Tasks
+
+- [x] Add server-side immutability rules for Edition 01 so issue 1 cannot be edited, scheduled, paused, or republished through admin mutations.
+- [x] Implement explicit reschedule and rollback controls in the editor UI and backend.
+- [x] Apply the rolling 12 released-edition display and older-edition archive control to the homepage landing experience as well as Resources.
+- [x] Move future PDF assets to private or signed delivery until release, exposing public delivery only for published editions.
+- [x] Populate citation/source records for existing released editions and require auditable sources before publishing future editions.
+
+## Open PDF Specification
+
+- [x] Confirm whether the existing 11–15 page variation and Preview-versus-Complete content ratio remain the standard for Editions 13–100 before generating the expanded library.
+
+## Confirmed Landing and Editorial Redesign
+
+- [x] Edit the existing hero image to remove all visible pencil/pen scribbles, lines, and circles while preserving the desk composition.
+- [x] Change the homepage and form CTA wording to “Get my free guide,” retaining uppercase eyebrow treatment where used.
+- [x] Remove the released Career Intelligence Library section from the homepage while preserving existing redirects to `/resources`.
+- [x] Preserve Edition 01 as the immutable free guide and do not alter its PDF content in this pass.
+- [x] Redesign Editions 02–100 as editorial-first briefing documents with issue-specific context, explanation, examples, and decision guidance.
+- [x] Reserve only 2–3 pages of each Complete Edition for actionable worksheets and subscriber input.
+- [x] Update Preview Editions 02–100 to provide an editorial argument plus one concise exercise and a clear Complete Edition invitation.
+- [x] Validate the redesigned PDFs for readable editorial density, varied 11–15 page lengths, left alignment, masthead, citations, and download integrity.
+
+## Released-Edition Editorial Gap Closure
+
+- [x] Regenerate and replace Editions 02–12 with the approved editorial-first structure while keeping Edition 01 unchanged.
+- [x] Apply the 2–3 page worksheet limit to Complete Editions 02–12 and remap their stored PDF assets.
+- [x] Update Preview Editions 02–12 to include editorial context, one concise exercise, and a clear Complete Edition invitation.
+- [x] Run and document end-to-end validation for redesigned Editions 02–100: page counts, left alignment, masthead, citation presence, and download/delivery links.
+
+## Final PDF Validation Gap Closure
+
+- [x] Run end-to-end link validation for redesigned Editions 02–100 by verifying stored preview/complete delivery targets through the database/API layer for released and private editions.
+- [x] Add an explicit left-alignment validation tied to the generator/template and record the result across the redesigned PDF set.
+
+## Verification Evidence Gap Closure
+
+- [x] Run and document mobile viewport verification for the cleaned hero image after the asset replacement.
+- [x] Audit Edition 01 directly: record preview and complete URLs, verify the Preview is 6 pages with the complete-edition notice, and verify the Complete Edition is 11 pages.
+- [x] Document the exact Edition 01 filename/naming convention and confirm it matches the intended Career Weekly asset.
+- [x] Run a 24-asset public-library validation pass that checks every released Preview/Complete PDF link resolves correctly and records page counts.
+
+## Edition 01 Baseline Replacement
+
+- [x] Generate a corrected Edition 01 Preview Edition with exactly 6 pages and a clear Complete Edition invitation.
+- [x] Generate a corrected Edition 01 Complete Edition with exactly 11 pages and the approved Career Weekly masthead.
+- [x] Upload and remap the corrected Edition 01 files through the public delivery API.
+- [x] Make the corrected Edition 01 files the new immutable free-guide baseline and verify all mutation paths reject changes.
+- [x] Re-run the public 24-asset audit with Edition 01 at 6/11 pages and document the results.
+
+## Footer Copy Cleanup
+
+- [x] Remove the public “ATS resume audit” label from the main-page footer while preserving relevant Resources navigation and editor-only metadata.
+
+## PDF and Public-Copy Cleanup
+
+- [x] Replace all remaining public and generated-content “Signal Weekly” labels with “Career Weekly” and prevent the old name in future PDF generation.
+- [x] Ensure every non-intro editorial subject heading starts at the top of a fresh PDF page when it would otherwise fall within the bottom 10% of the prior page.
+- [x] Replace unreleased-item status text “IN DEVELOPMENT” with “SCHEDULED RELEASE SOON.”
+- [x] Replace “FROM THE SAMPLE LIBRARY” with “FROM THE CAREER INTELLIGENCE LIBRARY” in landing and PDF treatments.
+
+## Post-Remap Evidence Closure
+
+- [x] Add an automated or documented verification that Edition 01 admin edit, schedule, pause, publish, and rollback mutations are rejected after the new baseline remap.
+- [x] Implement real PDF section-heading pagination control or explicit per-section page-start generation, rather than relying only on a descriptive comment.
+- [x] Capture and save evidence from representative regenerated PDFs showing corrected subject-heading page starts.
+
+## Subscription and Briefing Copy Refinement
+
+- [x] Remove the small duplicate “GET MY FREE GUIDE” label above the email form.
+- [x] Ensure the signup fallback and resilient external-embed label adapter use “Access my complimentary issue”; Beehiiv controls remain externally rendered.
+- [x] Remove “Leave anytime” from the subscription sentence while retaining the Privacy Policy link.
+- [x] Replace ambiguous “The issue:” prompt labels with clear reader-facing wording such as “The focus:” or “What to make clear:”.
+- [x] Change closing metadata to “NO COST | NEW BRIEFING EVERY FRIDAY | EMPOWERING YOUR CAREER SUCCESS.”
+
+## Confirmed Prompt Wording
+
+- [x] Use “The focus:” instead of “The issue:” in reader-facing practice prompts across the editable and GitHub source.
+
+## Launch Readiness Sweep
+
+- [x] Apply the confirmed “The focus:” wording consistently in editable and GitHub source.
+- [x] Remove duplicate free-guide signup copy, remove “Leave anytime,” and update the closing success metadata.
+- [x] Confirm no public footer shows “ATS resume audit.”
+- [x] Confirm the homepage uses “From the Career Intelligence Library” and unreleased items use “Scheduled Release Soon.”
+- [x] Confirm all public and generated PDF content uses Career Weekly rather than Signal Weekly.
+- [x] Verify Edition 01 is the corrected immutable 6-page Preview and 11-page Complete baseline.
+- [x] Capture representative evidence for fresh-page editorial subject headings and mobile hero cropping.
+- [x] Run the final editable test/check/build suite and responsive route verification.
+- [x] Synchronize and validate all launch changes in `ck-visionai/signal-weekly`.
+- [x] Save a launch checkpoint before deployment.
+- [x] Document the post-deployment step to activate and verify the Friday 08:00 UTC scheduled release.
+
+## Embedded Signup Verification
+
+- [x] Replace the stale provider-rendered Beehiiv iframe control with a visible Career Weekly fallback CTA using “Access my complimentary issue,” while retaining a working path to the Beehiiv subscription page.
+- [x] Add a brief validation note or testable hook for embedded signup-form copy so future CTA changes are verifiable without relying on external defaults.
+
+## Final Outstanding-Task Completion Pass
+
+- [x] Replace every reader-facing free-guide/page CTA with the exact phrase “Access my complimentary issue,” including header, footer, briefing-practice CTA, fallback link, and signup embed label hook.
+- [x] Complete the generated-PDF text branding audit and save its report as launch evidence.
+- [x] Add or document verification that Edition 01 admin edit, schedule, pause, publish, and rollback mutations remain rejected after remapping.
+- [x] Implement or verify explicit fresh-page section-heading pagination for future PDF generation and save representative evidence.
+- [x] Run the final responsive route, test, type-check, production-build, and GitHub synchronization pass after all outstanding changes.
+- [x] Save the final launch checkpoint before deployment; leave Friday 08:00 UTC schedule activation deployment-dependent.
+- [x] Replace “executive interviews, and whole-role negotiation” with “executive interviews, and role negotiation” in the public introduction copy across the editable and GitHub source.
+- [x] Replace “the library will grow when a new decision deserves it” with “The library grows every week designed to empower your next career decision.” across the editable and GitHub source.
+
+## PDF and Archive Wording Refinement
+
+- [x] Remove the duplicate in-body “COMPLETE EDITION” label from all generated PDFs while preserving the top-right edition/page indicator.
+- [x] Remove the public “Download the complete edition” action for future editions; preserve Edition 01’s always-available download only.
+- [x] Change “Subscribe for future full editions” to “Unlock every full edition.”
+- [x] Standardize Career Evidence Working Page display copy from “Complete edition” to “Full edition” where appropriate across PDF metadata, archive cards, and related materials.
+- [x] Regenerate/remap affected PDFs and re-run public delivery, branding, and page-count audits.
+- [x] Add deterministic generator-level coverage proving editorial subject headings are emitted in fresh-page units rather than merely described by comments.
+- [x] Capture clear page-by-page evidence showing the Edition 13 subject heading and subtitle at each generated page start, then mark the detailed pagination items complete.
+
+## Final Evidence Strengthening
+
+- [x] Record explicit hero-section evidence for composition, headline scale, form treatment, image frame, and floating brief card against the reference screenshots.
+- [x] Add verifiable evidence for the contextual text-free resume/work-planning hero asset treatment.
+- [x] Add focused validation for non-Edition-01 schedule, reschedule, pause, publish, and rollback success paths.
+- [x] Write a user-facing handover note with exact post-deployment Friday 08:00 UTC schedule activation and verification steps.
+
+## Confirmed Resources, Copy, and SEO Refinement
+
+- [x] Rename the reader-facing Edition 01 Resources card/title to “The Career Evidence Working Page” while preserving the immutable PDF binary and its protected delivery path.
+- [x] Keep the public archive previewable online/mobile; defer selected published full-PDF downloads and preserve the current preview-only archive plus weekly-email policy until the user confirms.
+- [x] Replace the Executive Interview Preparation Brief card with “The Career Decision Memo,” update its aligned description, use “Scheduled Release Soon,” and remove its download action.
+- [x] Replace “The whole-role negotiation trap” with “When Salary Cannot Move” and update its aligned description.
+- [x] Change “The library grows every week designed to empower your next career decision.” to a layout that keeps the sentence on one desktop line while allowing natural mobile wrapping, if required by the final design.
+- [x] Remove “Career Weekly is a Signrl publication, managed by Signrl” from the footer.
+- [x] Replace reader-facing “free” with “complimentary” across landing pages and Resources copy, excluding historical PDF filenames, immutable source records, quotations, and editorial references inside PDFs.
+- [x] Replace internal archive wording with “Explore past editions” and route it to an easy-to-browse past-edition experience.
+- [x] Add the no-cost SEO foundation: descriptive metadata, Open Graph/social preview tags, canonical URL support, and UTM-ready campaign guidance.
+- [x] Add configurable GA4 and Google Search Console integration points without enabling either service until identifiers or verification values are supplied.
+- [x] Validate the final Resources and landing-page layout at desktop/mobile widths, then synchronize GitHub and save a checkpoint.
+
+## Paused Archive Download Policy
+
+- [x] Defer the decision on selected past-edition full-PDF downloads; keep the current preview-only archive and weekly-email policy unchanged until the user confirms.
+
+## Redundant CTA Cleanup
+
+- [x] Remove the “Access my complimentary issue” link from the Briefing, in Practice section while preserving the primary hero and closing signup CTAs.
+- [x] Remove the “Access my complimentary issue” link from the footer Explore column while retaining Resources, Contact, and Privacy links.
+- [x] Revalidate homepage desktop/mobile layout and synchronize the cleanup to GitHub.
+
+## Final Launch Completion Pass
+
+- [x] Audit all outstanding launch requirements against the current project checklist and inherited handover state.
+- [x] Complete any remaining approved homepage, Resources, Privacy, PDF metadata, SEO, and release-control edits, excluding the paused archive full-download policy.
+- [x] Run final application tests, TypeScript checks, production builds, route checks, and responsive visual verification.
+- [x] Synchronize the final source and validation evidence to ck-visionai/signal-weekly.
+- [x] Finalize handover documentation covering GA4/Search Console setup, Friday 08:00 UTC schedule activation, and post-deployment verification.
+- [x] Save the final launch-ready WebDev checkpoint.
+
+## PDF Layout and Worksheet Expansion
+
+- [x] Remove duplicate in-body “PREVIEW EDITION” labels above subject titles across all generated PDFs while preserving the top-right edition/page indicator.
+- [x] Add one line of spacing after each editorial section across all generated PDFs.
+- [x] Expand Working Prompt areas with blank writing space for reader input across all generated PDFs.
+- [x] Expand Continue sections with blank writing space across all generated PDFs.
+- [x] Regenerate, remap, validate, and synchronize the affected PDF library and save a checkpoint.
+
+## SEO and AEO Optimization
+
+- [x] Audit the landing page title, description, canonical URL, Open Graph/Twitter metadata, robots directives, sitemap/route discoverability, and structured data.
+- [x] Add or refine answer-engine-friendly page structure, concise explanatory copy, semantic headings, accessible labels, and appropriate JSON-LD without inventing claims or reviews.
+- [x] Validate SEO/AEO metadata, structured data, accessibility signals, tests, builds, and responsive landing-page behavior.
+- [x] Synchronize the SEO/AEO improvements to GitHub and save a checkpoint.
+
+## Consolidated Completion Pass
+
+- [x] Complete all remaining approved PDF layout, regeneration, remapping, SEO/AEO, validation, and synchronization tasks.
+- [x] Preserve explicitly deferred archive-download policy decisions without introducing unapproved public full-edition downloads.
+- [x] Save the final checkpoint after all completed tasks are validated.
+
+## Pending-Decision Register
+
+- [x] Audit and report all unresolved items from Day 1 of development, separating user decisions, post-deployment actions, and optional future enhancements in `docs/LAUNCH_HANDOVER.md`.
+
+## Subscriber Catch-up Strategy
+
+- [x] Decide and document the recommended catch-up experience for subscribers who join after multiple weekly editions have been released, including archive access, onboarding sequence, and marketing positioning.
+
+## Guided Archive and Two-Touchpoint Onboarding
+
+- [x] Reframe the public archive as a guided Career Intelligence Library with situation-based discovery rather than a chronological pile of back issues.
+- [x] Add a reader-facing “New here? Start with the complimentary working page…” explanation and preserve Edition 01 as the open cornerstone download.
+- [x] Add “Start here,” “Most useful if…,” estimated reading time, and one primary action to published archive cards where supported by the existing edition data.
+- [x] Document the curated catch-up automation: two touchpoints per week, with a welcome/start-here message and one relevant past-briefing recommendation, followed by the normal Friday edition.
+- [x] Preserve the future Subscriber Archive Access concept as a later, email-gated or authenticated one-at-a-time full-edition capability after the archive reaches meaningful scale; do not enable unrestricted downloads now.
+- [x] Validate and synchronize the guided-archive and onboarding specification.
+
+## Imminent Launch Prioritization
+
+- [x] Prioritize and validate only launch-critical guided-archive, two-touchpoint onboarding, public-route, and deployment-handover work needed for launch within the next couple of hours.
+
+## Analytics and Search Verification Inputs
+
+- [x] Obtain the GA4 Measurement ID from the user and enable the existing analytics hook with launch-critical events.
+- [x] Obtain either the Search Console DNS TXT value or HTML-tag verification content from the user and configure verification metadata as appropriate.
+- [x] Submit or verify the production sitemap after deployment once the public domain is live.
+
+## GitHub Push and Pages Verification
+
+- [x] Verify that the latest landing-page source changes are present on `origin/main` and diagnose the failed GitHub Pages workflow runs separately from source synchronization.
+
+## Remaining Launch Tasks Continuation
+
+- [x] Continue and close the remaining launch-critical tasks, including production sitemap readiness, onboarding operationalization, and final validation, while preserving deferred decisions.
+
+## GA4 Configuration
+
+- [x] Securely add `G-6WR14B2GZP` as the project GA4 Measurement ID, validate analytics initialization, and prepare post-deployment testing.
+
+## Launch Operations Follow-up
+
+- [x] Confirm and complete the GA4 project-secret save for `G-6WR14B2GZP`.
+- [x] Submit `sitemap.xml` in the verified Search Console property and confirm its status.
+- [x] Define and execute a safe immediate test for the Friday 08:00 UTC release schedule; the live callback smoke test returned HTTP 403 for unauthenticated traffic without publishing an edition.
+- [x] Connect to and inspect the existing Beehiiv publication, verify the Career Weekly rename, document the two-touchpoint sequence, and confirm that live automation activation requires the Scale or Max plan; retain the manual free-capability fallback.
+- [x] Provide current cost-effective email-provider options and setup guidance.
+- [x] Confirm the implemented Subscriber Archive Access decision and current public download policy.
+- [x] Provide the current protected backend editor URL and access requirements.
+
+## Priority Launch Fixes
+
+- [x] Prioritize GA4 verification, Search Console sitemap submission, Friday release testing, and editor access confirmation before returning to Beehiiv publication renaming or paid automation.
+
+## Beehiiv Publication Rename
+
+- [x] Rename the authenticated Beehiiv publication from “Signal Weekly” to “Career Weekly” and verify the new public-facing name.
+- [x] Continue the remaining launch-critical GA4, Search Console, Friday schedule, editor access, and handover checks after the rename.
+
+## Production Analytics Verification
+
+- [x] Fix the production GA4 bootstrap so the live site visibly initializes `G-6WR14B2GZP`, then revalidate the published page.
+
+## Live Launch Preparation
+
+- [x] Prepare and document the final launch sequence for Career Weekly, including current production domain, GA4 verification, Search Console sitemap success, Beehiiv sender/setup status, Friday callback smoke testing, and post-launch monitoring actions in `docs/LAUNCH_HANDOVER.md`.
+
+## 45-Minute Launch Window
+
+- [x] Execute only launch-critical verification and configuration within the 45-minute window; defer paid Beehiiv automation, external CMS, and archive expansion.
+
+## Landing Page Editor Expansion
+
+- [ ] Design and implement a protected landing-page content editor for approved public copy, navigation labels, CTA destinations, SEO/AEO metadata, social metadata, and legal links, with preview, validation, audit history, and exportable content records.
+- [ ] Define structured landing-page records that separate page sections, metadata, navigation, CTA links, imagery references, and legal links from React-owned copy.
+- [ ] Add the landing-page database schema and apply its additive migration through the approved database migration workflow.
+- [ ] Add protected read/update procedures with admin authorization, validation, draft/publish state, and revision timestamps.
+- [ ] Build the authenticated editor route with section forms, save feedback, preview link, and safe empty/loading/error states.
+- [ ] Wire the public homepage to structured records with a safe fallback to the current approved content during migration.
+- [ ] Add a JSON/Markdown export contract and documentation for importing landing-page records into a future CMS.
+- [ ] Add Vitest coverage for schema-facing validation, admin boundaries, content fallback, and export shape.
+- [ ] Push the latest GA4 bootstrap, analytics hook, handover documentation, and landing-page editor implementation to `ck-visionai/signal-weekly` after validation.
+
+## Clear Answers Placement
+
+- [x] Move the “Clear Answers” section directly below the hero metadata row and before “Inside the Briefing” in both editable and synchronized landing pages.
+- [x] Validate the revised hierarchy at desktop and mobile widths, then synchronize and checkpoint the change.

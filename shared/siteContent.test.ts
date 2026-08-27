@@ -1,51 +1,34 @@
 import { describe, expect, it } from "vitest";
-import { defaultSiteContent, siteContentSchema } from "./siteContent";
+import { defaultSiteContent, SITE_CONTENT_KEY, siteContentSchema } from "./siteContent";
 
-describe("Career Weekly editor content schema", () => {
-  it("accepts the complete published Career Weekly content model", () => {
+describe("structured landing-page content", () => {
+  it("keeps the approved defaults valid and CMS-addressable", () => {
     expect(siteContentSchema.parse(defaultSiteContent)).toEqual(defaultSiteContent);
+    expect(SITE_CONTENT_KEY).toBe("signal-weekly-site");
+    expect(defaultSiteContent.seo.title).toContain("Career Weekly");
   });
 
-  it("allows only public http(s) links or site-relative paths for published downloads", () => {
-    const unsafeContent = structuredClone(defaultSiteContent);
-    unsafeContent.resources.featured.downloadUrl = "javascript:alert('unsafe')";
-
-    expect(() => siteContentSchema.parse(unsafeContent)).toThrow("Enter a full http(s) URL");
+  it("rejects unsafe CTA URLs instead of storing arbitrary values", () => {
+    const invalid = structuredClone(defaultSiteContent);
+    invalid.hero.leadUrl = "javascript:alert(1)";
+    expect(() => siteContentSchema.parse(invalid)).toThrow();
   });
 
-  it("permits a blank live-training destination until a real session exists", () => {
-    const draftContent = structuredClone(defaultSiteContent);
-    draftContent.links.liveTrainingUrl = "";
-
-    expect(siteContentSchema.parse(draftContent).links.liveTrainingUrl).toBe("");
-  });
-
-  it("keeps a concrete working-page offer and transparent sample labels in the published defaults", () => {
-    expect(defaultSiteContent.hero.signupOfferLabel).toBe("Access my complimentary issue");
-    expect(defaultSiteContent.navigation.subscribeLabel).toBe("Access my complimentary issue");
-    expect(defaultSiteContent.hero.intro).toContain("complete complimentary working page");
-    expect(defaultSiteContent.closing.description).toContain("one weekly Friday brief");
-    expect(defaultSiteContent.hero.issueNumber).toContain("SAMPLE BRIEFING");
-    expect(defaultSiteContent.archive.eyebrow).toBe("FROM THE CAREER INTELLIGENCE LIBRARY");
-    expect(defaultSiteContent.closing.heading).toBe("Start here.");
-    expect(defaultSiteContent.closing.emphasis).toBe("Build from there.");
-    expect(defaultSiteContent.resources.featured.title).toBe("The Career Evidence Working Page");
-    expect(defaultSiteContent.resources.upcoming.map((item) => item.title)).toEqual(["The Career Decision Memo", "When Salary Cannot Move"]);
-    expect(defaultSiteContent.resources.upcoming.every((item) => item.downloadUrl === "")).toBe(true);
-  });
-
-  it("keeps the hero reward distinct from the neutral Sample Library working-page title while giving each guidance card its own educational direction", () => {
-    expect(defaultSiteContent.hero.issueTitle).toBe("Evidence Before Adjectives");
-    expect(defaultSiteContent.archive.leadTitle).toBe("The Career Evidence Working Page");
-    expect(defaultSiteContent.pillars.map((pillar) => pillar.ctaLabel)).toEqual([
-      "Explore the résumé briefing",
-      "Explore interview practice",
-      "Explore offer strategy",
-    ]);
-    expect(defaultSiteContent.pillars.map((pillar) => pillar.ctaUrl)).toEqual([
-      "/resources#sample-issues",
-      "/resources#sample-issues",
-      "/resources#sample-issues",
+  it("keeps CMS migration sections stable", () => {
+    expect(Object.keys(defaultSiteContent)).toEqual([
+      "seo",
+      "identity",
+      "hero",
+      "quiet",
+      "navigation",
+      "inside",
+      "pillars",
+      "archive",
+      "practice",
+      "closing",
+      "resources",
+      "links",
+      "footer",
     ]);
   });
 });

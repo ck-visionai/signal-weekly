@@ -22,6 +22,20 @@
       "when": 1787723859022,
       "tag": "0002_breezy_deadpool",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1787811112810,
+      "tag": "0003_foamy_sentry",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1787811147356,
+      "tag": "0004_parched_prowler",
+      "breakpoints": true
     }
   ]
 }

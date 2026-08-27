@@ -6,6 +6,15 @@ import { createHeartbeatJob, updateHeartbeatJob } from "./_core/heartbeat";
 import { systemRouter } from "./_core/systemRouter";
 import { adminProcedure, publicProcedure, router } from "./_core/trpc";
 import { releasePatch } from "./releaseTransitions";
+import { siteContentSchema } from "../shared/siteContent";
+import {
+  exportSiteContent,
+  getDraftSiteContent,
+  getPublishedSiteContent,
+  listSiteContentRevisions,
+  publishSiteContent,
+  saveDraftSiteContent,
+} from "./siteContentDb";
 import {
   createEdition,
   getEditionById,
@@ -57,6 +66,17 @@ export const appRouter = router({
       ctx.res.clearCookie(COOKIE_NAME, { ...cookieOptions, maxAge: -1 });
       return { success: true } as const;
     }),
+  }),
+  siteContent: publicProcedure.query(() => getPublishedSiteContent()),
+  landingPage: router({
+    public: publicProcedure.query(() => getPublishedSiteContent()),
+    editor: adminProcedure.query(() => getDraftSiteContent()),
+    saveDraft: adminProcedure.input(siteContentSchema).mutation(({ ctx, input }) =>
+      saveDraftSiteContent(input, ctx.user.openId)
+    ),
+    publish: adminProcedure.mutation(({ ctx }) => publishSiteContent(ctx.user.openId)),
+    revisions: adminProcedure.query(() => listSiteContentRevisions()),
+    export: adminProcedure.query(() => exportSiteContent()),
   }),
   editions: router({
     public: publicProcedure.input(z.object({ limit: z.number().int().min(1).max(12).default(12), offset: z.number().int().min(0).default(0) }).optional()).query(({ input }) =>

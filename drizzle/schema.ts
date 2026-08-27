@@ -26,6 +26,32 @@ export const users = mysqlTable("users", {
 export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
 
+export const landingPageContent = mysqlTable("landingPageContent", {
+  id: int("id").autoincrement().primaryKey(),
+  contentKey: varchar("contentKey", { length: 120 }).notNull().unique(),
+  draftContent: text("draftContent").notNull(),
+  publishedContent: text("publishedContent").notNull(),
+  revision: int("revision").notNull().default(1),
+  updatedBy: varchar("updatedBy", { length: 64 }),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+export type LandingPageContent = typeof landingPageContent.$inferSelect;
+export type InsertLandingPageContent = typeof landingPageContent.$inferInsert;
+
+export const landingPageContentRevisions = mysqlTable("landingPageContentRevisions", {
+  id: int("id").autoincrement().primaryKey(),
+  contentId: int("contentId").notNull(),
+  revision: int("revision").notNull(),
+  content: text("content").notNull(),
+  savedBy: varchar("savedBy", { length: 64 }),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+});
+
+export type LandingPageContentRevision = typeof landingPageContentRevisions.$inferSelect;
+export type InsertLandingPageContentRevision = typeof landingPageContentRevisions.$inferInsert;
+
 export const editions = mysqlTable("editions", {
   id: int("id").autoincrement().primaryKey(),
   issueNumber: int("issueNumber").notNull().unique(),

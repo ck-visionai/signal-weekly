@@ -44,6 +44,14 @@ const futureResourceSchema = z.object({
 });
 
 export const siteContentSchema = z.object({
+  seo: z.object({
+    title: shortText(160),
+    description: longText(320),
+    canonicalUrl: publicUrl,
+    ogTitle: shortText(160),
+    ogDescription: longText(320),
+    ogImage: publicUrl,
+  }),
   identity: z.object({
     brandName: shortText(60),
     endorsement: shortText(80),
@@ -182,6 +190,16 @@ export type SiteContent = z.infer<typeof siteContentSchema>;
 export const SITE_CONTENT_KEY = "signal-weekly-site";
 
 export const defaultSiteContent: SiteContent = {
+  seo: {
+    title: "Career Weekly | Career Intelligence for Working Professionals",
+    description:
+      "Career Weekly is a complimentary career-intelligence briefing with practical résumé, executive interview, and role-negotiation guidance for working professionals.",
+    canonicalUrl: "https://www.signrl.com/",
+    ogTitle: "Career Weekly | Career Intelligence for Working Professionals",
+    ogDescription:
+      "Practical résumé, executive interview, and role-negotiation guidance for your next consequential career decision.",
+    ogImage: "/manus-storage/career-signal-hero-editorial-desk_53f78fda.jpg",
+  },
   identity: {
     brandName: "Career Weekly",
     endorsement: "A Signrl publication",

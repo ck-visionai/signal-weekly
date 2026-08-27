@@ -8,6 +8,7 @@ declare global {
   interface Window {
     dataLayer?: unknown[];
     gtag?: Gtag;
+    __careerWeeklyGa4Initialized?: boolean;
   }
 }
 
@@ -21,7 +22,7 @@ function addScript(src: string, id: string) {
 }
 
 export function initializeOptionalMeasurement() {
-  if (GA4_MEASUREMENT_ID) {
+  if (GA4_MEASUREMENT_ID && !window.__careerWeeklyGa4Initialized) {
     window.dataLayer = window.dataLayer || [];
     window.gtag =
       window.gtag || ((...args: unknown[]) => window.dataLayer?.push(args));

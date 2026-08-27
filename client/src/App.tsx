@@ -12,7 +12,8 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Privacy from "./pages/Privacy";
 import Resources from "./pages/Resources";
-import Editor from "./pages/Editor";
+import Editor from "@/pages/Editor";
+import LandingPageEditor from "@/pages/LandingPageEditor";
 
 const SITE_URL = "https://www.signrl.com";
 
@@ -72,6 +73,7 @@ function Router() {
       <Route path="/privacy" component={Privacy} />
       <Route path="/resources" component={Resources} />
       <Route path="/editor" component={Editor} />
+      <Route path="/editor/landing" component={LandingPageEditor} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

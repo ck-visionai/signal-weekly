@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 import { defaultSiteContent } from "@shared/siteContent";
 import { sampleIssues } from "@shared/sampleIssues";
+import { trpc } from "@/lib/trpc";
 
 const CAREER_SIGNAL_LOGO =
   "/manus-storage/career-signal-updated-mark-darknavy_2cf79fac.png";
@@ -47,8 +48,9 @@ export default function Home() {
   // nonce cookie and must run only at the moment of navigation.
   let { user, loading, error, isAuthenticated, logout } = useAuth();
 
-  // Static WebDev uses the repository’s editorial defaults as the published content source.
-  const content = defaultSiteContent;
+  const siteContentQuery = trpc.siteContent.useQuery();
+  // Published structured records take precedence; defaults keep the public page resilient during migration.
+  const content = siteContentQuery.data ?? defaultSiteContent;
   const [activeSlide, setActiveSlide] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
   const beehiivEmbedRef = useRef<HTMLDivElement>(null);
@@ -79,7 +81,7 @@ export default function Home() {
     return () => {
       delete container.dataset.expectedSubmitLabel;
     };
-  }, []);
+  }, [content.navigation.subscribeLabel]);
 
   const slide = topicSlides[activeSlide];
   const TopicIcon = slide.icon;

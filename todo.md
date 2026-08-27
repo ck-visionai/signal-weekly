@@ -315,17 +315,24 @@
 
 - [x] Execute only launch-critical verification and configuration within the 45-minute window; defer paid Beehiiv automation, external CMS, and archive expansion.
 
+## Landing Page Portability Hardening
+
+- [x] Audit the full landing-page frontend/backend for external portal and CMS portability, including data ownership, stable APIs, asset references, auth, SEO, analytics, deployment, exports, and rollback.
+- [x] Define and document a versioned content, media, and public-delivery contract independent of React, tRPC, Manus, and provider-specific storage.
+- [x] Add any necessary portability safeguards, adapters, export manifests, validation, and migration-runbook updates without disrupting the weekly publishing backend.
+- [x] Validate the public site, protected editor, structured records, export output, tests, builds, and GitHub synchronization after portability hardening.
+
 ## Landing Page Editor Expansion
 
-- [ ] Design and implement a protected landing-page content editor for approved public copy, navigation labels, CTA destinations, SEO/AEO metadata, social metadata, and legal links, with preview, validation, audit history, and exportable content records.
-- [ ] Define structured landing-page records that separate page sections, metadata, navigation, CTA links, imagery references, and legal links from React-owned copy.
-- [ ] Add the landing-page database schema and apply its additive migration through the approved database migration workflow.
-- [ ] Add protected read/update procedures with admin authorization, validation, draft/publish state, and revision timestamps.
-- [ ] Build the authenticated editor route with section forms, save feedback, preview link, and safe empty/loading/error states.
-- [ ] Wire the public homepage to structured records with a safe fallback to the current approved content during migration.
-- [ ] Add a JSON/Markdown export contract and documentation for importing landing-page records into a future CMS.
-- [ ] Add Vitest coverage for schema-facing validation, admin boundaries, content fallback, and export shape.
-- [ ] Push the latest GA4 bootstrap, analytics hook, handover documentation, and landing-page editor implementation to `ck-visionai/signal-weekly` after validation.
+- [x] Design and implement a protected landing-page content editor for approved public copy, navigation labels, CTA destinations, SEO/AEO metadata, social metadata, and legal links, with preview, validation, audit history, and exportable content records.
+- [x] Define structured landing-page records that separate page sections, metadata, navigation, CTA links, imagery references, and legal links from React-owned copy.
+- [x] Add the landing-page database schema and apply its additive migration through the approved database migration workflow.
+- [x] Add protected read/update procedures with admin authorization, validation, draft/publish state, and revision timestamps.
+- [x] Build the authenticated editor route with section forms, save feedback, preview link, and safe empty/loading/error states.
+- [x] Wire the public homepage to structured records with a safe fallback to the current approved content during migration.
+- [x] Add a JSON/Markdown export contract and documentation for importing landing-page records into a future CMS.
+- [x] Add Vitest coverage for schema-facing validation, admin boundaries, content fallback, and export shape.
+- [x] Push the latest GA4 bootstrap, analytics hook, handover documentation, and landing-page editor implementation to `ck-visionai/signal-weekly` after validation; GitHub main is now `d0335e8`.
 
 ## Clear Answers Placement
 

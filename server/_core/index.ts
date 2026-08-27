@@ -7,6 +7,7 @@ import { registerOAuthRoutes } from "./oauth";
 import { registerStorageProxy } from "./storageProxy";
 import { appRouter } from "../routers";
 import { getEditionById, getReleaseControlByTaskUid, publishDueEditions } from "../editionDb";
+import { getPublishedSiteContent } from "../siteContentDb";
 import { storageGetSignedUrl } from "../storage";
 import { sdk } from "./sdk";
 import { createContext } from "./context";
@@ -48,6 +49,16 @@ async function handleScheduledRelease(req: express.Request, res: express.Respons
   }
 }
 
+async function deliverPublishedLandingPageContent(_req: express.Request, res: express.Response) {
+  const content = await getPublishedSiteContent();
+  res.setHeader("Cache-Control", "public, max-age=60, stale-while-revalidate=300");
+  return res.json({
+    schemaVersion: "career-weekly.site-content.v1",
+    contentKey: "signal-weekly-site",
+    content,
+  });
+}
+
 async function deliverPublishedPdf(req: express.Request, res: express.Response) {
   const editionId = Number(req.params.id);
   const variant = req.params.variant;
@@ -70,6 +81,7 @@ async function startServer() {
   registerStorageProxy(app);
   registerOAuthRoutes(app);
   app.post("/api/scheduled/release-friday-edition", handleScheduledRelease);
+  app.get("/api/content/landing-page", deliverPublishedLandingPageContent);
   app.get("/api/editions/:id/:variant", deliverPublishedPdf);
   // tRPC API
   app.use(

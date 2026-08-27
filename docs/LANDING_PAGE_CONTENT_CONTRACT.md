@@ -28,11 +28,15 @@ The export identifier is `career-weekly.site-content.v1`. The top-level sections
 
 The abbreviated example above is illustrative; a real export always contains the complete validated `SiteContent` object, including all pillars, archive cards, practice slides, resources, links, and footer labels.
 
+## Stable delivery endpoint
+
+The published landing-page record is also available at `GET /api/content/landing-page`. The response contains `schemaVersion`, `contentKey`, and the complete published `content` object. The endpoint is intentionally read-only, same-origin, cacheable, and independent of the React component tree. A future portal can consume this endpoint during a phased migration, then replace it with an equivalent CMS delivery endpoint while preserving the same response contract.
+
 ## Editor and backend boundaries
 
 | Capability | Current implementation | Migration implication |
 | --- | --- | --- |
-| Public read | `siteContent` public procedure | Replace with a CMS delivery API or static build importer. |
+| Public read | `siteContent` public procedure and `GET /api/content/landing-page` | Replace with a CMS delivery API or static build importer; keep the response contract stable. |
 | Draft read | `landingPage.editor` admin procedure | Map to the CMS editor or staging environment. |
 | Draft save | `landingPage.saveDraft` admin mutation | Import as draft/version creation. |
 | Publish | `landingPage.publish` admin mutation | Map to the CMS publish action/webhook. |

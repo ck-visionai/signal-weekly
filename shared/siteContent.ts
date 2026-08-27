@@ -109,6 +109,7 @@ export const siteContentSchema = z.object({
     sideBriefs: z
       .array(z.object({ label: shortText(80), title: shortText(150) }))
       .length(2),
+    welcome: longText(360),
   }),
   practice: z.object({
     eyebrow: shortText(90),
@@ -284,6 +285,8 @@ export const defaultSiteContent: SiteContent = {
       { label: "PREVIEW 02", title: "The ATS Translation Layer" },
       { label: "PREVIEW 03", title: "Your Three-Story Interview Bank" },
     ],
+    welcome:
+      "New here? Start with the complimentary working page, then choose the career situation you want to work through. We’ll send the most relevant past briefings first, followed by the new edition every Friday.",
   },
   practice: {
     eyebrow: "THE BRIEFING, IN PRACTICE",
@@ -335,7 +338,7 @@ export const defaultSiteContent: SiteContent = {
     title: "Practical documents for a more deliberate",
     emphasis: "next move.",
     intro:
-      "Short, useful guides for the career decisions that deserve more than generic advice. Start with the document in front of you, then build from there.",
+      "A guided library for the career decisions that deserve more than generic advice. Start with the complimentary working page, choose the situation closest to yours, and receive the most relevant past briefings by email before the new edition arrives each Friday.",
     featured: {
       number: "RESOURCE 001",
       status: "AVAILABLE NOW",

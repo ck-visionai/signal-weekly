@@ -25,6 +25,24 @@ import {
 const CAREER_SIGNAL_LOGO =
   "/manus-storage/career-signal-updated-mark-darknavy_2cf79fac.png";
 
+const guidedMeta: Record<
+  string,
+  { category: string; bestFor: string; reviewTime: string }
+> = {
+  "01": { category: "START HERE", bestFor: "building a clearer career narrative", reviewTime: "15 min" },
+  "02": { category: "RÉSUMÉ POSITIONING", bestFor: "translating experience into role language", reviewTime: "12 min" },
+  "03": { category: "EXECUTIVE INTERVIEWS", bestFor: "building truthful, flexible interview stories", reviewTime: "12 min" },
+  "04": { category: "EXECUTIVE INTERVIEWS", bestFor: "finding the capability beneath a difficult question", reviewTime: "10 min" },
+  "05": { category: "EXECUTIVE INTERVIEWS", bestFor: "turning preparation into relevant proof", reviewTime: "11 min" },
+  "06": { category: "EXECUTIVE INTERVIEWS", bestFor: "making the first ten minutes count", reviewTime: "9 min" },
+  "07": { category: "EXECUTIVE INTERVIEWS", bestFor: "discussing setbacks with ownership", reviewTime: "10 min" },
+  "08": { category: "CAREER DECISIONS", bestFor: "evaluating scope and decision rights", reviewTime: "11 min" },
+  "09": { category: "OFFER NEGOTIATION", bestFor: "looking beyond headline salary", reviewTime: "10 min" },
+  "10": { category: "CAREER DECISIONS", bestFor: "creating room for a considered answer", reviewTime: "8 min" },
+  "11": { category: "OFFER NEGOTIATION", bestFor: "clarifying value when salary cannot move", reviewTime: "10 min" },
+  "12": { category: "CAREER DECISIONS", bestFor: "making trade-offs visible before deciding", reviewTime: "13 min" },
+};
+
 function SignalMark({ inverse = false }: { inverse?: boolean }) {
   return (
     <span
@@ -61,8 +79,12 @@ export default function Resources() {
             edition.issueNumber === 1
               ? "Full edition available now"
               : "Full edition arrives weekly by email",
+          ...guidedMeta[String(edition.issueNumber).padStart(2, "0")],
         }))
-      : sampleIssues;
+      : sampleIssues.map(issue => ({
+          ...issue,
+          ...guidedMeta[issue.number],
+        }));
 
   useEffect(() => {
     const scrollToRequestedSection = () => {
@@ -277,9 +299,14 @@ export default function Resources() {
           <div className="sample-library-grid">
             {libraryIssues.map(issue => (
               <article className="sample-library-card" key={issue.number}>
-                <span>SAMPLE {issue.number}</span>
+                <span>
+                  {issue.number === "01" ? "START HERE" : `EDITION ${issue.number}`} · {issue.category}
+                </span>
                 <h3>{issue.title}</h3>
                 <p>{issue.subtitle}</p>
+                <p className="sample-library-best-for">
+                  <strong>Most useful if:</strong> {issue.bestFor} · {issue.reviewTime}
+                </p>
                 <div>
                   <a href={issue.previewUrl} target="_blank" rel="noreferrer">
                     Read preview <ArrowUpRight size={14} />

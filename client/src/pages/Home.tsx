@@ -306,6 +306,7 @@ export default function Home() {
             </a>
           </div>
 
+          <p className="archive-welcome">{content.archive.welcome}</p>
           <div className="sample-layout">
             <a
               className="main-brief"

@@ -315,11 +315,17 @@
 
 - [x] Execute only launch-critical verification and configuration within the 45-minute window; defer paid Beehiiv automation, external CMS, and archive expansion.
 
+## Privacy and Subscriber Branding Update
+
+- [x] Keep the Privacy Policy subtitle on one line at desktop widths while preserving readable responsive behavior on mobile.
+- [x] Update the subscriber-page logo and make “Career intelligence for your next consequential move” a single line where the subscriber layout permits; the hosted Beehiiv logo/layout remains an external provider setting.
+- [x] Confirm whether subscriber branding is controlled by the Career Weekly site or Beehiiv, then validate and document the correct update path in `docs/SUBSCRIBER_BRANDING_NOTE.md`.
+
 ## Privacy Policy Update
 
 - [x] Change the Privacy Policy effective date to 22 August 2026.
 - [x] Remove the numeric `13.` prefix from the Contact Us heading while retaining the Contact Us section.
-- [x] Validate the rendered Privacy Policy, synchronize the changes to GitHub, and save a checkpoint; GitHub main is pending the final policy commit.
+- [x] Validate the rendered Privacy Policy, synchronize the changes to GitHub, and save a checkpoint; GitHub main is synchronized at `f11b9b0`.
 
 ## Landing Page Portability Follow-up
 

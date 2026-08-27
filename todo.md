@@ -317,9 +317,9 @@
 
 ## Landing Page Portability Follow-up
 
-- [ ] Add one-click restore of a selected landing-page revision into the draft record, with validation and audit attribution.
-- [ ] Add a complete media manifest to the CMS export, including asset role, URL, alt text, and source field.
-- [ ] Add editor controls and tests for revision restore and media-manifest export, then validate and publish the result.
+- [x] Add one-click restore of a selected landing-page revision into the draft record, with validation and audit attribution.
+- [x] Add a complete media manifest to the CMS export, including asset role, URL, alt text, and source field.
+- [x] Add editor controls and tests for revision restore and media-manifest export, then validate and publish the result; GitHub main is now `777f592`.
 
 ## Landing Page Portability Hardening
 

@@ -204,6 +204,30 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="faq-section" aria-labelledby="faq-title">
+          <div className="faq-intro">
+            <div className="eyebrow">
+              <span className="eyebrow-line" />
+              CLEAR ANSWERS
+            </div>
+            <h2 id="faq-title">Career guidance for the decision in front of you.</h2>
+          </div>
+          <div className="faq-grid">
+            <article>
+              <h3>What is Career Weekly?</h3>
+              <p>Career Weekly is a complimentary Friday briefing for working professionals who want clearer evidence and better judgment around consequential career decisions.</p>
+            </article>
+            <article>
+              <h3>What does each briefing cover?</h3>
+              <p>Each briefing focuses on a practical career situation, such as résumé positioning, executive interviews, role negotiation, or evaluating a new opportunity.</p>
+            </article>
+            <article>
+              <h3>Who is Career Weekly for?</h3>
+              <p>It is designed for mid-career and executive professionals who want useful context, examples, and working prompts rather than generic career advice.</p>
+            </article>
+          </div>
+        </section>
+
         <section
           className="quiet-statement"
           aria-label="Career Weekly positioning"
@@ -491,29 +515,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="faq-section" aria-labelledby="faq-title">
-          <div className="faq-intro">
-            <div className="eyebrow">
-              <span className="eyebrow-line" />
-              CLEAR ANSWERS
-            </div>
-            <h2 id="faq-title">Career guidance for the decision in front of you.</h2>
-          </div>
-          <div className="faq-grid">
-            <article>
-              <h3>What is Career Weekly?</h3>
-              <p>Career Weekly is a complimentary Friday briefing for working professionals who want clearer evidence and better judgment around consequential career decisions.</p>
-            </article>
-            <article>
-              <h3>What does each briefing cover?</h3>
-              <p>Each briefing focuses on a practical career situation, such as résumé positioning, executive interviews, role negotiation, or evaluating a new opportunity.</p>
-            </article>
-            <article>
-              <h3>Who is Career Weekly for?</h3>
-              <p>It is designed for mid-career and executive professionals who want useful context, examples, and working prompts rather than generic career advice.</p>
-            </article>
-          </div>
-        </section>
+
       </main>
 
       <footer className="footer" id="archive">

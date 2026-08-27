@@ -12,6 +12,7 @@ describe("landing-page editor boundaries", () => {
     expect(routerSource).toContain("editor: adminProcedure.query");
     expect(routerSource).toContain("saveDraft: adminProcedure.input(siteContentSchema)");
     expect(routerSource).toContain("publish: adminProcedure.mutation");
+    expect(routerSource).toContain("restoreRevision: adminProcedure.input");
   });
 
   it("exposes the stable migration contract", () => {
@@ -20,5 +21,7 @@ describe("landing-page editor boundaries", () => {
     expect(routerSource).toContain("export: adminProcedure.query(() => exportSiteContent())");
     expect(contractSource).toContain("career-weekly.site-content.v1");
     expect(contractSource).toContain("weekly publishing backend");
+    expect(contractSource).toContain("media` array");
+    expect(contractSource).toContain("restoration remains draft-only");
   });
 });

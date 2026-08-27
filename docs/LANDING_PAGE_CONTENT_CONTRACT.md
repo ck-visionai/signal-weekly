@@ -26,7 +26,7 @@ The export identifier is `career-weekly.site-content.v1`. The top-level sections
 }
 ```
 
-The abbreviated example above is illustrative; a real export always contains the complete validated `SiteContent` object, including all pillars, archive cards, practice slides, resources, links, and footer labels.
+The abbreviated example above is illustrative; a real export always contains the complete validated `SiteContent` object, including all pillars, archive cards, practice slides, resources, links, and footer labels. It also includes a `media` array with each asset’s role, URL, optional alt text, and source field, so a CMS migration can inventory assets without parsing React components.
 
 ## Stable delivery endpoint
 
@@ -40,8 +40,8 @@ The published landing-page record is also available at `GET /api/content/landing
 | Draft read | `landingPage.editor` admin procedure | Map to the CMS editor or staging environment. |
 | Draft save | `landingPage.saveDraft` admin mutation | Import as draft/version creation. |
 | Publish | `landingPage.publish` admin mutation | Map to the CMS publish action/webhook. |
-| Revisions | `landingPage.revisions` admin query plus append-only table | Import revision timestamps and authors where supported. |
-| Export | `landingPage.export` admin query | Use as the migration seed and backup format. |
+| Revisions | `landingPage.revisions` admin query plus append-only table; `landingPage.restoreRevision` creates a new draft revision | Import revision timestamps and authors where supported; restoration remains draft-only until explicitly published. |
+| Export | `landingPage.export` admin query | Use as the migration seed and backup format; includes the media manifest. |
 | Weekly editions | Separate `editions` and `editionSources` tables | Keep as a separate content domain; do not couple it to landing-page sections. |
 | PDFs and images | Storage keys and public/signed URLs | Export original files and preserve stable asset paths where possible. |
 

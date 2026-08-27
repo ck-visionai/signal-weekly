@@ -93,6 +93,33 @@ export async function publishSiteContent(publishedBy: string | null) {
   return { ...record, content: parsedDraft, publishedBy };
 }
 
+export async function restoreSiteContentRevision(revisionId: number, restoredBy: string | null) {
+  const db = await getDb();
+  if (!db) throw new Error("Database is not available");
+  const record = await getOrCreateRecord();
+  if (!record) throw new Error("Landing-page content record was not created");
+  const revision = await db
+    .select()
+    .from(landingPageContentRevisions)
+    .where(eq(landingPageContentRevisions.id, revisionId))
+    .limit(1);
+  if (!revision[0] || revision[0].contentId !== record.id) throw new Error("Revision was not found");
+  const content = siteContentSchema.parse(JSON.parse(revision[0].content));
+  const nextRevision = record.revision + 1;
+  const serialized = serializeContent(content);
+  await db
+    .update(landingPageContent)
+    .set({ draftContent: serialized, revision: nextRevision, updatedBy: restoredBy })
+    .where(eq(landingPageContent.id, record.id));
+  await db.insert(landingPageContentRevisions).values({
+    contentId: record.id,
+    revision: nextRevision,
+    content: serialized,
+    savedBy: restoredBy,
+  });
+  return getDraftSiteContent();
+}
+
 export async function listSiteContentRevisions() {
   const db = await getDb();
   if (!db) return [];
@@ -110,12 +137,26 @@ export async function listSiteContentRevisions() {
     .orderBy(desc(landingPageContentRevisions.revision));
 }
 
+function collectMedia(content: StructuredSiteContent) {
+  const media: Array<{ role: string; url: string; altText?: string; sourceField: string }> = [];
+  const add = (role: string, url: string, sourceField: string, altText?: string) => {
+    if (!url || media.some(item => item.url === url && item.role === role)) return;
+    media.push({ role, url, sourceField, ...(altText ? { altText } : {}) });
+  };
+  add("logo", content.identity.logoUrl, "identity.logoUrl");
+  add("hero", content.hero.imageUrl, "hero.imageUrl", content.hero.imageAlt);
+  add("social-preview", content.seo.ogImage, "seo.ogImage");
+  content.pillars.forEach((pillar, index) => add(`pillar-${index + 1}`, pillar.imageUrl, `pillars[${index}].imageUrl`));
+  return media;
+}
+
 export async function exportSiteContent() {
   const content = await getPublishedSiteContent();
   return {
     schemaVersion: "career-weekly.site-content.v1",
     contentKey: SITE_CONTENT_KEY,
     exportedAt: new Date().toISOString(),
+    media: collectMedia(content),
     content,
   };
 }

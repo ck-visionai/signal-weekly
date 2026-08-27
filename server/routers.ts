@@ -13,6 +13,7 @@ import {
   getPublishedSiteContent,
   listSiteContentRevisions,
   publishSiteContent,
+  restoreSiteContentRevision,
   saveDraftSiteContent,
 } from "./siteContentDb";
 import {
@@ -76,6 +77,9 @@ export const appRouter = router({
     ),
     publish: adminProcedure.mutation(({ ctx }) => publishSiteContent(ctx.user.openId)),
     revisions: adminProcedure.query(() => listSiteContentRevisions()),
+    restoreRevision: adminProcedure.input(z.object({ revisionId: z.number().int().positive() })).mutation(({ ctx, input }) =>
+      restoreSiteContentRevision(input.revisionId, ctx.user.openId)
+    ),
     export: adminProcedure.query(() => exportSiteContent()),
   }),
   editions: router({

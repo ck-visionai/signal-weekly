@@ -315,6 +315,12 @@
 
 - [x] Execute only launch-critical verification and configuration within the 45-minute window; defer paid Beehiiv automation, external CMS, and archive expansion.
 
+## Landing Page Portability Follow-up
+
+- [ ] Add one-click restore of a selected landing-page revision into the draft record, with validation and audit attribution.
+- [ ] Add a complete media manifest to the CMS export, including asset role, URL, alt text, and source field.
+- [ ] Add editor controls and tests for revision restore and media-manifest export, then validate and publish the result.
+
 ## Landing Page Portability Hardening
 
 - [x] Audit the full landing-page frontend/backend for external portal and CMS portability, including data ownership, stable APIs, asset references, auth, SEO, analytics, deployment, exports, and rollback.
@@ -332,7 +338,7 @@
 - [x] Wire the public homepage to structured records with a safe fallback to the current approved content during migration.
 - [x] Add a JSON/Markdown export contract and documentation for importing landing-page records into a future CMS.
 - [x] Add Vitest coverage for schema-facing validation, admin boundaries, content fallback, and export shape.
-- [x] Push the latest GA4 bootstrap, analytics hook, handover documentation, and landing-page editor implementation to `ck-visionai/signal-weekly` after validation; GitHub main is now `d0335e8`.
+- [x] Push the latest GA4 bootstrap, analytics hook, handover documentation, and landing-page editor implementation to `ck-visionai/signal-weekly` after validation; GitHub main is now `bf1a5dd`.
 
 ## Clear Answers Placement
 

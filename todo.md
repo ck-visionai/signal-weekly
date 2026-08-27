@@ -146,6 +146,12 @@
 
 ## Launch Readiness Sweep
 
+- [x] Verify `https://careerweekly.beehiiv.com/subscribe` loads publicly with the updated Career Weekly branding and signup form without submitting data.
+- [x] Verify the homepage fallback resolves to the new Beehiiv URL and the confirmation boundary is documented without sending a real subscription.
+- [x] Verify live GA4 initialization, measurement ID, data layer, and non-destructive tracking hooks on the published Career Weekly site.
+- [x] Document Step 2 verification results and prepare Step 3 guidance in `docs/STEP2_VERIFICATION.md`.
+
+
 - [x] Replace the homepage Beehiiv fallback subscribe destination with `https://careerweekly.beehiiv.com/subscribe`, add regression coverage, and verify no old subscribe URL remains in editable public source.
 
 - [x] Apply the confirmed “The focus:” wording consistently in editable and GitHub source.

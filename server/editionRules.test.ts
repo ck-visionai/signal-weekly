@@ -9,7 +9,7 @@ describe("Career Weekly launch guards", () => {
     expect(() => assertMutableIssueNumber(2)).not.toThrow();
   });
 
-  it("rejects Edition 01 database mutation helpers without changing data", async () => {
+  it("rejects Edition 01 database mutation helpers without changing data", { skip: !process.env.DATABASE_URL }, async () => {
     const edition = (await listEditorEditions()).find(item => item.issueNumber === 1);
     expect(edition).toBeDefined();
     if (!edition) return;

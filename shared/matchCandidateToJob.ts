@@ -106,8 +106,8 @@ function similarity(
    * "java" matching "javascript"
    * merely because one string contains the other.
    */
-  const candidateArray = [...candidateTokens];
-  const requirementArray = [...requirementTokens];
+  const candidateArray = Array.from(candidateTokens);
+  const requirementArray = Array.from(requirementTokens);
 
   const candidateContainsRequirement =
     requirementArray.every((token) =>
@@ -130,7 +130,7 @@ function similarity(
 
   let overlap = 0;
 
-  for (const token of requirementTokens) {
+  for (const token of Array.from(requirementTokens)) {
     if (candidateTokens.has(token)) {
       overlap += 1;
     }
@@ -311,24 +311,28 @@ export function matchCandidateToJob(
   );
 
   const matchingKeywords = [
-    ...new Set(
-      matchedRequirements.map(
-        (match) => match.requirement,
+    ...Array.from(
+      new Set(
+        matchedRequirements.map(
+          (match) => match.requirement,
+        ),
       ),
     ),
   ];
 
   const missingKeywords = [
-    ...new Set(
-      missingRequirements
-        .filter(
-          (match) =>
-            match.importance === "required" ||
-            match.importance === "preferred",
-        )
-        .map(
-          (match) => match.requirement,
-        ),
+    ...Array.from(
+      new Set(
+        missingRequirements
+          .filter(
+            (match) =>
+              match.importance === "required" ||
+              match.importance === "preferred",
+          )
+          .map(
+            (match) => match.requirement,
+          ),
+      ),
     ),
   ];
 
